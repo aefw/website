@@ -5,7 +5,7 @@ DirectoryIndex index.html index.cgi index.php
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 #	RewriteBase /
-	RewriteBase /aefw3/
+	RewriteBase /
 
 	RewriteRule ^(login/?)$ index.php?/users/user/login [L,QSA]
 	RewriteCond %{REQUEST_FILENAME} !-f
