@@ -83,5 +83,9 @@ footer.tm-navbar-container {
 	.uk-navbar .tm-logo .tm-logo-img { max-height: 32px; }
 	.tm-sidebar-left + .tm-main { padding-left: 0px; }
 }
+@media (min-width: 960px) {
+	.uk-form-stacked > * > .uk-form-label { float: none; }
+	.uk-form-stacked > * > .uk-form-controls { margin-left: 0px; }
+}
 
 [class*="notification-"] { text-transform: capitalize; }
