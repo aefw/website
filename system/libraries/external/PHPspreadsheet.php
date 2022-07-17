@@ -68,6 +68,12 @@ if( !function_exists('PhpSpreadsheet_Shared_Date_ToTimestamp') ){
 	}
 }
 
+if( !function_exists('PhpSpreadsheet_Worksheet_Drawing') ){
+	function PhpSpreadsheet_Worksheet_Drawing() {
+		return new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+	}
+}
+
 /*
 [using composer]
 ./composer.phar require phpoffice/phpspreadsheet

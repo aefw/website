@@ -27,6 +27,8 @@ html.uk-light .ui-button.ui-state-disabled:active,
 .uk-card-secondary>:not([class*='uk-card-media']) .uk-tab>.uk-active>a,
 .uk-overlay-primary .uk-tab>.uk-active>a,
 .tm-navbar-container:not(.uk-navbar-transparent) .uk-tab>.uk-active>a { color: #666; } /* follow as color at theme.css */
+
+.uk-light table.dataTable tbody tr { background: rgba(255,255,255,0.08); }
 /*
  * END dark mode
  */
@@ -45,6 +47,8 @@ html.uk-light .ui-button.ui-state-disabled:active,
 .uk-tab>.uk-active>a { font-weight: 600; background: #f8f8f8; }
 table.dataTable thead th div.DataTables_sort_wrapper span.uk-icon { position: unset; }
 
+.tm-form-login .tm-logo .tm-logo-img { max-height: 165px; }
+
 .uk-navbar .tm-logo .tm-logo-img { max-height: 50px; }
 .uk-navbar .uk-button .tm-user-picture {
 	max-height: 40px;
@@ -57,8 +61,20 @@ table.dataTable thead th div.DataTables_sort_wrapper span.uk-icon { position: un
 .tm-sidebar-left { padding: 20px 20px 30px 20px; }
 .tm-sidebar-left .uk-accordion-title { font-size: 16px; }
 .tm-sidebar-left .uk-accordion-content { margin-top: 0px;}
-.tm-sidebar-left { width: 240px !important; }
-.tm-sidebar-left + .tm-main { padding-left: 240px; }
+.tm-sidebar-left { width: 250px !important; }
+.tm-sidebar-left + .tm-main { padding-left: 250px; }
+.tm-sidebar-left::-webkit-scrollbar {
+    width: 8px;
+	height: 8px;
+}
+.tm-sidebar-left::-webkit-scrollbar-track {
+    background-color: rgb(228 228 226 / 30%);
+    border-radius: 100px;
+}
+.tm-sidebar-left::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / 70%);
+    border-radius: 100px;
+}
 .tm-main.uk-section {
 	padding-top: 20px;
 	padding-bottom: 20px;
