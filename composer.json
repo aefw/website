@@ -1,19 +1,20 @@
 
 {
-    "name": "aldoexpert/aeframework",
+    "name": "aefw/aeframework",
     "type": "project",
     "description": "The AEframework v3",
+    "keywords": ["aefw","aeframework"],
     "homepage": "https://aefw.net",
     "license": "Apache License",
     "require": {
-        "php": "^7.2 || ^8.0",
+        "php": "^7.4 || ^8.1",
         "ext-xml": "*",
         "ext-curl": "*",
         "ext-gd": "*",
         "ext-json": "*",
         "ext-soap": "*",
         "ext-zip": "*",
-        "ext-mbstring": "*",
+        "ext-mbstring": "*"
     },
     "require-dev": {
     },
@@ -32,9 +33,9 @@
     },
     "autoload": {
         "psr-4": {
-            "AEFW\\": "root/"
+            "AEFW\\": "root/",
             "AEframework\\": "system/"
-        },
+        }
     },
     "autoload-dev": {
         "psr-4": {
@@ -44,8 +45,16 @@
         "post-update-cmd": [
             "AEframework\\ComposerScripts::postUpdate",
             "bash -c \"if [ -f admin/setup.sh ]; then bash admin/setup.sh; fi\""
-        ],
+        ]
     },
+    "authors": [
+        {
+            "name": "Aldo Expert",
+            "email": "aldoexpert@gmail.com",
+            "homepage": "https://aldo-expert.com",
+            "role": "Developer"
+        }
+    ],
     "support": {
         "forum": "http://forum.aefw.net/",
         "source": "https://github.com/aefw/aeframework",
