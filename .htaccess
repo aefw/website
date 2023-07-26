@@ -1,12 +1,10 @@
 DirectoryIndex index.html index.cgi index.php
 
-#set php_value
-
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-#	RewriteBase /
 	RewriteBase /
 
+#.rewrite.htaccess
 	RewriteRule ^(login/?)$ index.php?/users/user/login [L,QSA]
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
