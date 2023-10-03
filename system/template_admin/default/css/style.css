@@ -87,6 +87,9 @@ table.dataTable thead th div.DataTables_sort_wrapper span.uk-icon { position: un
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.tm-main > .uk-container {
+	max-width: 3000px;
+}
 footer.tm-navbar-container {
 	padding: 4px;
 }
