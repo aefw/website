@@ -127,11 +127,11 @@ class Script
     public static function parseValueToString($value)
     {
         $value = (string)$value;
-        if ('"' === $value[0] && '"' === $value[strlen($value) - 1]) {
+        if ('"' === $value[0] && '"' === $value[strlen((string) $value) - 1]) {
             return str_replace(
                 array('\"', '\\\\', "\\\n", "\\\r\n", "\\\r"),
                 array('"', '\\'),
-                substr($value, 1, -1)
+                substr((string) $value, 1, -1)
             );
         }
         return $value;
@@ -218,7 +218,7 @@ class Script
             try {
                 return new DateTime(
                     $date['year'] .
-                    '-' . ucfirst($date['mon']) .
+                    '-' . ucfirst((string) $date['mon']) .
                     "-{$date['day']} {$date['time']}",
                     $timezone
                 );
@@ -349,8 +349,8 @@ class Script
         DateTimeZone $timezone = null
     ) {
         $value = (string)$value;
-        if ('{' === $value[0] && '}' === $value[strlen($value) - 1]) {
-            $value = substr($value, 1, -1);
+        if ('{' === $value[0] && '}' === $value[strlen((string) $value) - 1]) {
+            $value = substr((string) $value, 1, -1);
             if ('' === $value) {
                 return array();
             }
@@ -553,7 +553,7 @@ class Script
                 }
                 $result .= static::escapeValue($val);
             }
-            $value = '{' . substr($result, 1) . '}';
+            $value = '{' . substr((string) $result, 1) . '}';
             break;
         case 'object':
             if ($value instanceof DateTime) {
@@ -629,7 +629,7 @@ class Script
     private static function _escapeCharacters(array $chars)
     {
         $result = '';
-        for ($i = 0, $l = strlen($chars[0]); $i < $l; ++$i) {
+        for ($i = 0, $l = strlen((string) $chars[0]); $i < $l; ++$i) {
             $result .= '\\' . str_pad(
                 strtoupper(dechex(ord($chars[0][$i]))),
                 2,

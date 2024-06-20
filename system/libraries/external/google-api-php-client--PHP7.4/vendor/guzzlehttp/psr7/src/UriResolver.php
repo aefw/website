@@ -93,7 +93,7 @@ final class UriResolver
                         if ($lastSlashPos === false) {
                             $targetPath = $rel->getPath();
                         } else {
-                            $targetPath = substr($base->getPath(), 0, $lastSlashPos + 1) . $rel->getPath();
+                            $targetPath = substr((string) $base->getPath(), 0, $lastSlashPos + 1) . $rel->getPath();
                         }
                     }
                 }

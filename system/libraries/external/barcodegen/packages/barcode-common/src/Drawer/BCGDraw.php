@@ -14,31 +14,34 @@ namespace BarcodeBakery\Common\Drawer;
 
 abstract class BCGDraw
 {
-    protected $im;
-    protected $filename;
+    protected $image;
+    protected ?string $fileName;
 
     /**
      * Constructor.
      *
-     * @param resource $im
+     * @param resource $image The surface.
      */
-    protected function __construct($im)
+    protected function __construct($image)
     {
-        $this->im = $im;
+        $this->image = $image;
     }
 
     /**
-     * Sets the filename.
+     * Sets the file name.
      *
-     * @param string $filename
+     * @param string|null $fileName The file name.
+     * @return void
      */
-    public function setFilename($filename)
+    public function setFileName(?string $fileName): void
     {
-        $this->filename = $filename;
+        $this->fileName = $fileName;
     }
 
     /**
      * Method needed to draw the image based on its specification (JPG, GIF, etc.).
+     *
+     * @return void
      */
-    abstract public function draw();
+    abstract public function draw(): void;
 }

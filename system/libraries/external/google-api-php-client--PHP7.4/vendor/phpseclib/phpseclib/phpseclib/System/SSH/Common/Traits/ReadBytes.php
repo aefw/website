@@ -34,8 +34,8 @@ trait ReadBytes
     public function readBytes($length)
     {
         $temp = fread($this->fsock, $length);
-        if (strlen($temp) != $length) {
-            throw new \RuntimeException("Expected $length bytes; got " . strlen($temp));
+        if (strlen((string) $temp) != $length) {
+            throw new \RuntimeException("Expected $length bytes; got " . strlen((string) $temp));
         }
         return $temp;
     }

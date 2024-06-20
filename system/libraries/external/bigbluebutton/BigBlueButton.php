@@ -73,7 +73,7 @@ class BigBlueButtonApi {
 				curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
 				curl_setopt($ch, CURLOPT_HTTPHEADER, [
 					'Content-type: ' . $contentType,
-					'Content-length: ' . strlen($payload),
+					'Content-length: ' . strlen((string) $payload),
 				]);
 			}
 			$data = curl_exec($ch);

@@ -23,7 +23,7 @@ class Base64Test extends PHPUnit\Framework\TestCase
                     $enc
                 );
 
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $random,
                     Base64::decode($unpadded)

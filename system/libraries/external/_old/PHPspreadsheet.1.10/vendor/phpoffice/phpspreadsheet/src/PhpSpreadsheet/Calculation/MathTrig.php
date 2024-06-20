@@ -1221,7 +1221,7 @@ class MathTrig
         foreach ($aArgs as $key => $arg) {
             if (!is_numeric($arg)) {
                 $arg = str_replace('"', '""', $arg);
-                $arg = Calculation::wrapResult(strtoupper($arg));
+                $arg = Calculation::wrapResult(strtoupper((string) $arg));
             }
 
             $testCondition = '=' . $arg . $condition;
@@ -1277,7 +1277,7 @@ class MathTrig
 
                 // Loop through arguments
                 if (!is_numeric($arg)) {
-                    $arg = Calculation::wrapResult(strtoupper($arg));
+                    $arg = Calculation::wrapResult(strtoupper((string) $arg));
                 }
                 $testCondition = '=' . $arg . $condition;
                 if (!Calculation::getInstance()->_calculateFormulaValue($testCondition)) {

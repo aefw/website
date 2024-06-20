@@ -54,7 +54,7 @@ function RedirectToCachedFile() {
 	global $phpThumb;
 
 	$nice_cachefile = str_replace(DIRECTORY_SEPARATOR, '/', $phpThumb->cache_filename);
-	$nice_docroot   = str_replace(DIRECTORY_SEPARATOR, '/', rtrim($phpThumb->config_document_root, '/\\'));
+	$nice_docroot   = str_replace(DIRECTORY_SEPARATOR, '/', rtrim((string) $phpThumb->config_document_root, '/\\'));
 
 	$parsed_url = phpthumb_functions::ParseURLbetter(@$_SERVER['HTTP_REFERER']);
 
@@ -172,7 +172,7 @@ if (!empty($PHPTHUMB_CONFIG)) {
 if (empty($phpThumb->config_disable_pathinfo_parsing) && (empty($_GET) || isset($_GET['phpThumbDebug'])) && !empty($_SERVER['PATH_INFO'])) {
 	$_SERVER['PHP_SELF'] = str_replace($_SERVER['PATH_INFO'], '', @$_SERVER['PHP_SELF']);
 
-	$args = explode(';', substr($_SERVER['PATH_INFO'], 1));
+	$args = explode(';', substr((string) $_SERVER['PATH_INFO'], 1));
 	$phpThumb->DebugMessage('PATH_INFO.$args set to ('.implode(')(', $args).')', __FILE__, __LINE__);
 	if (!empty($args)) {
 		$_GET['src'] = @$args[count($args) - 1];
@@ -189,8 +189,8 @@ if (empty($phpThumb->config_disable_pathinfo_parsing) && (empty($_GET) || isset(
 	}
 	for ($i = 0; $i < count($args) - 2; $i++) {
 		@list($key, $value) = explode('=', @$args[$i]);
-		if (substr($key, -2) == '[]') {
-			$array_key_name = substr($key, 0, -2);
+		if (substr((string) $key, -2) == '[]') {
+			$array_key_name = substr((string) $key, 0, -2);
 			$_GET[$array_key_name][] = $value;
 			$phpThumb->DebugMessage('PATH_INFO."'.$array_key_name.'[]" = "'.$value.'"', __FILE__, __LINE__);
 		} else {

@@ -47,7 +47,7 @@ abstract class MontgomeryPublic
      */
     public static function load($key, $password = '')
     {
-        switch (strlen($key)) {
+        switch (strlen((string) $key)) {
             case 32:
                 $curve = new Curve25519;
                 break;

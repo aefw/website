@@ -332,7 +332,7 @@ class PrivateKey extends RSA implements Common\PrivateKey
     {
         // Length checking
 
-        if (strlen($c) != $this->k) { // or if k < 11
+        if (strlen((string) $c) != $this->k) { // or if k < 11
             throw new \LengthException('Ciphertext representative too long');
         }
 
@@ -348,10 +348,10 @@ class PrivateKey extends RSA implements Common\PrivateKey
             throw new \RuntimeException('Decryption error');
         }
 
-        $ps = substr($em, 2, strpos($em, chr(0), 2) - 2);
-        $m = substr($em, strlen($ps) + 3);
+        $ps = substr((string) $em, 2, strpos($em, chr(0), 2) - 2);
+        $m = substr((string) $em, strlen((string) $ps) + 3);
 
-        if (strlen($ps) < 8) {
+        if (strlen((string) $ps) < 8) {
             throw new \RuntimeException('Decryption error');
         }
 
@@ -385,7 +385,7 @@ class PrivateKey extends RSA implements Common\PrivateKey
         // if $l is larger than two million terrabytes and you're using sha1, PKCS#1 suggests a "Label too long" error
         // be output.
 
-        if (strlen($c) != $this->k || $this->k < 2 * $this->hLen + 2) {
+        if (strlen((string) $c) != $this->k || $this->k < 2 * $this->hLen + 2) {
             throw new \LengthException('Ciphertext representative too long');
         }
 
@@ -399,19 +399,19 @@ class PrivateKey extends RSA implements Common\PrivateKey
 
         $lHash = $this->hash->hash($this->label);
         $y = ord($em[0]);
-        $maskedSeed = substr($em, 1, $this->hLen);
-        $maskedDB = substr($em, $this->hLen + 1);
+        $maskedSeed = substr((string) $em, 1, $this->hLen);
+        $maskedDB = substr((string) $em, $this->hLen + 1);
         $seedMask = $this->mgf1($maskedDB, $this->hLen);
         $seed = $maskedSeed ^ $seedMask;
         $dbMask = $this->mgf1($seed, $this->k - $this->hLen - 1);
         $db = $maskedDB ^ $dbMask;
-        $lHash2 = substr($db, 0, $this->hLen);
-        $m = substr($db, $this->hLen);
+        $lHash2 = substr((string) $db, 0, $this->hLen);
+        $m = substr((string) $db, $this->hLen);
         $hashesMatch = hash_equals($lHash, $lHash2);
         $leadingZeros = 1;
         $patternMatch = 0;
         $offset = 0;
-        for ($i = 0; $i < strlen($m); $i++) {
+        for ($i = 0; $i < strlen((string) $m); $i++) {
             $patternMatch|= $leadingZeros & ($m[$i] === "\1");
             $leadingZeros&= $m[$i] === "\0";
             $offset+= $patternMatch ? 0 : 1;
@@ -425,7 +425,7 @@ class PrivateKey extends RSA implements Common\PrivateKey
 
         // Output the message M
 
-        return substr($m, $offset + 1);
+        return substr((string) $m, $offset + 1);
     }
 
     /**
@@ -436,11 +436,11 @@ class PrivateKey extends RSA implements Common\PrivateKey
      * @access private
      * @param string $m
      * @return bool|string
-     * @throws \LengthException if strlen($m) > $this->k
+     * @throws \LengthException if strlen((string) $m) > $this->k
      */
     private function raw_encrypt($m)
     {
-        if (strlen($m) > $this->k) {
+        if (strlen((string) $m) > $this->k) {
             throw new \LengthException('Ciphertext representative too long');
         }
 

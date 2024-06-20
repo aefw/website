@@ -22,11 +22,11 @@ class BCGcode39extended extends BCGcode39
     const EXTENDED_3 = 41;
     const EXTENDED_4 = 42;
 
-    protected $indcheck;
-    protected $data;
+    protected ?array $indcheck;
+    protected ?array $data;
 
     /**
-     * Constructor.
+     * Creates a Code 39 Extended barcode.
      */
     public function __construct()
     {
@@ -42,25 +42,26 @@ class BCGcode39extended extends BCGcode39
     /**
      * Parses the text before displaying it.
      *
-     * @param mixed $text
+     * @param string $text The text.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
-        $this->text = $text;
+        BCGBarcode1D::parse($text);
 
         $data = array();
         $indcheck = array();
 
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
             $pos = array_search($this->text[$i], $this->keys);
             if ($pos === false) {
                 // Search in extended?
                 $extended = self::getExtendedVersion($this->text[$i]);
-                if ($extended === false) {
+                if ($extended === null) {
                     throw new BCGParseException('code39extended', 'The character \'' . $this->text[$i] . '\' is not allowed.');
                 } else {
-                    $extc = strlen($extended);
+                    $extc = strlen((string) $extended);
                     for ($j = 0; $j < $extc; $j++) {
                         $v = $extended[$j];
                         if ($v === '$') {
@@ -89,41 +90,41 @@ class BCGcode39extended extends BCGcode39
         }
 
         $this->setData(array($indcheck, $data));
-        $this->addDefaultLabel();
     }
 
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         // Starting *
-        $this->drawChar($im, $this->code[$this->starting], true);
+        $this->drawChar($image, $this->code[$this->starting], true);
         $c = count($this->data);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->data[$i], true);
+            $this->drawChar($image, $this->data[$i], true);
         }
 
         // Checksum (rarely used)
         if ($this->checksum === true) {
-            $this->drawChar($im, $this->code[$this->checksumValue % 43], true);
+            $this->drawChar($image, $this->code[$this->checksumValue[0] % 43], true);
         }
 
         // Ending *
-        $this->drawChar($im, $this->code[$this->ending], true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, $this->code[$this->ending], true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         $textlength = 13 * count($this->data);
         $startlength = 13;
@@ -134,36 +135,35 @@ class BCGcode39extended extends BCGcode39
 
         $endlength = 13;
 
-        $w += $startlength + $textlength + $checksumlength + $endlength;
-        $h += $this->thickness;
-        return BCGBarcode1D::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength;
+        $height += $this->thickness;
+        return BCGBarcode1D::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = count($this->data);
-        if ($c === 0) {
-            throw new BCGParseException('code39extended', 'No data has been entered.');
-        }
-
-        parent::validate();
+        // We do nothing.
     }
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
-        $this->checksumValue = 0;
+        $this->checksumValue = array(0);
         $c = count($this->indcheck);
         for ($i = 0; $i < $c; $i++) {
-            $this->checksumValue += $this->indcheck[$i];
+            $this->checksumValue[0] += $this->indcheck[$i];
         }
 
-        $this->checksumValue = $this->checksumValue % 43;
+        $this->checksumValue[0] = $this->checksumValue[0] % 43;
     }
 
     /**
@@ -174,9 +174,10 @@ class BCGcode39extended extends BCGcode39
      * selected)... It will add Padding to the end and generate
      * the error codes.
      *
-     * @param array $data
+     * @param array $data The data.
+     * @return void
      */
-    private function setData($data)
+    private function setData(array $data): void
     {
         $this->indcheck = $data[0];
         $this->data = $data[1];
@@ -186,12 +187,12 @@ class BCGcode39extended extends BCGcode39
     /**
      * Returns the extended reprensentation of the character.
      *
-     * @param string $char
-     * @return string
+     * @param string $val The value.
+     * @return string|null The representation.
      */
-    private static function getExtendedVersion($char)
+    private static function getExtendedVersion(string $val): ?string
     {
-        $o = ord($char);
+        $o = ord($val);
         if ($o === 0) {
             return '%U';
         } elseif ($o >= 1 && $o <= 26) {
@@ -213,9 +214,9 @@ class BCGcode39extended extends BCGcode39
         } elseif ($o === 96) {
             return '%W';
         } elseif ($o > 127) {
-            return false;
+            return null;
         } else {
-            return $char;
+            return $val;
         }
     }
 }

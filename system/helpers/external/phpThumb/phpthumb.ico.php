@@ -49,14 +49,14 @@ class phpthumb_ico {
 					}
 				}
 				// mask bits are 32-bit aligned per scanline
-				while (strlen($icANDmask[$key][$y]) % 32) {
+				while (strlen((string) $icANDmask[$key][$y]) % 32) {
 					$icANDmask[$key][$y] .= '0';
 				}
 			}
 			$icAND[$key] = '';
 			foreach ($icANDmask[$key] as $y => $scanlinemaskbits) {
-				for ($i = 0, $iMax = strlen($scanlinemaskbits); $i < $iMax; $i += 8) {
-					$icAND[$key] .= chr(bindec(str_pad(substr($scanlinemaskbits, $i, 8), 8, '0', STR_PAD_LEFT)));
+				for ($i = 0, $iMax = strlen((string) $scanlinemaskbits); $i < $iMax; $i += 8) {
+					$icAND[$key] .= chr(bindec(str_pad(substr((string) $scanlinemaskbits, $i, 8), 8, '0', STR_PAD_LEFT)));
 				}
 			}
 
@@ -99,13 +99,13 @@ class phpthumb_ico {
 			$icondata .= "\x01\x00";                                  // wPlanes;         // Color Planes
 			$icondata .= chr($bpp[$key])."\x00";                      // wBitCount;       // Bits per pixel
 
-			$dwBytesInRes = 40 + strlen($icXOR[$key]) + strlen($icAND[$key]);
+			$dwBytesInRes = 40 + strlen((string) $icXOR[$key]) + strlen((string) $icAND[$key]);
 			$icondata .= phpthumb_functions::LittleEndian2String($dwBytesInRes, 4);       // dwBytesInRes;    // How many bytes in this resource?
 
 			$icondata .= phpthumb_functions::LittleEndian2String($dwImageOffset, 4);      // dwImageOffset;   // Where in the file is this image?
-			$dwImageOffset += strlen($BitmapInfoHeader[$key]);
-			$dwImageOffset += strlen($icXOR[$key]);
-			$dwImageOffset += strlen($icAND[$key]);
+			$dwImageOffset += strlen((string) $BitmapInfoHeader[$key]);
+			$dwImageOffset += strlen((string) $icXOR[$key]);
+			$dwImageOffset += strlen((string) $icAND[$key]);
 		}
 
 		foreach ($gd_image_array as $key => $gd_image) {

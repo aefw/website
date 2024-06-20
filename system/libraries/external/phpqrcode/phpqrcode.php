@@ -97,7 +97,7 @@
 	
 	class qrstr {
 		public static function set(&$srctab, $x, $y, $repl, $replLen = false) {
-			$srctab[$y] = substr_replace($srctab[$y], ($replLen !== false)?substr($repl,0,$replLen):$repl, $x, ($replLen !== false)?$replLen:strlen($repl));
+			$srctab[$y] = substr_replace($srctab[$y], ($replLen !== false)?substr((string) $repl,0,$replLen):$repl, $x, ($replLen !== false)?$replLen:strlen((string) $repl));
 		}
 	}	
 
@@ -977,7 +977,7 @@
         private static function image($frame, $pixelPerPoint = 4, $outerFrame = 4) 
         {
             $h = count($frame);
-            $w = strlen($frame[0]);
+            $w = strlen((string) $frame[0]);
             
             $imgW = $w + 2*$outerFrame;
             $imgH = $h + 2*$outerFrame;
@@ -1984,7 +1984,7 @@
         //----------------------------------------------------------------------
         public static function isdigitat($str, $pos)
         {    
-            if ($pos >= strlen($str))
+            if ($pos >= strlen((string) $str))
                 return false;
             
             return ((ord($str[$pos]) >= ord('0'))&&(ord($str[$pos]) <= ord('9')));
@@ -1993,7 +1993,7 @@
         //----------------------------------------------------------------------
         public static function isalnumat($str, $pos)
         {
-            if ($pos >= strlen($str))
+            if ($pos >= strlen((string) $str))
                 return false;
                 
             return (QRinput::lookAnTable(ord($str[$pos])) >= 0);
@@ -2002,7 +2002,7 @@
         //----------------------------------------------------------------------
         public function identifyMode($pos)
         {
-            if ($pos >= strlen($this->dataStr)) 
+            if ($pos >= strlen((string) $this->dataStr)) 
                 return QR_MODE_NUL;
                 
             $c = $this->dataStr[$pos];
@@ -2013,7 +2013,7 @@
                 return QR_MODE_AN;
             } else if($this->modeHint == QR_MODE_KANJI) {
             
-                if ($pos+1 < strlen($this->dataStr)) 
+                if ($pos+1 < strlen((string) $this->dataStr)) 
                 {
                     $d = $this->dataStr[$pos+1];
                     $word = (ord($c) << 8) | ord($d);
@@ -2133,7 +2133,7 @@
             $ln = QRspec::lengthIndicator(QR_MODE_NUM, $this->input->getVersion());
 
             $p = 1;
-            $dataStrLen = strlen($this->dataStr);
+            $dataStrLen = strlen((string) $this->dataStr);
             
             while($p < $dataStrLen) {
                 
@@ -2184,7 +2184,7 @@
         //----------------------------------------------------------------------
         public function splitString()
         {
-            while (strlen($this->dataStr) > 0)
+            while (strlen((string) $this->dataStr) > 0)
             {
                 if($this->dataStr == '')
                     return 0;
@@ -2206,18 +2206,18 @@
                 if($length == 0) return 0;
                 if($length < 0)  return -1;
                 
-                $this->dataStr = substr($this->dataStr, $length);
+                $this->dataStr = substr((string) $this->dataStr, $length);
             }
         }
 
         //----------------------------------------------------------------------
         public function toUpper()
         {
-            $stringLen = strlen($this->dataStr);
+            $stringLen = strlen((string) $this->dataStr);
             $p = 0;
             
             while ($p<$stringLen) {
-                $mode = self::identifyMode(substr($this->dataStr, $p), $this->modeHint);
+                $mode = self::identifyMode(substr((string) $this->dataStr, $p), $this->modeHint);
                 if($mode == QR_MODE_KANJI) {
                     $p += 2;
                 } else {
@@ -3059,7 +3059,7 @@
             $input = new QRinput($version, $level);
             if($input == NULL) return NULL;
 
-            $ret = $input->append($input, QR_MODE_8, strlen($string), str_split($string));
+            $ret = $input->append($input, QR_MODE_8, strlen((string) $string), str_split($string));
             if($ret < 0) {
                 unset($input);
                 return NULL;

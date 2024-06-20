@@ -147,7 +147,7 @@ class ChromePHPHandler extends AbstractProcessingHandler
 
         $json = Utils::jsonEncode(self::$json, Utils::DEFAULT_JSON_FLAGS & ~JSON_UNESCAPED_UNICODE, true);
         $data = base64_encode(utf8_encode($json));
-        if (strlen($data) > 3 * 1024) {
+        if (strlen((string) $data) > 3 * 1024) {
             self::$overflowed = true;
 
             $record = [
@@ -164,7 +164,7 @@ class ChromePHPHandler extends AbstractProcessingHandler
             $data = base64_encode(utf8_encode($json));
         }
 
-        if (trim($data) !== '') {
+        if (trim((string) $data) !== '') {
             $this->sendHeader(static::HEADER_NAME, $data);
         }
     }

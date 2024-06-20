@@ -444,7 +444,7 @@ class Drawing extends WriterPart
     {
         // Calculate object id
         preg_match('{(\d+)}', md5($pReference), $m);
-        $id = 1500 + (substr($m[1], 0, 2) * 1);
+        $id = 1500 + (substr((string) $m[1], 0, 2) * 1);
 
         // Calculate offset
         $width = $pImage->getWidth();

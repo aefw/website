@@ -85,13 +85,13 @@ class UriTemplate
   private function replace($string, $start, $end, $parameters)
   {
     // We know a data block will have {} round it, so we can strip that.
-    $data = substr($string, $start + 1, $end - $start - 1);
+    $data = substr((string) $string, $start + 1, $end - $start - 1);
 
     // If the first character is one of the reserved operators, it effects
     // the processing of the stream.
     if (isset($this->operators[$data[0]])) {
       $op = $this->operators[$data[0]];
-      $data = substr($data, 1);
+      $data = substr((string) $data, 1);
       $prefix = "";
       $prefix_on_missing = false;
 
@@ -144,7 +144,7 @@ class UriTemplate
       $data = $this->replaceVars($data, $parameters);
     }
     // This is chops out the {...} and replaces with the new section.
-    return substr($string, 0, $start) . $data . substr($string, $end + 1);
+    return substr((string) $string, 0, $start) . $data . substr((string) $string, $end + 1);
   }
 
   private function replaceVars(
@@ -204,9 +204,9 @@ class UriTemplate
     }
 
     // Check for explode parameter.
-    if ($key[strlen($key) - 1] == "*") {
+    if ($key[strlen((string) $key) - 1] == "*") {
       $explode = true;
-      $key = substr($key, 0, -1);
+      $key = substr((string) $key, 0, -1);
       $skip_final_combine = true;
     }
 
@@ -327,7 +327,7 @@ class UriTemplate
   private function getValue($value, $length)
   {
     if ($length) {
-      $value = substr($value, 0, $length);
+      $value = substr((string) $value, 0, $length);
     }
     $value = rawurlencode($value);
     return $value;

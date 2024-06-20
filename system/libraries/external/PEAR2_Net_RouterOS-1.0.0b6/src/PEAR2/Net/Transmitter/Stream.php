@@ -360,16 +360,16 @@ class Stream
         } else {
             $contents = (string) $contents;
             if ($offsetIsNotNull) {
-                $contents = substr($contents, $offset);
+                $contents = substr((string) $contents, $offset);
             }
             if ($lengthIsNotNull) {
-                $contents = substr($contents, 0, $length);
+                $contents = substr((string) $contents, 0, $length);
             }
-            $bytesToSend = (double) sprintf('%u', strlen($contents));
+            $bytesToSend = (double) sprintf('%u', strlen((string) $contents));
             while ($bytes < $bytesToSend) {
                 $bytesNow = @fwrite(
                     $this->stream,
-                    substr($contents, $bytes, $chunkSize)
+                    substr((string) $contents, $bytes, $chunkSize)
                 );
                 if (0 != $bytesNow) {
                     $bytes += $bytesNow;
@@ -406,7 +406,7 @@ class Stream
             while ($this->isAvailable()) {
                 $fragment = fread($this->stream, min($length, $chunkSize));
                 if ('' != $fragment) {
-                    $length -= strlen($fragment);
+                    $length -= strlen((string) $fragment);
                     $result .= $fragment;
                     continue 2;
                 } elseif (!$this->isBlocking && !(false === $fragment)) {
@@ -461,7 +461,7 @@ class Stream
             while ($this->isAvailable()) {
                 $fragment = fread($this->stream, min($length, $chunkSize));
                 if ('' != $fragment) {
-                    $length -= strlen($fragment);
+                    $length -= strlen((string) $fragment);
                     fwrite($result, $fragment);
                     continue 2;
                 } elseif (!$this->isBlocking && !(false === $fragment)) {

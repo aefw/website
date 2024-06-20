@@ -211,10 +211,10 @@ class AppendStream implements StreamInterface
             }
 
             $buffer .= $result;
-            $remaining = $length - strlen($buffer);
+            $remaining = $length - strlen((string) $buffer);
         }
 
-        $this->pos += strlen($buffer);
+        $this->pos += strlen((string) $buffer);
 
         return $buffer;
     }

@@ -108,7 +108,7 @@ class FlowdockHandler extends SocketHandler
         $header = "POST /v1/messages/team_inbox/" . $this->apiToken . " HTTP/1.1\r\n";
         $header .= "Host: api.flowdock.com\r\n";
         $header .= "Content-Type: application/json\r\n";
-        $header .= "Content-Length: " . strlen($content) . "\r\n";
+        $header .= "Content-Length: " . strlen((string) $content) . "\r\n";
         $header .= "\r\n";
 
         return $header;

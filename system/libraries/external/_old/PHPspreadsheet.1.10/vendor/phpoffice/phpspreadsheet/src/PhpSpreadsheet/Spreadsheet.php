@@ -303,7 +303,7 @@ class Spreadsheet
     public function getRibbonXMLData($what = 'all') //we need some constants here...
     {
         $returnData = null;
-        $what = strtolower($what);
+        $what = strtolower((string) $what);
         switch ($what) {
             case 'all':
                 $returnData = $this->ribbonXMLData;
@@ -384,7 +384,7 @@ class Spreadsheet
     public function getRibbonBinObjects($what = 'all')
     {
         $ReturnData = null;
-        $what = strtolower($what);
+        $what = strtolower((string) $what);
         switch ($what) {
             case 'all':
                 return $this->ribbonBinObjects;
@@ -721,7 +721,7 @@ class Spreadsheet
     {
         $worksheetCount = count($this->workSheetCollection);
         for ($i = 0; $i < $worksheetCount; ++$i) {
-            if ($this->workSheetCollection[$i]->getTitle() === trim($pName, "'")) {
+            if ($this->workSheetCollection[$i]->getTitle() === trim((string) $pName, "'")) {
                 return $this->workSheetCollection[$i];
             }
         }

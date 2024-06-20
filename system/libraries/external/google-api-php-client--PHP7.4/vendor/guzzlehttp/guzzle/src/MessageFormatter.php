@@ -89,7 +89,7 @@ class MessageFormatter implements MessageFormatterInterface
                         $result = $response ? Psr7\Message::toString($response) : '';
                         break;
                     case 'req_headers':
-                        $result = \trim($request->getMethod()
+                        $result = \trim((string) $request->getMethod()
                                 . ' ' . $request->getRequestTarget())
                             . ' HTTP/' . $request->getProtocolVersion() . "\r\n"
                             . $this->headers($request);
@@ -168,10 +168,10 @@ class MessageFormatter implements MessageFormatterInterface
                     default:
                         // handle prefixed dynamic headers
                         if (\strpos($matches[1], 'req_header_') === 0) {
-                            $result = $request->getHeaderLine(\substr($matches[1], 11));
+                            $result = $request->getHeaderLine(\substr((string) $matches[1], 11));
                         } elseif (\strpos($matches[1], 'res_header_') === 0) {
                             $result = $response
-                                ? $response->getHeaderLine(\substr($matches[1], 11))
+                                ? $response->getHeaderLine(\substr((string) $matches[1], 11))
                                 : 'NULL';
                         }
                 }
@@ -193,6 +193,6 @@ class MessageFormatter implements MessageFormatterInterface
             $result .= $name . ': ' . \implode(', ', $values) . "\r\n";
         }
 
-        return \trim($result);
+        return \trim((string) $result);
     }
 }

@@ -25,44 +25,44 @@ class BCGLabel
     const ALIGN_RIGHT = 2;
     const ALIGN_BOTTOM = 2;
 
-    private $font;
-    private $text;
-    private $position;
-    private $alignment;
-    private $offset;
-    private $spacing;
-    private $rotationAngle;
-    private $backgroundColor;
-    private $foregroundColor;
+    private BCGFont $font;
+    private string $text = '';
+    private int $position = 0;
+    private int $alignment = 0;
+    private int $offset = 0;
+    private int $spacing = 0;
+    private int $rotationAngle = 0;
+    private BCGColor $backgroundColor;
+    private BCGColor $foregroundColor;
 
     /**
      * Constructor.
      *
-     * @param string $text
-     * @param BCGFont $font
-     * @param int $position
-     * @param int $alignment
+     * @param string $text The text.
+     * @param BCGFont $font The font.
+     * @param int $position The position.
+     * @param int $alignment The alignment.
      */
-    public function __construct($text = '', $font = null, $position = self::POSITION_BOTTOM, $alignment = self::ALIGN_CENTER)
+    public function __construct(string $text = '', ?BCGFont $font = null, int $position = self::POSITION_BOTTOM, int $alignment = self::ALIGN_CENTER)
     {
-        $font = $font === null ? new BCGFontPhp(5) : $font;
-        $this->setFont($font);
+        $this->font = $font === null ? new BCGFontPhp(5) : $font;
         $this->setText($text);
         $this->setPosition($position);
         $this->setAlignment($alignment);
         $this->setSpacing(4);
         $this->setOffset(0);
         $this->setRotationAngle(0);
-        $this->setBackgroundColor(new BCGColor('white'));
-        $this->setForegroundColor(new BCGColor('black'));
+        $this->setBackgroundColor(new BCGColor(0xffffff));
+        $this->setForegroundColor(new BCGColor(0x000000));
+        $this->setFont($this->font);
     }
 
     /**
      * Gets the text.
      *
-     * @return string
+     * @return string The text.
      */
-    public function getText()
+    public function getText(): string
     {
         return $this->font->getText();
     }
@@ -70,9 +70,10 @@ class BCGLabel
     /**
      * Sets the text.
      *
-     * @param string $text
+     * @param string $text The text.
+     * @return void
      */
-    public function setText($text)
+    public function setText(string $text): void
     {
         $this->text = $text;
         $this->font->setText($this->text);
@@ -81,9 +82,9 @@ class BCGLabel
     /**
      * Gets the font.
      *
-     * @return BCGFont
+     * @return BCGFont The font.
      */
-    public function getFont()
+    public function getFont(): BCGFont
     {
         return $this->font;
     }
@@ -91,9 +92,10 @@ class BCGLabel
     /**
      * Sets the font.
      *
-     * @param BCGFont $font
+     * @param BCGFont $font The font.
+     * @return void
      */
-    public function setFont($font)
+    public function setFont(BCGFont $font): void
     {
         if ($font === null) {
             throw new BCGArgumentException('Font cannot be null.', 'font');
@@ -109,9 +111,9 @@ class BCGLabel
     /**
      * Gets the text position for drawing.
      *
-     * @return int
+     * @return int The position.
      */
-    public function getPosition()
+    public function getPosition(): int
     {
         return $this->position;
     }
@@ -119,9 +121,10 @@ class BCGLabel
     /**
      * Sets the text position for drawing.
      *
-     * @param int $position
+     * @param int $position The position.
+     * @return void
      */
-    public function setPosition($position)
+    public function setPosition(int $position): void
     {
         $position = intval($position);
         if ($position !== self::POSITION_TOP && $position !== self::POSITION_RIGHT && $position !== self::POSITION_BOTTOM && $position !== self::POSITION_LEFT) {
@@ -134,9 +137,9 @@ class BCGLabel
     /**
      * Gets the text alignment for drawing.
      *
-     * @return int
+     * @return int The alignment.
      */
-    public function getAlignment()
+    public function getAlignment(): int
     {
         return $this->alignment;
     }
@@ -144,9 +147,10 @@ class BCGLabel
     /**
      * Sets the text alignment for drawing.
      *
-     * @param int $alignment
+     * @param int $alignment The alignment.
+     * @return void
      */
-    public function setAlignment($alignment)
+    public function setAlignment(int $alignment): void
     {
         $alignment = intval($alignment);
         if ($alignment !== self::ALIGN_LEFT && $alignment !== self::ALIGN_TOP && $alignment !== self::ALIGN_CENTER && $alignment !== self::ALIGN_RIGHT && $alignment !== self::ALIGN_BOTTOM) {
@@ -159,9 +163,9 @@ class BCGLabel
     /**
      * Gets the offset.
      *
-     * @return int
+     * @return int The offset.
      */
-    public function getOffset()
+    public function getOffset(): int
     {
         return $this->offset;
     }
@@ -169,9 +173,10 @@ class BCGLabel
     /**
      * Sets the offset.
      *
-     * @param int $offset
+     * @param int $offset The offset.
+     * @return void
      */
-    public function setOffset($offset)
+    public function setOffset(int $offset): void
     {
         $this->offset = intval($offset);
     }
@@ -179,9 +184,9 @@ class BCGLabel
     /**
      * Gets the spacing.
      *
-     * @return int
+     * @return int The spacing.
      */
-    public function getSpacing()
+    public function getSpacing(): int
     {
         return $this->spacing;
     }
@@ -189,9 +194,10 @@ class BCGLabel
     /**
      * Sets the spacing.
      *
-     * @param int $spacing
+     * @param int $spacing The spacing.
+     * @return void
      */
-    public function setSpacing($spacing)
+    public function setSpacing(int $spacing): void
     {
         $this->spacing = max(0, intval($spacing));
     }
@@ -199,9 +205,9 @@ class BCGLabel
     /**
      * Gets the rotation angle in degree.
      *
-     * @return int
+     * @return int The rotation angle.
      */
-    public function getRotationAngle()
+    public function getRotationAngle(): int
     {
         return $this->font->getRotationAngle();
     }
@@ -209,9 +215,10 @@ class BCGLabel
     /**
      * Sets the rotation angle in degree.
      *
-     * @param int $rotationAngle
+     * @param int $rotationAngle The rotation angle.
+     * @return void
      */
-    public function setRotationAngle($rotationAngle)
+    public function setRotationAngle(int $rotationAngle): void
     {
         $this->rotationAngle = intval($rotationAngle);
         $this->font->setRotationAngle($this->rotationAngle);
@@ -220,7 +227,7 @@ class BCGLabel
     /**
      * Gets the background color in case of rotation.
      *
-     * @return BCGColor
+     * @return BCGColor The background color.
      */
     public function getBackgroundColor()
     {
@@ -230,9 +237,10 @@ class BCGLabel
     /**
      * Sets the background color in case of rotation.
      *
-     * @param BCGColor $backgroundColor
+     * @param BCGColor $backgroundColor The background color.
+     * @return void
      */
-    public function setBackgroundColor($backgroundColor)
+    public function setBackgroundColor(BCGColor $backgroundColor): void
     {
         $this->backgroundColor = $backgroundColor;
         $this->font->setBackgroundColor($this->backgroundColor);
@@ -241,7 +249,7 @@ class BCGLabel
     /**
      * Gets the foreground color.
      *
-     * @return BCGColor
+     * @return BCGColor The foreground color.
      */
     public function getForegroundColor()
     {
@@ -251,9 +259,10 @@ class BCGLabel
     /**
      * Sets the foreground color.
      *
-     * @param BCGColor $foregroundColor
+     * @param BCGColor $foregroundColor The foreground color.
+     * @return void
      */
-    public function setForegroundColor($foregroundColor)
+    public function setForegroundColor(BCGColor $foregroundColor): void
     {
         $this->foregroundColor = $foregroundColor;
         $this->font->setForegroundColor($this->foregroundColor);
@@ -264,9 +273,9 @@ class BCGLabel
      * [0]: width
      * [1]: height
      *
-     * @return int[]
+     * @return int[] The dimension.
      */
-    public function getDimension()
+    public function getDimension(): array
     {
         $w = 0;
         $h = 0;
@@ -292,13 +301,14 @@ class BCGLabel
      * $x1 and $y1 represent the top left corner.
      * $x2 and $y2 represent the bottom right corner.
      *
-     * @param resource $im
-     * @param int $x1
-     * @param int $y1
-     * @param int $x2
-     * @param int $y2
+     * @param resource $image The surface.
+     * @param int $x1 X1.
+     * @param int $y1 Y1.
+     * @param int $x2 X2.
+     * @param int $y2 Y2.
+     * @return void
      */
-    public function draw($im, $x1, $y1, $x2, $y2)
+    public function draw($image, int $x1, int $y1, int $x2, int $y2): void
     {
         $x = 0;
         $y = 0;
@@ -336,6 +346,6 @@ class BCGLabel
         }
 
         $this->font->setText($this->text);
-        $this->font->draw($im, $x, $y);
+        $this->font->draw($image, $x, $y);
     }
 }

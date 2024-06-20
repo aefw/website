@@ -99,7 +99,7 @@ class Ed448 extends TwistedEdwards
      */
     public function extractSecret($str)
     {
-        if (strlen($str) != 57) {
+        if (strlen((string) $str) != 57) {
             throw new \LengthException('Private Key should be 57-bytes long');
         }
         // 1.  Hash the 57-byte private key using SHAKE256(x, 114), storing the
@@ -107,7 +107,7 @@ class Ed448 extends TwistedEdwards
         //     bytes are used for generating the public key.
         $hash = new Hash('shake256-912');
         $h = $hash->hash($str);
-        $h = substr($h, 0, 57);
+        $h = substr((string) $h, 0, 57);
         // 2.  Prune the buffer: The two least significant bits of the first
         //     octet are cleared, all eight bits the last octet are cleared, and
         //     the highest bit of the second to last octet is set.

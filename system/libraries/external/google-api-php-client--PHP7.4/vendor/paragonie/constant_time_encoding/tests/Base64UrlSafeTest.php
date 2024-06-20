@@ -31,7 +31,7 @@ class Base64UrlSafeTest extends PHPUnit\Framework\TestCase
                     $enc
                 );
 
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $unpadded,
                     Base64UrlSafe::encodeUnpadded($random)
@@ -45,7 +45,7 @@ class Base64UrlSafeTest extends PHPUnit\Framework\TestCase
 
         $random = \random_bytes(1 << 20);
         $enc = Base64UrlSafe::encode($random);
-        $this->assertTrue(Binary::safeStrlen($enc) > 65536);
+        $this->assertTrue(Binary::safestrlen((string) $enc) > 65536);
         $this->assertSame(
             $random,
             Base64UrlSafe::decode($enc)

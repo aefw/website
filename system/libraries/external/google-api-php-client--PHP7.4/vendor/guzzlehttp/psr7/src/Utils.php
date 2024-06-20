@@ -21,11 +21,11 @@ final class Utils
         $result = [];
 
         foreach ($keys as &$key) {
-            $key = strtolower($key);
+            $key = strtolower((string) $key);
         }
 
         foreach ($data as $k => $v) {
-            if (!in_array(strtolower($k), $keys)) {
+            if (!in_array(strtolower((string) $k), $keys)) {
                 $result[$k] = $v;
             }
         }
@@ -58,7 +58,7 @@ final class Utils
             $remaining = $maxLen;
             while ($remaining > 0 && !$source->eof()) {
                 $buf = $source->read(min($bufferSize, $remaining));
-                $len = strlen($buf);
+                $len = strlen((string) $buf);
                 if (!$len) {
                     break;
                 }
@@ -104,7 +104,7 @@ final class Utils
                 break;
             }
             $buffer .= $buf;
-            $len = strlen($buffer);
+            $len = strlen((string) $buffer);
         }
 
         return $buffer;

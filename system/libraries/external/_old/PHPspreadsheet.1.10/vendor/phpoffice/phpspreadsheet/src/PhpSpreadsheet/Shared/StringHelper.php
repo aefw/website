@@ -464,7 +464,7 @@ class StringHelper
      */
     public static function countCharacters($value, $enc = 'UTF-8')
     {
-        return mb_strlen($value, $enc);
+        return mb_strlen((string) $value, $enc);
     }
 
     /**
@@ -478,7 +478,7 @@ class StringHelper
      */
     public static function substring($pValue, $pStart, $pLength = 0)
     {
-        return mb_substr($pValue, $pStart, $pLength, 'UTF-8');
+        return mb_substr((string) $pValue, $pStart, $pLength, 'UTF-8');
     }
 
     /**
@@ -488,7 +488,7 @@ class StringHelper
      *
      * @return string
      */
-    public static function strToUpper($pValue)
+    public static function strtoupper((string) $pValue)
     {
         return mb_convert_case($pValue, MB_CASE_UPPER, 'UTF-8');
     }
@@ -500,7 +500,7 @@ class StringHelper
      *
      * @return string
      */
-    public static function strToLower($pValue)
+    public static function strtolower((string) $pValue)
     {
         return mb_convert_case($pValue, MB_CASE_LOWER, 'UTF-8');
     }
@@ -520,7 +520,7 @@ class StringHelper
 
     public static function mbIsUpper($char)
     {
-        return mb_strtolower($char, 'UTF-8') != $char;
+        return mb_strtolower((string) $char, 'UTF-8') != $char;
     }
 
     public static function mbStrSplit($string)
@@ -543,9 +543,9 @@ class StringHelper
         $characters = self::mbStrSplit($pValue);
         foreach ($characters as &$character) {
             if (self::mbIsUpper($character)) {
-                $character = mb_strtolower($character, 'UTF-8');
+                $character = mb_strtolower((string) $character, 'UTF-8');
             } else {
-                $character = mb_strtoupper($character, 'UTF-8');
+                $character = mb_strtoupper((string) $character, 'UTF-8');
             }
         }
 
@@ -717,6 +717,6 @@ class StringHelper
         }
         $v = (float) $value;
 
-        return (is_numeric(substr($value, 0, strlen($v)))) ? $v : $value;
+        return (is_numeric(substr((string) $value, 0, strlen((string) $v)))) ? $v : $value;
     }
 }

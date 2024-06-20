@@ -64,7 +64,7 @@ abstract class EvalBarrett extends Base
             return $n->reduce;
         }
 
-        $m_length = strlen($m);
+        $m_length = strlen((string) $m);
 
         if ($m_length < 5) {
             $code = 'return bcmod($x, $n);';
@@ -84,15 +84,15 @@ abstract class EvalBarrett extends Base
         $m1= "'$m1'";
 
         $code.= '
-            $lsd = substr($n, -' . $cutoff . ');
-            $msd = substr($n, 0, -' . $cutoff . ');
+            $lsd = substr((string) $n, -' . $cutoff . ');
+            $msd = substr((string) $n, 0, -' . $cutoff . ');
 
             $temp = bcmul($msd, ' . $m1 . ');
             $n = bcadd($lsd, $temp);
 
-            $temp = substr($n, 0, ' . (-$m_length + 1) . ');
+            $temp = substr((string) $n, 0, ' . (-$m_length + 1) . ');
             $temp = bcmul($temp, ' . $u . ');
-            $temp = substr($temp, 0, ' . (-($m_length >> 1) - 1) . ');
+            $temp = substr((string) $temp, 0, ' . (-($m_length >> 1) - 1) . ');
             $temp = bcmul($temp, ' . $m . ');
 
             $result = bcsub($n, $temp);

@@ -148,8 +148,8 @@ class StreamHandler extends AbstractProcessingHandler
             return dirname($stream);
         }
 
-        if ('file://' === substr($stream, 0, 7)) {
-            return dirname(substr($stream, 7));
+        if ('file://' === substr((string) $stream, 0, 7)) {
+            return dirname(substr((string) $stream, 7));
         }
 
         return null;

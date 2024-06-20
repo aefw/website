@@ -1,6 +1,6 @@
 <?php
 /**
- * Script para la generación de CAPTCHAS
+ * Script para la generaciï¿½n de CAPTCHAS
  *
  * @author  Jose Rodriguez <jose.rodriguez@exec.cl>
  * @license GPLv3
@@ -31,7 +31,7 @@
 /*
 if (!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
     $langs = array('en', 'es');
-    $lang  = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $lang  = substr((string) $_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if (in_array($lang, $langs)) {
         $captcha->wordsFile = "words/$lang.php";
     }
@@ -311,9 +311,9 @@ class SimpleCaptcha {
         $vocal = rand(0, 1);
         for ($i=0; $i<$length; $i++) {
             if ($vocal) {
-                $text .= substr($vocals, mt_rand(0, 4), 1);
+                $text .= substr((string) $vocals, mt_rand(0, 4), 1);
             } else {
-                $text .= substr($words, mt_rand(0, 22), 1);
+                $text .= substr((string) $words, mt_rand(0, 22), 1);
             }
             $vocal = !$vocal;
         }
@@ -340,7 +340,7 @@ class SimpleCaptcha {
         }
 
         // Full path of words file
-        if (substr($this->wordsFile, 0, 1) == '/') {
+        if (substr((string) $this->wordsFile, 0, 1) == '/') {
             $wordsfile = $this->wordsFile;
         } else {
             $wordsfile = $this->resourcesPath.'/'.$this->wordsFile;
@@ -418,17 +418,17 @@ class SimpleCaptcha {
 
 
         /** Increase font-size for shortest words: 9% for each glyp missing */
-        $lettersMissing = $this->maxWordLength-strlen($text);
+        $lettersMissing = $this->maxWordLength-strlen((string) $text);
         $fontSizefactor = 1+($lettersMissing*0.09);
 
         // Text generation (char by char)
         $x      = 20*$this->scale;
         $y      = round(($this->height*27/40)*$this->scale);
-        $length = strlen($text);
+        $length = strlen((string) $text);
         for ($i=0; $i<$length; $i++) {
             $degree   = rand($this->maxRotation*-1, $this->maxRotation);
             $fontsize = rand($fontcfg['minSize'], $fontcfg['maxSize'])*$this->scale*$fontSizefactor;
-            $letter   = substr($text, $i, 1);
+            $letter   = substr((string) $text, $i, 1);
 
             if ($this->shadowColor) {
                 $coords = imagettftext($this->im, $fontsize, $degree,
@@ -476,7 +476,7 @@ class SimpleCaptcha {
      * Reduce the image to the final size
      */
     protected function ReduceImage() {
-        // Reduzco el tamaño de la imagen
+        // Reduzco el tamaï¿½o de la imagen
         $imResampled = imagecreatetruecolor($this->width, $this->height);
         imagecopyresampled($imResampled, $this->im,
             0, 0, 0, 0,

@@ -757,14 +757,14 @@ class Engineering
             if ($places < 0) {
                 return Functions::NAN();
             }
-            if (strlen($xVal) <= $places) {
+            if (strlen((string) $xVal) <= $places) {
                 return substr(str_pad($xVal, $places, '0', STR_PAD_LEFT), -10);
             }
 
             return Functions::NAN();
         }
 
-        return substr($xVal, -10);
+        return substr((string) $xVal, -10);
     }
 
     /**
@@ -1093,14 +1093,14 @@ class Engineering
             $x = floor($x);
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[01]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[01]/', $x, $out)) {
             return Functions::NAN();
         }
-        if (strlen($x) > 10) {
+        if (strlen((string) $x) > 10) {
             return Functions::NAN();
-        } elseif (strlen($x) == 10) {
+        } elseif (strlen((string) $x) == 10) {
             //    Two's Complement
-            $x = substr($x, -9);
+            $x = substr((string) $x, -9);
 
             return '-' . (512 - bindec($x));
         }
@@ -1150,14 +1150,14 @@ class Engineering
             $x = floor($x);
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[01]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[01]/', $x, $out)) {
             return Functions::NAN();
         }
-        if (strlen($x) > 10) {
+        if (strlen((string) $x) > 10) {
             return Functions::NAN();
-        } elseif (strlen($x) == 10) {
+        } elseif (strlen((string) $x) == 10) {
             //    Two's Complement
-            return str_repeat('F', 8) . substr(strtoupper(dechex(bindec(substr($x, -9)))), -2);
+            return str_repeat('F', 8) . substr(strtoupper(dechex(bindec(substr((string) $x, -9)))), -2);
         }
         $hexVal = (string) strtoupper(dechex(bindec($x)));
 
@@ -1205,14 +1205,14 @@ class Engineering
             $x = floor($x);
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[01]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[01]/', $x, $out)) {
             return Functions::NAN();
         }
-        if (strlen($x) > 10) {
+        if (strlen((string) $x) > 10) {
             return Functions::NAN();
-        } elseif (strlen($x) == 10) {
+        } elseif (strlen((string) $x) == 10) {
             //    Two's Complement
-            return str_repeat('7', 7) . substr(strtoupper(decoct(bindec(substr($x, -9)))), -3);
+            return str_repeat('7', 7) . substr(strtoupper(decoct(bindec(substr((string) $x, -9)))), -3);
         }
         $octVal = (string) decoct(bindec($x));
 
@@ -1261,7 +1261,7 @@ class Engineering
             }
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
             return Functions::VALUE();
         }
 
@@ -1272,8 +1272,8 @@ class Engineering
 
         $r = decbin($x);
         // Two's Complement
-        $r = substr($r, -10);
-        if (strlen($r) >= 11) {
+        $r = substr((string) $r, -10);
+        if (strlen((string) $r) >= 11) {
             return Functions::NAN();
         }
 
@@ -1322,12 +1322,12 @@ class Engineering
             }
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
             return Functions::VALUE();
         }
         $x = (string) floor($x);
         $r = strtoupper(dechex($x));
-        if (strlen($r) == 8) {
+        if (strlen((string) $r) == 8) {
             //    Two's Complement
             $r = 'FF' . $r;
         }
@@ -1378,14 +1378,14 @@ class Engineering
             }
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
+        if (strlen((string) $x) > preg_match_all('/[-0123456789.]/', $x, $out)) {
             return Functions::VALUE();
         }
         $x = (string) floor($x);
         $r = decoct($x);
-        if (strlen($r) == 11) {
+        if (strlen((string) $r) == 11) {
             //    Two's Complement
-            $r = substr($r, -10);
+            $r = substr((string) $r, -10);
         }
 
         return self::nbrConversionFormat($r, $places);
@@ -1429,7 +1429,7 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper($x), $out)) {
+        if (strlen((string) $x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper((string) $x), $out)) {
             return Functions::NAN();
         }
 
@@ -1464,11 +1464,11 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper($x), $out)) {
+        if (strlen((string) $x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper((string) $x), $out)) {
             return Functions::NAN();
         }
 
-        if (strlen($x) > 10) {
+        if (strlen((string) $x) > 10) {
             return Functions::NAN();
         }
 
@@ -1476,7 +1476,7 @@ class Engineering
         foreach (str_split($x) as $char) {
             $binX .= str_pad(base_convert($char, 16, 2), 4, '0', STR_PAD_LEFT);
         }
-        if (strlen($binX) == 40 && $binX[0] == '1') {
+        if (strlen((string) $binX) == 40 && $binX[0] == '1') {
             for ($i = 0; $i < 40; ++$i) {
                 $binX[$i] = ($binX[$i] == '1' ? '0' : '1');
             }
@@ -1529,7 +1529,7 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (strlen($x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper($x), $out)) {
+        if (strlen((string) $x) > preg_match_all('/[0123456789ABCDEF]/', strtoupper((string) $x), $out)) {
             return Functions::NAN();
         }
 
@@ -1585,7 +1585,7 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (preg_match_all('/[01234567]/', $x, $out) != strlen($x)) {
+        if (preg_match_all('/[01234567]/', $x, $out) != strlen((string) $x)) {
             return Functions::NAN();
         }
 
@@ -1620,14 +1620,14 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (preg_match_all('/[01234567]/', $x, $out) != strlen($x)) {
+        if (preg_match_all('/[01234567]/', $x, $out) != strlen((string) $x)) {
             return Functions::NAN();
         }
         $binX = '';
         foreach (str_split($x) as $char) {
             $binX .= str_pad(decbin((int) $char), 3, '0', STR_PAD_LEFT);
         }
-        if (strlen($binX) == 30 && $binX[0] == '1') {
+        if (strlen((string) $binX) == 30 && $binX[0] == '1') {
             for ($i = 0; $i < 30; ++$i) {
                 $binX[$i] = ($binX[$i] == '1' ? '0' : '1');
             }
@@ -1677,7 +1677,7 @@ class Engineering
             return Functions::VALUE();
         }
         $x = (string) $x;
-        if (preg_match_all('/[01234567]/', $x, $out) != strlen($x)) {
+        if (preg_match_all('/[01234567]/', $x, $out) != strlen((string) $x)) {
             return Functions::NAN();
         }
         $hexVal = strtoupper(dechex(self::OCTTODEC($x)));
@@ -2728,8 +2728,8 @@ class Engineering
         if (isset(self::$conversionUnits[$fromUOM])) {
             $unitGroup1 = self::$conversionUnits[$fromUOM]['Group'];
         } else {
-            $fromMultiplier = substr($fromUOM, 0, 1);
-            $fromUOM = substr($fromUOM, 1);
+            $fromMultiplier = substr((string) $fromUOM, 0, 1);
+            $fromUOM = substr((string) $fromUOM, 1);
             if (isset(self::$conversionMultipliers[$fromMultiplier])) {
                 $fromMultiplier = self::$conversionMultipliers[$fromMultiplier]['multiplier'];
             } else {
@@ -2747,8 +2747,8 @@ class Engineering
         if (isset(self::$conversionUnits[$toUOM])) {
             $unitGroup2 = self::$conversionUnits[$toUOM]['Group'];
         } else {
-            $toMultiplier = substr($toUOM, 0, 1);
-            $toUOM = substr($toUOM, 1);
+            $toMultiplier = substr((string) $toUOM, 0, 1);
+            $toUOM = substr((string) $toUOM, 1);
             if (isset(self::$conversionMultipliers[$toMultiplier])) {
                 $toMultiplier = self::$conversionMultipliers[$toMultiplier]['multiplier'];
             } else {

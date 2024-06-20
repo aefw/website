@@ -74,7 +74,7 @@ trait CacheTrait
         $key = preg_replace('|[^a-zA-Z0-9_\.!]|', '', $key);
 
         // Hash keys if they exceed $maxKeyLength (defaults to 64)
-        if ($this->maxKeyLength && strlen($key) > $this->maxKeyLength) {
+        if ($this->maxKeyLength && strlen((string) $key) > $this->maxKeyLength) {
             $key = substr(hash('sha256', $key), 0, $this->maxKeyLength);
         }
 

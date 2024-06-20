@@ -52,8 +52,8 @@ class SqsHandler extends AbstractProcessingHandler
         }
 
         $messageBody = $record['formatted'];
-        if (strlen($messageBody) >= static::MAX_MESSAGE_SIZE) {
-            $messageBody = Utils::substr($messageBody, 0, static::HEAD_MESSAGE_SIZE);
+        if (strlen((string) $messageBody) >= static::MAX_MESSAGE_SIZE) {
+            $messageBody = Utils::substr((string) $messageBody, 0, static::HEAD_MESSAGE_SIZE);
         }
 
         $this->client->sendMessage([

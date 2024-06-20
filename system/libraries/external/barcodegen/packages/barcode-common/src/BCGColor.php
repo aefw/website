@@ -14,13 +14,13 @@ namespace BarcodeBakery\Common;
 
 class BCGColor
 {
-    protected $r;
-    protected $g;
-    protected $b;    // int Hexadecimal Value
-    protected $transparent;
+    protected int $r;
+    protected int $g;
+    protected int $b;    // int Hexadecimal Value
+    protected bool $transparent = false;
 
     /**
-     * Save RGB value into the classes.
+     * Saves RGB value into the classes.
      *
      * There are 4 way to associate color with this classes :
      *  1. Gives 3 parameters int (R, G, B)
@@ -40,10 +40,10 @@ class BCGColor
             $this->g = intval($args[1]);
             $this->b = intval($args[2]);
         } elseif ($c === 1) {
-            if (is_string($args[0]) && strlen($args[0]) === 7 && $args[0][0] === '#') {        // Hex Value in String
-                $this->r = intval(substr($args[0], 1, 2), 16);
-                $this->g = intval(substr($args[0], 3, 2), 16);
-                $this->b = intval(substr($args[0], 5, 2), 16);
+            if (is_string($args[0]) && strlen((string) $args[0]) === 7 && $args[0][0] === '#') {        // Hex Value in String
+                $this->r = intval(substr((string) $args[0], 1, 2), 16);
+                $this->g = intval(substr((string) $args[0], 3, 2), 16);
+                $this->b = intval(substr((string) $args[0], 5, 2), 16);
             } else {
                 if (is_string($args[0])) {
                     $args[0] = self::getColor($args[0]);
@@ -62,9 +62,10 @@ class BCGColor
     /**
      * Sets the color transparent.
      *
-     * @param bool $transparent
+     * @param bool $transparent True if transparent.
+     * @return void
      */
-    public function setTransparent($transparent)
+    public function setTransparent(bool $transparent): void
     {
         $this->transparent = $transparent;
     }
@@ -72,9 +73,9 @@ class BCGColor
     /**
      * Returns Red Color.
      *
-     * @return int
+     * @return int The red color.
      */
-    public function r()
+    public function r(): int
     {
         return $this->r;
     }
@@ -82,9 +83,9 @@ class BCGColor
     /**
      * Returns Green Color.
      *
-     * @return int
+     * @return int The green color.
      */
-    public function g()
+    public function g(): int
     {
         return $this->g;
     }
@@ -92,9 +93,9 @@ class BCGColor
     /**
      * Returns Blue Color.
      *
-     * @return int
+     * @return int The blue color.
      */
-    public function b()
+    public function b(): int
     {
         return $this->b;
     }
@@ -102,14 +103,14 @@ class BCGColor
     /**
      * Returns the int value for PHP color.
      *
-     * @param resource $im
+     * @param resource $image The surface
      * @return int
      */
-    public function allocate(&$im)
+    public function allocate(&$image)
     {
-        $allocated = imagecolorallocate($im, $this->r, $this->g, $this->b);
+        $allocated = imagecolorallocate($image, $this->r, $this->g, $this->b);
         if ($this->transparent) {
-            return imagecolortransparent($im, $allocated);
+            return imagecolortransparent($image, $allocated);
         } else {
             return $allocated;
         }
@@ -120,12 +121,13 @@ class BCGColor
      *
      * If the color doens't exist, it takes the default one.
      *
-     * @param string $code
-     * @param string $default
+     * @param string $code The color name.
+     * @param string $default The default color name.
+     * @return int The color.
      */
-    public static function getColor($code, $default = 'white')
+    public static function getColor(string $code, string $default = 'white'): int
     {
-        switch (strtolower($code)) {
+        switch (strtolower((string) $code)) {
             case '':
             case 'white':
                 return 0xffffff;

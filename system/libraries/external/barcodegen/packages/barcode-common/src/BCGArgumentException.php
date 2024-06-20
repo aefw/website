@@ -14,15 +14,15 @@ namespace BarcodeBakery\Common;
 
 class BCGArgumentException extends \Exception
 {
-    protected $param;
+    protected string $param;
 
     /**
      * Constructor with specific message for a parameter.
      *
-     * @param string $message
-     * @param string $param
+     * @param string $message The message.
+     * @param string $param The parameter.
      */
-    public function __construct($message, $param)
+    public function __construct(string $message, string $param)
     {
         $this->param = $param;
         parent::__construct($message, 20000);

@@ -122,7 +122,7 @@ class RC4 extends StreamCipher
             if (version_compare(PHP_VERSION, '5.3.7') >= 0) {
                 $this->cipher_name_openssl = 'rc4-40';
             } else {
-                switch (strlen($this->key)) {
+                switch (strlen((string) $this->key)) {
                     case 5:
                         $this->cipher_name_openssl = 'rc4-40';
                         break;
@@ -171,7 +171,7 @@ class RC4 extends StreamCipher
      */
     public function setKey($key)
     {
-        $length = strlen($key);
+        $length = strlen((string) $key);
         if ($length < 1 || $length > 256) {
             throw new \LengthException('Key size of ' . $length . ' bytes is not supported by RC4. Keys must be between 1 and 256 bytes long');
         }
@@ -247,7 +247,7 @@ class RC4 extends StreamCipher
     protected function setupKey()
     {
         $key = $this->key;
-        $keyLength = strlen($key);
+        $keyLength = strlen((string) $key);
         $keyStream = range(0, 255);
         $j = 0;
         for ($i = 0; $i < 256; $i++) {
@@ -292,7 +292,7 @@ class RC4 extends StreamCipher
             $keyStream = $stream[2];
         }
 
-        $len = strlen($text);
+        $len = strlen((string) $text);
         for ($k = 0; $k < $len; ++$k) {
             $i = ($i + 1) & 255;
             $ksi = $keyStream[$i];

@@ -130,7 +130,7 @@ class BCMath extends Engine
         switch (abs($base)) {
             case 256:
                 // round $len to the nearest 4
-                $len = (strlen($this->value) + 3) & 0xFFFFFFFC;
+                $len = (strlen((string) $this->value) + 3) & 0xFFFFFFFC;
 
                 $x = str_pad($this->value, $len, chr(0), STR_PAD_LEFT);
 
@@ -145,7 +145,7 @@ class BCMath extends Engine
                 }
                 break;
             case 16:
-                $x = (strlen($this->value) & 1) ? '0' . $this->value : $this->value;
+                $x = (strlen((string) $this->value) & 1) ? '0' . $this->value : $this->value;
                 $temp = new self(Hex::decode($x), 256);
                 $this->value = $this->is_negative ? '-' . $temp->value : $temp->value;
                 $this->is_negative = false;
@@ -168,7 +168,7 @@ class BCMath extends Engine
             return '0';
         }
 
-        return ltrim($this->value, '0');
+        return ltrim((string) $this->value, '0');
     }
 
     /**
@@ -187,7 +187,7 @@ class BCMath extends Engine
         $current = $this->value;
 
         if ($current[0] == '-') {
-            $current = substr($current, 1);
+            $current = substr((string) $current, 1);
         }
 
         while (bccomp($current, '0', 0) > 0) {
@@ -198,7 +198,7 @@ class BCMath extends Engine
 
         return $this->precision > 0 ?
             substr(str_pad($value, $this->precision >> 3, chr(0), STR_PAD_LEFT), -($this->precision >> 3)) :
-            ltrim($value, chr(0));
+            ltrim((string) $value, chr(0));
     }
 
     /**
@@ -263,7 +263,7 @@ class BCMath extends Engine
         $remainder->value = bcmod($this->value, $y->value);
 
         if ($remainder->value[0] == '-') {
-            $remainder->value = bcadd($remainder->value, $y->value[0] == '-' ? substr($y->value, 1) : $y->value, 0);
+            $remainder->value = bcadd($remainder->value, $y->value[0] == '-' ? substr((string) $y->value, 1) : $y->value, 0);
         }
 
         return [$this->normalize($quotient), $this->normalize($remainder)];
@@ -353,8 +353,8 @@ class BCMath extends Engine
     public function abs()
     {
         $temp = new static();
-        $temp->value = strlen($this->value) && $this->value[0] == '-' ?
-            substr($this->value, 1) :
+        $temp->value = strlen((string) $this->value) && $this->value[0] == '-' ?
+            substr((string) $this->value, 1) :
             $this->value;
 
         return $temp;
@@ -585,7 +585,7 @@ class BCMath extends Engine
         if ($this->value === '2') {
             return true;
         }
-        if ($this->value[strlen($this->value) - 1] % 2 == 0) {
+        if ($this->value[strlen((string) $this->value) - 1] % 2 == 0) {
             return false;
         }
 
@@ -615,7 +615,7 @@ class BCMath extends Engine
         $r_value = &$r->value;
         $s = 0;
         // if $n was 1, $r would be 0 and this would be an infinite loop, hence our $this->equals(static::$one) check earlier
-        while ($r_value[strlen($r_value) - 1] % 2 == 0) {
+        while ($r_value[strlen((string) $r_value) - 1] % 2 == 0) {
             $r_value = bcdiv($r_value, '2', 0);
             ++$s;
         }
@@ -691,7 +691,7 @@ class BCMath extends Engine
      */
     public function isOdd()
     {
-        return $this->value[strlen($this->value) - 1] % 2 == 1;
+        return $this->value[strlen((string) $this->value) - 1] % 2 == 1;
     }
 
     /**
@@ -715,7 +715,7 @@ class BCMath extends Engine
      */
     public function isNegative()
     {
-        return strlen($this->value) && $this->value[0] == '-';
+        return strlen((string) $this->value) && $this->value[0] == '-';
     }
 
     /**
@@ -729,12 +729,12 @@ class BCMath extends Engine
     {
         $temp = clone $this;
 
-        if (!strlen($temp->value)) {
+        if (!strlen((string) $temp->value)) {
             return $temp;
         }
 
         $temp->value = $temp->value[0] == '-' ?
-            substr($this->value, 1) :
+            substr((string) $this->value, 1) :
             '-' . $this->value;
 
         return $temp;

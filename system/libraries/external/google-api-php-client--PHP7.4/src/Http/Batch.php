@@ -63,7 +63,7 @@ class Batch
   ) {
     $this->client = $client;
     $this->boundary = $boundary ?: mt_rand();
-    $this->rootUrl = rtrim($rootUrl ?: $this->client->getConfig('base_path'), '/');
+    $this->rootUrl = rtrim((string) $rootUrl ?: $this->client->getConfig('base_path'), '/');
     $this->batchPath = $batchPath ?: self::BATCH_PATH;
   }
 
@@ -122,11 +122,11 @@ EOF;
     }
 
     $body .= "--{$this->boundary}--";
-    $body = trim($body);
+    $body = trim((string) $body);
     $url = $this->rootUrl . '/' . $this->batchPath;
     $headers = array(
       'Content-Type' => sprintf('multipart/mixed; boundary=%s', $this->boundary),
-      'Content-Length' => strlen($body),
+      'Content-Length' => strlen((string) $body),
     );
 
     $request = new Request(
@@ -148,7 +148,7 @@ EOF;
     $boundary = false;
     foreach ($contentType as $part) {
       $part = explode('=', $part, 2);
-      if (isset($part[0]) && 'boundary' == trim($part[0])) {
+      if (isset($part[0]) && 'boundary' == trim((string) $part[0])) {
         $boundary = $part[1];
       }
     }
@@ -161,12 +161,12 @@ EOF;
       $requests = array_values($this->requests);
 
       foreach ($parts as $i => $part) {
-        $part = trim($part);
+        $part = trim((string) $part);
         if (!empty($part)) {
           list($rawHeaders, $part) = explode("\r\n\r\n", $part, 2);
           $headers = $this->parseRawHeaders($rawHeaders);
 
-          $status = substr($part, 0, strpos($part, "\n"));
+          $status = substr((string) $part, 0, strpos($part, "\n"));
           $status = explode(" ", $status);
           $status = $status[1];
 
@@ -205,7 +205,7 @@ EOF;
     foreach ($responseHeaderLines as $headerLine) {
       if ($headerLine && strpos($headerLine, ':') !== false) {
         list($header, $value) = explode(': ', $headerLine, 2);
-        $header = strtolower($header);
+        $header = strtolower((string) $header);
         if (isset($headers[$header])) {
           $headers[$header] .= "\n" . $value;
         } else {
@@ -235,15 +235,15 @@ EOF;
         // account.
         // @TODO look into this
         // if (!$this->needsQuirk()) {
-        //   $headerSize -= strlen($established_header);
+        //   $headerSize -= strlen((string) $established_header);
         // }
         break;
       }
     }
 
     if ($headerSize) {
-      $responseBody = substr($respData, $headerSize);
-      $responseHeaders = substr($respData, 0, $headerSize);
+      $responseBody = substr((string) $respData, $headerSize);
+      $responseHeaders = substr((string) $respData, 0, $headerSize);
     } else {
       $responseSegments = explode("\r\n\r\n", $respData, 2);
       $responseHeaders = $responseSegments[0];

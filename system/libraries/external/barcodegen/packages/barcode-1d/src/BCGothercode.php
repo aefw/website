@@ -22,7 +22,7 @@ use BarcodeBakery\Common\BCGParseException;
 class BCGothercode extends BCGBarcode1D
 {
     /**
-     * Constructor.
+     * Creates an other type barcode.
      */
     public function __construct()
     {
@@ -34,21 +34,22 @@ class BCGothercode extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
-        $this->drawChar($im, $this->text, true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, $this->text, true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Gets the label.
      * If the label was set to BCGBarcode1D::AUTO_LABEL, the label will display the value from the text parsed.
      *
-     * @return string
+     * @return string The label string.
      */
-    public function getLabel()
+    public function getLabel(): string
     {
         $label = $this->label;
         if ($this->label === BCGBarcode1D::AUTO_LABEL) {
@@ -61,26 +62,28 @@ class BCGothercode extends BCGBarcode1D
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         $array = str_split($this->text, 1);
         $textlength = array_sum($array) + count($array);
 
-        $w += $textlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $textlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('othercode', 'No data has been entered.');
         }

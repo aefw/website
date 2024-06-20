@@ -234,7 +234,7 @@ class Rijndael extends BlockCipher
      */
     public function setKey($key)
     {
-        switch (strlen($key)) {
+        switch (strlen((string) $key)) {
             case 16:
             case 20:
             case 24:
@@ -242,7 +242,7 @@ class Rijndael extends BlockCipher
             case 32:
                 break;
             default:
-                throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes 16, 20, 24, 28 or 32 are supported');
+                throw new \LengthException('Key of size ' . strlen((string) $key) . ' not supported by this algorithm. Only keys of sizes 16, 20, 24, 28 or 32 are supported');
         }
 
         parent::setKey($key);
@@ -293,7 +293,7 @@ class Rijndael extends BlockCipher
                        sodium_crypto_aead_aes256gcm_is_available() &&
                        $this->mode == self::MODE_GCM &&
                        $this->key_length == 32 &&
-                       $this->nonce && strlen($this->nonce) == 12 &&
+                       $this->nonce && strlen((string) $this->nonce) == 12 &&
                        $this->block_size == 16;
             case self::ENGINE_OPENSSL_GCM:
                 if (!extension_loaded('openssl')) {
@@ -525,8 +525,8 @@ class Rijndael extends BlockCipher
 
         parent::setup();
 
-        if (is_string($this->iv) && strlen($this->iv) != $this->block_size) {
-            throw new InconsistentSetupException('The IV length (' . strlen($this->iv) . ') does not match the block size (' . $this->block_size . ')');
+        if (is_string($this->iv) && strlen((string) $this->iv) != $this->block_size) {
+            throw new InconsistentSetupException('The IV length (' . strlen((string) $this->iv) . ') does not match the block size (' . $this->block_size . ')');
         }
     }
 
@@ -994,7 +994,7 @@ class Rijndael extends BlockCipher
         switch ($this->engine) {
             case self::ENGINE_LIBSODIUM:
                 $this->newtag = sodium_crypto_aead_aes256gcm_encrypt($plaintext, $this->aad, $this->nonce, $this->key);
-                return Strings::shift($this->newtag, strlen($plaintext));
+                return Strings::shift($this->newtag, strlen((string) $plaintext));
             case self::ENGINE_OPENSSL_GCM:
                 return openssl_encrypt(
                     $plaintext,
@@ -1028,7 +1028,7 @@ class Rijndael extends BlockCipher
                 if ($this->oldtag === false) {
                     throw new InsufficientSetupException('Authentication Tag has not been set');
                 }
-                if (strlen($this->oldtag) != 16) {
+                if (strlen((string) $this->oldtag) != 16) {
                     break;
                 }
                 $plaintext = sodium_crypto_aead_aes256gcm_decrypt($ciphertext . $this->oldtag, $this->aad, $this->nonce, $this->key);

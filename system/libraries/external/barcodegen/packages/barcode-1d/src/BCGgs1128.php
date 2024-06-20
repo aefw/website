@@ -14,198 +14,35 @@ namespace BarcodeBakery\Barcode;
 
 use BarcodeBakery\Common\BCGBarcode1D;
 use BarcodeBakery\Common\BCGParseException;
+use BarcodeBakery\Common\GS1\KindOfData;
 
 class BCGgs1128 extends BCGcode128
 {
-    const KIND_OF_DATA = 0;
-    const MINLENGTH = 1;
-    const MAXLENGTH = 2;
-    const CHECKSUM = 3;
-    const NUMERIC = 0;
-    const ALPHA_NUMERIC = 1;
-    const DATE_YYMMDD = 2;
     const ID = 0;
     const CONTENT = 1;
-    const MAX_ID_FORMATED = 6;
-    const MAX_ID_NOT_FORMATED = 4;
+    const MAX_ID_FORMATTED = 6;
+    const MAX_ID_NOT_FORMATTED = 4;
     const MAX_GS1128_CHARS = 48;
 
-    private $strictMode;
-    private $allowsUnknownIdentifier;
-    private $noLengthLimit;
-    private $identifiersId = array();
-    private $identifiersContent = array();
-    private $identifiersAi = array();
+    private bool $strictMode;
+    private bool $allowsUnknownIdentifier;
+    private bool $noLengthLimit;
+    private array $identifiersId = array();
+    private array $identifiersContent = array();
+    private ?array $identifiersAi = null;
 
     /**
-     * Constructors
+     * Creates a GS1-128 barcode.
      *
-     * @param char $start
+     * @param string $start The start table.
      */
-    public function __construct($start = null)
+    public function __construct(?string $start = null)
     {
         if ($start === null) {
             $start = 'C';
         }
 
         parent::__construct($start);
-
-        /* Application Identifiers (AIs) */
-        /*
-        array ( KIND_OF_DATA , MINLENGTH , MAXLENGTH , CHECKSUM )
-        KIND_OF_DATA:        NUMERIC , ALPHA_NUMERIC or DATE_YYMMDD
-        CHECKSUM:            bool (true / false)
-        */
-        $this->identifiersAi = array(
-        '00'    =>    array(self::NUMERIC,          18, 18, true),
-        '01'    =>    array(self::NUMERIC,          14, 14, true),
-        '02'    =>    array(self::NUMERIC,          14, 14, true),
-        '10'    =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '11'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '12'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '13'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '15'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '16'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '17'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '20'    =>    array(self::NUMERIC,          2,  2,  false),
-        '21'    =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '22'    =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '240'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '241'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '242'   =>    array(self::ALPHA_NUMERIC,    1,  6,  false),
-        '243'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '250'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '251'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '253'   =>    array(self::NUMERIC,          14, 30, false),
-        '254'   =>    array(self::NUMERIC,          1,  20, false),
-        '255'   =>    array(self::NUMERIC,          14, 25, false),
-        '30'    =>    array(self::NUMERIC,          1,  8,  false),
-        '310y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '311y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '312y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '313y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '314y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '315y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '316y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '320y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '321y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '322y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '323y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '324y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '325y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '326y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '327y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '328y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '329y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '330y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '331y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '332y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '333y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '334y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '335y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '336y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '337y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '340y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '341y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '342y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '343y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '344y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '345y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '346y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '347y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '348y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '349y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '350y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '351y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '352y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '353y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '354y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '355y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '356y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '357y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '360y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '361y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '362y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '363y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '364y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '365y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '366y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '367y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '368y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '369y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '37'    =>    array(self::NUMERIC,          1,  8,  false),
-        '390y'  =>    array(self::NUMERIC,          1,  15, false),
-        '391y'  =>    array(self::NUMERIC,          4,  18, false),
-        '392y'  =>    array(self::NUMERIC,          1,  15, false),
-        '393y'  =>    array(self::NUMERIC,          4,  18, false),
-        '394y'  =>    array(self::NUMERIC,          4,  4,  false),
-        '400'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '401'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '402'   =>    array(self::NUMERIC,          17, 17, false),
-        '403'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '410'   =>    array(self::NUMERIC,          13, 13, true),
-        '411'   =>    array(self::NUMERIC,          13, 13, true),
-        '412'   =>    array(self::NUMERIC,          13, 13, true),
-        '413'   =>    array(self::NUMERIC,          13, 13, true),
-        '414'   =>    array(self::NUMERIC,          13, 13, true),
-        '415'   =>    array(self::NUMERIC,          13, 13, true),
-        '416'   =>    array(self::NUMERIC,          13, 13, true),
-        '420'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '421'   =>    array(self::ALPHA_NUMERIC,    4,  12, false),
-        '422'   =>    array(self::NUMERIC,          3,  3,  false),
-        '423'   =>    array(self::NUMERIC,          3,  15, false),
-        '424'   =>    array(self::NUMERIC,          3,  3,  false),
-        '425'   =>    array(self::NUMERIC,          3,  3,  false),
-        '426'   =>    array(self::NUMERIC,          3,  3,  false),
-        '427'   =>    array(self::ALPHA_NUMERIC,    1,  3,  false),
-        '7001'  =>    array(self::NUMERIC,          13, 13, false),
-        '7002'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '7003'  =>    array(self::NUMERIC,          10, 10, false),
-        '7004'  =>    array(self::NUMERIC,          1,  4,  false),
-        '7005'  =>    array(self::ALPHA_NUMERIC,    1,  12, false),
-        '7006'  =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '7007'  =>    array(self::NUMERIC,          6,  12, false),
-        '7008'  =>    array(self::ALPHA_NUMERIC,    1,  3,  false),
-        '7009'  =>    array(self::ALPHA_NUMERIC,    1,  10, false),
-        '7010'  =>    array(self::ALPHA_NUMERIC,    1,  2,  false),
-        '7020'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '7021'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '7022'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '7023'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '703y'  =>    array(self::ALPHA_NUMERIC,    3,  30, false),
-        '710'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '711'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '712'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '8001'  =>    array(self::NUMERIC,          14, 14, false),
-        '8002'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '8003'  =>    array(self::ALPHA_NUMERIC,    15, 30, false),
-        '8004'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '8005'  =>    array(self::NUMERIC,          6,  6,  false),
-        '8006'  =>    array(self::NUMERIC,          18, 18, false),
-        '8007'  =>    array(self::ALPHA_NUMERIC,    1,  34, false),
-        '8008'  =>    array(self::NUMERIC,          8,  12, false),
-        '8010'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '8011'  =>    array(self::NUMERIC,          1,  12, false),
-        '8012'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '8017'  =>    array(self::NUMERIC,          18, 18, false),
-        '8018'  =>    array(self::NUMERIC,          18, 18, false),
-        '8019'  =>    array(self::NUMERIC,          1,  10, false),
-        '8020'  =>    array(self::ALPHA_NUMERIC,    1,  25, false),
-        '8110'  =>    array(self::ALPHA_NUMERIC,    1,  70, false),
-        '8111'  =>    array(self::NUMERIC,          4,  4,  false),
-        '8112'  =>    array(self::ALPHA_NUMERIC,    1,  70, false),
-        '8200'  =>    array(self::ALPHA_NUMERIC,    1,  70, false),
-        '90'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '91'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '92'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '93'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '94'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '95'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '96'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '97'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '98'    =>    array(self::ALPHA_NUMERIC,    1,  90, false),
-        '99'    =>    array(self::ALPHA_NUMERIC,    1,  90, false)
-        );
 
         $this->setStrictMode(true);
         $this->setTilde(true);
@@ -217,10 +54,10 @@ class BCGgs1128 extends BCGcode128
      * Gets the content checksum for an identifier.
      * Do not pass the identifier code.
      *
-     * @param string $content
-     * @return int
+     * @param string $content The content.
+     * @return int The checksum.
      */
-    public static function getAiContentChecksum($content)
+    public static function getAiContentChecksum(string $content): int
     {
         return self::calculateChecksumMod10($content);
     }
@@ -228,9 +65,10 @@ class BCGgs1128 extends BCGcode128
     /**
      * Enables or disables the strict mode.
      *
-     * @param bool $strictMode
+     * @param bool $strictMode Strict mode.
+     * @return void
      */
-    public function setStrictMode($strictMode)
+    public function setStrictMode(bool $strictMode): void
     {
         $this->strictMode = $strictMode;
     }
@@ -238,9 +76,9 @@ class BCGgs1128 extends BCGcode128
     /**
      * Gets if the strict mode is activated.
      *
-     * @return bool
+     * @return bool True if enabled.
      */
-    public function getStrictMode()
+    public function getStrictMode(): bool
     {
         return $this->strictMode;
     }
@@ -248,9 +86,10 @@ class BCGgs1128 extends BCGcode128
     /**
      * Allows unknown identifiers.
      *
-     * @param bool $allow
+     * @param bool $allow Allows the unknown identifier.
+     * @return void
      */
-    public function setAllowsUnknownIdentifier($allow)
+    public function setAllowsUnknownIdentifier(bool $allow): void
     {
         $this->allowsUnknownIdentifier = (bool)$allow;
     }
@@ -258,9 +97,9 @@ class BCGgs1128 extends BCGcode128
     /**
      * Gets if unkmown identifiers are allowed.
      *
-     * @return bool
+     * @return bool True if enabled.
      */
-    public function getAllowsUnknownIdentifier()
+    public function getAllowsUnknownIdentifier(): bool
     {
         return $this->allowsUnknownIdentifier;
     }
@@ -268,9 +107,10 @@ class BCGgs1128 extends BCGcode128
     /**
      * Removes the limit of 48 characters.
      *
-     * @param bool $noLengthLimit
+     * @param bool $noLengthLimit No limit.
+     * @return void
      */
-    public function setNoLengthLimit($noLengthLimit)
+    public function setNoLengthLimit(bool $noLengthLimit): void
     {
         $this->noLengthLimit = (bool)$noLengthLimit;
     }
@@ -278,90 +118,120 @@ class BCGgs1128 extends BCGcode128
     /**
      * Gets if the limit of 48 characters is removed.
      *
-     * @return bool
+     * @return bool True if enabled.
      */
-    public function getNoLengthLimit()
+    public function getNoLengthLimit(): bool
     {
         return $this->noLengthLimit;
     }
 
     /**
+     * Sets the list of application identifiers.
+     *
+     * @param AIData[] aiDatas Application identifiers.
+     * @return void
+     */
+    public function setApplicationIdentifiers(array $aiDatas): void
+    {
+        // Using array_column will convert the keys to integer.
+        $this->identifiersAi = array_column(array_map(function ($entry) {
+            return array(0 => $entry->getAI(), 1 => $entry);
+        }, $aiDatas), 1, 0);
+    }
+
+    /**
+     * Gets the list of application identifiers.
+     *
+     * @return AIData[] Application Identifiers.
+     */
+    public function getApplicationIdentifiers(): array
+    {
+        return array_values($this->identifiersAi);
+    }
+
+    /**
      * Parses Text.
      *
-     * @param string $text
+     * @param mixed $text The text.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
+        $this->identifiersId = array();
+        $this->identifiersContent = array();
         parent::parse($this->parseGs1128($text));
     }
 
     /**
      * Formats data for gs1-128.
      *
-     * @return string
+     * @return string Final formatted data.
      */
-    private function formatGs1128()
+    private function formatGs1128(): string
     {
-        $formatedText = '~F1';
-        $formatedLabel = '';
+        $formattedText = '~F1';
+        $formattedLabel = '';
         $c = count($this->identifiersId);
 
         for ($i = 0; $i < $c; $i++) {
             if ($i > 0) {
-                $formatedLabel .= ' ';
+                $formattedLabel .= ' ';
             }
 
             if ($this->identifiersId[$i] !== null) {
-                $formatedLabel .= '(' . $this->identifiersId[$i] . ')';
+                $formattedLabel .= '(' . $this->identifiersId[$i] . ')';
             }
 
-            $formatedText .= $this->identifiersId[$i];
+            $formattedText .= $this->identifiersId[$i];
 
-            $formatedLabel .= $this->identifiersContent[$i];
-            $formatedText .= $this->identifiersContent[$i];
+            $formattedLabel .= $this->identifiersContent[$i];
+            $formattedText .= $this->identifiersContent[$i];
 
             if (isset($this->identifiersAi[$this->identifiersId[$i]])) {
-                $ai_data = $this->identifiersAi[$this->identifiersId[$i]];
+                $aiData = $this->identifiersAi[$this->identifiersId[$i]];
             } elseif (isset($this->identifiersId[$i][3])) {
-                $identifierWithVar = substr($this->identifiersId[$i], 0, -1) . 'y';
-                $ai_data = isset($this->identifiersAi[$identifierWithVar]) ? $this->identifiersAi[$identifierWithVar] : null;
+                $identifierWithVar = substr((string) $this->identifiersId[$i], 0, -1) . 'y';
+                $aiData = isset($this->identifiersAi[$identifierWithVar]) ? $this->identifiersAi[$identifierWithVar] : null;
             } else {
-                $ai_data = null;
+                $aiData = null;
             }
 
             /* We'll check if we need to add a ~F1 (<GS>) char */
             /* If we use the legacy mode, we always add a ~F1 (<GS>) char between AIs */
-            if ($ai_data !== null) {
-                if ((strlen($this->identifiersContent[$i]) < $ai_data[self::MAXLENGTH] && ($i + 1) !== $c) || (!$this->strictMode && ($i + 1) !== $c)) {
-                    $formatedText .= '~F1';
+            if ($aiData !== null) {
+                if ((strlen((string) $this->identifiersContent[$i]) < $aiData->getMaxLength() && ($i + 1) !== $c) || (!$this->strictMode && ($i + 1) !== $c)) {
+                    $formattedText .= '~F1';
                 }
             } elseif ($this->allowsUnknownIdentifier && $this->identifiersId[$i] === null && ($i + 1) !== $c) {
                 /* If this id is unknown, we add a ~F1 (<GS>) char */
-                $formatedText .= '~F1';
+                $formattedText .= '~F1';
             }
         }
 
         if ($this->noLengthLimit === false) {
-            $calculableCharacters = str_replace('~F1', chr(29), $formatedText);
+            $calculableCharacters = str_replace('~F1', chr(29), $formattedText);
             $calculableCharacters = str_replace('(', '', $calculableCharacters);
             $calculableCharacters = str_replace(')', '', $calculableCharacters);
 
-            if (strlen($calculableCharacters) - 1 > self::MAX_GS1128_CHARS) {
+            if (strlen((string) $calculableCharacters) - 1 > self::MAX_GS1128_CHARS) {
                 throw new BCGParseException('gs1128', 'The barcode can\'t contain more than ' . self::MAX_GS1128_CHARS . ' characters.');
             }
         }
 
-        $this->label = $formatedLabel;
-        return $formatedText;
+        if ($this->label === self::AUTO_LABEL) {
+            $this->label = $formattedLabel;
+        }
+
+        return $formattedText;
     }
 
     /**
-     * Parses the text to gs1-128.
+     * Parses the inputs.
      *
-     * @param mixed $text
-     * @return mixed
+     * @param mixed $text The inputs.
+     * @return string Final formatted data.
      */
-    private function parseGs1128($text)
+    private function parseGs1128($text): ?string
     {
         /* We format correctly what the user gives */
         if (is_array($text)) {
@@ -392,7 +262,7 @@ class BCGgs1128 extends BCGcode128
         for ($cmpt = 0; $cmpt < $textCount; $cmpt++) {
             /* We parse the content of the array */
             if (!$this->parseContent($text[$cmpt])) {
-                return;
+                return null;
             }
         }
 
@@ -402,11 +272,10 @@ class BCGgs1128 extends BCGcode128
     /**
      * Splits the id and the content for each application identifiers (AIs).
      *
-     * @param string $text
-     * @param int $cmpt
-     * @return bool
+     * @param string $text The unformatted text.
+     * @return bool True on success.
      */
-    private function parseContent($text)
+    private function parseContent(string $text): bool
     {
         /* $yAlreadySet has 3 states: */
         /* null: There is no variable in the ID; true: the variable is already set; false: the variable is not set yet; */
@@ -417,14 +286,14 @@ class BCGgs1128 extends BCGcode128
         $checksumAdded = 0;
         $decimalPointRemoved = 0;
         $toParse = str_replace('~F1', chr(29), $text);
-        $nbCharToParse = strlen($toParse);
+        $nbCharToParse = strlen((string) $toParse);
         $nbCharId = 0;
-        $isFormated = $toParse[0] === '(' ? true : false;
-        $maxCharId = $isFormated ? self::MAX_ID_FORMATED : self::MAX_ID_NOT_FORMATED;
-        $id = strtolower(substr($toParse, 0, min($maxCharId, $nbCharToParse)));
-        $id = $isFormated ? $this->findIdFormated($id, $yAlreadySet, $realNameId) : $this->findIdNotFormated($id, $yAlreadySet, $realNameId);
+        $isFormatted = $toParse[0] === '(';
+        $maxCharId = $isFormatted ? self::MAX_ID_FORMATTED : self::MAX_ID_NOT_FORMATTED;
+        $id = strtolower(substr((string) $toParse, 0, min($maxCharId, $nbCharToParse)));
+        $id = $isFormatted ? $this->findIdFormatted($id, $yAlreadySet, $realNameId) : $this->findIdNotFormatted($id, $yAlreadySet, $realNameId);
 
-        if ($id === false) {
+        if ($id === null) {
             if ($this->allowsUnknownIdentifier === false) {
                 return false;
             }
@@ -433,20 +302,20 @@ class BCGgs1128 extends BCGcode128
             $nbCharId = 0;
             $content = $toParse;
         } else {
-            $nbCharId = strlen($id) + ($isFormated ? 2 : 0);
-            $n = min($this->identifiersAi[$realNameId][self::MAXLENGTH], $nbCharToParse);
-            $content = substr($toParse, $nbCharId, $n);
-        }
+            $nbCharId = strlen((string) $id) + ($isFormatted ? 2 : 0);
+            $n = min($this->identifiersAi[$realNameId]->getMaxLength(), $nbCharToParse);
+            $content = substr((string) $toParse, $nbCharId, $n);
 
-        if ($id !== null) {
-            /* If we have an AI with an "y" var, we check if there is a decimal point in the next *MAXLENGTH* characters */
-            /* if there is one, we take an extra character */
-            if ($yAlreadySet !== null) {
-                if (strpos($content, '.') !== false || strpos($content, ',') !== false) {
-                    $n++;
-                    if ($n <= $nbCharToParse) {
-                        /* We take an extra char */
-                        $content = substr($toParse, $nbCharId, $n);
+            if ($id !== null) {
+                /* If we have an AI with an "y" var, we check if there is a decimal point in the next *MAXLENGTH* characters */
+                /* if there is one, we take an extra character */
+                if ($yAlreadySet !== null) {
+                    if (strpos($content, '.') !== false || strpos($content, ',') !== false) {
+                        $n++;
+                        if ($n <= $nbCharToParse) {
+                            /* We take an extra char */
+                            $content = substr((string) $toParse, $nbCharId, $n);
+                        }
                     }
                 }
             }
@@ -455,7 +324,7 @@ class BCGgs1128 extends BCGcode128
         /* We check for separator */
         $separator = strpos($content, chr(29));
         if ($separator !== false) {
-            $content = substr($content, 0, $separator);
+            $content = substr((string) $content, 0, $separator);
             $separatorsFound++;
         }
 
@@ -479,14 +348,14 @@ class BCGgs1128 extends BCGcode128
         $this->identifiersId[] = $id;
         $this->identifiersContent[] = $content;
 
-        $nbCharLastContent = (((strlen($content) + $nbCharId) - $checksumAdded) + $decimalPointRemoved) + $separatorsFound;
+        $nbCharLastContent = (((strlen((string) $content) + $nbCharId) - $checksumAdded) + $decimalPointRemoved) + $separatorsFound;
         if ($nbCharToParse - $nbCharLastContent > 0) {
             /* If there is more than one content in this array, we parse again */
-            $otherContent = substr($toParse, $nbCharLastContent, $nbCharToParse);
-            $nbCharOtherContent = strlen($otherContent);
+            $otherContent = substr((string) $toParse, $nbCharLastContent, $nbCharToParse);
+            $nbCharOtherContent = strlen((string) $otherContent);
 
             if ($otherContent[0] === chr(29)) {
-                $otherContent = substr($otherContent, 1);
+                $otherContent = substr((string) $otherContent, 1);
                 $nbCharOtherContent--;
             }
 
@@ -502,42 +371,44 @@ class BCGgs1128 extends BCGcode128
     /**
      * Checks if an id exists.
      *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     * @return bool
+     * @param string $id The AI.
+     * @param bool|null $yAlreadySet Y Status.
+     * @param string|null $realNameId The real AI.
+     * @return bool True if the AI exists.
      */
-    private function idExists($id, &$yAlreadySet, &$realNameId)
+    private function idExists(string $id, ?bool &$yAlreadySet, ?string &$realNameId): bool
     {
         $yFound = isset($id[3]) && $id[3] === 'y';
-        $idVarAdded = substr($id, 0, -1) . 'y';
+        $idVarAdded = substr((string) $id, 0, -1) . 'y';
 
-        if (isset($this->identifiersAi[$id])) {
-            if ($yFound) {
-                $yAlreadySet = false;
+        if ($this->identifiersAi !== null) {
+            if (isset($this->identifiersAi[$id])) {
+                if ($yFound) {
+                    $yAlreadySet = false;
+                }
+
+                $realNameId = $id;
+                return true;
+            } elseif (!$yFound && isset($this->identifiersAi[$idVarAdded])) {
+                /* if the id don't exist, we try to find this id with "y" at the last char */
+                $yAlreadySet = true;
+                $realNameId = $idVarAdded;
+                return true;
             }
-
-            $realNameId = $id;
-            return true;
-        } elseif (!$yFound && isset($this->identifiersAi[$idVarAdded])) {
-            /* if the id don't exist, we try to find this id with "y" at the last char */
-            $yAlreadySet = true;
-            $realNameId = $idVarAdded;
-            return true;
         }
 
         return false;
     }
 
     /**
-     * Finds ID with formated content.
+     * Finds ID with formatted content.
      *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     * @return mixed
+     * @param string $id The AI.
+     * @param bool|null $yAlreadySet Y Status.
+     * @param string|null $realNameId The real AI.
+     * @return string|null The ID if found.
      */
-    private function findIdFormated($id, &$yAlreadySet, &$realNameId)
+    private function findIdFormatted(string $id, ?bool &$yAlreadySet, ?string &$realNameId): ?string
     {
         $pos = strpos($id, ')');
         if ($pos === false) {
@@ -547,80 +418,110 @@ class BCGgs1128 extends BCGcode128
                 throw new BCGParseException('gs1128', 'Identifiers must have at least 2 characters.');
             }
 
-            $id = substr($id, 1, $pos - 1);
+            $id = substr((string) $id, 1, $pos - 1);
             if ($this->idExists($id, $yAlreadySet, $realNameId)) {
                 return $id;
             }
 
             if ($this->allowsUnknownIdentifier === false) {
-                throw new BCGParseException('gs1128', 'The identifier ' . $id . ' doesn\'t exist.');
+                throw new BCGParseException('gs1128', 'The identifier ' . $id . ' doesn\'t exist. Have you installed the default AI with "setApplicationIdentifiers()"? Or allow unknown identifiers with "setAllowsUnknownIdentifier(true)".');
             }
 
-            return false;
+            return null;
         }
     }
 
     /**
-     * Finds ID with non-formated content.
+     * Finds ID with non-formatted content.
      *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     * @return mixed
+     * @param string $id The AI.
+     * @param bool|null $yAlreadySet Y Status.
+     * @param string|null $realNameId The real AI.
+     * @return string|null The ID if found.
      */
-    private function findIdNotFormated($id, &$yAlreadySet, &$realNameId)
+    private function findIdNotFormatted(string $id, ?bool &$yAlreadySet, ?string &$realNameId): ?string
     {
         $tofind = $id;
 
-        while (strlen($tofind) >= 2) {
+        while (strlen((string) $tofind) >= 2) {
             if ($this->idExists($tofind, $yAlreadySet, $realNameId)) {
                 return $tofind;
             } else {
-                $tofind = substr($tofind, 0, -1);
+                $tofind = substr((string) $tofind, 0, -1);
             }
         }
 
         if ($this->allowsUnknownIdentifier === false) {
-            throw new BCGParseException('gs1128', 'Error in formatting, can\'t find an identifier.');
+            throw new BCGParseException('gs1128', 'Error in formatting, can\'t find an identifier. Have you installed the default AI with "setApplicationIdentifiers()"? Or allow unknown identifiers with "setAllowsUnknownIdentifier(true)".');
         }
 
-        return false;
+        return null;
     }
 
     /**
      * Checks confirmity of the content.
      *
-     * @param string $content
-     * @param string $id
-     * @param string $realNameId
-     * @return bool
+     * @param string $content The content.
+     * @param string $id The AI.
+     * @param string|null $realNameId The real AI.
+     * @return bool True if valid.
      */
-    private function checkConformity(&$content, $id, $realNameId)
+    private function checkConformity(string &$content, string $id, ?string $realNameId): bool
     {
-        switch ($this->identifiersAi[$realNameId][self::KIND_OF_DATA]) {
-            case self::NUMERIC:
+        switch ($this->identifiersAi[$realNameId]->getKindOfData()) {
+            case KindOfData::NUMERIC:
                 $content = str_replace(',', '.', $content);
                 if (!preg_match("/^[0-9.]+$/", $content)) {
                     throw new BCGParseException('gs1128', 'The value of "' . $id . '" must be numerical.');
                 }
 
                 break;
-            case self::DATE_YYMMDD:
-                $valid_date = true;
-                if (preg_match("/^[0-9]{6}$/", $content)) {
-                    $year = substr($content, 0, 2);
-                    $month = substr($content, 2, 2);
-                    $day = substr($content, 4, 2);
+            case KindOfData::DATETIME:
+                $validDateTime = true;
+                if (preg_match("/^[0-9]{8,12}$/", $content)) {
+                    $year = substr((string) $content, 0, 2);
+                    $month = substr((string) $content, 2, 2);
+                    $day = substr((string) $content, 4, 2);
+                    $hour = substr(content, 6, 2);
+                    $minute = strlen(content) >= 10 ? substr(content, 8, 2) : null;
+                    $second = strlen(content) >= 12 ? substr(content, 10, 2) : null;
 
                     /* day can be 00 if we only need month and year */
-                    if (intval($month) < 1 || intval($month) > 12 || intval($day) < 0 || intval($day) > 31) {
-                        $valid_date = false;
+                    if (intval($month) < 1
+                        || intval($month) > 12
+                        || intval($day) < 0
+                        || intval($day) > 31
+                        || intval(hour) > 23
+                        || (minute !== null && intval(minute) > 59)
+                        || (second !== null && intval(second) > 59)
+                    ) {
+                        $validDateTime = false;
                     }
                 } else {
-                    $valid_date = false;
+                    $validDateTime = false;
                 }
 
-                if (!$valid_date) {
+                if (!$validDateTime) {
+                    throw new BCGParseException('gs1128', 'The value of "' . $id . '" must be in YYMMDDHHMMSS format. Some AI might not allow seconds.');
+                }
+
+                break;
+            case KindOfData::DATE:
+                $validDate = true;
+                if (preg_match("/^[0-9]{6}$/", $content)) {
+                    $year = substr((string) $content, 0, 2);
+                    $month = substr((string) $content, 2, 2);
+                    $day = substr((string) $content, 4, 2);
+
+                    /* day can be 00 if we only need month and year */
+                    if (intval($month) < 1 || intval($month) > 12 || intval($day) > 31) {
+                        $validDate = false;
+                    }
+                } else {
+                    $validDate = false;
+                }
+
+                if (!$validDate) {
                     throw new BCGParseException('gs1128', 'The value of "' . $id . '" must be in YYMMDD format.');
                 }
 
@@ -628,12 +529,12 @@ class BCGgs1128 extends BCGcode128
         }
 
         // We check the length of the content
-        $nbCharContent = strlen($content);
+        $nbCharContent = strlen((string) $content);
         $checksumChar = 0;
-        $minlengthContent = $this->identifiersAi[$realNameId][self::MINLENGTH];
-        $maxlengthContent = $this->identifiersAi[$realNameId][self::MAXLENGTH];
+        $minlengthContent = $this->identifiersAi[$realNameId]->getMinLength();
+        $maxlengthContent = $this->identifiersAi[$realNameId]->getMaxLength();
 
-        if ($this->identifiersAi[$realNameId][self::CHECKSUM]) {
+        if ($this->identifiersAi[$realNameId]->getChecksum()) {
             $checksumChar++;
         }
 
@@ -651,24 +552,24 @@ class BCGgs1128 extends BCGcode128
     /**
      * Verifies the checksum.
      *
-     * @param string $content
-     * @param string $id
-     * @param int $realNameId
-     * @param int $checksumAdded
-     * @return bool
+     * @param string $content The content.
+     * @param string $id The AI.
+     * @param string|null $realNameId The real AI.
+     * @param int $checksumAdded The checksum was added.
+     * @return bool True if valid.
      */
-    private function checkChecksum(&$content, $id, $realNameId, &$checksumAdded)
+    private function checkChecksum(string &$content, string $id, ?string $realNameId, int &$checksumAdded): bool
     {
-        if ($this->identifiersAi[$realNameId][self::CHECKSUM]) {
-            $nbCharContent = strlen($content);
-            $minlengthContent = $this->identifiersAi[$realNameId][self::MINLENGTH];
+        if ($this->identifiersAi[$realNameId]->getChecksum()) {
+            $nbCharContent = strlen((string) $content);
+            $minlengthContent = $this->identifiersAi[$realNameId]->getMinLength();
             if ($nbCharContent === ($minlengthContent - 1)) {
                 /* we need to calculate the checksum */
                 $content .= self::getAiContentChecksum($content);
                 $checksumAdded++;
             } elseif ($nbCharContent === $minlengthContent) {
                 /* we need to check the checksum */
-                $checksum = self::getAiContentChecksum(substr($content, 0, -1));
+                $checksum = self::getAiContentChecksum(substr((string) $content, 0, -1));
                 if (intval($content[$nbCharContent - 1]) !== $checksum) {
                     throw new BCGParseException('gs1128', 'The checksum of "(' . $id . ') ' . $content . '" must be: ' . $checksum);
                 }
@@ -681,15 +582,15 @@ class BCGgs1128 extends BCGcode128
     /**
      * Checks vars "y".
      *
-     * @param string $content
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param int $decimalPointRemoved
-     * @return bool
+     * @param string $content The content.
+     * @param string $id The AI.
+     * @param bool|null $yAlreadySet Y Status.
+     * @param int $decimalPointRemoved The decimal point was removed.
+     * @return bool True if valid.
      */
-    private function checkVars(&$content, &$id, $yAlreadySet, &$decimalPointRemoved)
+    private function checkVars(string &$content, string &$id, ?bool $yAlreadySet, int &$decimalPointRemoved): bool
     {
-        $nbCharContent = strlen($content);
+        $nbCharContent = strlen((string) $content);
         /* We check for "y" var in AI */
         if ($yAlreadySet) {
             /* We'll check if we have a decimal point */
@@ -703,7 +604,7 @@ class BCGgs1128 extends BCGcode128
                 $pos = $nbCharContent - 1;
             }
 
-            $id = str_replace('y', $nbCharContent - ($pos + 1), strtolower($id));
+            $id = str_replace('y', $nbCharContent - ($pos + 1), strtolower((string) $id));
             $content = str_replace('.', '', $content);
             $decimalPointRemoved++;
         }
@@ -714,10 +615,10 @@ class BCGgs1128 extends BCGcode128
     /**
      * Checksum Mod10.
      *
-     * @param int $content
-     * @return int
+     * @param string $content The content.
+     * @return int The checksum.
      */
-    private static function calculateChecksumMod10($content)
+    private static function calculateChecksumMod10(string $content): int
     {
         // Calculating Checksum
         // Consider the right-most digit of the message to be in an "odd" position,
@@ -727,7 +628,7 @@ class BCGgs1128 extends BCGcode128
         // Add all of that and do 10-(?mod10)
         $odd = true;
         $checksumValue = 0;
-        $c = strlen($content);
+        $c = strlen((string) $content);
 
         for ($i = $c; $i > 0; $i--) {
             if ($odd === true) {

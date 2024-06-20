@@ -17,12 +17,12 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGcode39 extends BCGBarcode1D
 {
-    protected $starting;
-    protected $ending;
-    protected $checksum;
+    protected int $starting;
+    protected int $ending;
+    protected bool $checksum;
 
     /**
-     * Constructor.
+     * Creates a Code 39 barcode.
      */
     public function __construct()
     {
@@ -83,9 +83,10 @@ class BCGcode39 extends BCGBarcode1D
     /**
      * Sets if we display the checksum.
      *
-     * @param bool $checksum
+     * @param bool $checksum Displays the checksum.
+     * @return void
      */
-    public function setChecksum($checksum)
+    public function setChecksum(bool $checksum): void
     {
         $this->checksum = (bool)$checksum;
     }
@@ -93,50 +94,52 @@ class BCGcode39 extends BCGBarcode1D
     /**
      * Parses the text before displaying it.
      *
-     * @param mixed $text
+     * @param string $text The text.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
-        parent::parse(strtoupper($text));    // Only Capital Letters are Allowed
+        parent::parse(strtoupper((string) $text));    // Only Capital Letters are Allowed
     }
 
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         // Starting *
-        $this->drawChar($im, $this->code[$this->starting], true);
+        $this->drawChar($image, $this->code[$this->starting], true);
 
         // Chars
-        $c =  strlen($this->text);
+        $c =  strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($this->text[$i]), true);
+            $this->drawChar($image, $this->findCode($this->text[$i]), true);
         }
 
         // Checksum (rarely used)
         if ($this->checksum === true) {
             $this->calculateChecksum();
-            $this->drawChar($im, $this->code[$this->checksumValue % 43], true);
+            $this->drawChar($image, $this->code[$this->checksumValue[0] % 43], true);
         }
 
         // Ending *
-        $this->drawChar($im, $this->code[$this->ending], true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, $this->code[$this->ending], true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $textlength = 13 * strlen($this->text);
+        $textlength = 13 * strlen((string) $this->text);
         $startlength = 13;
         $checksumlength = 0;
         if ($this->checksum === true) {
@@ -145,17 +148,19 @@ class BCGcode39 extends BCGBarcode1D
 
         $endlength = 13;
 
-        $w += $startlength + $textlength + $checksumlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('code39', 'No data has been entered.');
         }
@@ -176,31 +181,35 @@ class BCGcode39 extends BCGBarcode1D
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
-        $this->checksumValue = 0;
-        $c = strlen($this->text);
+        $this->checksumValue = array(0);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
-            $this->checksumValue += $this->findIndex($this->text[$i]);
+            $this->checksumValue[0] += $this->findIndex($this->text[$i]);
         }
 
-        $this->checksumValue = $this->checksumValue % 43;
+        $this->checksumValue[0] = $this->checksumValue[0] % 43;
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
-            return $this->keys[$this->checksumValue];
+        if ($this->checksumValue !== null) {
+            return $this->keys[$this->checksumValue[0]];
         }
 
-        return false;
+        return null;
     }
 }

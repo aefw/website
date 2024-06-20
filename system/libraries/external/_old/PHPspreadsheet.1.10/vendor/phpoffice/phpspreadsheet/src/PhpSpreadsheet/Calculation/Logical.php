@@ -49,7 +49,7 @@ class Logical
             } elseif ((is_numeric($arg)) && (!is_string($arg))) {
                 $returnValue += ((int) $arg != 0);
             } elseif (is_string($arg)) {
-                $arg = strtoupper($arg);
+                $arg = strtoupper((string) $arg);
                 if (($arg == 'TRUE') || ($arg == Calculation::getTRUE())) {
                     $arg = true;
                 } elseif (($arg == 'FALSE') || ($arg == Calculation::getFALSE())) {
@@ -95,7 +95,7 @@ class Logical
         }
 
         $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
+            return $value !== null || (is_string($value) && trim((string) $value) == '');
         });
         $argCount = count($args);
 
@@ -138,7 +138,7 @@ class Logical
         }
 
         $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
+            return $value !== null || (is_string($value) && trim((string) $value) == '');
         });
 
         $returnValue = self::countTrueValues($args);
@@ -181,7 +181,7 @@ class Logical
         }
 
         $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
+            return $value !== null || (is_string($value) && trim((string) $value) == '');
         });
 
         $returnValue = self::countTrueValues($args);
@@ -218,7 +218,7 @@ class Logical
         $logical = Functions::flattenSingleValue($logical);
 
         if (is_string($logical)) {
-            $logical = strtoupper($logical);
+            $logical = strtoupper((string) $logical);
             if (($logical == 'TRUE') || ($logical == Calculation::getTRUE())) {
                 return false;
             } elseif (($logical == 'FALSE') || ($logical == Calculation::getFALSE())) {

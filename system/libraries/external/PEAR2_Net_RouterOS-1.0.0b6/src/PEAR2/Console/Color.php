@@ -361,7 +361,7 @@ class Color
                 ) . ';';
             }
 
-            $this->sequence = rtrim($seq, ';') . 'm';
+            $this->sequence = rtrim((string) $seq, ';') . 'm';
         }
 
         return $this->sequence;

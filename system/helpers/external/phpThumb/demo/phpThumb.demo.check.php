@@ -151,7 +151,7 @@ echo '<td>DO NOT DISABLE THIS ON ANY PUBLIC-ACCESSIBLE SERVER. If disabled, your
 
 echo '<tr><th>phpThumb.config.php<br>[high_security_password]</th>';
 $password_complexity = phpthumb_functions::PasswordStrength($PHPTHUMB_CONFIG['high_security_password']);
-echo '<th colspan="2" style="background-color: '.(($password_complexity >= 20) ? 'lime' : ((strlen($PHPTHUMB_CONFIG['high_security_password']) > 0) ? 'orange' : 'red')).'">'.(($password_complexity >= 20) ? 'sufficiently complex' : ((strlen($PHPTHUMB_CONFIG['high_security_password']) > 0) ? 'not complex enough' : 'not set')).'</th>';
+echo '<th colspan="2" style="background-color: '.(($password_complexity >= 20) ? 'lime' : ((strlen((string) $PHPTHUMB_CONFIG['high_security_password']) > 0) ? 'orange' : 'red')).'">'.(($password_complexity >= 20) ? 'sufficiently complex' : ((strlen((string) $PHPTHUMB_CONFIG['high_security_password']) > 0) ? 'not complex enough' : 'not set')).'</th>';
 echo '<td>DO NOT DISABLE THIS ON ANY PUBLIC-ACCESSIBLE SERVER. If disabled, your server is more vulnerable to hacking attempts, both on your server and via your server to other servers. When enabled, requires "high_security_password" set to be set and requires the use of phpThumbURL() function (at the bottom of phpThumb.config.php) to generate hashed URLs.</td></tr>';
 
 
@@ -422,7 +422,7 @@ $FunctionsExist = array(
 foreach ($FunctionsExist as $function => $details) {
 	list($color, $description) = $details;
 	echo '<tr><th>'.$function.'</th><th colspan="2" style="background-color: ';
-	if (function_exists(strtolower($function))) {
+	if (function_exists(strtolower((string) $function))) {
 		echo 'lime;">TRUE';
 	} else {
 		echo $color.';">FALSE';
@@ -497,10 +497,10 @@ echo ';">'.($memory_limit ?: '<i>unlimited</i>').'</th><th style="background-col
 $memory_limit_bytes = 0;
 if ($memory_limit = @ini_get('memory_limit')) {
 	$memory_limit_bytes = intval($memory_limit);
-	if (strtoupper(substr($memory_limit, -1, 1)) == 'M') {
-		$memory_limit_bytes = substr($memory_limit, 0, -1) * 1024 * 1024;
-	} elseif (strtoupper(substr($memory_limit, -1, 1)) == 'G') {
-		$memory_limit_bytes = substr($memory_limit, 0, -1) * 1024 * 1024 * 1024;
+	if (strtoupper(substr((string) $memory_limit, -1, 1)) == 'M') {
+		$memory_limit_bytes = substr((string) $memory_limit, 0, -1) * 1024 * 1024;
+	} elseif (strtoupper(substr((string) $memory_limit, -1, 1)) == 'G') {
+		$memory_limit_bytes = substr((string) $memory_limit, 0, -1) * 1024 * 1024 * 1024;
 	}
 }
 if (!$memory_limit) {

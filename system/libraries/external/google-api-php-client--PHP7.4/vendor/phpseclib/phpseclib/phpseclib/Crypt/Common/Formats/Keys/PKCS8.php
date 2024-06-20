@@ -148,7 +148,7 @@ abstract class PKCS8 extends PKCS
     {
         $algo = preg_match('#^pbeWith(?:MD2|MD5|SHA1|SHA)And(.*?)-CBC$#', $algo, $matches) ?
             $matches[1] :
-            substr($algo, 13); // strlen('pbeWithSHAAnd') == 13
+            substr((string) $algo, 13); // strlen('pbeWithSHAAnd') == 13
 
         switch ($algo) {
             case 'DES':
@@ -252,7 +252,7 @@ abstract class PKCS8 extends PKCS
             case 'aes192-CBC-PAD':
             case 'aes256-CBC-PAD':
                 $cipher = new AES('cbc');
-                $cipher->setKeyLength(substr($algo, 3, 3));
+                $cipher->setKeyLength(substr((string) $algo, 3, 3));
                 break;
             default:
                 throw new UnsupportedAlgorithmException("$algo is not supported");
@@ -337,7 +337,7 @@ abstract class PKCS8 extends PKCS
         $meta = [];
 
         $decrypted = ASN1::asn1map($decoded[0], Maps\EncryptedPrivateKeyInfo::MAP);
-        if (strlen($password) && is_array($decrypted)) {
+        if (strlen((string) $password) && is_array($decrypted)) {
             $algorithm = $decrypted['encryptionAlgorithm']['algorithm'];
             switch ($algorithm) {
                 // PBES1
@@ -414,7 +414,7 @@ abstract class PKCS8 extends PKCS
                             $params = ASN1::asn1map($temp[0], Maps\PBKDF2params::MAP);
                             extract($params);
                             $meta['meta']['prf'] = $prf['algorithm'];
-                            $hash = str_replace('-', '/', substr($prf['algorithm'], 11));
+                            $hash = str_replace('-', '/', substr((string) $prf['algorithm'], 11));
                             $params = [
                                 $password,
                                 'pbkdf2',
@@ -449,7 +449,7 @@ abstract class PKCS8 extends PKCS
         if (is_array($private)) {
             if (isset($private['privateKeyAlgorithm']['parameters']) && !$private['privateKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][1]['content'][1])) {
                 $temp = $decoded[0]['content'][1]['content'][1];
-                $private['privateKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
+                $private['privateKeyAlgorithm']['parameters'] = new ASN1\Element(substr((string) $key, $temp['start'], $temp['length']));
             }
             if (is_array(static::OID_NAME)) {
                 if (!in_array($private['privateKeyAlgorithm']['algorithm'], static::OID_NAME)) {
@@ -464,7 +464,7 @@ abstract class PKCS8 extends PKCS
                 if ($private['publicKey'][0] != "\0") {
                     throw new \UnexpectedValueException('The first byte of the public key should be null - not ' . bin2hex($private['publicKey'][0]));
                 }
-                $private['publicKey'] = substr($private['publicKey'], 1);
+                $private['publicKey'] = substr((string) $private['publicKey'], 1);
             }
             return $private + $meta;
         }
@@ -490,9 +490,9 @@ abstract class PKCS8 extends PKCS
             }
             if (isset($public['publicKeyAlgorithm']['parameters']) && !$public['publicKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][0]['content'][1])) {
                 $temp = $decoded[0]['content'][0]['content'][1];
-                $public['publicKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
+                $public['publicKeyAlgorithm']['parameters'] = new ASN1\Element(substr((string) $key, $temp['start'], $temp['length']));
             }
-            $public['publicKey'] = substr($public['publicKey'], 1);
+            $public['publicKey'] = substr((string) $public['publicKey'], 1);
             return $public;
         }
 
@@ -542,7 +542,7 @@ abstract class PKCS8 extends PKCS
 
             if ($encryptionAlgorithm == 'id-PBES2') {
                 $crypto = self::getPBES2EncryptionObject($encryptionScheme);
-                $hash = str_replace('-', '/', substr($prf, 11));
+                $hash = str_replace('-', '/', substr((string) $prf, 11));
                 $kdf = 'pbkdf2';
                 $iv = Random::string($crypto->getBlockLength() >> 3);
 

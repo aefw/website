@@ -231,7 +231,7 @@ class Montgomery extends Base
 
         $b = $d->toBits();
         $b = str_pad($b, 256, '0', STR_PAD_LEFT);
-        for ($i = 0; $i < strlen($b); $i++) {
+        for ($i = 0; $i < strlen((string) $b); $i++) {
             $b_i = (int) $b[$i];
             if ($b_i) {
                 list($p2, $p1) = $this->doubleAndAddPoint($p2, $p1, $x);

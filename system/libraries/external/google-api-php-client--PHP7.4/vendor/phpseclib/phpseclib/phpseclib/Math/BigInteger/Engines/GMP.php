@@ -176,7 +176,7 @@ class GMP extends Engine
         $bits = gmp_strval(gmp_init($hex, 16), 2);
 
         if ($this->precision > 0) {
-            $bits = substr($bits, -$this->precision);
+            $bits = substr((string) $bits, -$this->precision);
         }
 
         if ($twos_compliment && $this->compare(new static()) > 0 && $this->precision <= 0) {
@@ -206,7 +206,7 @@ class GMP extends Engine
 
         return $this->precision > 0 ?
             substr(str_pad($temp, $this->precision >> 3, chr(0), STR_PAD_LEFT), -($this->precision >> 3)) :
-            ltrim($temp, chr(0));
+            ltrim((string) $temp, chr(0));
     }
 
     /**

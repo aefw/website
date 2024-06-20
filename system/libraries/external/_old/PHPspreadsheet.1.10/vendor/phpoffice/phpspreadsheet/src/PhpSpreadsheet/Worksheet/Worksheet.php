@@ -1192,7 +1192,7 @@ class Worksheet implements IComparable
     public function getCell($pCoordinate, $createIfNotExists = true)
     {
         // Uppercase coordinate
-        $pCoordinateUpper = strtoupper($pCoordinate);
+        $pCoordinateUpper = strtoupper((string) $pCoordinate);
 
         // Check cell collection
         if ($this->cellCollection->has($pCoordinateUpper)) {
@@ -1203,7 +1203,7 @@ class Worksheet implements IComparable
         if (strpos($pCoordinate, '!') !== false) {
             $worksheetReference = self::extractSheetTitle($pCoordinate, true);
 
-            return $this->parent->getSheetByName($worksheetReference[0])->getCell(strtoupper($worksheetReference[1]), $createIfNotExists);
+            return $this->parent->getSheetByName($worksheetReference[0])->getCell(strtoupper((string) $worksheetReference[1]), $createIfNotExists);
         }
 
         // Named range?
@@ -1303,7 +1303,7 @@ class Worksheet implements IComparable
         if (strpos($pCoordinate, '!') !== false) {
             $worksheetReference = self::extractSheetTitle($pCoordinate, true);
 
-            return $this->parent->getSheetByName($worksheetReference[0])->cellExists(strtoupper($worksheetReference[1]));
+            return $this->parent->getSheetByName($worksheetReference[0])->cellExists(strtoupper((string) $worksheetReference[1]));
         }
 
         // Named range?
@@ -1325,7 +1325,7 @@ class Worksheet implements IComparable
         }
 
         // Uppercase coordinate
-        $pCoordinate = strtoupper($pCoordinate);
+        $pCoordinate = strtoupper((string) $pCoordinate);
 
         if (Coordinate::coordinateIsRange($pCoordinate)) {
             throw new Exception('Cell coordinate can not be a range of cells.');
@@ -1387,7 +1387,7 @@ class Worksheet implements IComparable
     public function getColumnDimension($pColumn, $create = true)
     {
         // Uppercase coordinate
-        $pColumn = strtoupper($pColumn);
+        $pColumn = strtoupper((string) $pColumn);
 
         // Fetch dimensions
         if (!isset($this->columnDimensions[$pColumn])) {
@@ -1455,7 +1455,7 @@ class Worksheet implements IComparable
      */
     public function getConditionalStyles($pCoordinate)
     {
-        $pCoordinate = strtoupper($pCoordinate);
+        $pCoordinate = strtoupper((string) $pCoordinate);
         if (!isset($this->conditionalStylesCollection[$pCoordinate])) {
             $this->conditionalStylesCollection[$pCoordinate] = [];
         }
@@ -1472,7 +1472,7 @@ class Worksheet implements IComparable
      */
     public function conditionalStylesExists($pCoordinate)
     {
-        return isset($this->conditionalStylesCollection[strtoupper($pCoordinate)]);
+        return isset($this->conditionalStylesCollection[strtoupper((string) $pCoordinate)]);
     }
 
     /**
@@ -1484,7 +1484,7 @@ class Worksheet implements IComparable
      */
     public function removeConditionalStyles($pCoordinate)
     {
-        unset($this->conditionalStylesCollection[strtoupper($pCoordinate)]);
+        unset($this->conditionalStylesCollection[strtoupper((string) $pCoordinate)]);
 
         return $this;
     }
@@ -1509,7 +1509,7 @@ class Worksheet implements IComparable
      */
     public function setConditionalStyles($pCoordinate, $pValue)
     {
-        $this->conditionalStylesCollection[strtoupper($pCoordinate)] = $pValue;
+        $this->conditionalStylesCollection[strtoupper((string) $pCoordinate)] = $pValue;
 
         return $this;
     }
@@ -1633,7 +1633,7 @@ class Worksheet implements IComparable
     public function setBreak($pCoordinate, $pBreak)
     {
         // Uppercase coordinate
-        $pCoordinate = strtoupper($pCoordinate);
+        $pCoordinate = strtoupper((string) $pCoordinate);
 
         if ($pCoordinate != '') {
             if ($pBreak == self::BREAK_NONE) {
@@ -1686,7 +1686,7 @@ class Worksheet implements IComparable
     public function mergeCells($pRange)
     {
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         if (strpos($pRange, ':') !== false) {
             $this->mergeCells[$pRange] = $pRange;
@@ -1747,7 +1747,7 @@ class Worksheet implements IComparable
     public function unmergeCells($pRange)
     {
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         if (strpos($pRange, ':') !== false) {
             if (isset($this->mergeCells[$pRange])) {
@@ -1818,7 +1818,7 @@ class Worksheet implements IComparable
     public function protectCells($pRange, $pPassword, $pAlreadyHashed = false)
     {
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         if (!$pAlreadyHashed) {
             $pPassword = Shared\PasswordHasher::hashPassword($pPassword);
@@ -1859,7 +1859,7 @@ class Worksheet implements IComparable
     public function unprotectCells($pRange)
     {
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         if (isset($this->protectedCells[$pRange])) {
             unset($this->protectedCells[$pRange]);
@@ -2348,7 +2348,7 @@ class Worksheet implements IComparable
     public function getComment($pCellCoordinate)
     {
         // Uppercase coordinate
-        $pCellCoordinate = strtoupper($pCellCoordinate);
+        $pCellCoordinate = strtoupper((string) $pCellCoordinate);
 
         if (Coordinate::coordinateIsRange($pCellCoordinate)) {
             throw new Exception('Cell coordinate string can not be a range of cells.');
@@ -2425,7 +2425,7 @@ class Worksheet implements IComparable
     public function setSelectedCells($pCoordinate)
     {
         // Uppercase coordinate
-        $pCoordinate = strtoupper($pCoordinate);
+        $pCoordinate = strtoupper((string) $pCoordinate);
 
         // Convert 'A' to 'A:A'
         $pCoordinate = preg_replace('/^([A-Z]+)$/', '${1}:${1}', $pCoordinate);
@@ -2752,10 +2752,10 @@ class Worksheet implements IComparable
         }
 
         if ($returnRange) {
-            return [substr($pRange, 0, $sep), substr($pRange, $sep + 1)];
+            return [substr((string) $pRange, 0, $sep), substr((string) $pRange, $sep + 1)];
         }
 
-        return substr($pRange, $sep + 1);
+        return substr((string) $pRange, $sep + 1);
     }
 
     /**

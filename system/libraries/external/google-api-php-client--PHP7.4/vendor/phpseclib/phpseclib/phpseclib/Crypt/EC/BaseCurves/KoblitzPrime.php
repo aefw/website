@@ -74,7 +74,7 @@ class KoblitzPrime extends Prime
                 $inv->subtract($s)
             ];
             $this->beta = $betas[0]->compare($betas[1]) < 0 ? $betas[0] : $betas[1];
-            //echo strtoupper($this->beta->toHex(true)) . "\n"; exit;
+            //echo strtoupper((string) $this->beta->toHex(true)) . "\n"; exit;
         }
 
         if (!isset($this->basis)) {
@@ -98,8 +98,8 @@ class KoblitzPrime extends Prime
             $this->basis = static::extendedGCD($lambda->toBigInteger(), $this->order);
             ///*
             foreach ($this->basis as $basis) {
-                echo strtoupper($basis['a']->toHex(true)) . "\n";
-                echo strtoupper($basis['b']->toHex(true)) . "\n\n";
+                echo strtoupper((string) $basis['a']->toHex(true)) . "\n";
+                echo strtoupper((string) $basis['b']->toHex(true)) . "\n\n";
             }
             exit;
             //*/

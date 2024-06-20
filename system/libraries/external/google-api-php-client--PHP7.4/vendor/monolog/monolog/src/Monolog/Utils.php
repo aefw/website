@@ -28,7 +28,7 @@ final class Utils
             return mb_strcut($string, $start, $length);
         }
 
-        return substr($string, $start, (null === $length) ? strlen($string) : $length);
+        return substr((string) $string, $start, (null === $length) ? strlen((string) $string) : $length);
     }
 
     /**
@@ -39,8 +39,8 @@ final class Utils
     public static function canonicalizePath(string $streamUrl): string
     {
         $prefix = '';
-        if ('file://' === substr($streamUrl, 0, 7)) {
-            $streamUrl = substr($streamUrl, 7);
+        if ('file://' === substr((string) $streamUrl, 0, 7)) {
+            $streamUrl = substr((string) $streamUrl, 7);
             $prefix = 'file://';
         }
 
@@ -50,7 +50,7 @@ final class Utils
         }
 
         // already absolute
-        if (substr($streamUrl, 0, 1) === '/' || substr($streamUrl, 1, 1) === ':' || substr($streamUrl, 0, 2) === '\\\\') {
+        if (substr((string) $streamUrl, 0, 1) === '/' || substr((string) $streamUrl, 1, 1) === ':' || substr((string) $streamUrl, 0, 2) === '\\\\') {
             return $prefix.$streamUrl;
         }
 

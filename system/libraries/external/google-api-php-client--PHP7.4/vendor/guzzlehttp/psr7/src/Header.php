@@ -25,9 +25,9 @@ final class Header
                 if (preg_match_all('/<[^>]+>|[^=]+/', $kvp, $matches)) {
                     $m = $matches[0];
                     if (isset($m[1])) {
-                        $part[trim($m[0], $trimmed)] = trim($m[1], $trimmed);
+                        $part[trim((string) $m[0], $trimmed)] = trim((string) $m[1], $trimmed);
                     } else {
-                        $part[] = trim($m[0], $trimmed);
+                        $part[] = trim((string) $m[0], $trimmed);
                     }
                 }
             }
@@ -61,7 +61,7 @@ final class Header
                     continue;
                 }
                 foreach (preg_split('/,(?=([^"]*"[^"]*")*[^"]*$)/', $v) as $vv) {
-                    $result[] = trim($vv);
+                    $result[] = trim((string) $vv);
                 }
             }
         }

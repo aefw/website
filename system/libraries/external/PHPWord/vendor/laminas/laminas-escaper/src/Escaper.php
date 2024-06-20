@@ -142,7 +142,7 @@ class Escaper
                 );
             }
 
-            $encoding = strtolower($encoding);
+            $encoding = strtolower((string) $encoding);
             if (! in_array($encoding, $this->supportedEncodings)) {
                 throw new Exception\InvalidArgumentException(
                     'Value of \'' . $encoding . '\' passed to ' . static::class
@@ -279,7 +279,7 @@ class Escaper
          * Check if the current character to escape has a name entity we should
          * replace it with while grabbing the integer value of the character.
          */
-        if (strlen($chr) > 1) {
+        if (strlen((string) $chr) > 1) {
             $chr = $this->convertEncoding($chr, 'UTF-32BE', 'UTF-8');
         }
 
@@ -309,16 +309,16 @@ class Escaper
     protected function jsMatcher($matches)
     {
         $chr = $matches[0];
-        if (strlen($chr) === 1) {
+        if (strlen((string) $chr) === 1) {
             return sprintf('\\x%02X', ord($chr));
         }
         $chr = $this->convertEncoding($chr, 'UTF-16BE', 'UTF-8');
         $hex = strtoupper(bin2hex($chr));
-        if (strlen($hex) <= 4) {
+        if (strlen((string) $hex) <= 4) {
             return sprintf('\\u%04s', $hex);
         }
-        $highSurrogate = substr($hex, 0, 4);
-        $lowSurrogate  = substr($hex, 4, 4);
+        $highSurrogate = substr((string) $hex, 0, 4);
+        $lowSurrogate  = substr((string) $hex, 4, 4);
         return sprintf('\\u%04s\\u%04s', $highSurrogate, $lowSurrogate);
     }
 
@@ -332,7 +332,7 @@ class Escaper
     protected function cssMatcher($matches)
     {
         $chr = $matches[0];
-        if (strlen($chr) === 1) {
+        if (strlen((string) $chr) === 1) {
             $ord = ord($chr);
         } else {
             $chr = $this->convertEncoding($chr, 'UTF-32BE', 'UTF-8');

@@ -185,7 +185,7 @@ final class UriNormalizer
         $regex = '/(?:%[A-Fa-f0-9]{2})++/';
 
         $callback = function (array $match) {
-            return strtoupper($match[0]);
+            return strtoupper((string) $match[0]);
         };
 
         return

@@ -33,7 +33,7 @@ final class Utils
                 /** @var string $varDumpContent */
                 $varDumpContent = \ob_get_clean();
 
-                return \str_replace('double(', 'float(', \rtrim($varDumpContent));
+                return \str_replace('double(', 'float(', \rtrim((string) $varDumpContent));
         }
     }
 
@@ -49,7 +49,7 @@ final class Utils
 
         foreach ($lines as $line) {
             $parts = \explode(':', $line, 2);
-            $headers[\trim($parts[0])][] = isset($parts[1]) ? \trim($parts[1]) : null;
+            $headers[\trim((string) $parts[0])][] = isset($parts[1]) ? \trim((string) $parts[1]) : null;
         }
 
         return $headers;
@@ -193,7 +193,7 @@ EOT
     {
         $result = [];
         foreach (\array_keys($headers) as $key) {
-            $result[\strtolower($key)] = $key;
+            $result[\strtolower((string) $key)] = $key;
         }
 
         return $result;
@@ -220,7 +220,7 @@ EOT
      */
     public static function isHostInNoProxy(string $host, array $noProxyArray): bool
     {
-        if (\strlen($host) === 0) {
+        if (\strlen((string) $host) === 0) {
             throw new InvalidArgumentException('Empty host provided');
         }
 
@@ -244,8 +244,8 @@ EOT
             }
             // Special match if the area when prefixed with ".". Remove any
             // existing leading "." and add a new leading ".".
-            $area = '.' . \ltrim($area, '.');
-            if (\substr($host, -(\strlen($area))) === $area) {
+            $area = '.' . \ltrim((string) $area, '.');
+            if (\substr((string) $host, -(\strlen((string) $area))) === $area) {
                 return true;
             }
         }
@@ -326,7 +326,7 @@ EOT
                 $errorBitSet = $info['errors'] ?? 0;
 
                 $errorConstants = array_filter(array_keys(get_defined_constants()), static function ($name) {
-                    return substr($name, 0, 11) === 'IDNA_ERROR_';
+                    return substr((string) $name, 0, 11) === 'IDNA_ERROR_';
                 });
 
                 $errors = [];

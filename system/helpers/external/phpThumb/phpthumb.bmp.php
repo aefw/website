@@ -49,13 +49,13 @@ class phpthumb_bmp {
 				$argb = phpthumb_functions::GetPixelColor($gd_image, $x, $y);
 				$thisline .= chr($argb['blue']).chr($argb['green']).chr($argb['red']);
 			}
-			while (strlen($thisline) % 4) {
+			while (strlen((string) $thisline) % 4) {
 				$thisline .= "\x00";
 			}
 			$BMP .= $thisline;
 		}
 
-		$bmpSize = strlen($BMP) + 14 + 40;
+		$bmpSize = strlen((string) $BMP) + 14 + 40;
 		// BITMAPFILEHEADER [14 bytes] - http://msdn.microsoft.com/library/en-us/gdi/bitmaps_62uq.asp
 		$BITMAPFILEHEADER  = 'BM';                                                           // WORD    bfType;
 		$BITMAPFILEHEADER .= phpthumb_functions::LittleEndian2String($bmpSize, 4); // DWORD   bfSize;
@@ -97,10 +97,10 @@ class phpthumb_bmp {
 
 		$offset = 0;
 		$overalloffset = 0;
-		$BMPheader = substr($BMPdata, $overalloffset, 14 + 40);
+		$BMPheader = substr((string) $BMPdata, $overalloffset, 14 + 40);
 		$overalloffset += (14 + 40);
 
-		$thisfile_bmp_header_raw['identifier']  = substr($BMPheader, $offset, 2);
+		$thisfile_bmp_header_raw['identifier']  = substr((string) $BMPheader, $offset, 2);
 		$offset += 2;
 
 		if ($thisfile_bmp_header_raw['identifier'] != 'BM') {
@@ -110,21 +110,21 @@ class phpthumb_bmp {
 			return false;
 		}
 
-		$thisfile_bmp_header_raw['filesize']    = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+		$thisfile_bmp_header_raw['filesize']    = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 		$offset += 4;
-		$thisfile_bmp_header_raw['reserved1']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+		$thisfile_bmp_header_raw['reserved1']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 		$offset += 2;
-		$thisfile_bmp_header_raw['reserved2']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+		$thisfile_bmp_header_raw['reserved2']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 		$offset += 2;
-		$thisfile_bmp_header_raw['data_offset'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+		$thisfile_bmp_header_raw['data_offset'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 		$offset += 4;
-		$thisfile_bmp_header_raw['header_size'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+		$thisfile_bmp_header_raw['header_size'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 		$offset += 4;
 
 
 		// check if the hardcoded-to-1 "planes" is at offset 22 or 26
-		$planes22 = $this->LittleEndian2Int(substr($BMPheader, 22, 2));
-		$planes26 = $this->LittleEndian2Int(substr($BMPheader, 26, 2));
+		$planes22 = $this->LittleEndian2Int(substr((string) $BMPheader, 22, 2));
+		$planes26 = $this->LittleEndian2Int(substr((string) $BMPheader, 26, 2));
 		if (($planes22 == 1) && ($planes26 != 1)) {
 			$thisfile_bmp['type_os']      = 'OS/2';
 			$thisfile_bmp['type_version'] = 1;
@@ -166,13 +166,13 @@ class phpthumb_bmp {
 			// WORD   NumPlanes;        /* Number of bit planes (color depth) */
 			// WORD   BitsPerPixel;     /* Number of bits per pixel per plane */
 
-			$thisfile_bmp_header_raw['width']          = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['width']          = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
-			$thisfile_bmp_header_raw['height']         = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['height']         = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
-			$thisfile_bmp_header_raw['planes']         = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['planes']         = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
-			$thisfile_bmp_header_raw['bits_per_pixel'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['bits_per_pixel'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
 
 			$ThisFileInfo['video']['resolution_x']    = $thisfile_bmp_header_raw['width'];
@@ -196,33 +196,33 @@ class phpthumb_bmp {
 				// DWORD  ColorEncoding;    /* Color model used in bitmap */
 				// DWORD  Identifier;       /* Reserved for application use */
 
-				$thisfile_bmp_header_raw['compression']      = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['compression']      = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['bmp_data_size']    = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['bmp_data_size']    = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['resolution_h']     = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['resolution_h']     = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['resolution_v']     = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['resolution_v']     = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['colors_used']      = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['colors_used']      = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['colors_important'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['colors_important'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['resolution_units'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+				$thisfile_bmp_header_raw['resolution_units'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 				$offset += 2;
-				$thisfile_bmp_header_raw['reserved1']        = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+				$thisfile_bmp_header_raw['reserved1']        = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 				$offset += 2;
-				$thisfile_bmp_header_raw['recording']        = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+				$thisfile_bmp_header_raw['recording']        = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 				$offset += 2;
-				$thisfile_bmp_header_raw['rendering']        = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+				$thisfile_bmp_header_raw['rendering']        = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 				$offset += 2;
-				$thisfile_bmp_header_raw['size1']            = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['size1']            = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['size2']            = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['size2']            = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['color_encoding']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['color_encoding']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['identifier']       = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['identifier']       = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
 
 				$thisfile_bmp_header['compression']          = $this->BMPcompressionOS2Lookup($thisfile_bmp_header_raw['compression']);
@@ -248,25 +248,25 @@ class phpthumb_bmp {
 			// DWORD  biClrUsed;
 			// DWORD  biClrImportant;
 
-			$thisfile_bmp_header_raw['width']            = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['width']            = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['height']           = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['height']           = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['planes']           = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['planes']           = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
-			$thisfile_bmp_header_raw['bits_per_pixel']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 2));
+			$thisfile_bmp_header_raw['bits_per_pixel']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 2));
 			$offset += 2;
-			$thisfile_bmp_header_raw['compression']      = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['compression']      = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['bmp_data_size']    = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['bmp_data_size']    = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['resolution_h']     = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['resolution_h']     = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['resolution_v']     = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['resolution_v']     = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['colors_used']      = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['colors_used']      = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
-			$thisfile_bmp_header_raw['colors_important'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+			$thisfile_bmp_header_raw['colors_important'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 			$offset += 4;
 
 			$thisfile_bmp_header['compression'] = $this->BMPcompressionWindowsLookup($thisfile_bmp_header_raw['compression']);
@@ -277,7 +277,7 @@ class phpthumb_bmp {
 
 			if (($thisfile_bmp['type_version'] >= 4) || ($thisfile_bmp_header_raw['compression'] == 3)) {
 				// should only be v4+, but BMPs with type_version==1 and BI_BITFIELDS compression have been seen
-				$BMPheader .= substr($BMPdata, $overalloffset, 44);
+				$BMPheader .= substr((string) $BMPdata, $overalloffset, 44);
 				$overalloffset += 44;
 
 				// BITMAPV4HEADER - [44 bytes] - http://msdn.microsoft.com/library/en-us/gdi/bitmaps_2k1e.asp
@@ -291,27 +291,27 @@ class phpthumb_bmp {
 				// DWORD        bV4GammaRed;
 				// DWORD        bV4GammaGreen;
 				// DWORD        bV4GammaBlue;
-				$thisfile_bmp_header_raw['red_mask']     = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['red_mask']     = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['green_mask']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['green_mask']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['blue_mask']    = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['blue_mask']    = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['alpha_mask']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['alpha_mask']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['cs_type']      = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['cs_type']      = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['ciexyz_red']   =                         substr($BMPheader, $offset, 4);
+				$thisfile_bmp_header_raw['ciexyz_red']   =                         substr((string) $BMPheader, $offset, 4);
 				$offset += 4;
-				$thisfile_bmp_header_raw['ciexyz_green'] =                         substr($BMPheader, $offset, 4);
+				$thisfile_bmp_header_raw['ciexyz_green'] =                         substr((string) $BMPheader, $offset, 4);
 				$offset += 4;
-				$thisfile_bmp_header_raw['ciexyz_blue']  =                         substr($BMPheader, $offset, 4);
+				$thisfile_bmp_header_raw['ciexyz_blue']  =                         substr((string) $BMPheader, $offset, 4);
 				$offset += 4;
-				$thisfile_bmp_header_raw['gamma_red']    = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['gamma_red']    = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['gamma_green']  = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['gamma_green']  = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['gamma_blue']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['gamma_blue']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
 
 				$thisfile_bmp_header['ciexyz_red']   = $this->FixedPoint2_30(strrev($thisfile_bmp_header_raw['ciexyz_red']));
@@ -320,7 +320,7 @@ class phpthumb_bmp {
 			}
 
 			if ($thisfile_bmp['type_version'] >= 5) {
-				$BMPheader .= substr($BMPdata, $overalloffset, 16);
+				$BMPheader .= substr((string) $BMPdata, $overalloffset, 16);
 				$overalloffset += 16;
 
 				// BITMAPV5HEADER - [16 bytes] - http://msdn.microsoft.com/library/en-us/gdi/bitmaps_7c36.asp
@@ -329,13 +329,13 @@ class phpthumb_bmp {
 				// DWORD        bV5ProfileData;
 				// DWORD        bV5ProfileSize;
 				// DWORD        bV5Reserved;
-				$thisfile_bmp_header_raw['intent']              = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['intent']              = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['profile_data_offset'] = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['profile_data_offset'] = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['profile_data_size']   = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['profile_data_size']   = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
-				$thisfile_bmp_header_raw['reserved3']           = $this->LittleEndian2Int(substr($BMPheader, $offset, 4));
+				$thisfile_bmp_header_raw['reserved3']           = $this->LittleEndian2Int(substr((string) $BMPheader, $offset, 4));
 				$offset += 4;
 			}
 
@@ -354,7 +354,7 @@ class phpthumb_bmp {
 				$PaletteEntries = $thisfile_bmp_header_raw['colors_used'];
 			}
 			if ($PaletteEntries > 0) {
-				$BMPpalette = substr($BMPdata, $overalloffset, 4 * $PaletteEntries);
+				$BMPpalette = substr((string) $BMPdata, $overalloffset, 4 * $PaletteEntries);
 				$overalloffset += 4 * $PaletteEntries;
 
 				$paletteoffset = 0;
@@ -380,7 +380,7 @@ class phpthumb_bmp {
 		if ($ExtractData) {
 			$RowByteLength = ceil(($thisfile_bmp_header_raw['width'] * ($thisfile_bmp_header_raw['bits_per_pixel'] / 8)) / 4) * 4; // round up to nearest DWORD boundary
 
-			$BMPpixelData = substr($BMPdata, $thisfile_bmp_header_raw['data_offset'], $thisfile_bmp_header_raw['height'] * $RowByteLength);
+			$BMPpixelData = substr((string) $BMPdata, $thisfile_bmp_header_raw['data_offset'], $thisfile_bmp_header_raw['height'] * $RowByteLength);
 			$overalloffset = $thisfile_bmp_header_raw['data_offset'] + ($thisfile_bmp_header_raw['height'] * $RowByteLength);
 
 			$pixeldataoffset = 0;
@@ -476,7 +476,7 @@ class phpthumb_bmp {
 					switch ($thisfile_bmp_header_raw['bits_per_pixel']) {
 						case 8:
 							$pixelcounter = 0;
-							while ($pixeldataoffset < strlen($BMPpixelData)) {
+							while ($pixeldataoffset < strlen((string) $BMPpixelData)) {
 								$firstbyte  = $this->LittleEndian2Int($BMPpixelData[ $pixeldataoffset++ ]);
 								$secondbyte = $this->LittleEndian2Int($BMPpixelData[ $pixeldataoffset++ ]);
 								if ($firstbyte == 0) {
@@ -492,7 +492,7 @@ class phpthumb_bmp {
 
 										case 1:
 											// end of bitmap
-											$pixeldataoffset = strlen($BMPpixelData); // force to exit loop just in case
+											$pixeldataoffset = strlen((string) $BMPpixelData); // force to exit loop just in case
 											break;
 
 										case 2:
@@ -552,7 +552,7 @@ class phpthumb_bmp {
 					switch ($thisfile_bmp_header_raw['bits_per_pixel']) {
 						case 4:
 							$pixelcounter = 0;
-							while ($pixeldataoffset < strlen($BMPpixelData)) {
+							while ($pixeldataoffset < strlen((string) $BMPpixelData)) {
 								$firstbyte  = $this->LittleEndian2Int($BMPpixelData[ $pixeldataoffset++ ]);
 								$secondbyte = $this->LittleEndian2Int($BMPpixelData[ $pixeldataoffset++ ]);
 								if ($firstbyte == 0) {
@@ -568,7 +568,7 @@ class phpthumb_bmp {
 
 										case 1:
 											// end of bitmap
-											$pixeldataoffset = strlen($BMPpixelData); // force to exit loop just in case
+											$pixeldataoffset = strlen((string) $BMPpixelData); // force to exit loop just in case
 											break;
 
 										case 2:
@@ -658,7 +658,7 @@ class phpthumb_bmp {
 							}
 							for ($row = ($thisfile_bmp_header_raw['height'] - 1); $row >= 0; $row--) {
 								for ($col = 0; $col < $thisfile_bmp_header_raw['width']; $col++) {
-									$pixelvalue = $this->LittleEndian2Int(substr($BMPpixelData, $pixeldataoffset, $thisfile_bmp_header_raw['bits_per_pixel'] / 8));
+									$pixelvalue = $this->LittleEndian2Int(substr((string) $BMPpixelData, $pixeldataoffset, $thisfile_bmp_header_raw['bits_per_pixel'] / 8));
 									$pixeldataoffset += $thisfile_bmp_header_raw['bits_per_pixel'] / 8;
 
 									$red   = (int) round(((($pixelvalue & $thisfile_bmp_header_raw[ 'red_mask'])   >> $redshift)   / ($thisfile_bmp_header_raw[ 'red_mask']   >> $redshift))   * 255);
@@ -812,7 +812,7 @@ class phpthumb_bmp {
 	public function LittleEndian2Int($byteword) {
 		$intvalue = 0;
 		$byteword = strrev($byteword);
-		$bytewordlen = strlen($byteword);
+		$bytewordlen = strlen((string) $byteword);
 		for ($i = 0; $i < $bytewordlen; $i++) {
 			$intvalue += ord($byteword[$i]) * pow(256, $bytewordlen - 1 - $i);
 		}
@@ -825,7 +825,7 @@ class phpthumb_bmp {
 
 	public function BigEndian2Bin($byteword) {
 		$binvalue = '';
-		$bytewordlen = strlen($byteword);
+		$bytewordlen = strlen((string) $byteword);
 		for ($i = 0; $i < $bytewordlen; $i++) {
 			$binvalue .= str_pad(decbin(ord($byteword[$i])), 8, '0', STR_PAD_LEFT);
 		}
@@ -834,7 +834,7 @@ class phpthumb_bmp {
 
 	public function FixedPoint2_30($rawdata) {
 		$binarystring = $this->BigEndian2Bin($rawdata);
-		return $this->Bin2Dec(substr($binarystring, 0, 2)) + (float) ($this->Bin2Dec(substr($binarystring, 2, 30)) / 1073741824);
+		return $this->Bin2Dec(substr((string) $binarystring, 0, 2)) + (float) ($this->Bin2Dec(substr((string) $binarystring, 2, 30)) / 1073741824);
 	}
 
 	public function Bin2Dec($binstring, $signed=false) {
@@ -843,11 +843,11 @@ class phpthumb_bmp {
 			if ($binstring[0] == '1') {
 				$signmult = -1;
 			}
-			$binstring = substr($binstring, 1);
+			$binstring = substr((string) $binstring, 1);
 		}
 		$decvalue = 0;
-		for ($i = 0, $iMax = strlen($binstring); $i < $iMax; $i++) {
-			$decvalue += ((int) $binstring[ strlen($binstring) - $i - 1 ]) * pow(2, $i);
+		for ($i = 0, $iMax = strlen((string) $binstring); $i < $iMax; $i++) {
+			$decvalue += ((int) $binstring[ strlen((string) $binstring) - $i - 1 ]) * pow(2, $i);
 		}
 		return $this->CastAsInt($decvalue * $signmult);
 	}

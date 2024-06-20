@@ -269,12 +269,12 @@ abstract class ASN1
         if ($length == 0x80) { // indefinite length
             // "[A sender shall] use the indefinite form (see 8.1.3.6) if the encoding is constructed and is not all
             //  immediately available." -- paragraph 8.1.3.2.c
-            $length = strlen($encoded) - $encoded_pos;
+            $length = strlen((string) $encoded) - $encoded_pos;
         } elseif ($length & 0x80) { // definite length, long form
             // technically, the long form of the length can be represented by up to 126 octets (bytes), but we'll only
             // support it up to four.
             $length&= 0x7F;
-            $temp = substr($encoded, $encoded_pos, $length);
+            $temp = substr((string) $encoded, $encoded_pos, $length);
             $encoded_pos += $length;
             // tags of indefinte length don't really have a header length; this length includes the tag
             $current+= ['headerlength' => $length + 2];
@@ -285,11 +285,11 @@ abstract class ASN1
             $current+= ['headerlength' => 2];
         }
 
-        if ($length > (strlen($encoded) - $encoded_pos)) {
+        if ($length > (strlen((string) $encoded) - $encoded_pos)) {
             return false;
         }
 
-        $content = substr($encoded, $encoded_pos, $length);
+        $content = substr((string) $encoded, $encoded_pos, $length);
         $content_pos = 0;
 
         // at this point $length can be overwritten. it's only accurate for definite length things as is
@@ -326,7 +326,7 @@ abstract class ASN1
                     }
                     $length = $temp['length'];
                     // end-of-content octets - see paragraph 8.1.5
-                    if (substr($content, $content_pos + $length, 2) == "\0\0") {
+                    if (substr((string) $content, $content_pos + $length, 2) == "\0\0") {
                         $length+= 2;
                         $start+= $length;
                         $newcontent[] = $temp;
@@ -356,7 +356,7 @@ abstract class ASN1
         switch ($tag) {
             case self::TYPE_BOOLEAN:
                 // "The contents octets shall consist of a single octet." -- paragraph 8.2.1
-                if ($constructed || strlen($content) != 1) {
+                if ($constructed || strlen((string) $content) != 1) {
                     return false;
                 }
                 $current['content'] = (bool) ord($content[$content_pos]);
@@ -366,7 +366,7 @@ abstract class ASN1
                 if ($constructed) {
                     return false;
                 }
-                $current['content'] = new BigInteger(substr($content, $content_pos), -256);
+                $current['content'] = new BigInteger(substr((string) $content, $content_pos), -256);
                 break;
             case self::TYPE_REAL: // not currently supported
                 return false;
@@ -375,35 +375,35 @@ abstract class ASN1
                 // the number of unused bits in the final subsequent octet. The number shall be in the range zero to
                 // seven.
                 if (!$constructed) {
-                    $current['content'] = substr($content, $content_pos);
+                    $current['content'] = substr((string) $content, $content_pos);
                 } else {
                     $temp = self::decode_ber($content, $start, $content_pos);
                     if ($temp === false) {
                         return false;
                     }
-                    $length-= (strlen($content) - $content_pos);
+                    $length-= (strlen((string) $content) - $content_pos);
                     $last = count($temp) - 1;
                     for ($i = 0; $i < $last; $i++) {
                         // all subtags should be bit strings
                         if ($temp[$i]['type'] != self::TYPE_BIT_STRING) {
                             return false;
                         }
-                        $current['content'].= substr($temp[$i]['content'], 1);
+                        $current['content'].= substr((string) $temp[$i]['content'], 1);
                     }
                     // all subtags should be bit strings
                     if ($temp[$last]['type'] != self::TYPE_BIT_STRING) {
                         return false;
                     }
-                    $current['content'] = $temp[$last]['content'][0] . $current['content'] . substr($temp[$i]['content'], 1);
+                    $current['content'] = $temp[$last]['content'][0] . $current['content'] . substr((string) $temp[$i]['content'], 1);
                 }
                 break;
             case self::TYPE_OCTET_STRING:
                 if (!$constructed) {
-                    $current['content'] = substr($content, $content_pos);
+                    $current['content'] = substr((string) $content, $content_pos);
                 } else {
                     $current['content'] = '';
                     $length = 0;
-                    while (substr($content, $content_pos, 2) != "\0\0") {
+                    while (substr((string) $content, $content_pos, 2) != "\0\0") {
                         $temp = self::decode_ber($content, $length + $start, $content_pos);
                         if ($temp === false) {
                             return false;
@@ -416,14 +416,14 @@ abstract class ASN1
                         $current['content'].= $temp['content'];
                         $length+= $temp['length'];
                     }
-                    if (substr($content, $content_pos, 2) == "\0\0") {
+                    if (substr((string) $content, $content_pos, 2) == "\0\0") {
                         $length+= 2; // +2 for the EOC
                     }
                 }
                 break;
             case self::TYPE_NULL:
                 // "The contents octets shall not contain any octets." -- paragraph 8.8.2
-                if ($constructed || strlen($content)) {
+                if ($constructed || strlen((string) $content)) {
                     return false;
                 }
                 break;
@@ -434,11 +434,11 @@ abstract class ASN1
                 }
                 $offset = 0;
                 $current['content'] = [];
-                $content_len = strlen($content);
+                $content_len = strlen((string) $content);
                 while ($content_pos < $content_len) {
                     // if indefinite length construction was used and we have an end-of-content string next
                     // see paragraphs 8.1.1.3, 8.1.3.2, 8.1.3.6, 8.1.5, and (for an example) 8.6.4.2
-                    if (!isset($current['headerlength']) && substr($content, $content_pos, 2) == "\0\0") {
+                    if (!isset($current['headerlength']) && substr((string) $content, $content_pos, 2) == "\0\0") {
                         $length = $offset + 2; // +2 for the EOC
                         break 2;
                     }
@@ -455,7 +455,7 @@ abstract class ASN1
                 if ($constructed) {
                     return false;
                 }
-                $current['content'] = self::decodeOID(substr($content, $content_pos));
+                $current['content'] = self::decodeOID(substr((string) $content, $content_pos));
                 if ($current['content'] === false) {
                     return false;
                 }
@@ -491,14 +491,14 @@ abstract class ASN1
                 if ($constructed) {
                     return false;
                 }
-                $current['content'] = substr($content, $content_pos);
+                $current['content'] = substr((string) $content, $content_pos);
                 break;
             case self::TYPE_UTC_TIME:
             case self::TYPE_GENERALIZED_TIME:
                 if ($constructed) {
                     return false;
                 }
-                $current['content'] = self::decodeTime(substr($content, $content_pos), $tag);
+                $current['content'] = self::decodeTime(substr((string) $content, $content_pos), $tag);
                 break;
             default:
                 return false;
@@ -753,7 +753,7 @@ abstract class ASN1
             case self::TYPE_BIT_STRING:
                 if (isset($mapping['mapping'])) {
                     $offset = ord($decoded['content'][0]);
-                    $size = (strlen($decoded['content']) - 1) * 8 - $offset;
+                    $size = (strlen((string) $decoded['content']) - 1) * 8 - $offset;
                     /*
                        From X.680-0207.pdf#page=46 (21.7):
 
@@ -763,7 +763,7 @@ abstract class ASN1
                         0 bits."
                     */
                     $bits = count($mapping['mapping']) == $size ? [] : array_fill(0, count($mapping['mapping']) - $size, false);
-                    for ($i = strlen($decoded['content']) - 1; $i > 0; $i--) {
+                    for ($i = strlen((string) $decoded['content']) - 1; $i > 0; $i--) {
                         $current = ord($decoded['content'][$i]);
                         for ($j = $offset; $j < 8; $j++) {
                             $bits[] = (bool) ($current & (1 << $j));
@@ -946,10 +946,10 @@ abstract class ASN1
                          */
                         if (isset($child['explicit']) || $child['type'] == self::TYPE_CHOICE) {
                             $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | 0x20 | $child['constant']);
-                            $temp = $subtag . self::encodeLength(strlen($temp)) . $temp;
+                            $temp = $subtag . self::encodeLength(strlen((string) $temp)) . $temp;
                         } else {
                             $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | (ord($temp[0]) & 0x20) | $child['constant']);
-                            $temp = $subtag . substr($temp, 1);
+                            $temp = $subtag . substr((string) $temp, 1);
                         }
                     }
                     $value.= $temp;
@@ -980,10 +980,10 @@ abstract class ASN1
                     if (isset($child['constant'])) {
                         if (isset($child['explicit']) || $child['type'] == self::TYPE_CHOICE) {
                             $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | 0x20 | $child['constant']);
-                            $temp = $subtag . self::encodeLength(strlen($temp)) . $temp;
+                            $temp = $subtag . self::encodeLength(strlen((string) $temp)) . $temp;
                         } else {
                             $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | (ord($temp[0]) & 0x20) | $child['constant']);
-                            $temp = $subtag . substr($temp, 1);
+                            $temp = $subtag . substr((string) $temp, 1);
                         }
                     }
                 }
@@ -1012,7 +1012,7 @@ abstract class ASN1
                     $value = new BigInteger($value);
                     $value = $value->toBytes(true);
                 }
-                if (!strlen($value)) {
+                if (!strlen((string) $value)) {
                     $value = chr(0);
                 }
                 break;
@@ -1133,14 +1133,14 @@ abstract class ASN1
 
         if (isset($mapping['cast'])) {
             if (isset($mapping['explicit']) || $mapping['type'] == self::TYPE_CHOICE) {
-                $value = chr($tag) . self::encodeLength(strlen($value)) . $value;
+                $value = chr($tag) . self::encodeLength(strlen((string) $value)) . $value;
                 $tag = ($mapping['class'] << 6) | 0x20 | $mapping['cast'];
             } else {
                 $tag = ($mapping['class'] << 6) | (ord($temp[0]) & 0x20) | $mapping['cast'];
             }
         }
 
-        return chr($tag) . self::encodeLength(strlen($value)) . $value;
+        return chr($tag) . self::encodeLength(strlen((string) $value)) . $value;
     }
 
     /**
@@ -1161,7 +1161,7 @@ abstract class ASN1
 
         $oid = [];
         $pos = 0;
-        $len = strlen($content);
+        $len = strlen((string) $content);
 
         if (ord($content[$len - 1]) & 0x80) {
             return false;
@@ -1246,7 +1246,7 @@ abstract class ASN1
                     $temp = (chr(0x80) | $submask->toBytes()) . $temp;
                     $part = $part->bitwise_rightShift(7);
                 }
-                $temp[strlen($temp) - 1] = $temp[strlen($temp) - 1] & chr(0x7F);
+                $temp[strlen((string) $temp) - 1] = $temp[strlen((string) $temp) - 1] & chr(0x7F);
             }
             $value.= $temp;
         }
@@ -1283,14 +1283,14 @@ abstract class ASN1
             if (preg_match('#^(\d{10})(Z|[+-]\d{4})$#', $content, $matches)) {
                 $content = $matches[1] . '00' . $matches[2];
             }
-            $prefix = substr($content, 0, 2) >= 50 ? '19' : '20';
+            $prefix = substr((string) $content, 0, 2) >= 50 ? '19' : '20';
             $content = $prefix . $content;
         } elseif (strpos($content, '.') !== false) {
             $format.= '.u';
         }
 
-        if ($content[strlen($content) - 1] == 'Z') {
-            $content = substr($content, 0, -1) . '+0000';
+        if ($content[strlen((string) $content) - 1] == 'Z') {
+            $content = substr((string) $content, 0, -1) . '+0000';
         }
 
         if (strpos($content, '-') !== false || strpos($content, '+') !== false) {
@@ -1364,7 +1364,7 @@ abstract class ASN1
         }
         $insize = self::STRING_TYPE_SIZE[$from];
         $outsize = self::STRING_TYPE_SIZE[$to];
-        $inlength = strlen($in);
+        $inlength = strlen((string) $in);
         $out = '';
 
         for ($i = 0; $i < $inlength;) {
@@ -1462,7 +1462,7 @@ abstract class ASN1
          * subject=/O=organization/OU=org unit/CN=common name
          * issuer=/O=organization/CN=common name
          */
-        if (strlen($str) > ini_get('pcre.backtrack_limit')) {
+        if (strlen((string) $str) > ini_get('pcre.backtrack_limit')) {
             $temp = $str;
         } else {
             $temp = preg_replace('#.*?^-+[^-]+-+[\r\n ]*$#ms', '', $str, 1);
@@ -1493,7 +1493,7 @@ abstract class ASN1
         }
 
         $temp = ltrim(pack('N', $length), chr(0));
-        return pack('Ca*', 0x80 | strlen($temp), $temp);
+        return pack('Ca*', 0x80 | strlen((string) $temp), $temp);
     }
 
     /**

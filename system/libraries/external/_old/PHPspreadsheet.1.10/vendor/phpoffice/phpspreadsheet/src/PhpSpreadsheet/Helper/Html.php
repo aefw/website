@@ -638,7 +638,7 @@ class Html
             $text = $element->getText();
             // Trim any leading spaces on the first run
             if ($key == 0) {
-                $text = ltrim($text);
+                $text = ltrim((string) $text);
             }
             // Trim any spaces immediately after a line break
             $text = preg_replace('/\n */mu', "\n", $text);
@@ -649,7 +649,7 @@ class Html
     protected function buildTextRun()
     {
         $text = $this->stringData;
-        if (trim($text) === '') {
+        if (trim((string) $text) === '') {
             return;
         }
 
@@ -702,14 +702,14 @@ class Html
     protected function startFontTag($tag)
     {
         foreach ($tag->attributes as $attribute) {
-            $attributeName = strtolower($attribute->name);
+            $attributeName = strtolower((string) $attribute->name);
             $attributeValue = $attribute->value;
 
             if ($attributeName == 'color') {
                 if (preg_match('/rgb\s*\(/', $attributeValue)) {
                     $this->$attributeName = $this->rgbToColour($attributeValue);
-                } elseif (strpos(trim($attributeValue), '#') === 0) {
-                    $this->$attributeName = ltrim($attributeValue, '#');
+                } elseif (strpos(trim((string) $attributeValue), '#') === 0) {
+                    $this->$attributeName = ltrim((string) $attributeValue, '#');
                 } else {
                     $this->$attributeName = $this->colourNameLookup($attributeValue);
                 }
@@ -817,7 +817,7 @@ class Html
 
     protected function parseElementNode(DOMElement $element)
     {
-        $callbackTag = strtolower($element->nodeName);
+        $callbackTag = strtolower((string) $element->nodeName);
         $this->stack[] = $callbackTag;
 
         $this->handleCallback($element, $callbackTag, $this->startTagCallbacks);

@@ -70,7 +70,7 @@ class SessionCookieJar extends CookieJar
             foreach ($data as $cookie) {
                 $this->setCookie(new SetCookie($cookie));
             }
-        } elseif (\strlen($data)) {
+        } elseif (\strlen((string) $data)) {
             throw new \RuntimeException("Invalid cookie data");
         }
     }

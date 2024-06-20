@@ -421,7 +421,7 @@ class Communicator
                 $word
             );
         }
-        $length = strlen($word);
+        $length = strlen((string) $word);
         static::verifyLengthSupport($length);
         if ($this->trans->isPersistent()) {
             $old = $this->trans->lock(T\Stream::DIRECTION_SEND);
@@ -471,7 +471,7 @@ class Communicator
         }
 
         flock($stream, LOCK_SH);
-        $totalLength = strlen($prefix) + self::seekableStreamLength($stream);
+        $totalLength = strlen((string) $prefix) + self::seekableStreamLength($stream);
         static::verifyLengthSupport($totalLength);
 
         $bytes = $this->trans->send(self::encodeLength($totalLength) . $prefix);
@@ -534,8 +534,8 @@ class Communicator
             return chr(0xF0) . pack('N', $length);
         } elseif ($length <= 0x7FFFFFFFF) {
             $length = 'f' . base_convert($length, 10, 16);
-            return chr(hexdec(substr($length, 0, 2))) .
-                pack('N', hexdec(substr($length, 2)));
+            return chr(hexdec(substr((string) $length, 0, 2))) .
+                pack('N', hexdec(substr((string) $length, 2)));
         }
         throw new LengthException(
             'Length must not be above 0x7FFFFFFFF.',

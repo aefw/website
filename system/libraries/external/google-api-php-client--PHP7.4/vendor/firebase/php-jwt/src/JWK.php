@@ -119,14 +119,14 @@ class JWK
         $publicExponent = JWT::urlsafeB64Decode($e);
 
         $components = array(
-            'modulus' => \pack('Ca*a*', 2, self::encodeLength(\strlen($modulus)), $modulus),
-            'publicExponent' => \pack('Ca*a*', 2, self::encodeLength(\strlen($publicExponent)), $publicExponent)
+            'modulus' => \pack('Ca*a*', 2, self::encodeLength(\strlen((string) $modulus)), $modulus),
+            'publicExponent' => \pack('Ca*a*', 2, self::encodeLength(\strlen((string) $publicExponent)), $publicExponent)
         );
 
         $rsaPublicKey = \pack(
             'Ca*a*a*',
             48,
-            self::encodeLength(\strlen($components['modulus']) + \strlen($components['publicExponent'])),
+            self::encodeLength(\strlen((string) $components['modulus']) + \strlen((string) $components['publicExponent'])),
             $components['modulus'],
             $components['publicExponent']
         );
@@ -134,12 +134,12 @@ class JWK
         // sequence(oid(1.2.840.113549.1.1.1), null)) = rsaEncryption.
         $rsaOID = \pack('H*', '300d06092a864886f70d0101010500'); // hex version of MA0GCSqGSIb3DQEBAQUA
         $rsaPublicKey = \chr(0) . $rsaPublicKey;
-        $rsaPublicKey = \chr(3) . self::encodeLength(\strlen($rsaPublicKey)) . $rsaPublicKey;
+        $rsaPublicKey = \chr(3) . self::encodeLength(\strlen((string) $rsaPublicKey)) . $rsaPublicKey;
 
         $rsaPublicKey = \pack(
             'Ca*a*',
             48,
-            self::encodeLength(\strlen($rsaOID . $rsaPublicKey)),
+            self::encodeLength(\strlen((string) $rsaOID . $rsaPublicKey)),
             $rsaOID . $rsaPublicKey
         );
 
@@ -167,6 +167,6 @@ class JWK
 
         $temp = \ltrim(\pack('N', $length), \chr(0));
 
-        return \pack('Ca*', 0x80 | \strlen($temp), $temp);
+        return \pack('Ca*', 0x80 | \strlen((string) $temp), $temp);
     }
 }

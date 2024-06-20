@@ -121,7 +121,7 @@ class RequestException extends TransferException implements RequestExceptionInte
         $userInfo = $uri->getUserInfo();
 
         if (false !== ($pos = \strpos($userInfo, ':'))) {
-            return $uri->withUserInfo(\substr($userInfo, 0, $pos), '***');
+            return $uri->withUserInfo(\substr((string) $userInfo, 0, $pos), '***');
         }
 
         return $uri;

@@ -2227,7 +2227,7 @@ class Calculation
     {
         $localeFileDirectory = __DIR__ . '/locale/';
         foreach (glob($localeFileDirectory . '*', GLOB_ONLYDIR) as $filename) {
-            $filename = substr($filename, strlen($localeFileDirectory));
+            $filename = substr((string) $filename, strlen((string) $localeFileDirectory));
             if ($filename != 'en') {
                 self::$validLocaleLanguages[] = $filename;
             }
@@ -2455,7 +2455,7 @@ class Calculation
     public function setLocale($locale)
     {
         //    Identify our locale and language
-        $language = $locale = strtolower($locale);
+        $language = $locale = strtolower((string) $locale);
         if (strpos($locale, '_') !== false) {
             [$language] = explode('_', $locale);
         }
@@ -2485,8 +2485,8 @@ class Calculation
                     [$localeFunction] = explode('##', $localeFunction); //    Strip out comments
                     if (strpos($localeFunction, '=') !== false) {
                         [$fName, $lfName] = explode('=', $localeFunction);
-                        $fName = trim($fName);
-                        $lfName = trim($lfName);
+                        $fName = trim((string) $fName);
+                        $lfName = trim((string) $lfName);
                         if ((isset(self::$phpSpreadsheetFunctions[$fName])) && ($lfName != '') && ($fName != $lfName)) {
                             self::$localeFunctions[$fName] = $lfName;
                         }
@@ -2510,10 +2510,10 @@ class Calculation
                         [$localeSetting] = explode('##', $localeSetting); //    Strip out comments
                         if (strpos($localeSetting, '=') !== false) {
                             [$settingName, $settingValue] = explode('=', $localeSetting);
-                            $settingName = strtoupper(trim($settingName));
+                            $settingName = strtoupper(trim((string) $settingName));
                             switch ($settingName) {
                                 case 'ARGUMENTSEPARATOR':
-                                    self::$localeArgumentSeparator = trim($settingValue);
+                                    self::$localeArgumentSeparator = trim((string) $settingValue);
 
                                     break;
                             }
@@ -2542,9 +2542,9 @@ class Calculation
      */
     public static function translateSeparator($fromSeparator, $toSeparator, $formula, &$inBraces)
     {
-        $strlen = mb_strlen($formula);
+        $strlen = mb_strlen((string) $formula);
         for ($i = 0; $i < $strlen; ++$i) {
-            $chr = mb_substr($formula, $i, 1);
+            $chr = mb_substr((string) $formula, $i, 1);
             switch ($chr) {
                 case '{':
                     $inBraces = true;
@@ -2556,7 +2556,7 @@ class Calculation
                     break;
                 case $fromSeparator:
                     if (!$inBraces) {
-                        $formula = mb_substr($formula, 0, $i) . $toSeparator . mb_substr($formula, $i + 1);
+                        $formula = mb_substr((string) $formula, 0, $i) . $toSeparator . mb_substr((string) $formula, $i + 1);
                     }
             }
         }
@@ -2623,10 +2623,10 @@ class Calculation
         if (self::$functionReplaceToLocale === null) {
             self::$functionReplaceToLocale = [];
             foreach (self::$localeFunctions as $localeFunctionName) {
-                self::$functionReplaceToLocale[] = '$1' . trim($localeFunctionName) . '$2';
+                self::$functionReplaceToLocale[] = '$1' . trim((string) $localeFunctionName) . '$2';
             }
             foreach (self::$localeBoolean as $localeBoolean) {
-                self::$functionReplaceToLocale[] = '$1' . trim($localeBoolean) . '$2';
+                self::$functionReplaceToLocale[] = '$1' . trim((string) $localeBoolean) . '$2';
             }
         }
 
@@ -2652,10 +2652,10 @@ class Calculation
         if (self::$functionReplaceToExcel === null) {
             self::$functionReplaceToExcel = [];
             foreach (array_keys(self::$localeFunctions) as $excelFunctionName) {
-                self::$functionReplaceToExcel[] = '$1' . trim($excelFunctionName) . '$2';
+                self::$functionReplaceToExcel[] = '$1' . trim((string) $excelFunctionName) . '$2';
             }
             foreach (array_keys(self::$localeBoolean) as $excelBoolean) {
-                self::$functionReplaceToExcel[] = '$1' . trim($excelBoolean) . '$2';
+                self::$functionReplaceToExcel[] = '$1' . trim((string) $excelBoolean) . '$2';
             }
         }
 
@@ -2665,7 +2665,7 @@ class Calculation
     public static function localeFunc($function)
     {
         if (self::$localeLanguage !== 'en_us') {
-            $functionName = trim($function, '(');
+            $functionName = trim((string) $function, '(');
             if (isset(self::$localeFunctions[$functionName])) {
                 $brace = ($functionName != $function);
                 $function = self::$localeFunctions[$functionName];
@@ -2713,8 +2713,8 @@ class Calculation
     public static function unwrapResult($value)
     {
         if (is_string($value)) {
-            if ((isset($value[0])) && ($value[0] == '"') && (substr($value, -1) == '"')) {
-                return substr($value, 1, -1);
+            if ((isset($value[0])) && ($value[0] == '"') && (substr((string) $value, -1) == '"')) {
+                return substr((string) $value, 1, -1);
             }
             //    Convert numeric errors to NAN error
         } elseif ((is_float($value)) && ((is_nan($value)) || (is_infinite($value)))) {
@@ -2833,11 +2833,11 @@ class Calculation
     {
         //    Basic validation that this is indeed a formula
         //    We return an empty array if not
-        $formula = trim($formula);
+        $formula = trim((string) $formula);
         if ((!isset($formula[0])) || ($formula[0] != '=')) {
             return [];
         }
-        $formula = ltrim(substr($formula, 1));
+        $formula = ltrim(substr((string) $formula, 1));
         if (!isset($formula[0])) {
             return [];
         }
@@ -2949,11 +2949,11 @@ class Calculation
 
         //    Basic validation that this is indeed a formula
         //    We simply return the cell value if not
-        $formula = trim($formula);
+        $formula = trim((string) $formula);
         if ($formula[0] != '=') {
             return self::wrapResult($formula);
         }
-        $formula = ltrim(substr($formula, 1));
+        $formula = ltrim(substr((string) $formula, 1));
         if (!isset($formula[0])) {
             return self::wrapResult($formula);
         }
@@ -3188,7 +3188,7 @@ class Calculation
                 }
 
                 return '{ ' . implode($rpad, $returnMatrix) . ' }';
-            } elseif (is_string($value) && (trim($value, '"') == $value)) {
+            } elseif (is_string($value) && (trim((string) $value, '"') == $value)) {
                 return '"' . $value . '"';
             } elseif (is_bool($value)) {
                 return ($value) ? self::$localeBoolean['TRUE'] : self::$localeBoolean['FALSE'];
@@ -3338,7 +3338,7 @@ class Calculation
      */
     private function _parseFormula($formula, Cell $pCell = null)
     {
-        if (($formula = $this->convertMatrixReferences(trim($formula))) === false) {
+        if (($formula = $this->convertMatrixReferences(trim((string) $formula))) === false) {
             return false;
         }
 
@@ -3411,12 +3411,12 @@ class Calculation
             }
 
             $opCharacter = $formula[$index]; //    Get the first character of the value at the current index position
-            if ((isset(self::$comparisonOperators[$opCharacter])) && (strlen($formula) > $index) && (isset(self::$comparisonOperators[$formula[$index + 1]]))) {
+            if ((isset(self::$comparisonOperators[$opCharacter])) && (strlen((string) $formula) > $index) && (isset(self::$comparisonOperators[$formula[$index + 1]]))) {
                 $opCharacter .= $formula[++$index];
             }
 
             //    Find out if we're currently at the beginning of a number, variable, cell reference, function, parenthesis or operand
-            $isOperandOrFunction = preg_match($regexpMatchString, substr($formula, $index), $match);
+            $isOperandOrFunction = preg_match($regexpMatchString, substr((string) $formula, $index), $match);
 
             if ($opCharacter == '-' && !$expectingOperator) {                //    Is it a negation instead of a minus?
                 //    Put a negation on the stack
@@ -3584,12 +3584,12 @@ class Calculation
                 $expectingOperator = true;
                 $expectingOperand = false;
                 $val = $match[1];
-                $length = strlen($val);
+                $length = strlen((string) $val);
 
                 if (preg_match('/^' . self::CALCULATION_REGEXP_FUNCTION . '$/i', $val, $matches)) {
                     $val = preg_replace('/\s/u', '', $val);
-                    if (isset(self::$phpSpreadsheetFunctions[strtoupper($matches[1])]) || isset(self::$controlFunctions[strtoupper($matches[1])])) {    // it's a function
-                        $valToUpper = strtoupper($val);
+                    if (isset(self::$phpSpreadsheetFunctions[strtoupper((string) $matches[1])]) || isset(self::$controlFunctions[strtoupper((string) $matches[1])])) {    // it's a function
+                        $valToUpper = strtoupper((string) $val);
                         // here $matches[1] will contain values like "IF"
                         // and $val "IF("
                         if ($this->branchPruningEnabled && ($valToUpper == 'IF(')) { // we handle a new if
@@ -3605,7 +3605,7 @@ class Calculation
 
                         $stack->push('Function', $valToUpper, null, $currentCondition, $currentOnlyIf, $currentOnlyIfNot);
                         // tests if the function is closed right after opening
-                        $ax = preg_match('/^\s*(\s*\))/ui', substr($formula, $index + $length), $amatch);
+                        $ax = preg_match('/^\s*(\s*\))/ui', substr((string) $formula, $index + $length), $amatch);
                         if ($ax) {
                             $stack->push('Operand Count for Function ' . $valToUpper . ')', 0, null, $currentCondition, $currentOnlyIf, $currentOnlyIfNot);
                             $expectingOperator = true;
@@ -3668,10 +3668,10 @@ class Calculation
                             $output[count($output) - 1]['value'] = $rangeWS1 . 'A' . $startRowColRef;
                             $val = $rangeWS2 . $endRowColRef . $val;
                         } elseif ((ctype_alpha($startRowColRef)) && (ctype_alpha($val)) &&
-                            (strlen($startRowColRef) <= 3) && (strlen($val) <= 3)) {
+                            (strlen((string) $startRowColRef) <= 3) && (strlen((string) $val) <= 3)) {
                             //    Column range
                             $endRowColRef = ($refSheet !== null) ? $refSheet->getHighestRow() : 1048576; //    Max 1,048,576 rows for Excel2007
-                            $output[count($output) - 1]['value'] = $rangeWS1 . strtoupper($startRowColRef) . '1';
+                            $output[count($output) - 1]['value'] = $rangeWS1 . strtoupper((string) $startRowColRef) . '1';
                             $val = $rangeWS2 . $val . $endRowColRef;
                         }
                     }
@@ -3686,10 +3686,10 @@ class Calculation
                         } else {
                             $val = (int) $val;
                         }
-                    } elseif (isset(self::$excelConstants[trim(strtoupper($val))])) {
-                        $excelConstant = trim(strtoupper($val));
+                    } elseif (isset(self::$excelConstants[trim(strtoupper((string) $val))])) {
+                        $excelConstant = trim(strtoupper((string) $val));
                         $val = self::$excelConstants[$excelConstant];
-                    } elseif (($localeConstant = array_search(trim(strtoupper($val)), self::$localeBoolean)) !== false) {
+                    } elseif (($localeConstant = array_search(trim(strtoupper((string) $val)), self::$localeBoolean)) !== false) {
                         $val = self::$excelConstants[$localeConstant];
                     }
                     $details = $stack->getStackItem('Value', $val, null, $currentCondition, $currentOnlyIf, $currentOnlyIfNot);
@@ -3715,7 +3715,7 @@ class Calculation
                 return $this->raiseFormulaError('Formula Error: An unexpected error occured');
             }
             //    Test for end of formula string
-            if ($index == strlen($formula)) {
+            if ($index == strlen((string) $formula)) {
                 //    Did we end with an operator?.
                 //    Only valid for the % unary operator
                 if ((isset(self::$operators[$opCharacter])) && ($opCharacter != '%')) {
@@ -3734,7 +3734,7 @@ class Calculation
                 }
                 //    If we're expecting an operator, but only have a space between the previous and next operands (and both are
                 //        Cell References) then we have an INTERSECTION operator
-                if (($expectingOperator) && (preg_match('/^' . self::CALCULATION_REGEXP_CELLREF . '.*/Ui', substr($formula, $index), $match)) &&
+                if (($expectingOperator) && (preg_match('/^' . self::CALCULATION_REGEXP_CELLREF . '.*/Ui', substr((string) $formula, $index), $match)) &&
                     ($output[count($output) - 1]['type'] == 'Cell Reference')) {
                     while ($stack->count() > 0 &&
                         ($o2 = $stack->last()) &&
@@ -3924,18 +3924,18 @@ class Calculation
 
                         if ($sheet1 == $sheet2) {
                             if ($operand1Data['reference'] === null) {
-                                if ((trim($operand1Data['value']) != '') && (is_numeric($operand1Data['value']))) {
+                                if ((trim((string) $operand1Data['value']) != '') && (is_numeric($operand1Data['value']))) {
                                     $operand1Data['reference'] = $pCell->getColumn() . $operand1Data['value'];
-                                } elseif (trim($operand1Data['reference']) == '') {
+                                } elseif (trim((string) $operand1Data['reference']) == '') {
                                     $operand1Data['reference'] = $pCell->getCoordinate();
                                 } else {
                                     $operand1Data['reference'] = $operand1Data['value'] . $pCell->getRow();
                                 }
                             }
                             if ($operand2Data['reference'] === null) {
-                                if ((trim($operand2Data['value']) != '') && (is_numeric($operand2Data['value']))) {
+                                if ((trim((string) $operand2Data['value']) != '') && (is_numeric($operand2Data['value']))) {
                                     $operand2Data['reference'] = $pCell->getColumn() . $operand2Data['value'];
-                                } elseif (trim($operand2Data['reference']) == '') {
+                                } elseif (trim((string) $operand2Data['reference']) == '') {
                                     $operand2Data['reference'] = $pCell->getCoordinate();
                                 } else {
                                     $operand2Data['reference'] = $operand2Data['value'] . $pCell->getRow();
@@ -4089,12 +4089,12 @@ class Calculation
                     } else {
                         $cellRef = $matches[6] . $matches[7] . ':' . $matches[9] . $matches[10];
                         if ($matches[2] > '') {
-                            $matches[2] = trim($matches[2], "\"'");
+                            $matches[2] = trim((string) $matches[2], "\"'");
                             if ((strpos($matches[2], '[') !== false) || (strpos($matches[2], ']') !== false)) {
                                 //    It's a Reference to an external spreadsheet (not currently supported)
                                 return $this->raiseFormulaError('Unable to access External Workbook');
                             }
-                            $matches[2] = trim($matches[2], "\"'");
+                            $matches[2] = trim((string) $matches[2], "\"'");
                             $this->debugLog->writeDebugLog('Evaluating Cell Range ', $cellRef, ' in worksheet ', $matches[2]);
                             if ($pCellParent !== null) {
                                 $cellValue = $this->extractCellRange($cellRef, $this->spreadsheet->getSheetByName($matches[2]), false);
@@ -4119,7 +4119,7 @@ class Calculation
                     } else {
                         $cellRef = $matches[6] . $matches[7];
                         if ($matches[2] > '') {
-                            $matches[2] = trim($matches[2], "\"'");
+                            $matches[2] = trim((string) $matches[2], "\"'");
                             if ((strpos($matches[2], '[') !== false) || (strpos($matches[2], ']') !== false)) {
                                 //    It's a Reference to an external spreadsheet (not currently supported)
                                 return $this->raiseFormulaError('Unable to access External Workbook');
@@ -4247,8 +4247,8 @@ class Calculation
                 }
             } else {
                 // if the token is a number, boolean, string or an Excel error, push it onto the stack
-                if (isset(self::$excelConstants[strtoupper($token)])) {
-                    $excelConstant = strtoupper($token);
+                if (isset(self::$excelConstants[strtoupper((string) $token)])) {
+                    $excelConstant = strtoupper((string) $token);
                     $stack->push('Constant Value', self::$excelConstants[$excelConstant]);
                     if (isset($storeKey)) {
                         $branchStore[$storeKey] = self::$excelConstants[$excelConstant];
@@ -4383,10 +4383,10 @@ class Calculation
         // Use case insensitive comparaison if not OpenOffice mode
         if (Functions::getCompatibilityMode() != Functions::COMPATIBILITY_OPENOFFICE) {
             if (is_string($operand1)) {
-                $operand1 = strtoupper($operand1);
+                $operand1 = strtoupper((string) $operand1);
             }
             if (is_string($operand2)) {
-                $operand2 = strtoupper($operand2);
+                $operand2 = strtoupper((string) $operand2);
             }
         }
 
@@ -4516,8 +4516,8 @@ class Calculation
             }
         } else {
             if ((Functions::getCompatibilityMode() != Functions::COMPATIBILITY_OPENOFFICE) &&
-                ((is_string($operand1) && !is_numeric($operand1) && strlen($operand1) > 0) ||
-                 (is_string($operand2) && !is_numeric($operand2) && strlen($operand2) > 0))) {
+                ((is_string($operand1) && !is_numeric($operand1) && strlen((string) $operand1) > 0) ||
+                 (is_string($operand2) && !is_numeric($operand2) && strlen((string) $operand2) > 0))) {
                 $result = Functions::VALUE();
             } else {
                 //    If we're dealing with non-matrix operations, execute the necessary operation
@@ -4705,7 +4705,7 @@ class Calculation
      */
     public function isImplemented($pFunction)
     {
-        $pFunction = strtoupper($pFunction);
+        $pFunction = strtoupper((string) $pFunction);
         $notImplemented = !isset(self::$phpSpreadsheetFunctions[$pFunction]) || (is_array(self::$phpSpreadsheetFunctions[$pFunction]['functionCall']) && self::$phpSpreadsheetFunctions[$pFunction]['functionCall'][1] === 'DUMMY');
 
         return !$notImplemented;

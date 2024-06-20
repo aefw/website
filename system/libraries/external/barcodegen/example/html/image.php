@@ -44,9 +44,10 @@ $filetypes = array('PNG' => BCGDrawing::IMG_FORMAT_PNG, 'JPEG' => BCGDrawing::IM
 $finalClassName = 'BarcodeBakery\\Barcode\\' . $className;
 
 $drawException = null;
+$barcode = null;
 try {
-    $color_black = new BCGColor(0, 0, 0);
-    $color_white = new BCGColor(255, 255, 255);
+    $colorBlack = new BCGColor(0, 0, 0);
+    $colorWhite = new BCGColor(255, 255, 255);
 
     $code_generated = new $finalClassName();
 
@@ -59,25 +60,25 @@ try {
     }
 
     $code_generated->setScale(max(1, $_GET['scale']));
-    $code_generated->setBackgroundColor($color_white);
-    $code_generated->setForegroundColor($color_black);
+    $code_generated->setBackgroundColor($colorWhite);
+    $code_generated->setForegroundColor($colorBlack);
 
     if ($_GET['text'] !== '') {
         $text = convertText($_GET['text']);
         $code_generated->parse($text);
     }
-} catch (Exception $exception) {
+
+    $barcode = $code_generated;
+} catch (\Exception $exception) {
     $drawException = $exception;
 }
 
-$drawing = new BCGDrawing('', $color_white);
+$drawing = new BCGDrawing($barcode, $colorWhite);
 if ($drawException) {
     $drawing->drawException($drawException);
 } else {
-    $drawing->setBarcode($code_generated);
     $drawing->setRotationAngle($_GET['rotation']);
     $drawing->setDPI($_GET['dpi'] === 'NULL' ? null : max(72, min(300, intval($_GET['dpi']))));
-    $drawing->draw();
 }
 
 switch ($_GET['filetype']) {

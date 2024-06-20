@@ -120,7 +120,7 @@ abstract class Engine implements \Serializable
             case  16:
                 if ($base > 0 && $x[0] == '-') {
                     $this->is_negative = true;
-                    $x = substr($x, 1);
+                    $x = substr((string) $x, 1);
                 }
 
                 $x = preg_replace('#^(?:0x)?([A-Fa-f0-9]*).*#', '$1', $x);
@@ -145,7 +145,7 @@ abstract class Engine implements \Serializable
                 // (?<=^|-)0*: find any 0's that are preceded by the start of the string or by a - (ie. octals)
                 // [^-0-9].*: find any non-numeric characters and then any characters that follow that
                 $this->value = preg_replace('#(?<!^)(?:-).*|(?<=^|-)0*|[^-0-9].*#', '', $x);
-                if (!strlen($this->value) || $this->value == '-') {
+                if (!strlen((string) $this->value) || $this->value == '-') {
                     $this->value = '0';
                 }
                 static::initialize($base);
@@ -154,7 +154,7 @@ abstract class Engine implements \Serializable
             case  2:
                 if ($base > 0 && $x[0] == '-') {
                     $this->is_negative = true;
-                    $x = substr($x, 1);
+                    $x = substr((string) $x, 1);
                 }
 
                 $x = preg_replace('#^([01]*).*#', '$1', $x);
@@ -207,7 +207,7 @@ abstract class Engine implements \Serializable
         $temp = $comparison < 0 ? $this->add(new static(1)) : $this;
         $bytes = $temp->toBytes();
 
-        if (!strlen($bytes)) { // eg. if the number we're trying to convert is -1
+        if (!strlen((string) $bytes)) { // eg. if the number we're trying to convert is -1
             $bytes = chr(0);
         }
 
@@ -243,7 +243,7 @@ abstract class Engine implements \Serializable
         $hex = $this->toBytes($twos_compliment);
         $bits = Strings::bin2bits($hex);
 
-        $result = $this->precision > 0 ? substr($bits, -$this->precision) : ltrim($bits, '0');
+        $result = $this->precision > 0 ? substr((string) $bits, -$this->precision) : ltrim((string) $bits, '0');
 
         if ($twos_compliment && $this->compare(new static()) > 0 && $this->precision <= 0) {
             return '0' . $result;
@@ -408,13 +408,13 @@ abstract class Engine implements \Serializable
         $pre_msb = decbin(ord($temp[0]));
         $temp = ~$temp;
         $msb = decbin(ord($temp[0]));
-        if (strlen($msb) == 8) {
-            $msb = substr($msb, strpos($msb, '0'));
+        if (strlen((string) $msb) == 8) {
+            $msb = substr((string) $msb, strpos($msb, '0'));
         }
         $temp[0] = chr(bindec($msb));
 
         // see if we need to add extra leading 1's
-        $current_bits = strlen($pre_msb) + 8 * strlen($temp) - 8;
+        $current_bits = strlen((string) $pre_msb) + 8 * strlen((string) $temp) - 8;
         $new_bits = $this->precision - $current_bits;
         if ($new_bits <= 0) {
             return $this->normalize(new static($temp, 256));
@@ -425,7 +425,7 @@ abstract class Engine implements \Serializable
 
         self::base256_lshift($leading_ones, $current_bits);
 
-        $temp = str_pad($temp, strlen($leading_ones), chr(0), STR_PAD_LEFT);
+        $temp = str_pad($temp, strlen((string) $leading_ones), chr(0), STR_PAD_LEFT);
 
         return $this->normalize(new static($leading_ones | $temp, 256));
     }
@@ -449,7 +449,7 @@ abstract class Engine implements \Serializable
         $shift &= 7; // eg. $shift % 8
 
         $carry = 0;
-        for ($i = strlen($x) - 1; $i >= 0; --$i) {
+        for ($i = strlen((string) $x) - 1; $i >= 0; --$i) {
             $temp = ord($x[$i]) << $shift | $carry;
             $x[$i] = chr($temp);
             $carry = $temp >> 8;
@@ -482,7 +482,7 @@ abstract class Engine implements \Serializable
             $temp = ord($bits[0]);
             for ($i = 0; $temp >> $i; ++$i) {
             }
-            $precision = 8 * strlen($bits) - 8 + $i;
+            $precision = 8 * strlen((string) $bits) - 8 + $i;
             $mask = chr((1 << ($precision & 0x7)) - 1) . str_repeat(chr(0xFF), $precision >> 3);
         }
 
@@ -546,7 +546,7 @@ abstract class Engine implements \Serializable
      */
     public function getLength()
     {
-        return strlen($this->toBits());
+        return strlen((string) $this->toBits());
     }
 
     /**
@@ -556,7 +556,7 @@ abstract class Engine implements \Serializable
      */
     public function getLengthInBytes()
     {
-        return strlen($this->toBytes());
+        return strlen((string) $this->toBytes());
     }
 
     /**
@@ -604,7 +604,7 @@ abstract class Engine implements \Serializable
         //static $window_ranges = [0, 7, 36, 140, 450, 1303, 3529]; // from MPM 7.3.1
 
         $e_bits = $e->toBits();
-        $e_length = strlen($e_bits);
+        $e_length = strlen((string) $e_bits);
 
         // calculate the appropriate window size.
         // $window_size == 3 if $window_ranges is between 25 and 81, for example.
@@ -622,7 +622,7 @@ abstract class Engine implements \Serializable
         $powers[1] = static::prepareReduce($x->value, $n_value, $class);
         $powers[2] = static::squareReduce($powers[1], $n_value, $class);
 
-        // we do every other number since substr($e_bits, $i, $j+1) (see below) is supposed to end
+        // we do every other number since substr((string) $e_bits, $i, $j+1) (see below) is supposed to end
         // in a 1.  ie. it's supposed to be odd.
         $temp = 1 << ($window_size - 1);
         for ($i = 1; $i < $temp; ++$i) {
@@ -644,12 +644,12 @@ abstract class Engine implements \Serializable
                     }
                 }
 
-                // eg. the length of substr($e_bits, $i, $j + 1)
+                // eg. the length of substr((string) $e_bits, $i, $j + 1)
                 for ($k = 0; $k <= $j; ++$k) {
                     $result = static::squareReduce($result, $n_value, $class);
                 }
 
-                $result = static::multiplyReduce($result, $powers[bindec(substr($e_bits, $i, $j + 1))], $n_value, $class);
+                $result = static::multiplyReduce($result, $powers[bindec(substr((string) $e_bits, $i, $j + 1))], $n_value, $class);
 
                 $i += $j + 1;
             }
@@ -754,7 +754,7 @@ abstract class Engine implements \Serializable
 
         $max = $max->subtract($min->subtract(static::$one));
 
-        $size = strlen(ltrim($max->toBytes(), chr(0)));
+        $size = strlen(ltrim((string) $max->toBytes(), chr(0)));
 
         /*
             doing $random % $max doesn't work because some numbers will be more likely to occur than others.
@@ -1171,7 +1171,7 @@ abstract class Engine implements \Serializable
         $left = $this->toBytes(true);
         $right = $x->toBytes(true);
 
-        $length = max(strlen($left), strlen($right));
+        $length = max(strlen((string) $left), strlen((string) $right));
 
         $left = str_pad($left, $length, chr(0), STR_PAD_LEFT);
         $right = str_pad($right, $length, chr(0), STR_PAD_LEFT);
@@ -1190,7 +1190,7 @@ abstract class Engine implements \Serializable
         $left = $this->toBytes(true);
         $right = $x->toBytes(true);
 
-        $length = max(strlen($left), strlen($right));
+        $length = max(strlen((string) $left), strlen((string) $right));
 
         $left = str_pad($left, $length, chr(0), STR_PAD_LEFT);
         $right = str_pad($right, $length, chr(0), STR_PAD_LEFT);
@@ -1209,7 +1209,7 @@ abstract class Engine implements \Serializable
         $left = $this->toBytes(true);
         $right = $x->toBytes(true);
 
-        $length = max(strlen($left), strlen($right));
+        $length = max(strlen((string) $left), strlen((string) $right));
 
 
         $left = str_pad($left, $length, chr(0), STR_PAD_LEFT);

@@ -299,7 +299,7 @@ abstract class DH extends AsymmetricKey
                             break;
                         default:
                             // according to https://www.secg.org/sec1-v2.pdf#page=33 only X is returned
-                            $secret = substr($point, 1, (strlen($point) - 1) >> 1);
+                            $secret = substr((string) $point, 1, (strlen((string) $point) - 1) >> 1);
                     }
                     /*
                     if (($secret[0] & "\x80") === "\x80") {

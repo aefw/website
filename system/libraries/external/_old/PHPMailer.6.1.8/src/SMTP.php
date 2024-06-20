@@ -292,7 +292,7 @@ class SMTP
                     str_replace(
                         "\n",
                         "\n                   \t                  ",
-                        trim($str)
+                        trim((string) $str)
                     )
                 ),
                 "\n";
@@ -566,7 +566,7 @@ class SMTP
                     return false;
                 }
                 // Get the challenge
-                $challenge = base64_decode(substr($this->last_reply, 4));
+                $challenge = base64_decode(substr((string) $this->last_reply, 4));
 
                 // Build the response
                 $response = $username . ' ' . $this->hmac($challenge, $password);
@@ -619,7 +619,7 @@ class SMTP
         // by Lance Rushing
 
         $bytelen = 64; // byte length for md5
-        if (strlen($key) > $bytelen) {
+        if (strlen((string) $key) > $bytelen) {
             $key = pack('H*', md5($key));
         }
         $key = str_pad($key, $bytelen, chr(0x00));
@@ -712,7 +712,7 @@ class SMTP
          * process all lines before a blank line as headers.
          */
 
-        $field = substr($lines[0], 0, strpos($lines[0], ':'));
+        $field = substr((string) $lines[0], 0, strpos($lines[0], ':'));
         $in_headers = false;
         if (!empty($field) && strpos($field, ' ') === false) {
             $in_headers = true;
@@ -724,22 +724,22 @@ class SMTP
                 $in_headers = false;
             }
             //Break this line up into several smaller lines if it's too long
-            //Micro-optimisation: isset($str[$len]) is faster than (strlen($str) > $len),
+            //Micro-optimisation: isset($str[$len]) is faster than (strlen((string) $str) > $len),
             while (isset($line[self::MAX_LINE_LENGTH])) {
                 //Working backwards, try to find a space within the last MAX_LINE_LENGTH chars of the line to break on
                 //so as to avoid breaking in the middle of a word
-                $pos = strrpos(substr($line, 0, self::MAX_LINE_LENGTH), ' ');
+                $pos = strrpos(substr((string) $line, 0, self::MAX_LINE_LENGTH), ' ');
                 //Deliberately matches both false and 0
                 if (!$pos) {
                     //No nice break found, add a hard break
                     $pos = self::MAX_LINE_LENGTH - 1;
-                    $lines_out[] = substr($line, 0, $pos);
-                    $line = substr($line, $pos);
+                    $lines_out[] = substr((string) $line, 0, $pos);
+                    $line = substr((string) $line, $pos);
                 } else {
                     //Break at the found point
-                    $lines_out[] = substr($line, 0, $pos);
+                    $lines_out[] = substr((string) $line, 0, $pos);
                     //Move along by the amount we dealt with
-                    $line = substr($line, $pos + 1);
+                    $line = substr((string) $line, $pos + 1);
                 }
                 //If processing headers add a LWSP-char to the front of new line RFC822 section 3.1.1
                 if ($in_headers) {
@@ -824,7 +824,7 @@ class SMTP
 
         foreach ($lines as $n => $s) {
             //First 4 chars contain response code followed by - or space
-            $s = trim(substr($s, 4));
+            $s = trim(substr((string) $s, 4));
             if (empty($s)) {
                 continue;
             }
@@ -914,7 +914,7 @@ class SMTP
         if (empty($dsn)) {
             $rcpt = 'RCPT TO:<' . $address . '>';
         } else {
-            $dsn = strtoupper($dsn);
+            $dsn = strtoupper((string) $dsn);
             $notify = [];
 
             if (strpos($dsn, 'NEVER') !== false) {
@@ -988,9 +988,9 @@ class SMTP
             );
         } else {
             // Fall back to simple parsing if regex fails
-            $code = (int) substr($this->last_reply, 0, 3);
+            $code = (int) substr((string) $this->last_reply, 0, 3);
             $code_ex = null;
-            $detail = substr($this->last_reply, 4);
+            $detail = substr((string) $this->last_reply, 4);
         }
 
         $this->edebug('SERVER -> CLIENT: ' . $this->last_reply, self::DEBUG_SERVER);
@@ -1230,7 +1230,7 @@ class SMTP
 
             //Deliberate noise suppression - errors are handled afterwards
             $str = @fgets($this->smtp_conn, self::MAX_REPLY_LENGTH);
-            $this->edebug('SMTP INBOUND: "' . trim($str) . '"', self::DEBUG_LOWLEVEL);
+            $this->edebug('SMTP INBOUND: "' . trim((string) $str) . '"', self::DEBUG_LOWLEVEL);
             $data .= $str;
             // If response is only 3 chars (not valid, but RFC5321 S4.2 says it must be handled),
             // or 4th character is a space or a line break char, we are done reading, break the loop.
@@ -1401,7 +1401,7 @@ class SMTP
             foreach ($this->smtp_transaction_id_patterns as $smtp_transaction_id_pattern) {
                 $matches = [];
                 if (preg_match($smtp_transaction_id_pattern, $reply, $matches)) {
-                    $this->last_smtp_transaction_id = trim($matches[1]);
+                    $this->last_smtp_transaction_id = trim((string) $matches[1]);
                     break;
                 }
             }

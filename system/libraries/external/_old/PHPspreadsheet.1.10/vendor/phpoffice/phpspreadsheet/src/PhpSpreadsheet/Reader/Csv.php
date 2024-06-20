@@ -137,8 +137,8 @@ class Csv extends BaseReader
             return;
         }
 
-        if ((strlen(trim($line, "\r\n")) == 5) && (stripos($line, 'sep=') === 0)) {
-            $this->delimiter = substr($line, 4, 1);
+        if ((strlen(trim((string) $line, "\r\n")) == 5) && (stripos($line, 'sep=') === 0)) {
+            $this->delimiter = substr((string) $line, 4, 1);
 
             return;
         }
@@ -165,7 +165,7 @@ class Csv extends BaseReader
         $numberLines = 0;
         while (($line = $this->getNextLine()) !== false && (++$numberLines < 1000)) {
             $countLine = [];
-            for ($i = strlen($line) - 1; $i >= 0; --$i) {
+            for ($i = strlen((string) $line) - 1; $i >= 0; --$i) {
                 $char = $line[$i];
                 if (isset($counts[$char])) {
                     if (!isset($countLine[$char])) {

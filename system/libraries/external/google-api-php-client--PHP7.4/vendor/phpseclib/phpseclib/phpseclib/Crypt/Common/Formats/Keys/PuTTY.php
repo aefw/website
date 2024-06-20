@@ -63,11 +63,11 @@ abstract class PuTTY
     {
         $symkey = '';
         $sequence = 0;
-        while (strlen($symkey) < $length) {
+        while (strlen((string) $symkey) < $length) {
             $temp = pack('Na*', $sequence++, $password);
             $symkey.= Hex::decode(sha1($temp));
         }
-        return substr($symkey, 0, $length);
+        return substr((string) $symkey, 0, $length);
     }
 
     /**
@@ -94,7 +94,7 @@ abstract class PuTTY
             }
             $lines = array_splice($lines, 1, -1);
             $lines = array_map(function ($line) {
-                return rtrim($line, "\r\n");
+                return rtrim((string) $line, "\r\n");
             }, $lines);
             $data = $current = '';
             $values = [];
@@ -102,13 +102,13 @@ abstract class PuTTY
             foreach ($lines as $line) {
                 switch (true) {
                     case preg_match('#^(.*?): (.*)#', $line, $match):
-                        $in_value = $line[strlen($line) - 1] == '\\';
-                        $current = strtolower($match[1]);
-                        $values[$current] = $in_value ? substr($match[2], 0, -1) : $match[2];
+                        $in_value = $line[strlen((string) $line) - 1] == '\\';
+                        $current = strtolower((string) $match[1]);
+                        $values[$current] = $in_value ? substr((string) $match[2], 0, -1) : $match[2];
                         break;
                     case $in_value:
-                        $in_value = $line[strlen($line) - 1] == '\\';
-                        $values[$current].= $in_value ? substr($line, 0, -1) : $line;
+                        $in_value = $line[strlen((string) $line) - 1] == '\\';
+                        $values[$current].= $in_value ? substr((string) $line, 0, -1) : $line;
                         break;
                     default:
                         $data.= $line;
@@ -127,7 +127,7 @@ abstract class PuTTY
 
         $components = [];
 
-        $key = preg_split('#\r\n|\r|\n#', trim($key));
+        $key = preg_split('#\r\n|\r|\n#', trim((string) $key));
         $type = trim(preg_replace('#PuTTY-User-Key-File-2: (.+)#', '$1', $key[0]));
         $components['type'] = $type;
         if (!in_array($type, static::$types)) {
@@ -211,14 +211,14 @@ abstract class PuTTY
         $source = Strings::packSSH2('ssss', $type, $encryption, $comment, $public);
 
         $public = Base64::encode($public);
-        $key.= "Public-Lines: " . ((strlen($public) + 63) >> 6) . "\r\n";
+        $key.= "Public-Lines: " . ((strlen((string) $public) + 63) >> 6) . "\r\n";
         $key.= chunk_split($public, 64);
 
         if (empty($password) && !is_string($password)) {
             $source.= Strings::packSSH2('s', $private);
             $hashkey = 'putty-private-key-file-mac-key';
         } else {
-            $private.= Random::string(16 - (strlen($private) & 15));
+            $private.= Random::string(16 - (strlen((string) $private) & 15));
             $source.= Strings::packSSH2('s', $private);
             $crypto = new AES('cbc');
 
@@ -230,7 +230,7 @@ abstract class PuTTY
         }
 
         $private = Base64::encode($private);
-        $key.= 'Private-Lines: ' . ((strlen($private) + 63) >> 6) . "\r\n";
+        $key.= 'Private-Lines: ' . ((strlen((string) $private) + 63) >> 6) . "\r\n";
         $key.= chunk_split($private, 64);
         $hash = new Hash('sha1');
         $hash->setKey(sha1($hashkey, true));
@@ -251,7 +251,7 @@ abstract class PuTTY
      */
     protected static function wrapPublicKey($key, $type)
     {
-        $key = pack('Na*a*', strlen($type), $type, $key);
+        $key = pack('Na*a*', strlen((string) $type), $type, $key);
         $key = "---- BEGIN SSH2 PUBLIC KEY ----\r\n" .
                'Comment: "' . str_replace(['\\', '"'], ['\\\\', '\"'], self::$comment) . "\"\r\n" .
                chunk_split(Base64::encode($key), 64) .

@@ -86,7 +86,7 @@ class Password extends CommandLine\Action
             @flock(STDIN, LOCK_UN);
             system('stty echo');
         }
-        return trim($passwd);
+        return trim((string) $passwd);
     }
     // }}}
 }

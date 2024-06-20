@@ -187,17 +187,17 @@ class Html extends BaseReader
 
     private static function startsWithTag($data)
     {
-        return '<' === substr(trim($data), 0, 1);
+        return '<' === substr(trim((string) $data), 0, 1);
     }
 
     private static function endsWithTag($data)
     {
-        return '>' === substr(trim($data), -1, 1);
+        return '>' === substr(trim((string) $data), -1, 1);
     }
 
     private static function containsTags($data)
     {
-        return strlen($data) !== strlen(strip_tags($data));
+        return strlen((string) $data) !== strlen(strip_tags($data));
     }
 
     /**
@@ -276,7 +276,7 @@ class Html extends BaseReader
     {
         if (is_string($cellContent)) {
             //    Simple String content
-            if (trim($cellContent) > '') {
+            if (trim((string) $cellContent) > '') {
                 //    Only actually write it if there's content in the string
                 //    Write to worksheet to be done here...
                 //    ... we return the cell so we can mess about with styles more easily
@@ -302,7 +302,7 @@ class Html extends BaseReader
     {
         foreach ($element->childNodes as $child) {
             if ($child instanceof DOMText) {
-                $domText = preg_replace('/\s+/u', ' ', trim($child->nodeValue));
+                $domText = preg_replace('/\s+/u', ' ', trim((string) $child->nodeValue));
                 if (is_string($cellContent)) {
                     //    simply append the text if the cell content is a plain text string
                     $cellContent .= $domText;
@@ -705,8 +705,8 @@ class Html extends BaseReader
         $styles = explode(';', $attributeArray['style']);
         foreach ($styles as $st) {
             $value = explode(':', $st);
-            $styleName = isset($value[0]) ? trim($value[0]) : null;
-            $styleValue = isset($value[1]) ? trim($value[1]) : null;
+            $styleName = isset($value[0]) ? trim((string) $value[0]) : null;
+            $styleValue = isset($value[1]) ? trim((string) $value[1]) : null;
 
             if (!$styleName) {
                 continue;
@@ -851,7 +851,7 @@ class Html extends BaseReader
     public function getStyleColor($value)
     {
         if (strpos($value, '#') === 0) {
-            return substr($value, 1);
+            return substr((string) $value, 1);
         }
 
         return null;

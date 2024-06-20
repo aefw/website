@@ -21,7 +21,7 @@ use BarcodeBakery\Common\BCGParseException;
 class BCGpostnet extends BCGBarcode1D
 {
     /**
-     * Constructor.
+     * Creates a PostNet barcode.
      */
     public function __construct()
     {
@@ -47,45 +47,46 @@ class BCGpostnet extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         // Checksum
         $checksum = 0;
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
             $checksum += intval($this->text[$i]);
         }
 
-        $checksum = 10 - ($checksum % 10);
+        $checksum = (10 - ($checksum % 10)) % 10;
 
         // Starting Code
-        $this->drawChar($im, '1');
+        $this->drawChar($image, '1');
 
         // Code
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($this->text[$i]));
+            $this->drawChar($image, $this->findCode($this->text[$i]));
         }
 
         // Checksum
-        $this->drawChar($im, $this->findCode($checksum));
+        $this->drawChar($image, $this->findCode((string)$checksum));
 
         // Ending Code
-        $this->drawChar($im, '1');
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, '1');
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         $startlength = 3;
         $textlength = $c * 5 * 3;
         $checksumlength = 5 * 3;
@@ -94,17 +95,19 @@ class BCGpostnet extends BCGBarcode1D
         // We remove the white on the right
         $removelength = -1.56;
 
-        $w += $startlength + $textlength + $checksumlength + $endlength + $removelength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength + (int)$removelength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('postnet', 'No data has been entered.');
         }
@@ -127,13 +130,14 @@ class BCGpostnet extends BCGBarcode1D
     /**
      * Overloaded method for drawing special barcode.
      *
-     * @param resource $im
-     * @param string $code
-     * @param boolean $startBar
+     * @param resource $image The surface.
+     * @param string $code The code.
+     * @param bool $startBar True if we begin with a space.
+     * @return void
      */
-    protected function drawChar($im, $code, $startBar = true)
+    protected function drawChar($image, string $code, bool $startBar = true): void
     {
-        $c = strlen($code);
+        $c = strlen((string) $code);
         for ($i = 0; $i < $c; $i++) {
             if ($code[$i] === '0') {
                 $posY = $this->thickness - ($this->thickness / 2.5);
@@ -141,7 +145,7 @@ class BCGpostnet extends BCGBarcode1D
                 $posY = 0;
             }
 
-            $this->drawFilledRectangle($im, intval($this->positionX), intval($posY), intval($this->positionX + 0.44), $this->thickness - 1, BCGBarcode::COLOR_FG);
+            $this->drawFilledRectangle($image, intval($this->positionX), intval($posY), intval($this->positionX + 0.44), $this->thickness - 1, BCGBarcode::COLOR_FG);
             $this->positionX += 3;
         }
     }

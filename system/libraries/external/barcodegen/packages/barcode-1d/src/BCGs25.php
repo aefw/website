@@ -19,10 +19,10 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGs25 extends BCGBarcode1D
 {
-    private $checksum;
+    private bool $checksum;
 
     /**
-     * Constructor.
+     * Creates a Standard 2 of 5 barcode.
      */
     public function __construct()
     {
@@ -48,9 +48,10 @@ class BCGs25 extends BCGBarcode1D
     /**
      * Sets if we display the checksum.
      *
-     * @param bool $checksum
+     * @param bool $checksum Displays the checksum.
+     * @return void
      */
-    public function setChecksum($checksum)
+    public function setChecksum(bool $checksum): void
     {
         $this->checksum = (bool)$checksum;
     }
@@ -58,42 +59,43 @@ class BCGs25 extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
-        $temp_text = $this->text;
+        $tempText = $this->text;
 
         // Checksum
         if ($this->checksum === true) {
             $this->calculateChecksum();
-            $temp_text .= $this->keys[$this->checksumValue];
+            $tempText .= $this->keys[$this->checksumValue[0]];
         }
 
         // Starting Code
-        $this->drawChar($im, '101000', true);
+        $this->drawChar($image, '101000', true);
 
         // Chars
-        $c = strlen($temp_text);
+        $c = strlen((string) $tempText);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($temp_text[$i]), true);
+            $this->drawChar($image, $this->findCode($tempText[$i]), true);
         }
 
         // Ending Code
-        $this->drawChar($im, '10001', true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, '10001', true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         $startlength = 8;
         $textlength = $c * 14;
         $checksumlength = 0;
@@ -103,17 +105,19 @@ class BCGs25 extends BCGBarcode1D
 
         $endlength = 7;
 
-        $w += $startlength + $textlength + $checksumlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('s25', 'No data has been entered.');
         }
@@ -137,8 +141,10 @@ class BCGs25 extends BCGBarcode1D
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
         // Calculating Checksum
         // Consider the right-most digit of the message to be in an "even" position,
@@ -147,8 +153,8 @@ class BCGs25 extends BCGBarcode1D
         // Multiply it by the number
         // Add all of that and do 10-(?mod10)
         $even = true;
-        $this->checksumValue = 0;
-        $c = strlen($this->text);
+        $this->checksumValue = array(0);
+        $c = strlen((string) $this->text);
         for ($i = $c; $i > 0; $i--) {
             if ($even === true) {
                 $multiplier = 3;
@@ -158,24 +164,26 @@ class BCGs25 extends BCGBarcode1D
                 $even = true;
             }
 
-            $this->checksumValue += $this->keys[$this->text[$i - 1]] * $multiplier;
+            $this->checksumValue[0] += $this->keys[$this->text[$i - 1]] * $multiplier;
         }
-        $this->checksumValue = (10 - $this->checksumValue % 10) % 10;
+        $this->checksumValue[0] = (10 - $this->checksumValue[0] % 10) % 10;
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
-            return $this->keys[$this->checksumValue];
+        if ($this->checksumValue !== null) {
+            return $this->keys[$this->checksumValue[0]];
         }
 
-        return false;
+        return null;
     }
 }

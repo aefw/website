@@ -108,7 +108,7 @@ class PrivateKey extends EC implements Common\PrivateKey
         if ($this->curve instanceof TwistedEdwardsCurve) {
             if ($this->curve instanceof Ed25519 && self::$engines['libsodium'] && !isset($this->context)) {
                 $result = sodium_crypto_sign_detached($message, $this->toString('libsodium'));
-                return $shortFormat == 'SSH2' ? Strings::packSSH2('ss', 'ssh-' . strtolower($this->getCurve()), $result) : $result;
+                return $shortFormat == 'SSH2' ? Strings::packSSH2('ss', 'ssh-' . strtolower((string) $this->getCurve()), $result) : $result;
             }
 
             // contexts (Ed25519ctx) are supported but prehashing (Ed25519ph) is not.
@@ -118,14 +118,14 @@ class PrivateKey extends EC implements Common\PrivateKey
             $curve = $this->curve;
             $hash = new Hash($curve::HASH);
 
-            $secret = substr($hash->hash($this->dA->secret), $curve::SIZE);
+            $secret = substr((string) $hash->hash($this->dA->secret), $curve::SIZE);
 
             if ($curve instanceof Ed25519) {
                 $dom = !isset($this->context) ? '' :
-                    'SigEd25519 no Ed25519 collisions' . "\0" . chr(strlen($this->context)) . $this->context;
+                    'SigEd25519 no Ed25519 collisions' . "\0" . chr(strlen((string) $this->context)) . $this->context;
             } else {
                 $context = isset($this->context) ? $this->context : '';
-                $dom = 'SigEd448' . "\0" . chr(strlen($context)) . $context;
+                $dom = 'SigEd448' . "\0" . chr(strlen((string) $context)) . $context;
             }
             // SHA-512(dom2(F, C) || prefix || PH(M))
             $r = $hash->hash($dom . $secret . $message);
@@ -141,7 +141,7 @@ class PrivateKey extends EC implements Common\PrivateKey
             $S = $k->multiply($dA)->add($r);
             list(, $S) = $S->divide($order);
             $S = str_pad(strrev($S->toBytes()), $curve::SIZE, "\0");
-            return $shortFormat == 'SSH2' ? Strings::packSSH2('ss', 'ssh-' . strtolower($this->getCurve()), $R . $S) : $R . $S;
+            return $shortFormat == 'SSH2' ? Strings::packSSH2('ss', 'ssh-' . strtolower((string) $this->getCurve()), $R . $S) : $R . $S;
         }
 
         if (self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods())) {

@@ -80,7 +80,7 @@ class PublicKey extends RSA implements Common\PublicKey
     {
         // Length checking
 
-        if (strlen($s) != $this->k) {
+        if (strlen((string) $s) != $this->k) {
             return false;
         }
 
@@ -148,7 +148,7 @@ class PublicKey extends RSA implements Common\PublicKey
     {
         // Length checking
 
-        if (strlen($s) != $this->k) {
+        if (strlen((string) $s) != $this->k) {
             return false;
         }
 
@@ -168,13 +168,13 @@ class PublicKey extends RSA implements Common\PublicKey
             return false;
         }
 
-        $em = ltrim($em, "\xFF");
+        $em = ltrim((string) $em, "\xFF");
         if (Strings::shift($em) != "\0") {
             return false;
         }
 
         $decoded = ASN1::decodeBER($em);
-        if (!is_array($decoded) || empty($decoded[0]) || strlen($em) > $decoded[0]['length']) {
+        if (!is_array($decoded) || empty($decoded[0]) || strlen((string) $em) > $decoded[0]['length']) {
             return false;
         }
 
@@ -210,8 +210,8 @@ class PublicKey extends RSA implements Common\PublicKey
         }
 
         $hash = $decoded['digestAlgorithm']['algorithm'];
-        $hash = substr($hash, 0, 3) == 'id-' ?
-            substr($hash, 3) :
+        $hash = substr((string) $hash, 0, 3) == 'id-' ?
+            substr((string) $hash, 3) :
             $hash;
         $hash = new Hash($hash);
         $em = $hash->hash($m);
@@ -244,12 +244,12 @@ class PublicKey extends RSA implements Common\PublicKey
             return false;
         }
 
-        if ($em[strlen($em) - 1] != chr(0xBC)) {
+        if ($em[strlen((string) $em) - 1] != chr(0xBC)) {
             return false;
         }
 
-        $maskedDB = substr($em, 0, -$this->hLen - 1);
-        $h = substr($em, -$this->hLen - 1, $this->hLen);
+        $maskedDB = substr((string) $em, 0, -$this->hLen - 1);
+        $h = substr((string) $em, -$this->hLen - 1, $this->hLen);
         $temp = chr(0xFF << ($emBits & 7));
         if ((~$maskedDB[0] & $temp) != $temp) {
             return false;
@@ -258,10 +258,10 @@ class PublicKey extends RSA implements Common\PublicKey
         $db = $maskedDB ^ $dbMask;
         $db[0] = ~chr(0xFF << ($emBits & 7)) & $db[0];
         $temp = $emLen - $this->hLen - $sLen - 2;
-        if (substr($db, 0, $temp) != str_repeat(chr(0), $temp) || ord($db[$temp]) != 1) {
+        if (substr((string) $db, 0, $temp) != str_repeat(chr(0), $temp) || ord($db[$temp]) != 1) {
             return false;
         }
-        $salt = substr($db, $temp + 1); // should be $sLen long
+        $salt = substr((string) $db, $temp + 1); // should be $sLen long
         $m2 = "\0\0\0\0\0\0\0\0" . $mHash . $salt;
         $h2 = $this->hash->hash($m2);
         return hash_equals($h, $h2);
@@ -281,13 +281,13 @@ class PublicKey extends RSA implements Common\PublicKey
     {
         // Length checking
 
-        if (strlen($s) != $this->k) {
+        if (strlen((string) $s) != $this->k) {
             return false;
         }
 
         // RSA verification
 
-        $modBits = strlen($this->modulus->toBits());
+        $modBits = strlen((string) $this->modulus->toBits());
 
         $s2 = $this->os2ip($s);
         $m2 = $this->rsavp1($s2);
@@ -330,12 +330,12 @@ class PublicKey extends RSA implements Common\PublicKey
      * @access private
      * @param string $m
      * @param bool $pkcs15_compat optional
-     * @throws \LengthException if strlen($m) > $this->k - 11
+     * @throws \LengthException if strlen((string) $m) > $this->k - 11
      * @return bool|string
      */
     private function rsaes_pkcs1_v1_5_encrypt($m, $pkcs15_compat = false)
     {
-        $mLen = strlen($m);
+        $mLen = strlen((string) $m);
 
         // Length checking
 
@@ -347,8 +347,8 @@ class PublicKey extends RSA implements Common\PublicKey
 
         $psLen = $this->k - $mLen - 3;
         $ps = '';
-        while (strlen($ps) != $psLen) {
-            $temp = Random::string($psLen - strlen($ps));
+        while (strlen((string) $ps) != $psLen) {
+            $temp = Random::string($psLen - strlen((string) $ps));
             $temp = str_replace("\x00", '', $temp);
             $ps.= $temp;
         }
@@ -373,12 +373,12 @@ class PublicKey extends RSA implements Common\PublicKey
      *
      * @access private
      * @param string $m
-     * @throws \LengthException if strlen($m) > $this->k - 2 * $this->hLen - 2
+     * @throws \LengthException if strlen((string) $m) > $this->k - 2 * $this->hLen - 2
      * @return string
      */
     private function rsaes_oaep_encrypt($m)
     {
-        $mLen = strlen($m);
+        $mLen = strlen((string) $m);
 
         // Length checking
 
@@ -437,11 +437,11 @@ class PublicKey extends RSA implements Common\PublicKey
      * @access private
      * @param string $m
      * @return bool|string
-     * @throws \LengthException if strlen($m) > $this->k
+     * @throws \LengthException if strlen((string) $m) > $this->k
      */
     private function raw_encrypt($m)
     {
-        if (strlen($m) > $this->k) {
+        if (strlen((string) $m) > $this->k) {
             throw new \LengthException('Message too long');
         }
 

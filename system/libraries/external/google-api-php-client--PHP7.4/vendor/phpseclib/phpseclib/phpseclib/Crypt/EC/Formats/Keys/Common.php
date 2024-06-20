@@ -308,7 +308,7 @@ trait Common
             return [];
         }
 
-        $keylen = strlen($str);
+        $keylen = strlen((string) $str);
         $order = $curve->getLengthInBytes();
         // point compression is being used
         if ($keylen == $order + 1) {
@@ -500,12 +500,12 @@ trait Common
                 'parameters' => $modulo
             ], Maps\Characteristic_two::MAP);
             $params = new ASN1\Element($params);
-            $a = ltrim($curve->getA()->toBytes(), "\0");
-            if (!strlen($a)) {
+            $a = ltrim((string) $curve->getA()->toBytes(), "\0");
+            if (!strlen((string) $a)) {
                 $a = "\0";
             }
-            $b = ltrim($curve->getB()->toBytes(), "\0");
-            if (!strlen($b)) {
+            $b = ltrim((string) $curve->getB()->toBytes(), "\0");
+            if (!strlen((string) $b)) {
                 $b = "\0";
             }
             $data = [

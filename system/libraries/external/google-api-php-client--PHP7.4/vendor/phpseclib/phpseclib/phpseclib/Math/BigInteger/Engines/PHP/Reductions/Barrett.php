@@ -101,7 +101,7 @@ abstract class Barrett extends Base
         $lsd = array_slice($n, 0, $cutoff); // m.length + (m.length >> 1)
         $msd = array_slice($n, $cutoff);    // m.length >> 1
 
-        $lsd = self::trim($lsd);
+        $lsd = self::trim((string) $lsd);
         $temp = $class::multiplyHelper($msd, false, $m1, false); // m.length + (m.length >> 1)
         $n = $class::addHelper($lsd, false, $temp[self::VALUE], false); // m.length + (m.length >> 1) + 1 (so basically we're adding two same length numbers)
         //if ($m_length & 1) {
@@ -277,7 +277,7 @@ abstract class Barrett extends Base
         }
 
         return [
-            self::VALUE => self::trim($product_value),
+            self::VALUE => self::trim((string) $product_value),
             self::SIGN => $x_negative != $y_negative
         ];
     }

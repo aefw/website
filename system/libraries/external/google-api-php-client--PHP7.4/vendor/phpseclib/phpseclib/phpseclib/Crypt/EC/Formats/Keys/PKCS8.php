@@ -148,10 +148,10 @@ abstract class PKCS8 extends Progenitor
 
             // 0x04 == octet string
             // 0x20 == length (32 bytes)
-            if (substr($key['privateKey'], 0, 2) != "\x04\x20") {
+            if (substr((string) $key['privateKey'], 0, 2) != "\x04\x20") {
                 throw new \RuntimeException('The first two bytes of the private key field should be 0x0420');
             }
-            $components['dA'] = $components['curve']->extractSecret(substr($key['privateKey'], 2));
+            $components['dA'] = $components['curve']->extractSecret(substr((string) $key['privateKey'], 2));
         }
 
         if (isset($key['publicKey'])) {

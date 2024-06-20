@@ -179,6 +179,6 @@ class MD5
     {
         $binary = str_pad(decbin($decimal), 32, '0', STR_PAD_LEFT);
 
-        return bindec(substr($binary, $bits) . substr($binary, 0, $bits));
+        return bindec(substr((string) $binary, $bits) . substr((string) $binary, 0, $bits));
     }
 }

@@ -318,7 +318,7 @@ class Model implements \ArrayAccess
   {
     $value = ucwords(str_replace(array('-', '_'), ' ', $value));
     $value = str_replace(' ', '', $value);
-    $value[0] = strtolower($value[0]);
+    $value[0] = strtolower((string) $value[0]);
     return $value;
   }
 }

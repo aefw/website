@@ -267,8 +267,8 @@ if (!class_exists('\PEAR2\Autoload', false)) {
             $file = '';
             $className = $class;
             if (false !== $lastNsPos = strrpos($class, '\\')) {
-                $namespace = substr($class, 0, $lastNsPos);
-                $className = substr($class, $lastNsPos + 1);
+                $namespace = substr((string) $class, 0, $lastNsPos);
+                $className = substr((string) $class, $lastNsPos + 1);
                 $file = str_replace(
                     '\\',
                     DIRECTORY_SEPARATOR,

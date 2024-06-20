@@ -59,27 +59,27 @@ class BCGcode128 extends BCGBarcode1D
 
     const KEY_STOP = 106;
 
-    protected $keysA;
-    protected $keysB;
-    protected $keysC;
-    private $starting_text;
-    private $indcheck;
-    private $data;
-    private $lastTable;
-    private $tilde;
+    protected string $keysA;
+    protected string $keysB;
+    protected string $keysC;
+    private ?string $startingText;
+    private ?array $indcheck;
+    private ?array $data;
+    private string $lastTable;
+    private bool $tilde;
 
-    private $shift;
-    private $latch;
-    private $fnc;
+    private array $shift;
+    private array $latch;
+    private array $fnc;
 
-    private $METHOD            = null; // Array of method available to create Code128 (CODE128_A, CODE128_B, CODE128_C)
+    private array $METHOD; // Array of method available to create Code128 (CODE128_A, CODE128_B, CODE128_C)
 
     /**
-     * Constructor.
+     * Creates a Code 128 barcode.
      *
-     * @param char $start
+     * @param string|null $start The start table.
      */
-    public function __construct($start = null)
+    public function __construct(?string $start = null)
     {
         parent::__construct();
 
@@ -236,23 +236,24 @@ class BCGcode128 extends BCGBarcode1D
      * If null is specified, the table selection is automatically made.
      * The default is null.
      *
-     * @param string $table
+     * @param string|null $table The table.
+     * @return void
      */
-    public function setStart($table)
+    public function setStart(?string $table): void
     {
         if ($table !== 'A' && $table !== 'B' && $table !== 'C' && $table !== null) {
             throw new BCGArgumentException('The starting table must be A, B, C or null.', 'table');
         }
 
-        $this->starting_text = $table;
+        $this->startingText = $table;
     }
 
     /**
      * Gets the tilde.
      *
-     * @return bool
+     * @return bool True if enabled.
      */
-    public function getTilde()
+    public function getTilde(): bool
     {
         return $this->tilde;
     }
@@ -263,9 +264,10 @@ class BCGcode128 extends BCGBarcode1D
      *  - ~~     : to make ONE tilde
      *  - ~Fx    : to insert FCNx. x is equal from 1 to 4.
      *
-     * @param boolean $accept
+     * @param bool $accept Accept the tilde as special character.
+     * @return void
      */
-    public function setTilde($accept)
+    public function setTilde(bool $accept): void
     {
         $this->tilde = (bool)$accept;
     }
@@ -273,16 +275,19 @@ class BCGcode128 extends BCGBarcode1D
     /**
      * Parses the text before displaying it.
      *
-     * @param mixed $text
+     * @param mixed $text The input.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
-        $this->setStartFromText($text);
+        parent::parse($text);
+        $this->setStartFromText($this->text);
 
+        $text = $this->text;
         $this->text = '';
         $seq = '';
 
-        $currentMode = $this->starting_text;
+        $currentMode = $this->startingText;
 
         // Here, we format correctly what the user gives.
         if (!is_array($text)) {
@@ -329,54 +334,44 @@ class BCGcode128 extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         $c = count($this->data);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->data[$i], true);
+            $this->drawChar($image, $this->data[$i], true);
         }
 
-        $this->drawChar($im, '1', true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, '1', true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         // Contains start + text + checksum + stop
         $textlength = count($this->data) * 11;
         $endlength = 2; // + final bar
 
-        $w += $textlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
-    }
-
-    /**
-     * Validates the input.
-     */
-    protected function validate()
-    {
-        $c = count($this->data);
-        if ($c === 0) {
-            throw new BCGParseException('code128', 'No data has been entered.');
-        }
-
-        parent::validate();
+        $width += $textlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
         // Checksum
         // First Char (START)
@@ -384,48 +379,51 @@ class BCGcode128 extends BCGBarcode1D
         // take the value of the character (between 0 and 102, inclusive) multiply
         // it by its character position (1) and add that to the running checksum.
         // Modulated 103
-        $this->checksumValue = $this->indcheck[0];
+        $this->checksumValue = array($this->indcheck[0]);
         $c = count($this->indcheck);
         for ($i = 1; $i < $c; $i++) {
-            $this->checksumValue += $this->indcheck[$i] * $i;
+            $this->checksumValue[0] += $this->indcheck[$i] * $i;
         }
 
-        $this->checksumValue = $this->checksumValue % 103;
+        $this->checksumValue[0] = $this->checksumValue[0] % 103;
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
+        if ($this->checksumValue !== null) {
             if ($this->lastTable === 'C') {
-                return (string)$this->checksumValue;
+                return (string)$this->checksumValue[0];
             }
 
-            return $this->{'keys' . $this->lastTable}[$this->checksumValue];
+            return $this->{'keys' . $this->lastTable}[$this->checksumValue[0]];
         }
 
-        return false;
+        return null;
     }
 
     /**
-     * Specifies the starting_text table if none has been specified earlier.
+     * Specifies the startingText table if none has been specified earlier.
      *
-     * @param string $text
+     * @param mixed $text The text.
+     * @return void
      */
-    private function setStartFromText($text)
+    private function setStartFromText($text): void
     {
-        if ($this->starting_text === null) {
+        if ($this->startingText === null) {
             // If we have a forced table at the start, we get that one...
             if (is_array($text)) {
                 if (is_array($text[0])) {
                     // Code like array(array(ENCODING, ''))
-                    $this->starting_text = $this->METHOD[$text[0][0]];
+                    $this->startingText = $this->METHOD[$text[0][0]];
                     return;
                 } else {
                     if (is_string($text[0])) {
@@ -433,7 +431,7 @@ class BCGcode128 extends BCGBarcode1D
                         $text = $text[0];
                     } else {
                         // Code like array(ENCODING, '')
-                        $this->starting_text = $this->METHOD[$text[0]];
+                        $this->startingText = $this->METHOD[$text[0]];
                         return;
                     }
                 }
@@ -442,14 +440,14 @@ class BCGcode128 extends BCGBarcode1D
             // At this point, we had an "automatic" table selection...
             // If we can get at least 4 numbers, go in C; otherwise go in B.
             $tmp = preg_quote($this->keysC, '/');
-            $length = strlen($text);
-            if ($length >= 4 && preg_match('/[' . $tmp . ']/', substr($text, 0, 4))) {
-                $this->starting_text = 'C';
+            $length = strlen((string) $text);
+            if ($length >= 4 && preg_match('/[' . $tmp . ']/', substr((string) $text, 0, 4))) {
+                $this->startingText = 'C';
             } else {
                 if ($length > 0 && strpos($this->keysB, $text[0]) !== false) {
-                    $this->starting_text = 'B';
+                    $this->startingText = 'B';
                 } else {
-                    $this->starting_text = 'A';
+                    $this->startingText = 'A';
                 }
             }
         }
@@ -459,11 +457,11 @@ class BCGcode128 extends BCGBarcode1D
      * Extracts the ~ value from the $text at the $pos.
      * If the tilde is not ~~, ~F1, ~F2, ~F3, ~F4; an error is raised.
      *
-     * @param string $text
-     * @param int $pos
-     * @return string
+     * @param string $text The text.
+     * @param int $pos The position.
+     * @return string Extracted tilde value.
      */
-    private static function extractTilde($text, $pos)
+    private static function extractTilde(string $text, int $pos): string
     {
         if ($text[$pos] === '~') {
             if (isset($text[$pos + 1])) {
@@ -497,11 +495,11 @@ class BCGcode128 extends BCGBarcode1D
      * Gets the "dotted" sequence for the $text based on the $currentMode.
      * There is also a check if we use the special tilde ~
      *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
+     * @param string $text The text.
+     * @param string $currentMode The current mode.
+     * @return string The sequence.
      */
-    private function getSequenceParsed($text, $currentMode)
+    private function getSequenceParsed(string $text, string $currentMode): string
     {
         if ($this->tilde) {
             $sequence = '';
@@ -530,11 +528,11 @@ class BCGcode128 extends BCGBarcode1D
                 $sequence .= str_repeat('.', $length);
                 $sequence .= '.';
                 $sequence .= (!$simpleTilde) ? 'F' : '';
-                $previousPos = $pos + strlen($tildeData);
+                $previousPos = $pos + strlen((string) $tildeData);
             }
 
             // Flushing
-            $length = strlen($text) - $previousPos;
+            $length = strlen((string) $text) - $previousPos;
             if ($currentMode === 'C') {
                 if ($length % 2 === 1) {
                     throw new BCGParseException('code128', 'The text "' . $text . '" must have an even number of character to be encoded in Table C.');
@@ -545,18 +543,18 @@ class BCGcode128 extends BCGBarcode1D
 
             return $sequence;
         } else {
-            return str_repeat('.', strlen($text));
+            return str_repeat('.', strlen((string) $text));
         }
     }
 
     /**
      * Parses the text and returns the appropriate sequence for the Table A.
      *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
+     * @param string $text The text.
+     * @param string $currentMode The current mode.
+     * @return string The sequence.
      */
-    private function setParseA($text, &$currentMode)
+    private function setParseA(string $text, string &$currentMode): string
     {
         $tmp = preg_quote($this->keysA, '/');
 
@@ -565,10 +563,10 @@ class BCGcode128 extends BCGBarcode1D
             $tmp .= '~';
         }
 
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+        $matches = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $matches) === 1) {
             // We found something not allowed
-            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table A. The character "' . $match[0] . '" is not allowed.');
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table A. The character "' . $matches[0] . '" is not allowed.');
         } else {
             $latch = ($currentMode === 'A') ? '' : '0';
             $currentMode = 'A';
@@ -580,18 +578,18 @@ class BCGcode128 extends BCGBarcode1D
     /**
      * Parses the text and returns the appropriate sequence for the Table B.
      *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
+     * @param string $text The text.
+     * @param string $currentMode The current mode.
+     * @return string The sequence.
      */
-    private function setParseB($text, &$currentMode)
+    private function setParseB(string $text, string &$currentMode): string
     {
         $tmp = preg_quote($this->keysB, '/');
 
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+        $matches = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $matches) === 1) {
             // We found something not allowed
-            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table B. The character "' . $match[0] . '" is not allowed.');
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table B. The character "' . $matches[0] . '" is not allowed.');
         } else {
             $latch = ($currentMode === 'B') ? '' : '1';
             $currentMode = 'B';
@@ -603,11 +601,11 @@ class BCGcode128 extends BCGBarcode1D
     /**
      * Parses the text and returns the appropriate sequence for the Table C.
      *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
+     * @param string $text The text.
+     * @param string $currentMode The current mode.
+     * @return string The sequence.
      */
-    private function setParseC($text, &$currentMode)
+    private function setParseC(string $text, string &$currentMode): string
     {
         $tmp = preg_quote($this->keysC, '/');
 
@@ -616,10 +614,10 @@ class BCGcode128 extends BCGBarcode1D
             $tmp .= '~F';
         }
 
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+        $matches = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $matches) === 1) {
             // We found something not allowed
-            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table C. The character "' . $match[0] . '" is not allowed.');
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table C. The character "' . $matches[0] . '" is not allowed.');
         } else {
             $latch = ($currentMode === 'C') ? '' : '2';
             $currentMode = 'C';
@@ -632,11 +630,11 @@ class BCGcode128 extends BCGBarcode1D
      * Depending on the $text, it will return the correct
      * sequence to encode the text.
      *
-     * @param string $text
-     * @param string $starting_text
-     * @return string
+     * @param string $text The text.
+     * @param string $startingText The starting text.
+     * @return string The sequence.
      */
-    private function getSequence($text, &$starting_text)
+    private function getSequence(string $text, string $startingText): string
     {
         $e = 10000;
         $latLen = array(
@@ -654,13 +652,13 @@ class BCGcode128 extends BCGBarcode1D
         $startA = $e;
         $startB = $e;
         $startC = $e;
-        if ($starting_text === 'A') {
+        if ($startingText === 'A') {
             $startA = 0;
         }
-        if ($starting_text === 'B') {
+        if ($startingText === 'B') {
             $startB = 0;
         }
-        if ($starting_text === 'C') {
+        if ($startingText === 'C') {
             $startC = 0;
         }
 
@@ -670,7 +668,7 @@ class BCGcode128 extends BCGBarcode1D
         $nextNumber = false;
 
         $x = 0;
-        $xLen = strlen($text);
+        $xLen = strlen((string) $text);
         for ($x = 0; $x < $xLen; $x++) {
             $input = $text[$x];
 
@@ -700,7 +698,7 @@ class BCGcode128 extends BCGBarcode1D
                     // We simply skip a tilde
                     $posArray[] = 1;
                     $x++;
-                } elseif (substr($tildeData, 0, 2) === '~F') {
+                } elseif (substr((string) $tildeData, 0, 2) === '~F') {
                     $v = intval($tildeData[2]);
                     $posArray[] = 0;
                     $posArray[] = 1;
@@ -798,27 +796,27 @@ class BCGcode128 extends BCGBarcode1D
      * A to B are Shift + Letter
      * . is a char in the current encoding
      *
-     * @param string $text
-     * @param string $seq
-     * @return string[][]
+     * @param string $text The text.
+     * @param string $seq The sequence.
+     * @return array The stream.
      */
-    private function createBinaryStream($text, $seq)
+    private function createBinaryStream(string $text, string $seq): array
     {
-        $c = strlen($seq);
+        $c = strlen((string) $seq);
 
         $data = array(); // code stream
         $indcheck = array(); // index for checksum
 
         $currentEncoding = 0;
-        if ($this->starting_text === 'A') {
+        if ($this->startingText === 'A') {
             $currentEncoding = 0;
             $indcheck[] = self::KEY_STARTA;
             $this->lastTable = 'A';
-        } elseif ($this->starting_text === 'B') {
+        } elseif ($this->startingText === 'B') {
             $currentEncoding = 1;
             $indcheck[] = self::KEY_STARTB;
             $this->lastTable = 'B';
-        } elseif ($this->starting_text === 'C') {
+        } elseif ($this->startingText === 'C') {
             $currentEncoding = 2;
             $indcheck[] = self::KEY_STARTC;
             $this->lastTable = 'C';
@@ -865,17 +863,18 @@ class BCGcode128 extends BCGBarcode1D
     }
 
     /**
-     * Encodes characters, base on its encoding and sequence
+     * Encodes characters, base on its encoding and sequence.
      *
-     * @param int[] $data
-     * @param int $encoding
-     * @param string $seq
-     * @param string $text
-     * @param int $i
-     * @param int $counter
-     * @param int[] $indcheck
+     * @param int[] $data The data.
+     * @param int $encoding The encoding.
+     * @param string $seq The sequence.
+     * @param string $text The text.
+     * @param int $i The position.
+     * @param int $counter The counter.
+     * @param int[] $indcheck The checksum counter.
+     * @return void
      */
-    private function encodeChar(&$data, $encoding, $seq, $text, &$i, &$counter, &$indcheck)
+    private function encodeChar(array &$data, int $encoding, string $seq, string $text, int &$i, int &$counter, array &$indcheck): void
     {
         if (isset($seq[$i + 1]) && $seq[$i + 1] === 'F') {
             // We have a flag !!
@@ -895,7 +894,7 @@ class BCGcode128 extends BCGBarcode1D
         } else {
             if ($encoding === 2) {
                 // We take 2 numbers in the same time
-                $code = (int)substr($text, $counter, 2);
+                $code = (int)substr((string) $text, $counter, 2);
                 $indcheck[] = $code;
                 $data[] = $this->code[$code];
                 $counter++;
@@ -919,14 +918,15 @@ class BCGcode128 extends BCGBarcode1D
      * selected)... It will add Padding to the end and generate
      * the error codes.
      *
-     * @param array $data
+     * @param array $data The data.
+     * @return void
      */
-    private function setData($data)
+    private function setData(array $data): void
     {
         $this->indcheck = $data[0];
         $this->data = $data[1];
         $this->calculateChecksum();
-        $this->data[] = $this->code[$this->checksumValue];
+        $this->data[] = $this->code[$this->checksumValue[0]];
         $this->data[] = $this->code[self::KEY_STOP];
     }
 }

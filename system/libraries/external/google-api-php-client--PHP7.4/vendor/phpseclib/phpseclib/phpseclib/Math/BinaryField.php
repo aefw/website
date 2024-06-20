@@ -67,7 +67,7 @@ class BinaryField extends FiniteField
         $h = $bitLen & 7;
         $h = $h ? 8 - $h : 0;
 
-        $r = rtrim(substr($val, 0, -1), '0');
+        $r = rtrim(substr((string) $val, 0, -1), '0');
         $u = [static::base2ToBase256(strrev($r))];
         for ($i = 1; $i < 8; $i++) {
             $u[] = static::base2ToBase256(strrev(str_repeat('0', $i) . $r));
@@ -86,8 +86,8 @@ class BinaryField extends FiniteField
                         $temp = $i - $m;
                         $j = $temp >> 3;
                         $k = $temp & 7;
-                        $t1 = $j ? substr($c, 0, -$j) : $c;
-                        $length = strlen($t1);
+                        $t1 = $j ? substr((string) $c, 0, -$j) : $c;
+                        $length = strlen((string) $t1);
                         if ($length) {
                             $t2 = str_pad($u[$k], $length, "\0", STR_PAD_LEFT);
                             $temp = $t1 ^ $t2;
@@ -96,11 +96,11 @@ class BinaryField extends FiniteField
                     }
                 }
             }
-            $c = substr($c, -$t);
-            if (strlen($c) == $t) {
+            $c = substr((string) $c, -$t);
+            if (strlen((string) $c) == $t) {
                 $c[0] = $c[0] & $finalMask;
             }
-            return ltrim($c, "\0");
+            return ltrim((string) $c, "\0");
         };
 
         $this->instanceID = self::$instanceCounter++;
@@ -167,8 +167,8 @@ class BinaryField extends FiniteField
     {
         $str = Strings::bits2bin($x);
 
-        $pad = strlen($x) >> 3;
-        if (strlen($x) & 3) {
+        $pad = strlen((string) $x) >> 3;
+        if (strlen((string) $x) & 3) {
             $pad++;
         }
         $str = str_pad($str, $pad, "\0", STR_PAD_LEFT);

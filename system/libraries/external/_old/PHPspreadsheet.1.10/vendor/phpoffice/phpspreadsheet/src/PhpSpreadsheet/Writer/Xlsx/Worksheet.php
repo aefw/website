@@ -508,11 +508,11 @@ class Worksheet extends WriterPart
                     } elseif ($conditional->getConditionType() == Conditional::CONDITION_CONTAINSTEXT
                         && $conditional->getOperatorType() == Conditional::OPERATOR_BEGINSWITH
                         && $conditional->getText() !== null) {
-                        $objWriter->writeElement('formula', 'LEFT(' . $cellCoordinate . ',' . strlen($conditional->getText()) . ')="' . $conditional->getText() . '"');
+                        $objWriter->writeElement('formula', 'LEFT(' . $cellCoordinate . ',' . strlen((string) $conditional->getText()) . ')="' . $conditional->getText() . '"');
                     } elseif ($conditional->getConditionType() == Conditional::CONDITION_CONTAINSTEXT
                         && $conditional->getOperatorType() == Conditional::OPERATOR_ENDSWITH
                         && $conditional->getText() !== null) {
-                        $objWriter->writeElement('formula', 'RIGHT(' . $cellCoordinate . ',' . strlen($conditional->getText()) . ')="' . $conditional->getText() . '"');
+                        $objWriter->writeElement('formula', 'RIGHT(' . $cellCoordinate . ',' . strlen((string) $conditional->getText()) . ')="' . $conditional->getText() . '"');
                     } elseif ($conditional->getConditionType() == Conditional::CONDITION_CONTAINSTEXT
                         && $conditional->getOperatorType() == Conditional::OPERATOR_NOTCONTAINS
                         && $conditional->getText() !== null) {
@@ -1065,7 +1065,7 @@ class Worksheet extends WriterPart
             $mappedType = $pCell->getDataType();
 
             // Write data type depending on its type
-            switch (strtolower($mappedType)) {
+            switch (strtolower((string) $mappedType)) {
                 case 'inlinestr':    // Inline string
                 case 's':            // String
                 case 'b':            // Boolean
@@ -1087,7 +1087,7 @@ class Worksheet extends WriterPart
             }
 
             // Write data depending on its type
-            switch (strtolower($mappedType)) {
+            switch (strtolower((string) $mappedType)) {
                 case 'inlinestr':    // Inline string
                     if (!$cellValue instanceof RichText) {
                         $objWriter->writeElement('t', StringHelper::controlCharacterPHP2OOXML(htmlspecialchars($cellValue)));
@@ -1116,14 +1116,14 @@ class Worksheet extends WriterPart
                         $objWriter->writeAttribute('ref', $pCellAddress);
                         $objWriter->writeAttribute('aca', '1');
                         $objWriter->writeAttribute('ca', '1');
-                        $objWriter->text(substr($cellValue, 1));
+                        $objWriter->text(substr((string) $cellValue, 1));
                         $objWriter->endElement();
                     } else {
-                        $objWriter->writeElement('f', substr($cellValue, 1));
+                        $objWriter->writeElement('f', substr((string) $cellValue, 1));
                     }
                     if ($this->getParentWriter()->getOffice2003Compatibility() === false) {
                         if ($this->getParentWriter()->getPreCalculateFormulas()) {
-                            if (!is_array($calculatedValue) && substr($calculatedValue, 0, 1) !== '#') {
+                            if (!is_array($calculatedValue) && substr((string) $calculatedValue, 0, 1) !== '#') {
                                 $objWriter->writeElement('v', StringHelper::formatNumber($calculatedValue));
                             } else {
                                 $objWriter->writeElement('v', '0');
@@ -1151,9 +1151,9 @@ class Worksheet extends WriterPart
 
                     break;
                 case 'e':            // Error
-                    if (substr($cellValue, 0, 1) === '=') {
-                        $objWriter->writeElement('f', substr($cellValue, 1));
-                        $objWriter->writeElement('v', substr($cellValue, 1));
+                    if (substr((string) $cellValue, 0, 1) === '=') {
+                        $objWriter->writeElement('f', substr((string) $cellValue, 1));
+                        $objWriter->writeElement('v', substr((string) $cellValue, 1));
                     } else {
                         $objWriter->writeElement('v', $cellValue);
                     }

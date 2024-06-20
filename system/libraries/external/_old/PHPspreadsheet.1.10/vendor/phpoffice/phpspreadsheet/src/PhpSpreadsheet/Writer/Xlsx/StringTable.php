@@ -91,7 +91,7 @@ class StringTable extends WriterPart
             if (!$textElement instanceof RichText) {
                 $textToWrite = StringHelper::controlCharacterPHP2OOXML($textElement);
                 $objWriter->startElement('t');
-                if ($textToWrite !== trim($textToWrite)) {
+                if ($textToWrite !== trim((string) $textToWrite)) {
                     $objWriter->writeAttribute('xml:space', 'preserve');
                 }
                 $objWriter->writeRawData($textToWrite);

@@ -277,7 +277,7 @@ class Functions
 
         if (!is_string($condition) || !in_array($condition[0], ['>', '<', '='])) {
             if (!is_numeric($condition)) {
-                $condition = Calculation::wrapResult(strtoupper($condition));
+                $condition = Calculation::wrapResult(strtoupper((string) $condition));
             }
 
             return str_replace('""""', '""', '=' . $condition);
@@ -285,11 +285,11 @@ class Functions
         preg_match('/(=|<[>=]?|>=?)(.*)/', $condition, $matches);
         [, $operator, $operand] = $matches;
 
-        if (is_numeric(trim($operand, '"'))) {
-            $operand = trim($operand, '"');
+        if (is_numeric(trim((string) $operand, '"'))) {
+            $operand = trim((string) $operand, '"');
         } elseif (!is_numeric($operand)) {
             $operand = str_replace('"', '""', $operand);
-            $operand = Calculation::wrapResult(strtoupper($operand));
+            $operand = Calculation::wrapResult(strtoupper((string) $operand));
         }
 
         return str_replace('""""', '""', $operator . $operand);
@@ -508,7 +508,7 @@ class Functions
                 return (int) $value;
             case 'string':
                 //    Errors
-                if ((strlen($value) > 0) && ($value[0] == '#')) {
+                if ((strlen((string) $value) > 0) && ($value[0] == '#')) {
                     return $value;
                 }
 
@@ -560,7 +560,7 @@ class Functions
             return 64;
         } elseif (is_string($value)) {
             //    Errors
-            if ((strlen($value) > 0) && ($value[0] == '#')) {
+            if ((strlen((string) $value) > 0) && ($value[0] == '#')) {
                 return 16;
             }
 
@@ -669,7 +669,7 @@ class Functions
         preg_match('/^' . Calculation::CALCULATION_REGEXP_CELLREF . '$/i', $cellReference, $matches);
 
         $cellReference = $matches[6] . $matches[7];
-        $worksheetName = trim($matches[3], "'");
+        $worksheetName = trim((string) $matches[3], "'");
 
         $worksheet = (!empty($worksheetName))
             ? $pCell->getWorksheet()->getParent()->getSheetByName($worksheetName)

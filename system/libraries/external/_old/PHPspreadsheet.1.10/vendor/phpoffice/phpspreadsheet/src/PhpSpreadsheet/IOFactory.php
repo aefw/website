@@ -165,7 +165,7 @@ abstract class IOFactory
             return null;
         }
 
-        switch (strtolower($pathinfo['extension'])) {
+        switch (strtolower((string) $pathinfo['extension'])) {
             case 'xlsx': // Excel (OfficeOpenXML) Spreadsheet
             case 'xlsm': // Excel (OfficeOpenXML) Macro Spreadsheet (macros will be discarded)
             case 'xltx': // Excel (OfficeOpenXML) Template

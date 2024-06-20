@@ -211,7 +211,7 @@ class Renderer_Default implements Renderer
         $ret   = $usage . '  ' . $this->name();
         if (count($this->parser->options) > 0) {
             $ret .= ' ['
-                . strtolower($this->parser->message_provider->get('OPTION_WORD'))
+                . strtolower((string) $this->parser->message_provider->get('OPTION_WORD'))
                 . ']';
         }
         if (count($this->parser->args) > 0) {
@@ -245,7 +245,7 @@ class Renderer_Default implements Renderer
         $ret = '  ' . $this->name();
         if (count($this->parser->options) > 0) {
             $ret .= ' ['
-                . strtolower($this->parser->message_provider->get('OPTION_WORD'))
+                . strtolower((string) $this->parser->message_provider->get('OPTION_WORD'))
                 . ']';
         }
         $ret       .= " <command>";
@@ -287,7 +287,7 @@ class Renderer_Default implements Renderer
         foreach ($this->parser->args as $arg) {
             $argstr = '  ' . $arg->toString();
             $args[] = array($argstr, $arg->description);
-            $ln     = strlen($argstr);
+            $ln     = strlen((string) $argstr);
             if ($col < $ln) {
                 $col = $ln;
             }
@@ -320,9 +320,9 @@ class Renderer_Default implements Renderer
             $lines[0] = '  ' . $lines[0];
             if (count($lines) > 1) {
                 $lines[1] = '  ' . $lines[1];
-                $ln       = strlen($lines[1]);
+                $ln       = strlen((string) $lines[1]);
             } else {
-                $ln = strlen($lines[0]);
+                $ln = strlen((string) $lines[0]);
             }
             $options[] = array($lines, $option->description);
             if ($col < $ln) {
@@ -360,7 +360,7 @@ class Renderer_Default implements Renderer
         foreach ($this->parser->commands as $cmdname=>$command) {
             $cmdname    = '  ' . $cmdname;
             $commands[] = array($cmdname, $command->description, $command->aliases);
-            $ln         = strlen($cmdname);
+            $ln         = strlen((string) $cmdname);
             if ($col < $ln) {
                 $col = $ln;
             }
@@ -420,7 +420,7 @@ class Renderer_Default implements Renderer
     {
         $tokens = explode("\n", $this->wrap($text));
         $ret    = $tokens[0];
-        $text   = trim(substr($text, strlen($ret)));
+        $text   = trim(substr((string) $text, strlen((string) $ret)));
         if (empty($text)) {
             return $ret;
         }

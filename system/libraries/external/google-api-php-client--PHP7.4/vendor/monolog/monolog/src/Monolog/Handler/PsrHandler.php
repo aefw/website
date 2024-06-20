@@ -61,9 +61,9 @@ class PsrHandler extends AbstractHandler implements FormattableHandlerInterface
 
         if ($this->formatter) {
             $formatted = $this->formatter->format($record);
-            $this->logger->log(strtolower($record['level_name']), (string) $formatted, $record['context']);
+            $this->logger->log(strtolower((string) $record['level_name']), (string) $formatted, $record['context']);
         } else {
-            $this->logger->log(strtolower($record['level_name']), $record['message'], $record['context']);
+            $this->logger->log(strtolower((string) $record['level_name']), $record['message'], $record['context']);
         }
 
         return false === $this->bubble;

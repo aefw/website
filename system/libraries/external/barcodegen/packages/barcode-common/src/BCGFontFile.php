@@ -21,29 +21,29 @@ class BCGFontInfo
         $this->box = $box;
     }
 
-    public function getBox()
+    public function getBox(): array
     {
         return $this->box;
     }
 
-    public function getAscender()
+    public function getAscender(): int
     {
         return abs($this->box[7]);
     }
 
-    public function getDescender()
+    public function getDescender(): int
     {
         return abs($this->box[1] > 0 ? $this->box[1] : 0);
     }
 
-    public function getWidth()
+    public function getWidth(): int
     {
         // We drew at 0, so even if the box starts at 1, we need more space
         // So we don't do -box[0].
         return max($this->box[2], $this->box[4]);
     }
 
-    public function getHeight()
+    public function getHeight(): int
     {
         $minY = min(array($this->box[1], $this->box[3], $this->box[5], $this->box[7]));
         $maxY = max(array($this->box[1], $this->box[3], $this->box[5], $this->box[7]));
@@ -53,13 +53,13 @@ class BCGFontInfo
 
 class BCGFontFile implements BCGFont
 {
-    private $path;
-    private $size;
-    private $text = '';
-    private $foregroundColor;
-    private $rotationAngle;
-    private $fontInfo; // BCGFontInfo
-    private $descenderSize;
+    private string $path;
+    private int $size;
+    private string $text = '';
+    private BCGColor $foregroundColor;
+    private int $rotationAngle;
+    private ?BCGFontInfo $fontInfo; // BCGFontInfo
+    private float $descenderSize;
 
     /**
      * Constructor.
@@ -67,7 +67,7 @@ class BCGFontFile implements BCGFont
      * @param string $fontPath path to the file
      * @param int $size size in point
      */
-    public function __construct($fontPath, $size)
+    public function __construct(string $fontPath, int $size)
     {
         if (!file_exists($fontPath)) {
             throw new BCGArgumentException('The font path is incorrect.', 'fontPath');
@@ -75,16 +75,16 @@ class BCGFontFile implements BCGFont
 
         $this->path = $fontPath;
         $this->size = $size;
-        $this->foregroundColor = new BCGColor('black');
+        $this->foregroundColor = new BCGColor(0x000000);
         $this->setRotationAngle(0);
     }
 
     /**
      * Gets the text associated to the font.
      *
-     * @return string
+     * @return string The text.
      */
-    public function getText()
+    public function getText(): string
     {
         return $this->text;
     }
@@ -92,9 +92,10 @@ class BCGFontFile implements BCGFont
     /**
      * Sets the text associated to the font.
      *
-     * @param string text
+     * @param string text The text.
+     * @return void
      */
-    public function setText($text)
+    public function setText(string $text): void
     {
         $this->text = $text;
         $this->fontInfo = null;
@@ -103,9 +104,9 @@ class BCGFontFile implements BCGFont
     /**
      * Gets the rotation in degree.
      *
-     * @return int
+     * @return int The rotation angle.
      */
-    public function getRotationAngle()
+    public function getRotationAngle(): int
     {
         return (360 - $this->rotationAngle) % 360;
     }
@@ -113,9 +114,10 @@ class BCGFontFile implements BCGFont
     /**
      * Sets the rotation in degree.
      *
-     * @param int
+     * @param int The rotation angle.
+     * @return void
      */
-    public function setRotationAngle($rotationAngle)
+    public function setRotationAngle(int $rotationAngle): void
     {
         $this->rotationAngle = (int)$rotationAngle;
         if ($this->rotationAngle !== 90 && $this->rotationAngle !== 180 && $this->rotationAngle !== 270) {
@@ -130,27 +132,28 @@ class BCGFontFile implements BCGFont
     /**
      * Gets the background color.
      *
-     * @return BCGColor
+     * @return BCGColor The background color.
      */
-    public function getBackgroundColor()
+    public function getBackgroundColor(): BCGColor
     {
     }
 
     /**
      * Sets the background color.
      *
-     * @param BCGColor $backgroundColor
+     * @param BCGColor $backgroundColor The background color.
+     * @return void
      */
-    public function setBackgroundColor($backgroundColor)
+    public function setBackgroundColor(BCGColor $backgroundColor): void
     {
     }
 
     /**
      * Gets the foreground color.
      *
-     * @return BCGColor
+     * @return BCGColor The foreground color.
      */
-    public function getForegroundColor()
+    public function getForegroundColor(): BCGColor
     {
         return $this->foregroundColor;
     }
@@ -158,9 +161,10 @@ class BCGFontFile implements BCGFont
     /**
      * Sets the foreground color.
      *
-     * @param BCGColor $foregroundColor
+     * @param BCGColor $foregroundColor The foreground color.
+     * @return void
      */
-    public function setForegroundColor($foregroundColor)
+    public function setForegroundColor(BCGColor $foregroundColor): void
     {
         $this->foregroundColor = $foregroundColor;
     }
@@ -170,16 +174,16 @@ class BCGFontFile implements BCGFont
      *
      * @return int[]
      */
-    public function getDimension()
+    public function getDimension(): array
     {
         $fontInfo = $this->getFontInfo();
         $rotationAngle = $this->getRotationAngle();
-        $w = $fontInfo->getWidth();
-        $h = $fontInfo->getHeight();
+        $width = $fontInfo->getWidth();
+        $height = $fontInfo->getHeight();
         if ($rotationAngle === 90 || $rotationAngle === 270) {
-            return array($h, $w);
+            return array($height, $width);
         } else {
-            return array($w, $h);
+            return array($width, $height);
         }
     }
 
@@ -187,17 +191,18 @@ class BCGFontFile implements BCGFont
      * Draws the text on the image at a specific position.
      * $x and $y represent the left bottom corner.
      *
-     * @param resource $im
-     * @param int $x
-     * @param int $y
+     * @param resource $image The surface.
+     * @param int $x X.
+     * @param int $y Y.
+     * @return void
      */
-    public function draw($im, $x, $y)
+    public function draw($image, int $x, int $y): void
     {
         $drawingPosition = $this->getDrawingPosition($x, $y);
-        imagettftext($im, $this->size, $this->rotationAngle, $drawingPosition[0], $drawingPosition[1], $this->foregroundColor->allocate($im), $this->path, $this->text);
+        imagettftext($image, $this->size, $this->rotationAngle, $drawingPosition[0], $drawingPosition[1], $this->foregroundColor->allocate($image), $this->path, $this->text);
     }
 
-    private function getDrawingPosition($x, $y)
+    private function getDrawingPosition(int $x, int $y): array
     {
         $fontInfo = $this->getFontInfo();
         $dimension = $this->getDimension();
@@ -218,7 +223,7 @@ class BCGFontFile implements BCGFont
         return array($x, $y);
     }
 
-    private function getFontInfo()
+    private function getFontInfo(): BCGFontInfo
     {
         if ($this->fontInfo === null) {
             $box = imagettfbbox($this->size, 0, $this->path, $this->text);

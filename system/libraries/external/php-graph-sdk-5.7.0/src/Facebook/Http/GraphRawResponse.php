@@ -121,7 +121,7 @@ class GraphRawResponse
 
         // There will be multiple headers if a 301 was followed
         // or a proxy was followed, etc
-        $headerCollection = explode("\n\n", trim($rawHeaders));
+        $headerCollection = explode("\n\n", trim((string) $rawHeaders));
         // We just want the last response (at the end)
         $rawHeader = array_pop($headerCollection);
 

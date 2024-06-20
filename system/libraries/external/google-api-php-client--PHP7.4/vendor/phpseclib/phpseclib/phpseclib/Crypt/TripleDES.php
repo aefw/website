@@ -143,7 +143,7 @@ class TripleDES extends DES
      */
     public function __construct($mode)
     {
-        switch (strtolower($mode)) {
+        switch (strtolower((string) $mode)) {
             // In case of self::MODE_3CBC, we init as CRYPT_DES_MODE_CBC
             // and additional flag us internally as 3CBC
             case '3cbc':
@@ -242,7 +242,7 @@ class TripleDES extends DES
     /**
      * Sets the key.
      *
-     * Triple DES can use 128-bit (eg. strlen($key) == 16) or 192-bit (eg. strlen($key) == 24) keys.
+     * Triple DES can use 128-bit (eg. strlen((string) $key) == 16) or 192-bit (eg. strlen((string) $key) == 24) keys.
      *
      * DES also requires that every eighth bit be a parity bit, however, we'll ignore that.
      *
@@ -254,30 +254,30 @@ class TripleDES extends DES
      */
     public function setKey($key)
     {
-        if ($this->explicit_key_length !== false && strlen($key) != $this->explicit_key_length) {
-            throw new \LengthException('Key length has already been set to ' . $this->explicit_key_length . ' bytes and this key is ' . strlen($key) . ' bytes');
+        if ($this->explicit_key_length !== false && strlen((string) $key) != $this->explicit_key_length) {
+            throw new \LengthException('Key length has already been set to ' . $this->explicit_key_length . ' bytes and this key is ' . strlen((string) $key) . ' bytes');
         }
 
-        switch (strlen($key)) {
+        switch (strlen((string) $key)) {
             case 16:
-                $key.= substr($key, 0, 8);
+                $key.= substr((string) $key, 0, 8);
                 break;
             case 24:
                 break;
             default:
-                throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes 16 or 24 are supported');
+                throw new \LengthException('Key of size ' . strlen((string) $key) . ' not supported by this algorithm. Only keys of sizes 16 or 24 are supported');
         }
 
         // copied from self::setKey()
         $this->key = $key;
-        $this->key_length = strlen($key);
+        $this->key_length = strlen((string) $key);
         $this->changed = $this->nonIVChanged = true;
         $this->setEngine();
 
         if ($this->mode_3cbc) {
-            $this->des[0]->setKey(substr($key,  0, 8));
-            $this->des[1]->setKey(substr($key,  8, 8));
-            $this->des[2]->setKey(substr($key, 16, 8));
+            $this->des[0]->setKey(substr((string) $key,  0, 8));
+            $this->des[1]->setKey(substr((string) $key,  8, 8));
+            $this->des[2]->setKey(substr((string) $key, 16, 8));
         }
     }
 
@@ -295,7 +295,7 @@ class TripleDES extends DES
         // except for: self::MODE_3CBC (inner chaining CBC) with a key > 64bits
 
         // if the key is smaller then 8, do what we'd normally do
-        if ($this->mode_3cbc && strlen($this->key) > 8) {
+        if ($this->mode_3cbc && strlen((string) $this->key) > 8) {
             return $this->des[2]->encrypt(
                 $this->des[1]->decrypt(
                     $this->des[0]->encrypt(
@@ -318,12 +318,12 @@ class TripleDES extends DES
      */
     public function decrypt($ciphertext)
     {
-        if ($this->mode_3cbc && strlen($this->key) > 8) {
+        if ($this->mode_3cbc && strlen((string) $this->key) > 8) {
             return $this->unpad(
                 $this->des[0]->decrypt(
                     $this->des[1]->encrypt(
                         $this->des[2]->decrypt(
-                            str_pad($ciphertext, (strlen($ciphertext) + 7) & 0xFFFFFFF8, "\0")
+                            str_pad($ciphertext, (strlen((string) $ciphertext) + 7) & 0xFFFFFFF8, "\0")
                         )
                     )
                 )
@@ -340,8 +340,8 @@ class TripleDES extends DES
      * will yield different outputs:
      *
      * <code>
-     *    echo $des->encrypt(substr($plaintext, 0, 8));
-     *    echo $des->encrypt(substr($plaintext, 8, 8));
+     *    echo $des->encrypt(substr((string) $plaintext, 0, 8));
+     *    echo $des->encrypt(substr((string) $plaintext, 8, 8));
      * </code>
      * <code>
      *    echo $des->encrypt($plaintext);
@@ -351,11 +351,11 @@ class TripleDES extends DES
      * another, as demonstrated with the following:
      *
      * <code>
-     *    $des->encrypt(substr($plaintext, 0, 8));
-     *    echo $des->decrypt($des->encrypt(substr($plaintext, 8, 8)));
+     *    $des->encrypt(substr((string) $plaintext, 0, 8));
+     *    echo $des->decrypt($des->encrypt(substr((string) $plaintext, 8, 8)));
      * </code>
      * <code>
-     *    echo $des->decrypt($des->encrypt(substr($plaintext, 8, 8)));
+     *    echo $des->decrypt($des->encrypt(substr((string) $plaintext, 8, 8)));
      * </code>
      *
      * With the continuous buffer disabled, these would yield the same output.  With it enabled, they yield different
@@ -412,7 +412,7 @@ class TripleDES extends DES
         switch (true) {
             // if $key <= 64bits we configure our internal pure-php cipher engine
             // to act as regular [1]DES, not as 3DES. mcrypt.so::tripledes does the same.
-            case strlen($this->key) <= 8:
+            case strlen((string) $this->key) <= 8:
                 $this->des_rounds = 1;
                 break;
 

@@ -421,13 +421,13 @@ class Twofish extends BlockCipher
      */
     public function setKey($key)
     {
-        switch (strlen($key)) {
+        switch (strlen((string) $key)) {
             case 16:
             case 24:
             case 32:
                 break;
             default:
-                throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes 16, 24 or 32 supported');
+                throw new \LengthException('Key of size ' . strlen((string) $key) . ' not supported by this algorithm. Only keys of sizes 16, 24 or 32 supported');
         }
 
         parent::setKey($key);
@@ -459,7 +459,7 @@ class Twofish extends BlockCipher
 
         $K = $S0 = $S1 = $S2 = $S3 = [];
 
-        switch (strlen($this->key)) {
+        switch (strlen((string) $this->key)) {
             case 16:
                 list($s7, $s6, $s5, $s4) = $this->mdsrem($le_longs[1], $le_longs[2]);
                 list($s3, $s2, $s1, $s0) = $this->mdsrem($le_longs[3], $le_longs[4]);

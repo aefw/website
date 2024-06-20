@@ -727,7 +727,7 @@ class Statistical
                 if ($conditionIsNumeric) {
                     continue;
                 }
-                $arg = Calculation::wrapResult(strtoupper($arg));
+                $arg = Calculation::wrapResult(strtoupper((string) $arg));
             } elseif (!$conditionIsNumeric) {
                 continue;
             }
@@ -1166,7 +1166,7 @@ class Statistical
                 if ($conditionIsNumeric) {
                     continue;
                 }
-                $arg = Calculation::wrapResult(strtoupper($arg));
+                $arg = Calculation::wrapResult(strtoupper((string) $arg));
             } elseif (!$conditionIsNumeric) {
                 continue;
             }
@@ -1228,7 +1228,7 @@ class Statistical
 
                         break; // if false found, don't need to check other conditions
                     }
-                    $arg = Calculation::wrapResult(strtoupper($arg));
+                    $arg = Calculation::wrapResult(strtoupper((string) $arg));
                 } elseif (!$conditionIsNumeric) {
                     $valid = false;
 
@@ -2261,7 +2261,7 @@ class Statistical
 
                 // Loop through arguments
                 if (!is_numeric($arg)) {
-                    $arg = Calculation::wrapResult(strtoupper($arg));
+                    $arg = Calculation::wrapResult(strtoupper((string) $arg));
                 }
                 $testCondition = '=' . $arg . $condition;
                 if (!Calculation::getInstance()->_calculateFormulaValue($testCondition)) {
@@ -2441,7 +2441,7 @@ class Statistical
 
                 // Loop through arguments
                 if (!is_numeric($arg)) {
-                    $arg = Calculation::wrapResult(strtoupper($arg));
+                    $arg = Calculation::wrapResult(strtoupper((string) $arg));
                 }
                 $testCondition = '=' . $arg . $condition;
                 if (!Calculation::getInstance()->_calculateFormulaValue($testCondition)) {

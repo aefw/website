@@ -20,7 +20,7 @@ class Base32HexTest extends PHPUnit\Framework\TestCase
                     $random,
                     Base32Hex::decode($enc)
                 );
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $unpadded,
                     Base32Hex::encodeUnpadded($random)
@@ -34,7 +34,7 @@ class Base32HexTest extends PHPUnit\Framework\TestCase
                 $this->assertSame(
                     $random,
                     Base32Hex::decodeUpper($enc)
-                );                $unpadded = \rtrim($enc, '=');
+                );                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $unpadded,
                     Base32Hex::encodeUpperUnpadded($random)

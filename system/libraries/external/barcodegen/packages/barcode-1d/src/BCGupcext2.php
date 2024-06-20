@@ -22,10 +22,10 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGupcext2 extends BCGBarcode1D
 {
-    protected $codeParity = array();
+    protected array $codeParity = array();
 
     /**
-     * Constructor.
+     * Creates a UPC supplemental 2 digits barcode.
      */
     public function __construct()
     {
@@ -57,46 +57,48 @@ class BCGupcext2 extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
      */
-    public function draw($im)
+    public function draw($image): void
     {
         // Starting Code
-        $this->drawChar($im, '001', true);
+        $this->drawChar($image, '001', true);
 
         // Code
         for ($i = 0; $i < 2; $i++) {
-            $this->drawChar($im, self::inverse($this->findCode($this->text[$i]), $this->codeParity[intval($this->text) % 4][$i]), false);
+            $this->drawChar($image, self::inverse($this->findCode($this->text[$i]), $this->codeParity[intval($this->text) % 4][$i]), false);
             if ($i === 0) {
-                $this->drawChar($im, '00', false);    // Inter-char
+                $this->drawChar($image, '00', false);    // Inter-char
             }
         }
 
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         $startlength = 4;
         $textlength = 2 * 7;
         $intercharlength = 2;
 
-        $w += $startlength + $textlength + $intercharlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $intercharlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Adds the default label.
+     *
+     * @return void
      */
-    protected function addDefaultLabel()
+    protected function addDefaultLabel(): void
     {
         parent::addDefaultLabel();
 
@@ -107,10 +109,12 @@ class BCGupcext2 extends BCGBarcode1D
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('upcext2', 'No data has been entered.');
         }
@@ -133,11 +137,11 @@ class BCGupcext2 extends BCGBarcode1D
     /**
      * Inverses the string when the $inverse parameter is equal to 1.
      *
-     * @param string $text
-     * @param int $inverse
-     * @return string
+     * @param string $text The text.
+     * @param int $inverse The inverse.
+     * @return string the reversed string.
      */
-    private static function inverse($text, $inverse = 1)
+    private static function inverse(string $text, int $inverse = 1): string
     {
         if ($inverse === 1) {
             $text = strrev($text);

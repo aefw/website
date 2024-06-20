@@ -19,7 +19,7 @@ class Base64DotSlashTest extends PHPUnit\Framework\TestCase
                     Base64DotSlash::decode($enc)
                 );
 
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $random,
                     Base64DotSlash::decode($unpadded)

@@ -969,7 +969,7 @@ class Mimetypes
      */
     public function fromExtension($extension)
     {
-        $extension = strtolower($extension);
+        $extension = strtolower((string) $extension);
 
         return isset($this->mimetypes[$extension]) ? $this->mimetypes[$extension] : null;
     }

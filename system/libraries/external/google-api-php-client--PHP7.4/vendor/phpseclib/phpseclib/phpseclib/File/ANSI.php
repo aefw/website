@@ -232,8 +232,8 @@ class ANSI
     public function appendString($source)
     {
         $this->tokenization = [''];
-        for ($i = 0; $i < strlen($source); $i++) {
-            if (strlen($this->ansi)) {
+        for ($i = 0; $i < strlen((string) $source); $i++) {
+            if (strlen((string) $this->ansi)) {
                 $this->ansi.= $source[$i];
                 $chr = ord($source[$i]);
                 // http://en.wikipedia.org/wiki/ANSI_escape_code#Sequence_elements
@@ -242,8 +242,8 @@ class ANSI
                     case $this->ansi == "\x1B=":
                         $this->ansi = '';
                         continue 2;
-                    case strlen($this->ansi) == 2 && $chr >= 64 && $chr <= 95 && $chr != ord('['):
-                    case strlen($this->ansi) > 2 && $chr >= 64 && $chr <= 126:
+                    case strlen((string) $this->ansi) == 2 && $chr >= 64 && $chr <= 95 && $chr != ord('['):
+                    case strlen((string) $this->ansi) > 2 && $chr >= 64 && $chr <= 126:
                         break;
                     default:
                         continue 2;
@@ -269,7 +269,7 @@ class ANSI
                             array_shift($this->history_attrs);
                         }
                     case "\x1B[K": // Clear screen from cursor right
-                        $this->screen[$this->y] = substr($this->screen[$this->y], 0, $this->x);
+                        $this->screen[$this->y] = substr((string) $this->screen[$this->y], 0, $this->x);
 
                         array_splice($this->attrs[$this->y], $this->x + 1, $this->max_x - $this->x, array_fill($this->x, $this->max_x - ($this->x - 1), $this->base_attr_cell));
                         break;
@@ -399,15 +399,15 @@ class ANSI
                 case "\x0F": // shift
                     break;
                 case "\x1B": // start ANSI escape code
-                    $this->tokenization[count($this->tokenization) - 1] = substr($this->tokenization[count($this->tokenization) - 1], 0, -1);
-                    //if (!strlen($this->tokenization[count($this->tokenization) - 1])) {
+                    $this->tokenization[count($this->tokenization) - 1] = substr((string) $this->tokenization[count($this->tokenization) - 1], 0, -1);
+                    //if (!strlen((string) $this->tokenization[count($this->tokenization) - 1])) {
                     //    array_pop($this->tokenization);
                     //}
                     $this->ansi.= "\x1B";
                     break;
                 default:
                     $this->attrs[$this->y][$this->x] = clone $this->attr_cell;
-                    if ($this->x > strlen($this->screen[$this->y])) {
+                    if ($this->x > strlen((string) $this->screen[$this->y])) {
                         $this->screen[$this->y] = str_repeat(' ', $this->x);
                     }
                     $this->screen[$this->y] = substr_replace(
@@ -535,10 +535,10 @@ class ANSI
             }
             $output.= "\r\n";
         }
-        $output = substr($output, 0, -2);
+        $output = substr((string) $output, 0, -2);
         // close any remaining open tags
         $output.= $this->processCoordinate($last_attr, $this->base_attr_cell, '');
-        return rtrim($output);
+        return rtrim((string) $output);
     }
 
     /**

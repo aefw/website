@@ -31,7 +31,7 @@ class JoinDraw
     private $alignement;
     private $position;
     private $space;
-    private $im;
+    private $image;
 
     /**
      * Construct the JoinDrawing Object.
@@ -41,22 +41,22 @@ class JoinDraw
      *  - $alignment is the alignment of the $image2 if this one is smaller than $image1;
      *    if $image2 is bigger than $image1, the $image1 will be positionned on the opposite side specified.
      *
-     * @param mixed $image1
-     * @param mixed $image2
-     * @param BCGColor $background
-     * @param int $space
-     * @param int $position
-     * @param int $alignment
+     * @param mixed $image1 The image 1.
+     * @param mixed $image2 The image 2.
+     * @param BCGColor $background The bacground color.
+     * @param int $space The spacing.
+     * @param int $position The position.
+     * @param int $alignment The alignment.
      */
-    public function __construct($image1, $image2, $background, $space = 10, $position = self::POSITION_RIGHT, $alignment = self::ALIGN_TOP)
+    public function __construct($image1, $image2, BCGColor $background, int $space = 10, int $position = self::POSITION_RIGHT, int $alignment = self::ALIGN_TOP)
     {
         if ($image1 instanceof BCGDrawing) {
-            $this->image1 = $image1->get_im();
+            $this->image1 = $image1->getImage();
         } else {
             $this->image1 = $image1;
         }
         if ($image2 instanceof BCGDrawing) {
-            $this->image2 = $image2->get_im();
+            $this->image2 = $image2->getImage();
         } else {
             $this->image2 = $image2;
         }
@@ -72,20 +72,20 @@ class JoinDraw
     /**
      * Destroys the image.
      */
-    public function __destruct()
+    public function __destruct(): void
     {
-        imagedestroy($this->im);
+        imagedestroy($this->image);
     }
 
     /**
      * Finds the position where the barcode should be aligned.
      *
-     * @param int $size1
-     * @param int $size2
-     * @param int $ailgnment
-     * @return int
+     * @param int $size1 The size 1.
+     * @param int $size2 The size 2.
+     * @param int $ailgnment The alignment.
+     * @return int The position.
      */
-    private function findPosition($size1, $size2, $alignment)
+    private function findPosition(int $size1, int $size2, int $alignment): int
     {
         $rsize1 = max($size1, $size2);
         $rsize2 = min($size1, $size2);
@@ -102,10 +102,10 @@ class JoinDraw
     /**
      * Change the alignments.
      *
-     * @param int $alignment
-     * @return int
+     * @param int $alignment The alignment.
+     * @return int The alignment.
      */
-    private function changeAlignment($alignment)
+    private function changeAlignment(int $alignment): int
     {
         if ($alignment === 0) {
             return 1;
@@ -118,8 +118,10 @@ class JoinDraw
 
     /**
      * Creates the image.
+     *
+     * @return void
      */
-    private function createIm()
+    private function createIm(): void
     {
         $w1 = imagesx($this->image1);
         $w2 = imagesx($this->image2);
@@ -134,8 +136,8 @@ class JoinDraw
             $h = $h1 + $h2 + $this->space;
         }
 
-        $this->im = imagecreatetruecolor($w, $h);
-        imagefill($this->im, 0, 0, $this->background->allocate($this->im));
+        $this->image = imagecreatetruecolor($w, $h);
+        imagefill($this->image, 0, 0, $this->background->allocate($this->image));
 
         // We start defining position of images
         if ($this->position === self::POSITION_TOP) {
@@ -188,17 +190,17 @@ class JoinDraw
             $posX2 = $w1 + $this->space;
         }
 
-        imagecopy($this->im, $this->image1, $posX1, $posY1, 0, 0, $w1, $h1);
-        imagecopy($this->im, $this->image2, $posX2, $posY2, 0, 0, $w2, $h2);
+        imagecopy($this->image, $this->image1, $posX1, $posY1, 0, 0, $w1, $h1);
+        imagecopy($this->image, $this->image2, $posX2, $posY2, 0, 0, $w2, $h2);
     }
 
     /**
-     * Returns the new $im created.
+     * Returns the new $image created.
      *
-     * @return resource
+     * @return resource The surface.
      */
-    public function get_im()
+    public function getImage()
     {
-        return $this->im;
+        return $this->image;
     }
 }

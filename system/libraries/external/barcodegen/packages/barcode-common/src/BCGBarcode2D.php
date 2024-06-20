@@ -14,8 +14,8 @@ namespace BarcodeBakery\Common;
 
 abstract class BCGBarcode2D extends BCGBarcode
 {
-    protected $scaleX;
-    protected $scaleY;            // ScaleX and Y multiplied by the scale
+    protected int $scaleX;
+    protected int $scaleY;            // ScaleX and Y multiplied by the scale
 
     /**
      * Constructor.
@@ -31,13 +31,13 @@ abstract class BCGBarcode2D extends BCGBarcode
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        return parent::getDimension($w * $this->scaleX, $h * $this->scaleY);
+        return parent::getDimension($width * $this->scaleX, $height * $this->scaleY);
     }
 
     /**
@@ -45,8 +45,9 @@ abstract class BCGBarcode2D extends BCGBarcode
      * If the scale is lower than 1, an exception is raised.
      *
      * @param int $scaleX
+     * @return void
      */
-    protected function setScaleX($scaleX)
+    protected function setScaleX(int $scaleX): void
     {
         $scaleX = intval($scaleX);
         if ($scaleX <= 0) {
@@ -61,8 +62,9 @@ abstract class BCGBarcode2D extends BCGBarcode
      * If the scale is lower than 1, an exception is raised.
      *
      * @param int $scaleY
+     * @return void
      */
-    protected function setScaleY($scaleY)
+    protected function setScaleY(int $scaleY): void
     {
         $scaleY = intval($scaleY);
         if ($scaleY <= 0) {
@@ -78,17 +80,18 @@ abstract class BCGBarcode2D extends BCGBarcode
      * $x1 and $y1 represent the top left corner.
      * $x2 and $y2 represent the bottom right corner.
      *
-     * @param resource $im
-     * @param int $x1
-     * @param int $y1
-     * @param int $x2
-     * @param int $y2
+     * @param resource $image The surface.
+     * @param int $x1 X1.
+     * @param int $y1 Y1.
+     * @param int $x2 X2.
+     * @param int $y2 Y2.
+     * @return void
      */
-    protected function drawText($im, $x1, $y1, $x2, $y2)
+    protected function drawText($image, int $x1, int $y1, int $x2, int $y2): void
     {
         foreach ($this->labels as $label) {
             $label->draw(
-                $im,
+                $image,
                 ($x1 + $this->offsetX) * $this->scale * $this->scaleX + $this->pushLabel[0],
                 ($y1 + $this->offsetY) * $this->scale * $this->scaleY + $this->pushLabel[1],
                 ($x2 + $this->offsetX) * $this->scale * $this->scaleX + $this->pushLabel[0],
@@ -100,12 +103,13 @@ abstract class BCGBarcode2D extends BCGBarcode
     /**
      * Draws 1 pixel on the resource at a specific position with a determined color.
      *
-     * @param resource $im
-     * @param int $x
-     * @param int $y
-     * @param int $color
+     * @param resource $image The surface.
+     * @param int $x X.
+     * @param int $y Y.
+     * @param int $color The color.
+     * @return void
      */
-    protected function drawPixel($im, $x, $y, $color = self::COLOR_FG)
+    protected function drawPixel($image, int $x, int $y, int $color = self::COLOR_FG): void
     {
         $scaleX = $this->scale * $this->scaleX;
         $scaleY = $this->scale * $this->scaleY;
@@ -115,58 +119,60 @@ abstract class BCGBarcode2D extends BCGBarcode
 
         // We always draw a rectangle
         imagefilledrectangle(
-            $im,
+            $image,
             $xR,
             $yR,
             $xR + $scaleX - 1,
             $yR + $scaleY - 1,
-            $this->getColor($im, $color)
+            $this->getColor($image, $color)
         );
     }
 
     /**
      * Draws an empty rectangle on the resource at a specific position with a determined color.
      *
-     * @param resource $im
-     * @param int $x1
-     * @param int $y1
-     * @param int $x2
-     * @param int $y2
-     * @param int $color
+     * @param resource $image The surface.
+     * @param int $x1 X1.
+     * @param int $y1 Y1.
+     * @param int $x2 X2.
+     * @param int $y2 Y2.
+     * @param int $color The color.
+     * @return void
      */
-    protected function drawRectangle($im, $x1, $y1, $x2, $y2, $color = BCGBarcode::COLOR_FG)
+    protected function drawRectangle($image, int $x1, int $y1, int $x2, int $y2, int $color = BCGBarcode::COLOR_FG): void
     {
         $scaleX = $this->scale * $this->scaleX;
         $scaleY = $this->scale * $this->scaleY;
 
         if ($this->scale === 1) {
             imagefilledrectangle(
-                $im,
+                $image,
                 ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0],
                 ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1],
                 ($x2 + $this->offsetX) * $scaleX + $this->pushLabel[0],
                 ($y2 + $this->offsetY) * $scaleY + $this->pushLabel[1],
-                $this->getColor($im, $color)
+                $this->getColor($image, $color)
             );
         } else {
-            imagefilledrectangle($im, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($im, $color));
-            imagefilledrectangle($im, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x1 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($im, $color));
-            imagefilledrectangle($im, ($x2 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($im, $color));
-            imagefilledrectangle($im, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($im, $color));
+            imagefilledrectangle($image, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($image, $color));
+            imagefilledrectangle($image, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x1 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($image, $color));
+            imagefilledrectangle($image, ($x2 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($image, $color));
+            imagefilledrectangle($image, ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $this->pushLabel[1], ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0], ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1], $this->getColor($image, $color));
         }
     }
 
     /**
      * Draws a filled rectangle on the resource at a specific position with a determined color.
      *
-     * @param resource $im
-     * @param int $x1
-     * @param int $y1
-     * @param int $x2
-     * @param int $y2
-     * @param int $color
+     * @param resource $image The surface.
+     * @param int $x1 X1.
+     * @param int $y1 Y1.
+     * @param int $x2 X2.
+     * @param int $y2 Y2.
+     * @param int $color The color.
+     * @return void
      */
-    protected function drawFilledRectangle($im, $x1, $y1, $x2, $y2, $color = BCGBarcode::COLOR_FG)
+    protected function drawFilledRectangle($image, int $x1, int $y1, int $x2, int $y2, int $color = BCGBarcode::COLOR_FG): void
     {
         if ($x1 > $x2) { // Swap
             $x1 ^= $x2 ^= $x1 ^= $x2;
@@ -180,12 +186,12 @@ abstract class BCGBarcode2D extends BCGBarcode
         $scaleY = $this->scale * $this->scaleY;
 
         imagefilledrectangle(
-            $im,
+            $image,
             ($x1 + $this->offsetX) * $scaleX + $this->pushLabel[0],
             ($y1 + $this->offsetY) * $scaleY + $this->pushLabel[1],
             ($x2 + $this->offsetX) * $scaleX + $scaleX - 1 + $this->pushLabel[0],
             ($y2 + $this->offsetY) * $scaleY + $scaleY - 1 + $this->pushLabel[1],
-            $this->getColor($im, $color)
+            $this->getColor($image, $color)
         );
     }
 }

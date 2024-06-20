@@ -634,8 +634,8 @@ class DES extends BlockCipher
      */
     public function setKey($key)
     {
-        if (!($this instanceof TripleDES) && strlen($key) != 8) {
-            throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of size 8 are supported');
+        if (!($this instanceof TripleDES) && strlen((string) $key) != 8) {
+            throw new \LengthException('Key of size ' . strlen((string) $key) . ' not supported by this algorithm. Only keys of size 8 are supported');
         }
 
         // Sets the key
@@ -1227,7 +1227,7 @@ class DES extends BlockCipher
         $keys = [];
         for ($des_round = 0; $des_round < $this->des_rounds; ++$des_round) {
             // pad the key and remove extra characters as appropriate.
-            $key = str_pad(substr($this->key, $des_round * 8, 8), 8, "\0");
+            $key = str_pad(substr((string) $this->key, $des_round * 8, 8), 8, "\0");
 
             // Perform the PC/1 transformation and compute C and D.
             $t = unpack('Nl/Nr', $key);

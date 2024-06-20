@@ -94,10 +94,10 @@ class GelfMessageFormatter extends NormalizerFormatter
             ->setLevel($this->logLevels[$record['level']]);
 
         // message length + system name length + 200 for padding / metadata
-        $len = 200 + strlen((string) $record['message']) + strlen($this->systemName);
+        $len = 200 + strlen((string) $record['message']) + strlen((string) $this->systemName);
 
         if ($len > $this->maxLength) {
-            $message->setShortMessage(Utils::substr($record['message'], 0, $this->maxLength));
+            $message->setShortMessage(Utils::substr((string) $record['message'], 0, $this->maxLength));
         }
 
         if (isset($record['channel'])) {
@@ -114,9 +114,9 @@ class GelfMessageFormatter extends NormalizerFormatter
 
         foreach ($record['extra'] as $key => $val) {
             $val = is_scalar($val) || null === $val ? $val : $this->toJson($val);
-            $len = strlen($this->extraPrefix . $key . $val);
+            $len = strlen((string) $this->extraPrefix . $key . $val);
             if ($len > $this->maxLength) {
-                $message->setAdditional($this->extraPrefix . $key, Utils::substr($val, 0, $this->maxLength));
+                $message->setAdditional($this->extraPrefix . $key, Utils::substr((string) $val, 0, $this->maxLength));
 
                 continue;
             }
@@ -125,9 +125,9 @@ class GelfMessageFormatter extends NormalizerFormatter
 
         foreach ($record['context'] as $key => $val) {
             $val = is_scalar($val) || null === $val ? $val : $this->toJson($val);
-            $len = strlen($this->contextPrefix . $key . $val);
+            $len = strlen((string) $this->contextPrefix . $key . $val);
             if ($len > $this->maxLength) {
-                $message->setAdditional($this->contextPrefix . $key, Utils::substr($val, 0, $this->maxLength));
+                $message->setAdditional($this->contextPrefix . $key, Utils::substr((string) $val, 0, $this->maxLength));
 
                 continue;
             }

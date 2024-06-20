@@ -80,7 +80,7 @@ abstract class Coordinate
         if (ctype_digit($pCoordinateString)) {
             return $worksheet . '$' . $pCoordinateString;
         } elseif (ctype_alpha($pCoordinateString)) {
-            return $worksheet . '$' . strtoupper($pCoordinateString);
+            return $worksheet . '$' . strtoupper((string) $pCoordinateString);
         }
 
         return $worksheet . self::absoluteCoordinate($pCoordinateString);
@@ -109,8 +109,8 @@ abstract class Coordinate
 
         // Create absolute coordinate
         [$column, $row] = self::coordinateFromString($pCoordinateString);
-        $column = ltrim($column, '$');
-        $row = ltrim($row, '$');
+        $column = ltrim((string) $column, '$');
+        $row = ltrim((string) $row, '$');
 
         return $worksheet . '$' . $column . '$' . $row;
     }
@@ -181,7 +181,7 @@ abstract class Coordinate
         }
 
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         // Extract range
         if (strpos($pRange, ':') === false) {
@@ -232,7 +232,7 @@ abstract class Coordinate
         }
 
         // Uppercase coordinate
-        $pRange = strtoupper($pRange);
+        $pRange = strtoupper((string) $pRange);
 
         // Extract range
         if (strpos($pRange, ':') === false) {
@@ -433,7 +433,7 @@ abstract class Coordinate
             }
 
             [$column, $row] = self::coordinateFromString($coord);
-            $row = (int) (ltrim($row, '$'));
+            $row = (int) (ltrim((string) $row, '$'));
             $hashCode = $column . '-' . (is_object($value) ? $value->getHashCode() : $value);
 
             if (!isset($hashedValues[$hashCode])) {
@@ -498,7 +498,7 @@ abstract class Coordinate
      */
     private static function getCellBlocksFromRangeString($pRange)
     {
-        return explode(' ', str_replace('$', '', strtoupper($pRange)));
+        return explode(' ', str_replace('$', '', strtoupper((string) $pRange)));
     }
 
     /**

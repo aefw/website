@@ -14,31 +14,31 @@ namespace BarcodeBakery\Common;
 
 class BCGFontPhp implements BCGFont
 {
-    private $font;
-    private $text;
-    private $rotationAngle;
-    private $backgroundColor;
-    private $foregroundColor;
+    private int $font;
+    private string $text;
+    private int $rotationAngle;
+    private BCGColor $backgroundColor;
+    private BCGColor $foregroundColor;
 
     /**
      * Constructor.
      *
-     * @param int $font
+     * @param int $font The font.
      */
     public function __construct($font)
     {
         $this->font = max(0, intval($font));
-        $this->backgroundColor = new BCGColor('white');
-        $this->foregroundColor = new BCGColor('black');
+        $this->backgroundColor = new BCGColor(0xffffff);
+        $this->foregroundColor = new BCGColor(0x000000);
         $this->setRotationAngle(0);
     }
 
     /**
      * Gets the text associated to the font.
      *
-     * @return string
+     * @return string The text.
      */
-    public function getText()
+    public function getText(): string
     {
         return $this->text;
     }
@@ -46,9 +46,10 @@ class BCGFontPhp implements BCGFont
     /**
      * Sets the text associated to the font.
      *
-     * @param string text
+     * @param string text The text.
+     * @return void
      */
-    public function setText($text)
+    public function setText(string $text): void
     {
         $this->text = $text;
     }
@@ -56,9 +57,9 @@ class BCGFontPhp implements BCGFont
     /**
      * Gets the rotation in degree.
      *
-     * @return int
+     * @return int The rotation angle.
      */
-    public function getRotationAngle()
+    public function getRotationAngle(): int
     {
         return (360 - $this->rotationAngle) % 360;
     }
@@ -66,9 +67,10 @@ class BCGFontPhp implements BCGFont
     /**
      * Sets the rotation in degree.
      *
-     * @param int
+     * @param int The rotation angle.
+     * @return void
      */
-    public function setRotationAngle($rotationAngle)
+    public function setRotationAngle(int $rotationAngle): void
     {
         $this->rotationAngle = (int)$rotationAngle;
         if ($this->rotationAngle !== 90 && $this->rotationAngle !== 180 && $this->rotationAngle !== 270) {
@@ -81,9 +83,9 @@ class BCGFontPhp implements BCGFont
     /**
      * Gets the background color.
      *
-     * @return BCGColor
+     * @return BCGColor The background color.
      */
-    public function getBackgroundColor()
+    public function getBackgroundColor(): BCGColor
     {
         return $this->backgroundColor;
     }
@@ -91,9 +93,10 @@ class BCGFontPhp implements BCGFont
     /**
      * Sets the background color.
      *
-     * @param BCGColor $backgroundColor
+     * @param BCGColor $backgroundColor The background color.
+     * @return void
      */
-    public function setBackgroundColor($backgroundColor)
+    public function setBackgroundColor(BCGColor $backgroundColor): void
     {
         $this->backgroundColor = $backgroundColor;
     }
@@ -101,9 +104,9 @@ class BCGFontPhp implements BCGFont
     /**
      * Gets the foreground color.
      *
-     * @return BCGColor
+     * @return BCGColor The foreground color.
      */
-    public function getForegroundColor()
+    public function getForegroundColor(): BCGColor
     {
         return $this->foregroundColor;
     }
@@ -111,9 +114,10 @@ class BCGFontPhp implements BCGFont
     /**
      * Sets the foreground color.
      *
-     * @param BCGColor $foregroundColor
+     * @param BCGColor $foregroundColor The foreground color.
+     * @return void
      */
-    public function setForegroundColor($foregroundColor)
+    public function setForegroundColor(BCGColor $foregroundColor): void
     {
         $this->foregroundColor = $foregroundColor;
     }
@@ -123,16 +127,16 @@ class BCGFontPhp implements BCGFont
      *
      * @return int[]
      */
-    public function getDimension()
+    public function getDimension(): array
     {
-        $w = imagefontwidth($this->font) * strlen($this->text);
-        $h = imagefontheight($this->font);
+        $width = imagefontwidth($this->font) * strlen((string) $this->text);
+        $height = imagefontheight($this->font);
 
         $rotationAngle = $this->getRotationAngle();
         if ($rotationAngle === 90 || $rotationAngle === 270) {
-            return array($h, $w);
+            return array($height, $width);
         } else {
-            return array($w, $h);
+            return array($width, $height);
         }
     }
 
@@ -140,26 +144,27 @@ class BCGFontPhp implements BCGFont
      * Draws the text on the image at a specific position.
      * $x and $y represent the left bottom corner.
      *
-     * @param resource $im
-     * @param int $x
-     * @param int $y
+     * @param resource $image The surface.
+     * @param int $x X.
+     * @param int $y Y.
+     * @return void
      */
-    public function draw($im, $x, $y)
+    public function draw($image, int $x, int $y): void
     {
         if ($this->getRotationAngle() !== 0) {
             if (!function_exists('imagerotate')) {
                 throw new BCGDrawException('The method imagerotate doesn\'t exist on your server. Do not use any rotation.');
             }
 
-            $w = imagefontwidth($this->font) * strlen($this->text);
+            $w = imagefontwidth($this->font) * strlen((string) $this->text);
             $h = imagefontheight($this->font);
             $gd = imagecreatetruecolor($w, $h);
             imagefilledrectangle($gd, 0, 0, $w - 1, $h - 1, $this->backgroundColor->allocate($gd));
             imagestring($gd, $this->font, 0, 0, $this->text, $this->foregroundColor->allocate($gd));
             $gd = imagerotate($gd, $this->rotationAngle, 0);
-            imagecopy($im, $gd, $x, $y, 0, 0, imagesx($gd), imagesy($gd));
+            imagecopy($image, $gd, $x, $y, 0, 0, imagesx($gd), imagesy($gd));
         } else {
-            imagestring($im, $this->font, $x, $y, $this->text, $this->foregroundColor->allocate($im));
+            imagestring($image, $this->font, $x, $y, $this->text, $this->foregroundColor->allocate($image));
         }
     }
 }

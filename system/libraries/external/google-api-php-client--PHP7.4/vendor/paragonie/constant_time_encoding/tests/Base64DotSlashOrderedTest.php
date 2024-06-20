@@ -19,7 +19,7 @@ class Base64DotSlashOrderedTest extends PHPUnit\Framework\TestCase
                     Base64DotSlashOrdered::decode($enc)
                 );
 
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $random,
                     Base64DotSlashOrdered::decode($unpadded)

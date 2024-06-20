@@ -268,7 +268,7 @@ class CookieJar implements CookieJarInterface
             return '/';
         }
 
-        return \substr($uriPath, 0, $lastSlashPos);
+        return \substr((string) $uriPath, 0, $lastSlashPos);
     }
 
     public function withCookieHeader(RequestInterface $request): RequestInterface

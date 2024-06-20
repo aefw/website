@@ -95,7 +95,7 @@ abstract class MSBLOB
         if (!is_string($key)) {
             throw new \UnexpectedValueException('Base64 decoding produced an error');
         }
-        if (strlen($key) < 20) {
+        if (strlen((string) $key) < 20) {
             throw new \UnexpectedValueException('Key appears to be malformed');
         }
 
@@ -150,7 +150,7 @@ abstract class MSBLOB
         }
 
         $baseLength = $bitlen / 16;
-        if (strlen($key) != 2 * $baseLength && strlen($key) != 9 * $baseLength) {
+        if (strlen((string) $key) != 2 * $baseLength && strlen((string) $key) != 9 * $baseLength) {
             throw new \UnexpectedValueException('Key appears to be malformed');
         }
 
@@ -209,7 +209,7 @@ abstract class MSBLOB
         $n = strrev($n->toBytes());
         $e = str_pad(strrev($e->toBytes()), 4, "\0");
         $key = pack('aavV', chr(self::PRIVATEKEYBLOB), chr(2), 0, self::CALG_RSA_KEYX);
-        $key.= pack('VVa*', self::RSA2, 8 * strlen($n), $e);
+        $key.= pack('VVa*', self::RSA2, 8 * strlen((string) $n), $e);
         $key.= $n;
         $key.= strrev($primes[1]->toBytes());
         $key.= strrev($primes[2]->toBytes());
@@ -234,7 +234,7 @@ abstract class MSBLOB
         $n = strrev($n->toBytes());
         $e = str_pad(strrev($e->toBytes()), 4, "\0");
         $key = pack('aavV', chr(self::PUBLICKEYBLOB), chr(2), 0, self::CALG_RSA_KEYX);
-        $key.= pack('VVa*', self::RSA1, 8 * strlen($n), $e);
+        $key.= pack('VVa*', self::RSA1, 8 * strlen((string) $n), $e);
         $key.= $n;
 
         return Base64::encode($key);

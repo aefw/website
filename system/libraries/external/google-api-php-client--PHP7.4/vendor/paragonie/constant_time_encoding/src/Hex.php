@@ -43,10 +43,10 @@ abstract class Hex implements EncoderInterface
     {
         /** @var string $hex */
         $hex = '';
-        $len = Binary::safeStrlen($binString);
+        $len = Binary::safestrlen((string) $binString);
         for ($i = 0; $i < $len; ++$i) {
             /** @var array<int, int> $chunk */
-            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 1));
+            $chunk = \unpack('C', Binary::safesubstr((string) $binString, $i, 1));
             /** @var int $c */
             $c = $chunk[1] & 0xf;
             /** @var int $b */
@@ -74,11 +74,11 @@ abstract class Hex implements EncoderInterface
         /** @var string $hex */
         $hex = '';
         /** @var int $len */
-        $len = Binary::safeStrlen($binString);
+        $len = Binary::safestrlen((string) $binString);
 
         for ($i = 0; $i < $len; ++$i) {
             /** @var array<int, int> $chunk */
-            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 2));
+            $chunk = \unpack('C', Binary::safesubstr((string) $binString, $i, 2));
             /** @var int $c */
             $c = $chunk[1] & 0xf;
             /** @var int $b */
@@ -111,7 +111,7 @@ abstract class Hex implements EncoderInterface
         /** @var int $c_acc */
         $c_acc = 0;
         /** @var int $hex_len */
-        $hex_len = Binary::safeStrlen($encodedString);
+        $hex_len = Binary::safestrlen((string) $encodedString);
         /** @var int $state */
         $state = 0;
         if (($hex_len & 1) !== 0) {

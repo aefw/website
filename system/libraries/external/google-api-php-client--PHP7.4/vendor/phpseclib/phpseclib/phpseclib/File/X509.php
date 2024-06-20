@@ -516,7 +516,7 @@ class X509
             return false;
         }
 
-        $this->signatureSubject = substr($cert, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
+        $this->signatureSubject = substr((string) $cert, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
 
         if ($this->isSubArrayValid($x509, 'tbsCertificate/extensions')) {
             $this->mapInExtensions($x509, 'tbsCertificate/extensions');
@@ -1178,7 +1178,7 @@ class X509
                 fputs($fsock, "GET $parts[path] HTTP/1.0\r\n");
                 fputs($fsock, "Host: $parts[host]\r\n\r\n");
                 $line = fgets($fsock, 1024);
-                if (strlen($line) < 3) {
+                if (strlen((string) $line) < 3) {
                     return false;
                 }
                 preg_match('#HTTP/1.\d (\d{3})#', $line, $temp);
@@ -1363,7 +1363,7 @@ class X509
                     $signingCert['tbsCertificate']['subjectPublicKeyInfo']['algorithm']['algorithm'],
                     $signingCert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'],
                     $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
+                    substr((string) $this->currentCert['signature'], 1),
                     $this->signatureSubject
                 );
             case isset($this->currentCert['certificationRequestInfo']):
@@ -1371,7 +1371,7 @@ class X509
                     $this->currentCert['certificationRequestInfo']['subjectPKInfo']['algorithm']['algorithm'],
                     $this->currentCert['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey'],
                     $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
+                    substr((string) $this->currentCert['signature'], 1),
                     $this->signatureSubject
                 );
             case isset($this->currentCert['publicKeyAndChallenge']):
@@ -1379,7 +1379,7 @@ class X509
                     $this->currentCert['publicKeyAndChallenge']['spki']['algorithm']['algorithm'],
                     $this->currentCert['publicKeyAndChallenge']['spki']['subjectPublicKey'],
                     $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
+                    substr((string) $this->currentCert['signature'], 1),
                     $this->signatureSubject
                 );
             case isset($this->currentCert['tbsCertList']):
@@ -1411,7 +1411,7 @@ class X509
                     $signingCert['tbsCertificate']['subjectPublicKeyInfo']['algorithm']['algorithm'],
                     $signingCert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'],
                     $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
+                    substr((string) $this->currentCert['signature'], 1),
                     $this->signatureSubject
                 );
             default:
@@ -1471,7 +1471,7 @@ class X509
                     case 'ecdsa-with-SHA384':
                     case 'ecdsa-with-SHA512':
                         $key = $key
-                            ->withHash(preg_replace('#^ecdsa-with-#', '', strtolower($signatureAlgorithm)));
+                            ->withHash(preg_replace('#^ecdsa-with-#', '', strtolower((string) $signatureAlgorithm)));
                         break;
                     default:
                         throw new UnsupportedAlgorithmException('Signature algorithm unsupported');
@@ -1484,7 +1484,7 @@ class X509
                     case 'id-dsa-with-sha224':
                     case 'id-dsa-with-sha256':
                         $key = $key
-                            ->withHash(preg_replace('#^id-dsa-with-#', '', strtolower($signatureAlgorithm)));
+                            ->withHash(preg_replace('#^id-dsa-with-#', '', strtolower((string) $signatureAlgorithm)));
                         break;
                     default:
                         throw new UnsupportedAlgorithmException('Signature algorithm unsupported');
@@ -1557,9 +1557,9 @@ class X509
      */
     public static function decodeNameConstraintIP($ip)
     {
-        $size = strlen($ip) >> 1;
-        $mask = substr($ip, $size);
-        $ip = substr($ip, 0, $size);
+        $size = strlen((string) $ip) >> 1;
+        $mask = substr((string) $ip, $size);
+        $ip = substr((string) $ip, 0, $size);
         return [inet_ntop($ip), inet_ntop($mask)];
     }
 
@@ -1588,7 +1588,7 @@ class X509
      */
     private function translateDNProp($propName)
     {
-        switch (strtolower($propName)) {
+        switch (strtolower((string) $propName)) {
             case 'id-at-countryname':
             case 'countryname':
             case 'c':
@@ -1831,7 +1831,7 @@ class X509
         // handles everything else
         $results = preg_split('#((?:^|, *|/)(?:C=|O=|OU=|CN=|L=|ST=|SN=|postalCode=|streetAddress=|emailAddress=|serialNumber=|organizationalUnitName=|title=|description=|role=|x500UniqueIdentifier=|postalAddress=))#', $dn, -1, PREG_SPLIT_DELIM_CAPTURE);
         for ($i = 1; $i < count($results); $i+=2) {
-            $prop = trim($results[$i], ', =/');
+            $prop = trim((string) $results[$i], ', =/');
             $value = $results[$i + 1];
             if (!$this->setDNProp($prop, $value, $type)) {
                 return false;
@@ -1883,7 +1883,7 @@ class X509
                                     $v = ASN1::convert($v, $type);
                                     if ($v !== false) {
                                         $v = preg_replace('/\s+/', ' ', $v);
-                                        $attr['value'] = strtolower(trim($v));
+                                        $attr['value'] = strtolower(trim((string) $v));
                                         break;
                                     }
                                 }
@@ -2273,7 +2273,7 @@ class X509
 
         $this->dn = $csr['certificationRequestInfo']['subject'];
 
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
+        $this->signatureSubject = substr((string) $orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
 
         $key = $csr['certificationRequestInfo']['subjectPKInfo'];
         $key = ASN1::encodeDER($key, Maps\SubjectPublicKeyInfo::MAP);
@@ -2384,7 +2384,7 @@ class X509
             return false;
         }
 
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
+        $this->signatureSubject = substr((string) $orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
 
         $key = $spkac['publicKeyAndChallenge']['spki'];
         $key = ASN1::encodeDER($key, Maps\SubjectPublicKeyInfo::MAP);
@@ -2483,7 +2483,7 @@ class X509
             return false;
         }
 
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
+        $this->signatureSubject = substr((string) $orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
 
         $this->mapInDNs($crl, 'tbsCertList/issuer/rdnSequence');
         if ($this->isSubArrayValid($crl, 'tbsCertList/crlExtensions')) {
@@ -2868,7 +2868,7 @@ class X509
             $this->currentCert['publicKeyAndChallenge']['spki'] = $publicKey;
             if (!empty($this->challenge)) {
                 // the bitwise AND ensures that the output is a valid IA5String
-                $this->currentCert['publicKeyAndChallenge']['challenge'] = $this->challenge & str_repeat("\x7F", strlen($this->challenge));
+                $this->currentCert['publicKeyAndChallenge']['challenge'] = $this->challenge & str_repeat("\x7F", strlen((string) $this->challenge));
             }
         } else {
             $this->currentCert = [
@@ -3085,7 +3085,7 @@ class X509
                 case 'sha256':
                 case 'sha384':
                 case 'sha512':
-                    return 'ecdsa-with-' . strtoupper($key->getHash());
+                    return 'ecdsa-with-' . strtoupper((string) $key->getHash());
             }
             throw new UnsupportedAlgorithmException('The only supported hash algorithms for EC are: sha1, sha224, sha256, sha384, sha512');
         }
@@ -3123,9 +3123,9 @@ class X509
 
           -- http://tools.ietf.org/html/rfc5280#section-4.1.2.5
         */
-        if (is_string($date) && strtolower($date) === 'lifetime') {
+        if (is_string($date) && strtolower((string) $date) === 'lifetime') {
             $temp = '99991231235959Z';
-            $temp = chr(ASN1::TYPE_GENERALIZED_TIME) . ASN1::encodeLength(strlen($temp)) . $temp;
+            $temp = chr(ASN1::TYPE_GENERALIZED_TIME) . ASN1::encodeLength(strlen((string) $temp)) . $temp;
             $this->endDate = new Element($temp);
         } else {
             if (!is_object($date) || !($date instanceof DateTimeInterface)) {
@@ -3755,7 +3755,7 @@ class X509
         $hash = $hash->hash($key);
 
         if ($method == 2) {
-            $hash = substr($hash, -8);
+            $hash = substr((string) $hash, -8);
             $hash[0] = chr((ord($hash[0]) & 0x0F) | 0x40);
         }
 

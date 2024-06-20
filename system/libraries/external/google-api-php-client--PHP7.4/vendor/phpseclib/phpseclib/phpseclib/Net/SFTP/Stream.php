@@ -163,7 +163,7 @@ class Stream
         }
         if (isset($fragment)) {
             $path.= '#' . $fragment;
-        } elseif ($orig[strlen($orig) - 1] == '#') {
+        } elseif ($orig[strlen((string) $orig) - 1] == '#') {
             $path.= '#';
         }
 
@@ -322,14 +322,14 @@ class Stream
                 return 0;
             }
             // seems that PHP calls stream_read in 8k chunks
-            call_user_func($this->notification, STREAM_NOTIFY_PROGRESS, STREAM_NOTIFY_SEVERITY_INFO, '', 0, strlen($result), $this->size);
+            call_user_func($this->notification, STREAM_NOTIFY_PROGRESS, STREAM_NOTIFY_SEVERITY_INFO, '', 0, strlen((string) $result), $this->size);
         }
 
         if (empty($result)) { // ie. false or empty string
             $this->eof = true;
             return false;
         }
-        $this->pos+= strlen($result);
+        $this->pos+= strlen((string) $result);
 
         return $result;
     }
@@ -355,18 +355,18 @@ class Stream
                 return 0;
             }
             // seems that PHP splits up strings into 8k blocks before calling stream_write
-            call_user_func($this->notification, STREAM_NOTIFY_PROGRESS, STREAM_NOTIFY_SEVERITY_INFO, '', 0, strlen($data), strlen($data));
+            call_user_func($this->notification, STREAM_NOTIFY_PROGRESS, STREAM_NOTIFY_SEVERITY_INFO, '', 0, strlen((string) $data), strlen((string) $data));
         }
 
         if ($result === false) {
             return false;
         }
-        $this->pos+= strlen($data);
+        $this->pos+= strlen((string) $data);
         if ($this->pos > $this->size) {
             $this->size = $this->pos;
         }
         $this->eof = false;
-        return strlen($data);
+        return strlen((string) $data);
     }
 
     /**

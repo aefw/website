@@ -70,9 +70,9 @@ abstract class Barrett extends Base
             self::DATA => []
         ];
 
-        $m_length = strlen($m);
+        $m_length = strlen((string) $m);
 
-        if (strlen($n) > 2 * $m_length) {
+        if (strlen((string) $n) > 2 * $m_length) {
             return bcmod($n, $m);
         }
 
@@ -100,8 +100,8 @@ abstract class Barrett extends Base
 
         $cutoff = $m_length + ($m_length >> 1);
 
-        $lsd = substr($n, -$cutoff);
-        $msd = substr($n, 0, -$cutoff);
+        $lsd = substr((string) $n, -$cutoff);
+        $msd = substr((string) $n, 0, -$cutoff);
 
         $temp = bcmul($msd, $m1); // m.length + (m.length >> 1)
         $n = bcadd($lsd, $temp); // m.length + (m.length >> 1) + 1 (so basically we're adding two same length numbers)
@@ -110,13 +110,13 @@ abstract class Barrett extends Base
         //}
 
         // (m.length + (m.length >> 1) + 1) - (m.length - 1) == (m.length >> 1) + 2
-        $temp = substr($n, 0, -$m_length + 1);
+        $temp = substr((string) $n, 0, -$m_length + 1);
         // if even: ((m.length >> 1) + 2) + (m.length >> 1) == m.length + 2
         // if odd:  ((m.length >> 1) + 2) + (m.length >> 1) == (m.length - 1) + 2 == m.length + 1
         $temp = bcmul($temp, $u);
         // if even: (m.length + 2) - ((m.length >> 1) + 1) = m.length - (m.length >> 1) + 1
         // if odd:  (m.length + 1) - ((m.length >> 1) + 1) = m.length - (m.length >> 1)
-        $temp = substr($temp, 0, -($m_length >> 1) - 1);
+        $temp = substr((string) $temp, 0, -($m_length >> 1) - 1);
         // if even: (m.length - (m.length >> 1) + 1) + m.length = 2 * m.length - (m.length >> 1) + 1
         // if odd:  (m.length - (m.length >> 1)) + m.length     = 2 * m.length - (m.length >> 1)
         $temp = bcmul($temp, $m);
@@ -157,9 +157,9 @@ abstract class Barrett extends Base
             self::DATA => []
         ];
 
-        $n_length = strlen($n);
+        $n_length = strlen((string) $n);
 
-        if (strlen($x) > 2 * $n_length) {
+        if (strlen((string) $x) > 2 * $n_length) {
             return bcmod($x, $n);
         }
 
@@ -170,11 +170,11 @@ abstract class Barrett extends Base
             $cache[self::DATA][] = bcdiv($lhs, $n, 0);
         }
 
-        $temp = substr($x, 0, -$n_length + 1);
+        $temp = substr((string) $x, 0, -$n_length + 1);
         $temp = bcmul($temp, $cache[self::DATA][$key]);
-        $temp = substr($temp, 0, -$n_length - 1);
+        $temp = substr((string) $temp, 0, -$n_length - 1);
 
-        $r1 = substr($x, -$n_length - 1);
+        $r1 = substr((string) $x, -$n_length - 1);
         $r2 = substr(bcmul($temp, $n), -$n_length - 1);
         $result = bcsub($r1, $r2);
 

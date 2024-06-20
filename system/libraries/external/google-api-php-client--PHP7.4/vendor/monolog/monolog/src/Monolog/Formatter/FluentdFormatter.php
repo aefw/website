@@ -59,7 +59,7 @@ class FluentdFormatter implements FormatterInterface
     {
         $tag = $record['channel'];
         if ($this->levelTag) {
-            $tag .= '.' . strtolower($record['level_name']);
+            $tag .= '.' . strtolower((string) $record['level_name']);
         }
 
         $message = [

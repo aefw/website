@@ -178,7 +178,7 @@ class Cells
             $r = 0;
             sscanf($coord, '%[A-Z]%d', $c, $r);
             $row[$r] = $r;
-            $col[$c] = strlen($c) . $c;
+            $col[$c] = strlen((string) $c) . $c;
         }
 
         // Determine highest column and row

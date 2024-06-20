@@ -17,8 +17,8 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGi25 extends BCGBarcode1D
 {
-    private $checksum;
-    private $ratio;
+    private bool $checksum;
+    private int $ratio;
 
     /**
      * Constructor.
@@ -48,9 +48,10 @@ class BCGi25 extends BCGBarcode1D
     /**
      * Sets the checksum.
      *
-     * @param bool $checksum
+     * @param bool $checksum Displays the checksum.
+     * @return void
      */
-    public function setChecksum($checksum)
+    public function setChecksum(bool $checksum): void
     {
         $this->checksum = (bool)$checksum;
     }
@@ -58,9 +59,10 @@ class BCGi25 extends BCGBarcode1D
     /**
      * Sets the ratio of the black bar compared to the white bars.
      *
-     * @param int $ratio
+     * @param int $ratio The ratio.
+     * @return void
      */
-    public function setRatio($ratio)
+    public function setRatio(int $ratio): void
     {
         $this->ratio = $ratio;
     }
@@ -68,49 +70,50 @@ class BCGi25 extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
-        $temp_text = $this->text;
+        $tempText = $this->text;
 
         // Checksum
         if ($this->checksum === true) {
             $this->calculateChecksum();
-            $temp_text .= $this->keys[$this->checksumValue];
+            $tempText .= $this->keys[$this->checksumValue[0]];
         }
 
         // Starting Code
-        $this->drawChar($im, '0000', true);
+        $this->drawChar($image, '0000', true);
 
         // Chars
-        $c = strlen($temp_text);
+        $c = strlen((string) $tempText);
         for ($i = 0; $i < $c; $i += 2) {
-            $temp_bar = '';
-            $c2 = strlen($this->findCode($temp_text[$i]));
+            $tempBar = '';
+            $c2 = strlen((string) $this->findCode($tempText[$i]));
             for ($j = 0; $j < $c2; $j++) {
-                $temp_bar .= substr($this->findCode($temp_text[$i]), $j, 1);
-                $temp_bar .= substr($this->findCode($temp_text[$i + 1]), $j, 1);
+                $tempBar .= substr((string) $this->findCode($tempText[$i]), $j, 1);
+                $tempBar .= substr((string) $this->findCode($tempText[$i + 1]), $j, 1);
             }
 
-            $this->drawChar($im, $this->changeBars($temp_bar), true);
+            $this->drawChar($image, $this->changeBars($tempBar), true);
         }
 
         // Ending Code
-        $this->drawChar($im, $this->changeBars('100'), true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, $this->changeBars('100'), true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $textlength = (3 + ($this->ratio + 1) * 2) * strlen($this->text);
+        $textlength = (3 + ($this->ratio + 1) * 2) * strlen((string) $this->text);
         $startlength = 4;
         $checksumlength = 0;
         if ($this->checksum === true) {
@@ -119,17 +122,19 @@ class BCGi25 extends BCGBarcode1D
 
         $endlength = 2 + ($this->ratio + 1);
 
-        $w += $startlength + $textlength + $checksumlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('i25', 'No data has been entered.');
         }
@@ -153,8 +158,10 @@ class BCGi25 extends BCGBarcode1D
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
         // Calculating Checksum
         // Consider the right-most digit of the message to be in an "even" position,
@@ -163,8 +170,8 @@ class BCGi25 extends BCGBarcode1D
         // Multiply it by the number
         // Add all of that and do 10-(?mod10)
         $even = true;
-        $this->checksumValue = 0;
-        $c = strlen($this->text);
+        $this->checksumValue = array(0);
+        $c = strlen((string) $this->text);
         for ($i = $c; $i > 0; $i--) {
             if ($even === true) {
                 $multiplier = 3;
@@ -174,38 +181,40 @@ class BCGi25 extends BCGBarcode1D
                 $even = true;
             }
 
-            $this->checksumValue += $this->keys[$this->text[$i - 1]] * $multiplier;
+            $this->checksumValue[0] += $this->keys[$this->text[$i - 1]] * $multiplier;
         }
 
-        $this->checksumValue = (10 - $this->checksumValue % 10) % 10;
+        $this->checksumValue[0] = (10 - $this->checksumValue[0] % 10) % 10;
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
-            return $this->keys[$this->checksumValue];
+        if ($this->checksumValue !== null) {
+            return $this->keys[$this->checksumValue[0]];
         }
 
-        return false;
+        return null;
     }
 
     /**
      * Changes the size of the bars based on the ratio
      *
-     * @param string $in
-     * @return string
+     * @param string $in The bars.
+     * @return string New bars.
      */
-    private function changeBars($in)
+    private function changeBars(string $in): string
     {
         if ($this->ratio > 1) {
-            $c = strlen($in);
+            $c = strlen((string) $in);
             for ($i = 0; $i < $c; $i++) {
                 $in[$i] = $in[$i] === '1' ? $this->ratio : $in[$i];
             }

@@ -71,7 +71,7 @@ class Slk extends BaseReader
 
         // Analyze first line looking for ID; signature
         $lines = explode("\n", $data);
-        $hasId = substr($lines[0], 0, 4) === 'ID;P';
+        $hasId = substr((string) $lines[0], 0, 4) === 'ID;P';
 
         fclose($this->fileHandle);
 
@@ -138,7 +138,7 @@ class Slk extends BaseReader
 
             // explode each row at semicolons while taking into account that literal semicolon (;)
             // is escaped like this (;;)
-            $rowData = explode("\t", str_replace('¤', ';', str_replace(';', "\t", str_replace(';;', '¤', rtrim($rowData)))));
+            $rowData = explode("\t", str_replace('¤', ';', str_replace(';', "\t", str_replace(';;', '¤', rtrim((string) $rowData)))));
 
             $dataType = array_shift($rowData);
             if ($dataType == 'C') {
@@ -147,12 +147,12 @@ class Slk extends BaseReader
                     switch ($rowDatum[0]) {
                         case 'C':
                         case 'X':
-                            $columnIndex = substr($rowDatum, 1) - 1;
+                            $columnIndex = substr((string) $rowDatum, 1) - 1;
 
                             break;
                         case 'R':
                         case 'Y':
-                            $rowIndex = substr($rowDatum, 1);
+                            $rowIndex = substr((string) $rowDatum, 1);
 
                             break;
                     }
@@ -229,7 +229,7 @@ class Slk extends BaseReader
 
             // explode each row at semicolons while taking into account that literal semicolon (;)
             // is escaped like this (;;)
-            $rowData = explode("\t", str_replace('¤', ';', str_replace(';', "\t", str_replace(';;', '¤', rtrim($rowData)))));
+            $rowData = explode("\t", str_replace('¤', ';', str_replace(';', "\t", str_replace(';;', '¤', rtrim((string) $rowData)))));
 
             $dataType = array_shift($rowData);
             //    Read shared styles
@@ -238,21 +238,21 @@ class Slk extends BaseReader
                 foreach ($rowData as $rowDatum) {
                     switch ($rowDatum[0]) {
                         case 'P':
-                            $formatArray['numberFormat']['formatCode'] = str_replace($fromFormats, $toFormats, substr($rowDatum, 1));
+                            $formatArray['numberFormat']['formatCode'] = str_replace($fromFormats, $toFormats, substr((string) $rowDatum, 1));
 
                             break;
                         case 'E':
                         case 'F':
-                            $formatArray['font']['name'] = substr($rowDatum, 1);
+                            $formatArray['font']['name'] = substr((string) $rowDatum, 1);
 
                             break;
                         case 'L':
-                            $formatArray['font']['size'] = substr($rowDatum, 1);
+                            $formatArray['font']['size'] = substr((string) $rowDatum, 1);
 
                             break;
                         case 'S':
-                            $styleSettings = substr($rowDatum, 1);
-                            $iMax = strlen($styleSettings);
+                            $styleSettings = substr((string) $rowDatum, 1);
+                            $iMax = strlen((string) $styleSettings);
                             for ($i = 0; $i < $iMax; ++$i) {
                                 switch ($styleSettings[$i]) {
                                     case 'I':
@@ -294,20 +294,20 @@ class Slk extends BaseReader
                     switch ($rowDatum[0]) {
                         case 'C':
                         case 'X':
-                            $column = substr($rowDatum, 1);
+                            $column = substr((string) $rowDatum, 1);
 
                             break;
                         case 'R':
                         case 'Y':
-                            $row = substr($rowDatum, 1);
+                            $row = substr((string) $rowDatum, 1);
 
                             break;
                         case 'K':
-                            $cellData = substr($rowDatum, 1);
+                            $cellData = substr((string) $rowDatum, 1);
 
                             break;
                         case 'E':
-                            $cellDataFormula = '=' . substr($rowDatum, 1);
+                            $cellDataFormula = '=' . substr((string) $rowDatum, 1);
                             //    Convert R1C1 style references to A1 style references (but only when not quoted)
                             $temp = explode('"', $cellDataFormula);
                             $key = false;
@@ -329,7 +329,7 @@ class Slk extends BaseReader
                                         }
                                         //    Bracketed R references are relative to the current row
                                         if ($rowReference[0] == '[') {
-                                            $rowReference = $row + trim($rowReference, '[]');
+                                            $rowReference = $row + trim((string) $rowReference, '[]');
                                         }
                                         $columnReference = $cellReference[4][0];
                                         //    Empty C reference is the current column
@@ -338,11 +338,11 @@ class Slk extends BaseReader
                                         }
                                         //    Bracketed C references are relative to the current column
                                         if ($columnReference[0] == '[') {
-                                            $columnReference = $column + trim($columnReference, '[]');
+                                            $columnReference = $column + trim((string) $columnReference, '[]');
                                         }
                                         $A1CellReference = Coordinate::stringFromColumnIndex($columnReference) . $rowReference;
 
-                                        $value = substr_replace($value, $A1CellReference, $cellReference[0][1], strlen($cellReference[0][0]));
+                                        $value = substr_replace($value, $A1CellReference, $cellReference[0][1], strlen((string) $cellReference[0][0]));
                                     }
                                 }
                             }
@@ -371,12 +371,12 @@ class Slk extends BaseReader
                     switch ($rowDatum[0]) {
                         case 'C':
                         case 'X':
-                            $column = substr($rowDatum, 1);
+                            $column = substr((string) $rowDatum, 1);
 
                             break;
                         case 'R':
                         case 'Y':
-                            $row = substr($rowDatum, 1);
+                            $row = substr((string) $rowDatum, 1);
 
                             break;
                         case 'P':
@@ -384,12 +384,12 @@ class Slk extends BaseReader
 
                             break;
                         case 'W':
-                            [$startCol, $endCol, $columnWidth] = explode(' ', substr($rowDatum, 1));
+                            [$startCol, $endCol, $columnWidth] = explode(' ', substr((string) $rowDatum, 1));
 
                             break;
                         case 'S':
-                            $styleSettings = substr($rowDatum, 1);
-                            $iMax = strlen($styleSettings);
+                            $styleSettings = substr((string) $rowDatum, 1);
+                            $iMax = strlen((string) $styleSettings);
                             for ($i = 0; $i < $iMax; ++$i) {
                                 switch ($styleSettings[$i]) {
                                     case 'I':
@@ -450,12 +450,12 @@ class Slk extends BaseReader
                     switch ($rowDatum[0]) {
                         case 'C':
                         case 'X':
-                            $column = substr($rowDatum, 1);
+                            $column = substr((string) $rowDatum, 1);
 
                             break;
                         case 'R':
                         case 'Y':
-                            $row = substr($rowDatum, 1);
+                            $row = substr((string) $rowDatum, 1);
 
                             break;
                     }

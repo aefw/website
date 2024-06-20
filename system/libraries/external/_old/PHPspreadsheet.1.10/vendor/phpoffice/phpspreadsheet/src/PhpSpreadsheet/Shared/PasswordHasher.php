@@ -29,7 +29,7 @@ class PasswordHasher
             $password ^= ($value | $rotated_bits);
         }
 
-        $password ^= strlen($pPassword);
+        $password ^= strlen((string) $pPassword);
         $password ^= 0xCE4B;
 
         return strtoupper(dechex($password));

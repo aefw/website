@@ -162,7 +162,7 @@ class Ed25519 extends TwistedEdwards
      */
     public function extractSecret($str)
     {
-        if (strlen($str) != 32) {
+        if (strlen((string) $str) != 32) {
             throw new \LengthException('Private Key should be 32-bytes long');
         }
         // 1.  Hash the 32-byte private key using SHA-512, storing the digest in
@@ -170,7 +170,7 @@ class Ed25519 extends TwistedEdwards
         //     used for generating the public key.
         $hash = new Hash('sha512');
         $h = $hash->hash($str);
-        $h = substr($h, 0, 32);
+        $h = substr((string) $h, 0, 32);
         // 2.  Prune the buffer: The lowest three bits of the first octet are
         //     cleared, the highest bit of the last octet is cleared, and the
         //     second highest bit of the last octet is set.

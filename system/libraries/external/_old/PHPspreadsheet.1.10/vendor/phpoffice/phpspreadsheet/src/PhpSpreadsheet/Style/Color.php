@@ -171,7 +171,7 @@ class Color extends Supervisor
             return $this->getSharedComponent()->getRGB();
         }
 
-        return substr($this->argb, 2);
+        return substr((string) $this->argb, 2);
     }
 
     /**
@@ -208,7 +208,7 @@ class Color extends Supervisor
      */
     private static function getColourComponent($RGB, $offset, $hex = true)
     {
-        $colour = substr($RGB, $offset, 2);
+        $colour = substr((string) $RGB, $offset, 2);
 
         return ($hex) ? $colour : hexdec($colour);
     }
@@ -224,7 +224,7 @@ class Color extends Supervisor
      */
     public static function getRed($RGB, $hex = true)
     {
-        return self::getColourComponent($RGB, strlen($RGB) - 6, $hex);
+        return self::getColourComponent($RGB, strlen((string) $RGB) - 6, $hex);
     }
 
     /**
@@ -238,7 +238,7 @@ class Color extends Supervisor
      */
     public static function getGreen($RGB, $hex = true)
     {
-        return self::getColourComponent($RGB, strlen($RGB) - 4, $hex);
+        return self::getColourComponent($RGB, strlen((string) $RGB) - 4, $hex);
     }
 
     /**
@@ -252,7 +252,7 @@ class Color extends Supervisor
      */
     public static function getBlue($RGB, $hex = true)
     {
-        return self::getColourComponent($RGB, strlen($RGB) - 2, $hex);
+        return self::getColourComponent($RGB, strlen((string) $RGB) - 2, $hex);
     }
 
     /**
@@ -265,7 +265,7 @@ class Color extends Supervisor
      */
     public static function changeBrightness($hex, $adjustPercentage)
     {
-        $rgba = (strlen($hex) === 8);
+        $rgba = (strlen((string) $hex) === 8);
 
         $red = self::getRed($hex, false);
         $green = self::getGreen($hex, false);

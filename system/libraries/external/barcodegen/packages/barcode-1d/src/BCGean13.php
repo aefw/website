@@ -27,11 +27,11 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGean13 extends BCGBarcode1D
 {
-    protected $codeParity = array();
-    protected $labelLeft = null;
-    protected $labelCenter1 = null;
-    protected $labelCenter2 = null;
-    protected $alignLabel;
+    protected array $codeParity = array();
+    protected ?BCGLabel $labelLeft = null;
+    protected ?BCGLabel $labelCenter1 = null;
+    protected ?BCGLabel $labelCenter2 = null;
+    protected bool $alignLabel;
 
     /**
      * Constructor.
@@ -75,7 +75,13 @@ class BCGean13 extends BCGBarcode1D
         $this->alignDefaultLabel(true);
     }
 
-    public function alignDefaultLabel($align)
+    /**
+     * Aligns the default label.
+     *
+     * @param bool $align Aligns the label.
+     * @return void
+     */
+    public function alignDefaultLabel($align): void
     {
         $this->alignLabel = (bool)$align;
     }
@@ -83,64 +89,67 @@ class BCGean13 extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
-        $this->drawBars($im);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawBars($image);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
 
         if ($this->isDefaultEanLabelEnabled()) {
             $dimension = $this->labelCenter1->getDimension();
-            $this->drawExtendedBars($im, $dimension[1] - 2);
+            $this->drawExtendedBars($image, $dimension[1] - 2);
         }
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         $startlength = 3;
         $centerlength = 5;
         $textlength = 12 * 7;
         $endlength = 3;
 
-        $w += $startlength + $centerlength + $textlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $centerlength + $textlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Adds the default label.
+     *
+     * @return void
      */
-    protected function addDefaultLabel()
+    protected function addDefaultLabel(): void
     {
         if ($this->isDefaultEanLabelEnabled()) {
             $this->processChecksum();
             $label = $this->getLabel();
             $font = $this->font;
 
-            $this->labelLeft = new BCGLabel(substr($label, 0, 1), $font, BCGLabel::POSITION_LEFT, BCGLabel::ALIGN_BOTTOM);
+            $this->labelLeft = new BCGLabel(substr((string) $label, 0, 1), $font, BCGLabel::POSITION_LEFT, BCGLabel::ALIGN_BOTTOM);
             $this->labelLeft->setSpacing(4 * $this->scale);
 
-            $this->labelCenter1 = new BCGLabel(substr($label, 1, 6), $font, BCGLabel::POSITION_BOTTOM, BCGLabel::ALIGN_LEFT);
+            $this->labelCenter1 = new BCGLabel(substr((string) $label, 1, 6), $font, BCGLabel::POSITION_BOTTOM, BCGLabel::ALIGN_LEFT);
             $labelCenter1Dimension = $this->labelCenter1->getDimension();
-            $this->labelCenter1->setOffset(($this->scale * 44 - $labelCenter1Dimension[0]) / 2 + $this->scale * 2);
+            $this->labelCenter1->setOffset((int)(($this->scale * 44 - $labelCenter1Dimension[0]) / 2 + $this->scale * 2));
 
-            $this->labelCenter2 = new BCGLabel(substr($label, 7, 5) . $this->keys[$this->checksumValue], $font, BCGLabel::POSITION_BOTTOM, BCGLabel::ALIGN_LEFT);
-            $this->labelCenter2->setOffset(($this->scale * 44 - $labelCenter1Dimension[0]) / 2 + $this->scale * 48);
+            $this->labelCenter2 = new BCGLabel(substr((string) $label, 7, 5) . $this->keys[$this->checksumValue[0]], $font, BCGLabel::POSITION_BOTTOM, BCGLabel::ALIGN_LEFT);
+            $this->labelCenter2->setOffset((int)(($this->scale * 44 - $labelCenter1Dimension[0]) / 2 + $this->scale * 48));
 
             if ($this->alignLabel) {
                 $labelDimension = $this->labelCenter1->getDimension();
                 $this->labelLeft->setOffset($labelDimension[1]);
             } else {
                 $labelDimension = $this->labelLeft->getDimension();
-                $this->labelLeft->setOffset($labelDimension[1] / 2);
+                $this->labelLeft->setOffset((int)($labelDimension[1] / 2));
             }
 
             $this->addLabel($this->labelLeft);
@@ -152,9 +161,9 @@ class BCGean13 extends BCGBarcode1D
     /**
      * Checks if the default ean label is enabled.
      *
-     * @return bool
+     * @return bool True if default label is enabled.
      */
-    protected function isDefaultEanLabelEnabled()
+    protected function isDefaultEanLabelEnabled(): bool
     {
         $label = $this->getLabel();
         $font = $this->font;
@@ -163,10 +172,12 @@ class BCGean13 extends BCGBarcode1D
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('ean13', 'No data has been entered.');
         }
@@ -179,11 +190,13 @@ class BCGean13 extends BCGBarcode1D
 
     /**
      * Check chars allowed.
+     *
+     * @return void
      */
-    protected function checkCharsAllowed()
+    protected function checkCharsAllowed(): void
     {
         // Checking if all chars are allowed
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
             if (array_search($this->text[$i], $this->keys) === false) {
                 throw new BCGParseException('ean13', 'The character \'' . $this->text[$i] . '\' is not allowed.');
@@ -193,13 +206,15 @@ class BCGean13 extends BCGBarcode1D
 
     /**
      * Check correct length.
+     *
+     * @return void
      */
-    protected function checkCorrectLength()
+    protected function checkCorrectLength(): void
     {
         // If we have 13 chars, just flush the last one without throwing anything
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 13) {
-            $this->text = substr($this->text, 0, 12);
+            $this->text = substr((string) $this->text, 0, 12);
         } elseif ($c !== 12) {
             throw new BCGParseException('ean13', 'Must contain 12 digits, the 13th digit is automatically added.');
         }
@@ -207,8 +222,10 @@ class BCGean13 extends BCGBarcode1D
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
         // Calculating Checksum
         // Consider the right-most digit of the message to be in an "odd" position,
@@ -217,8 +234,8 @@ class BCGean13 extends BCGBarcode1D
         // Multiply it by the number
         // Add all of that and do 10-(?mod10)
         $odd = true;
-        $this->checksumValue = 0;
-        $c = strlen($this->text);
+        $this->checksumValue = array(0);
+        $c = strlen((string) $this->text);
         for ($i = $c; $i > 0; $i--) {
             if ($odd === true) {
                 $multiplier = 3;
@@ -232,69 +249,73 @@ class BCGean13 extends BCGBarcode1D
                 return;
             }
 
-            $this->checksumValue += $this->keys[$this->text[$i - 1]] * $multiplier;
+            $this->checksumValue[0] += $this->keys[$this->text[$i - 1]] * $multiplier;
         }
 
-        $this->checksumValue = (10 - $this->checksumValue % 10) % 10;
+        $this->checksumValue[0] = (10 - $this->checksumValue[0] % 10) % 10;
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
-            return $this->keys[$this->checksumValue];
+        if ($this->checksumValue !== null) {
+            return $this->keys[$this->checksumValue[0]];
         }
 
-        return false;
+        return null;
     }
 
     /**
-     * Draws the bars
+     * Draws the bars.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    protected function drawBars($im)
+    protected function drawBars($image): void
     {
         // Checksum
         $this->calculateChecksum();
-        $temp_text = $this->text . $this->keys[$this->checksumValue];
+        $tempText = $this->text . $this->keys[$this->checksumValue[0]];
 
         // Starting Code
-        $this->drawChar($im, '000', true);
+        $this->drawChar($image, '000', true);
 
         // Draw Second Code
-        $this->drawChar($im, $this->findCode($temp_text[1]), false);
+        $this->drawChar($image, $this->findCode($tempText[1]), false);
 
         // Draw Manufacturer Code
         for ($i = 0; $i < 5; $i++) {
-            $this->drawChar($im, self::inverse($this->findCode($temp_text[$i + 2]), $this->codeParity[(int)$temp_text[0]][$i]), false);
+            $this->drawChar($image, self::inverse($this->findCode($tempText[$i + 2]), $this->codeParity[(int)$tempText[0]][$i]), false);
         }
 
         // Draw Center Guard Bar
-        $this->drawChar($im, '00000', false);
+        $this->drawChar($image, '00000', false);
 
         // Draw Product Code
         for ($i = 7; $i < 13; $i++) {
-            $this->drawChar($im, $this->findCode($temp_text[$i]), true);
+            $this->drawChar($image, $this->findCode($tempText[$i]), true);
         }
 
         // Draw Right Guard Bar
-        $this->drawChar($im, '000', true);
+        $this->drawChar($image, '000', true);
     }
 
     /**
      * Draws the extended bars on the image.
      *
-     * @param resource $im
-     * @param int $plus
+     * @param resource $image The surface.
+     * @param int $plus How much more we should display the bars.
+     * @return void
      */
-    protected function drawExtendedBars($im, $plus)
+    protected function drawExtendedBars($image, int $plus): void
     {
         $rememberX = $this->positionX;
         $rememberH = $this->thickness;
@@ -302,21 +323,21 @@ class BCGean13 extends BCGBarcode1D
         // We increase the bars
         $this->thickness = $this->thickness + intval($plus / $this->scale);
         $this->positionX = 0;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
         $this->positionX += 2;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
 
         // Center Guard Bar
         $this->positionX += 44;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
         $this->positionX += 2;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
 
         // Last Bars
         $this->positionX += 44;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
         $this->positionX += 2;
-        $this->drawSingleBar($im, BCGBarcode::COLOR_FG);
+        $this->drawSingleBar($image, BCGBarcode::COLOR_FG);
 
         $this->positionX = $rememberX;
         $this->thickness = $rememberH;
@@ -325,11 +346,11 @@ class BCGean13 extends BCGBarcode1D
     /**
      * Inverses the string when the $inverse parameter is equal to 1.
      *
-     * @param string $text
-     * @param int $inverse
-     * @return string
+     * @param string $text The text.
+     * @param int $inverse The inverse.
+     * @return string The reversed string.
      */
-    private static function inverse($text, $inverse = 1)
+    private static function inverse(string $text, int $inverse = 1): string
     {
         if ($inverse === 1) {
             $text = strrev($text);

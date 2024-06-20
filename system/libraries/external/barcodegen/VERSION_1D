@@ -1,3 +1,15 @@
+v7.0.4      18 oct 2021     Fix potential crash with EAN-13 and UPC-A
+                            due to division not being an integer.
+v7.0.3      30 jul 2021     Fix exception not loading.
+v7.0.2      12 jun 2021     Various fixes and typos.
+v7.0.1      19 may 2021     Various fixes and typos.
+v7.0.0      8  may 2021     Support for PHP7.4+
+                            New API for drawing.
+                            Splitting the GS1 AI to a different package.
+v6.0.1      14 jan 2021     Fixing support for PHP8.
+                            Fixing == to ===.
+                            setLabel was not working to change the label for GS1-128.
+                            Updating the GS1 AI list.
 v6.0.0      9  mar 2018     Support namespacing.
                             Support PHP7.
                             Support autoload/composer.

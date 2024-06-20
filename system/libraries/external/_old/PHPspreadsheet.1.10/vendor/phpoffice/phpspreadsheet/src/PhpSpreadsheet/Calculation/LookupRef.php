@@ -87,7 +87,7 @@ class LookupRef
      */
     public static function COLUMN($cellAddress = null)
     {
-        if ($cellAddress === null || trim($cellAddress) === '') {
+        if ($cellAddress === null || trim((string) $cellAddress) === '') {
             return 0;
         }
 
@@ -164,7 +164,7 @@ class LookupRef
      */
     public static function ROW($cellAddress = null)
     {
-        if ($cellAddress === null || trim($cellAddress) === '') {
+        if ($cellAddress === null || trim((string) $cellAddress) === '') {
             return 0;
         }
 
@@ -243,11 +243,11 @@ class LookupRef
         $linkURL = ($linkURL === null) ? '' : Functions::flattenSingleValue($linkURL);
         $displayName = ($displayName === null) ? '' : Functions::flattenSingleValue($displayName);
 
-        if ((!is_object($pCell)) || (trim($linkURL) == '')) {
+        if ((!is_object($pCell)) || (trim((string) $linkURL) == '')) {
             return Functions::REF();
         }
 
-        if ((is_object($displayName)) || trim($displayName) == '') {
+        if ((is_object($displayName)) || trim((string) $displayName) == '') {
             $displayName = $linkURL;
         }
 
@@ -296,7 +296,7 @@ class LookupRef
 
             if (strpos($cellAddress, '!') !== false) {
                 [$sheetName, $cellAddress] = Worksheet::extractSheetTitle($cellAddress, true);
-                $sheetName = trim($sheetName, "'");
+                $sheetName = trim((string) $sheetName, "'");
                 $pSheet = $pCell->getWorksheet()->getParent()->getSheetByName($sheetName);
             } else {
                 $pSheet = $pCell->getWorksheet();
@@ -307,7 +307,7 @@ class LookupRef
 
         if (strpos($cellAddress, '!') !== false) {
             [$sheetName, $cellAddress] = Worksheet::extractSheetTitle($cellAddress, true);
-            $sheetName = trim($sheetName, "'");
+            $sheetName = trim((string) $sheetName, "'");
             $pSheet = $pCell->getWorksheet()->getParent()->getSheetByName($sheetName);
         } else {
             $pSheet = $pCell->getWorksheet();
@@ -360,7 +360,7 @@ class LookupRef
         $sheetName = null;
         if (strpos($cellAddress, '!')) {
             [$sheetName, $cellAddress] = Worksheet::extractSheetTitle($cellAddress, true);
-            $sheetName = trim($sheetName, "'");
+            $sheetName = trim((string) $sheetName, "'");
         }
         if (strpos($cellAddress, ':')) {
             [$startCell, $endCell] = explode(':', $cellAddress);
@@ -477,7 +477,7 @@ class LookupRef
 
         // MATCH is not case sensitive, so we convert lookup value to be lower cased in case it's string type.
         if (is_string($lookupValue)) {
-            $lookupValue = StringHelper::strToLower($lookupValue);
+            $lookupValue = StringHelper::strtolower((string) $lookupValue);
         }
 
         // Lookup_value type has to be number, text, or logical values
@@ -506,7 +506,7 @@ class LookupRef
             }
             // Convert strings to lowercase for case-insensitive testing
             if (is_string($lookupArrayValue)) {
-                $lookupArray[$i] = StringHelper::strToLower($lookupArrayValue);
+                $lookupArray[$i] = StringHelper::strtolower((string) $lookupArrayValue);
             }
             if (($lookupArrayValue === null) && (($matchType == 1) || ($matchType == -1))) {
                 $lookupArray = array_slice($lookupArray, 0, $i - 1);
@@ -535,8 +535,8 @@ class LookupRef
                     if ($typeMatch && is_string($lookupValue) && (bool) preg_match('/([\?\*])/', $lookupValue)) {
                         $splitString = $lookupValue;
                         $chars = array_map(function ($i) use ($splitString) {
-                            return mb_substr($splitString, $i, 1);
-                        }, range(0, mb_strlen($splitString) - 1));
+                            return mb_substr((string) $splitString, $i, 1);
+                        }, range(0, mb_strlen((string) $splitString) - 1));
 
                         $length = count($chars);
                         $pattern = '/^';
@@ -707,8 +707,8 @@ class LookupRef
     {
         reset($a);
         $firstColumn = key($a);
-        $aLower = StringHelper::strToLower($a[$firstColumn]);
-        $bLower = StringHelper::strToLower($b[$firstColumn]);
+        $aLower = StringHelper::strtolower((string) $a[$firstColumn]);
+        $bLower = StringHelper::strtolower((string) $b[$firstColumn]);
         if ($aLower == $bLower) {
             return 0;
         }
@@ -755,10 +755,10 @@ class LookupRef
             uasort($lookup_array, ['self', 'vlookupSort']);
         }
 
-        $lookupLower = StringHelper::strToLower($lookup_value);
+        $lookupLower = StringHelper::strtolower((string) $lookup_value);
         $rowNumber = $rowValue = false;
         foreach ($lookup_array as $rowKey => $rowData) {
-            $firstLower = StringHelper::strToLower($rowData[$firstColumn]);
+            $firstLower = StringHelper::strtolower((string) $rowData[$firstColumn]);
 
             // break if we have passed possible keys
             if ((is_numeric($lookup_value) && is_numeric($rowData[$firstColumn]) && ($rowData[$firstColumn] > $lookup_value)) ||
@@ -831,8 +831,8 @@ class LookupRef
             // break if we have passed possible keys
             $bothNumeric = is_numeric($lookup_value) && is_numeric($rowData);
             $bothNotNumeric = !is_numeric($lookup_value) && !is_numeric($rowData);
-            $lookupLower = StringHelper::strToLower($lookup_value);
-            $rowDataLower = StringHelper::strToLower($rowData);
+            $lookupLower = StringHelper::strtolower((string) $lookup_value);
+            $rowDataLower = StringHelper::strtolower((string) $rowData);
 
             if ($not_exact_match && (
                 ($bothNumeric && $rowData > $lookup_value) ||
@@ -954,7 +954,7 @@ class LookupRef
         preg_match('/^' . Calculation::CALCULATION_REGEXP_CELLREF . '$/i', $cellReference, $matches);
 
         $cellReference = $matches[6] . $matches[7];
-        $worksheetName = trim($matches[3], "'");
+        $worksheetName = trim((string) $matches[3], "'");
         $worksheet = (!empty($worksheetName))
             ? $pCell->getWorksheet()->getParent()->getSheetByName($worksheetName)
             : $pCell->getWorksheet();

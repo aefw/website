@@ -102,7 +102,7 @@ abstract class PHP extends Engine
     {
         switch (abs($base)) {
             case 16:
-                $x = (strlen($this->value) & 1) ? '0' . $this->value : $this->value;
+                $x = (strlen((string) $this->value) & 1) ? '0' . $this->value : $this->value;
                 $temp = new static(Hex::decode($x), 256);
                 $this->value = $temp->value;
                 break;
@@ -116,14 +116,14 @@ abstract class PHP extends Engine
 
                 if ($x[0] == '-') {
                     $this->is_negative = true;
-                    $x = substr($x, 1);
+                    $x = substr((string) $x, 1);
                 }
 
-                $x = str_pad($x, strlen($x) + ((static::MAX10LEN - 1) * strlen($x)) % static::MAX10LEN, 0, STR_PAD_LEFT);
-                while (strlen($x)) {
+                $x = str_pad($x, strlen((string) $x) + ((static::MAX10LEN - 1) * strlen((string) $x)) % static::MAX10LEN, 0, STR_PAD_LEFT);
+                while (strlen((string) $x)) {
                     $temp = $temp->multiply($multiplier);
-                    $temp = $temp->add(new static($this->int2bytes(substr($x, 0, static::MAX10LEN)), 256));
-                    $x = substr($x, static::MAX10LEN);
+                    $temp = $temp->add(new static($this->int2bytes(substr((string) $x, 0, static::MAX10LEN)), 256));
+                    $x = substr((string) $x, static::MAX10LEN);
                 }
 
                 $this->value = $temp->value;
@@ -138,9 +138,9 @@ abstract class PHP extends Engine
      */
     protected function pad($str)
     {
-        $length = strlen($str);
+        $length = strlen((string) $str);
 
-        $pad = 4 - (strlen($str) % 4);
+        $pad = 4 - (strlen((string) $str) % 4);
 
         return str_pad($str, $length + $pad, "\0", STR_PAD_LEFT);
     }
@@ -167,7 +167,7 @@ abstract class PHP extends Engine
             list($temp, $mod) = $temp->divide($divisor);
             $result = str_pad(isset($mod->value[0]) ? $mod->value[0] : '', static::MAX10LEN, '0', STR_PAD_LEFT) . $result;
         }
-        $result = ltrim($result, '0');
+        $result = ltrim((string) $result, '0');
         if (empty($result)) {
             $result = '0';
         }
@@ -199,7 +199,7 @@ abstract class PHP extends Engine
         $result = implode('', array_map('chr', $result));
 
         return $this->precision > 0 ?
-            str_pad(substr($result, -(($this->precision + 7) >> 3)), ($this->precision + 7) >> 3, chr(0), STR_PAD_LEFT) :
+            str_pad(substr((string) $result, -(($this->precision + 7) >> 3)), ($this->precision + 7) >> 3, chr(0), STR_PAD_LEFT) :
             $result;
     }
 
@@ -283,7 +283,7 @@ abstract class PHP extends Engine
         }
 
         return [
-            self::VALUE => self::trim($value),
+            self::VALUE => self::trim((string) $value),
             self::SIGN => $x_negative
         ];
     }
@@ -373,7 +373,7 @@ abstract class PHP extends Engine
         }
 
         return [
-            self::VALUE => self::trim($x_value),
+            self::VALUE => self::trim((string) $x_value),
             self::SIGN => $x_negative
         ];
     }
@@ -743,7 +743,7 @@ abstract class PHP extends Engine
             return $result;
         }
 
-        $value = static::trim($value);
+        $value = static::trim((string) $value);
 
         if (!empty($result->bitmask->value)) {
             $length = min(count($value), count($result->bitmask->value));
@@ -951,7 +951,7 @@ abstract class PHP extends Engine
             $this->value[$i] = $temp;
         }
 
-        $this->value = static::trim($this->value);
+        $this->value = static::trim((string) $this->value);
     }
 
     /**
@@ -1260,7 +1260,7 @@ abstract class PHP extends Engine
                 $mask = $tempmask;
             }
             $temp = new static();
-            $temp->value = static::trim($digit);
+            $temp->value = static::trim((string) $digit);
             $vals[] = $temp;
         }
 

@@ -54,7 +54,7 @@ if (@$_REQUEST['dir']) {
 		if (!@$_REQUEST['o']) {
 			$_REQUEST['o'] = 'PLS';
 		}
-		$_REQUEST['o'] = strtoupper($_REQUEST['o']);
+		$_REQUEST['o'] = strtoupper((string) $_REQUEST['o']);
 		$portrait  = (strpos(@$_REQUEST['o'], 'P') !== false);
 		$landscape = (strpos(@$_REQUEST['o'], 'L') !== false);
 		$square    = (strpos(@$_REQUEST['o'], 'S') !== false);

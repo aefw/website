@@ -41,7 +41,7 @@ class FlowdockFormatter implements FormatterInterface
     {
         $tags = [
             '#logs',
-            '#' . strtolower($record['level_name']),
+            '#' . strtolower((string) $record['level_name']),
             '#' . $record['channel'],
         ];
 
@@ -93,12 +93,12 @@ class FlowdockFormatter implements FormatterInterface
         $maxLength = 45;
 
         if ($hasMbString) {
-            if (mb_strlen($message, 'UTF-8') > $maxLength) {
-                $message = mb_substr($message, 0, $maxLength - 4, 'UTF-8') . ' ...';
+            if (mb_strlen((string) $message, 'UTF-8') > $maxLength) {
+                $message = mb_substr((string) $message, 0, $maxLength - 4, 'UTF-8') . ' ...';
             }
         } else {
-            if (strlen($message) > $maxLength) {
-                $message = substr($message, 0, $maxLength - 4) . ' ...';
+            if (strlen((string) $message) > $maxLength) {
+                $message = substr((string) $message, 0, $maxLength - 4) . ' ...';
             }
         }
 

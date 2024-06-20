@@ -629,16 +629,16 @@ class Html extends BaseWriter
                     $filename = $drawing->getPath();
 
                     // Strip off eventual '.'
-                    if (substr($filename, 0, 1) == '.') {
-                        $filename = substr($filename, 1);
+                    if (substr((string) $filename, 0, 1) == '.') {
+                        $filename = substr((string) $filename, 1);
                     }
 
                     // Prepend images root
                     $filename = $this->getImagesRoot() . $filename;
 
                     // Strip off eventual '.'
-                    if (substr($filename, 0, 1) == '.' && substr($filename, 0, 2) != './') {
-                        $filename = substr($filename, 1);
+                    if (substr((string) $filename, 0, 1) == '.' && substr((string) $filename, 0, 2) != './') {
+                        $filename = substr((string) $filename, 1);
                     }
 
                     // Convert UTF8 data to PCDATA
@@ -1536,7 +1536,7 @@ class Html extends BaseWriter
         $color_regex = '/^\\[[a-zA-Z]+\\]/';
         if (preg_match($color_regex, $pFormat, $matches)) {
             $color = str_replace(['[', ']'], '', $matches[0]);
-            $color = strtolower($color);
+            $color = strtolower((string) $color);
         }
 
         // convert to PCDATA

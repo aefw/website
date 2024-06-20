@@ -13,31 +13,31 @@ $font = new BCGFontFile(__DIR__ . '/../font/Arial.ttf', 18);
 $text = isset($_GET['text']) ? $_GET['text'] : '548154';
 
 // The arguments are R, G, B for color.
-$color_black = new BCGColor(0, 0, 0);
-$color_white = new BCGColor(255, 255, 255);
+$colorBlack = new BCGColor(0, 0, 0);
+$colorWhite = new BCGColor(255, 255, 255);
 
 $drawException = null;
+$barcode = null;
 try {
     $code = new BCGupce();
+
+    // Uncomment when using the commercial version
+    ////$code->useCommercialVersion();
+
     $code->setScale(2); // Resolution
     $code->setThickness(30); // Thickness
-    $code->setForegroundColor($color_black); // Color of bars
-    $code->setBackgroundColor($color_white); // Color of spaces
+    $code->setForegroundColor($colorBlack); // Color of bars
+    $code->setBackgroundColor($colorWhite); // Color of spaces
     $code->setFont($font); // Font (or 0)
     $code->parse($text); // Text
+    $barcode = $code;
 } catch (Exception $exception) {
     $drawException = $exception;
 }
 
-/* Here is the list of the arguments
-1 - Filename (empty : display on screen)
-2 - Background color */
-$drawing = new BCGDrawing('', $color_white);
+$drawing = new BCGDrawing($barcode, $colorWhite);
 if ($drawException) {
     $drawing->drawException($drawException);
-} else {
-    $drawing->setBarcode($code);
-    $drawing->draw();
 }
 
 // Header that says it is an image (remove it if you save the barcode to a file)

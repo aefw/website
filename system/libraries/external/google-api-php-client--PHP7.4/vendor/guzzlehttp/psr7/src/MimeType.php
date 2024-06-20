@@ -131,7 +131,7 @@ final class MimeType
             'zip' => 'application/zip',
         ];
 
-        $extension = strtolower($extension);
+        $extension = strtolower((string) $extension);
 
         return isset($mimetypes[$extension])
             ? $mimetypes[$extension]

@@ -227,7 +227,7 @@ class PHPConsoleHandler extends AbstractProcessingHandler
             }
         }
 
-        return $tags ?: strtolower($record['level_name']);
+        return $tags ?: strtolower((string) $record['level_name']);
     }
 
     /**

@@ -14,15 +14,15 @@ namespace BarcodeBakery\Common;
 
 class BCGParseException extends \Exception
 {
-    protected $barcode;
+    protected string $barcode;
 
     /**
-     * Constructor with specific message for a parameter.
+     * Constructor with specific message for a barcode.
      *
-     * @param string $barcode
-     * @param string $message
+     * @param string $barcode The barcode name.
+     * @param string $message The message.
      */
-    public function __construct($barcode, $message)
+    public function __construct(string $barcode, string $message)
     {
         $this->barcode = $barcode;
         parent::__construct($message, 10000);

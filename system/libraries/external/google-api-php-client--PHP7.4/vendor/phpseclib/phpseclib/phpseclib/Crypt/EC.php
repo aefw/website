@@ -145,7 +145,7 @@ abstract class EC extends AsymmetricKey
             self::useBestEngine();
         }
 
-        $curve = strtolower($curve);
+        $curve = strtolower((string) $curve);
         if (self::$engines['libsodium'] && $curve == 'ed25519' && function_exists('sodium_crypto_sign_keypair')) {
             $kp = sodium_crypto_sign_keypair();
 
@@ -162,9 +162,9 @@ abstract class EC extends AsymmetricKey
 
         $curveName = $curve;
         if (preg_match('#(?:^curve|^ed)\d+$#', $curveName)) {
-            $curveName = ucfirst($curveName);
-        } elseif (substr($curveName, 0, 10) == 'brainpoolp') {
-            $curveName = 'brainpoolP' . substr($curveName, 10);
+            $curveName = ucfirst((string) $curveName);
+        } elseif (substr((string) $curveName, 0, 10) == 'brainpoolp') {
+            $curveName = 'brainpoolP' . substr((string) $curveName, 10);
         }
         $curve = '\phpseclib3\Crypt\EC\Curves\\' . $curveName;
 
@@ -423,7 +423,7 @@ abstract class EC extends AsymmetricKey
         if (!is_string($context)) {
             throw new \InvalidArgumentException('setContext expects a string');
         }
-        if (strlen($context) > 255) {
+        if (strlen((string) $context) > 255) {
             throw new \LengthException('The context is supposed to be, at most, 255 bytes long');
         }
         $new->context = $context;

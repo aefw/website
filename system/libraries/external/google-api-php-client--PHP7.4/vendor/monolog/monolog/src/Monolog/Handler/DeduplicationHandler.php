@@ -149,7 +149,7 @@ class DeduplicationHandler extends BufferHandler
 
         while (!feof($handle)) {
             $log = fgets($handle);
-            if ($log && substr($log, 0, 10) >= $timestampValidity) {
+            if ($log && substr((string) $log, 0, 10) >= $timestampValidity) {
                 $validLogs[] = $log;
             }
         }

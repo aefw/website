@@ -21,16 +21,16 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGintelligentmail extends BCGBarcode1D
 {
-    private $barcodeIdentifier;         // string
-    private $serviceTypeIdentifier;     // string
-    private $mailerIdentifier;          // string
-    private $serialNumber;              // string
+    private ?string $barcodeIdentifier = null;
+    private ?string $serviceTypeIdentifier = null;
+    private ?string $mailerIdentifier = null;
+    private ?string $serialNumber = null;
 
-    private $quietZone;                 // bool
+    private bool $quietZone;
 
-    private $data;
+    private string $data;
 
-    private static $characterTable1 = array(
+    private static array $characterTable1 = array(
         31,     7936,   47,     7808,   55,     7552,   59,     7040,   61,     6016,
         62,     3968,   79,     7744,   87,     7488,   91,     6976,   93,     5952,
         94,     3904,   103,    7360,   107,    6848,   109,    5824,   110,    3776,
@@ -161,7 +161,7 @@ class BCGintelligentmail extends BCGBarcode1D
         6179,   6275,   6211,   5189,   4681,   4433,   4321,   3142,   2634,   2386,
         2274,   1612,   1364,   1252,   856,    744,    496);
 
-    private static $characterTable2 = array(
+    private static array $characterTable2 = array(
         3,      6144,   5,      5120,   6,      3072,   9,      4608,   10,     2560,
         12,     1536,   17,     4352,   18,     2304,   20,     1280,   24,     768,
         33,     4224,   34,     2176,   36,     1152,   40,     640,    48,     384,
@@ -171,7 +171,7 @@ class BCGintelligentmail extends BCGBarcode1D
         513,    4104,   514,    2056,   516,    1032,   1025,   4100,   1026,   2052,
         2049,   4098,   4097,   2050,   1028,   520,    272,    160);
 
-    private static $barPositions = array(
+    private static array $barPositions = array(
         array(array(7, 2),  array(4, 3)),
         array(array(1, 10), array(0, 0)),
         array(array(9, 12), array(2, 8)),
@@ -255,7 +255,7 @@ class BCGintelligentmail extends BCGBarcode1D
      *
      * @return bool
      */
-    public function getQuietZone()
+    public function getQuietZone(): bool
     {
         return $this->quietZone;
     }
@@ -264,8 +264,9 @@ class BCGintelligentmail extends BCGBarcode1D
      * Sets the Quiet zone.
      *
      * @param bool $quietZone
+     * @return void
      */
-    public function setQuietZone($quietZone)
+    public function setQuietZone(bool $quietZone): void
     {
         $this->quietZone = (bool)$quietZone;
     }
@@ -273,12 +274,13 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Sets the tracking code.
      *
-     * @param int $barcodeIdentifier 2-digit number. 2nd digit must be 0-4
-     * @param int $serviceTypeIdentifier 3 digits
-     * @param int $mailerIdentifier 6 or 9 digits
-     * @param int $serialNumber 9 (if mailerId is 6) or 6 digits (if mailerId is 9)
+     * @param int|string $barcodeIdentifier 2-digit number. 2nd digit must be 0-4.
+     * @param int|string $serviceTypeIdentifier 3 digits.
+     * @param int|string $mailerIdentifier 6 or 9 digits.
+     * @param int|string $serialNumber 9 (if mailerId is 6) or 6 digits (if mailerId is 9).
+     * @return void
      */
-    public function setTrackingCode($barcodeIdentifier, $serviceTypeIdentifier, $mailerIdentifier, $serialNumber)
+    public function setTrackingCode($barcodeIdentifier, $serviceTypeIdentifier, $mailerIdentifier, $serialNumber): void
     {
         $barcodeIdentifier = (string)(int)$barcodeIdentifier;
         $serviceTypeIdentifier = (string)(int)$serviceTypeIdentifier;
@@ -287,7 +289,7 @@ class BCGintelligentmail extends BCGBarcode1D
 
         $barcodeIdentifier = str_pad($barcodeIdentifier, 2, '0', STR_PAD_LEFT);
 
-        if (strlen($barcodeIdentifier) !== 2) {
+        if (strlen((string) $barcodeIdentifier) !== 2) {
             throw new BCGArgumentException('Barcode Identifier must contain 2 digits.', 'barcodeIdentifier');
         }
 
@@ -305,7 +307,7 @@ class BCGintelligentmail extends BCGBarcode1D
             $mailerIdentifierLength = 9;
         }
 
-        if ($mailerIdentifierLength === 9 && strlen($serialNumber) > 6) {
+        if ($mailerIdentifierLength === 9 && strlen((string) $serialNumber) > 6) {
             throw new BCGArgumentException('If the Serial Number has more than 6 digits, the Mailer Identifier must be lower than 900000.', 'mailerIdentifier');
         }
 
@@ -324,9 +326,10 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Parses the text before displaying it.
      *
-     * @param mixed $text
+     * @param string $text The text.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
         parent::parse($text);
 
@@ -341,49 +344,52 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         if ($this->quietZone) {
             $this->positionX += 9;
         }
 
-        $c = strlen($this->data);
+        $c = strlen((string) $this->data);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->data[$i]);
+            $this->drawChar($image, $this->data[$i]);
         }
 
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness + ($this->quietZone ? 4 : 0));
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness + ($this->quietZone ? 4 : 0));
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $w += 65 * 3;
-        $h += $this->thickness;
+        $width += 65 * 3;
+        $height += $this->thickness;
 
         // We remove the white on the right
-        $w -= 1.56;
+        $width -= (int)1.56;
 
         if ($this->quietZone) {
-            $w += 18;
-            $h += 4;
+            $width += 18;
+            $height += 4;
         }
 
-        return parent::getDimension($w, $h);
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
         // Tracking must have been entered
         if ($this->barcodeIdentifier === null || $this->serviceTypeIdentifier === null || $this->mailerIdentifier === null || $this->serialNumber === null) {
@@ -391,13 +397,13 @@ class BCGintelligentmail extends BCGBarcode1D
         }
 
         // Checking if all chars are allowed
-        $match = array();
-        if (preg_match('/[^0-9]/', $this->text, $match)) {
-            throw new BCGParseException('intelligentmail', 'The character \'' . $match[0] . '\' is not allowed.');
+        $matches = array();
+        if (preg_match('/[^0-9]/', $this->text, $matches)) {
+            throw new BCGParseException('intelligentmail', 'The character \'' . $matches[0] . '\' is not allowed.');
         }
 
         // Must contain 0, 5, 9 or 11 chars
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c !== 0 && $c !== 5 && $c !== 9 && $c !== 11) {
             throw new BCGParseException('intelligentmail', 'Must contain 0, 5, 9, or 11 characters.');
         }
@@ -408,11 +414,12 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Overloaded method for drawing special barcode.
      *
-     * @param resource $im
-     * @param string $code
-     * @param boolean $startBar
+     * @param resource $image The surface.
+     * @param string $code The code.
+     * @param bool $startBar True if we begin with a space.
+     * @return void
      */
-    protected function drawChar($im, $code, $startBar = true)
+    protected function drawChar($image, string $code, bool $startBar = true): void
     {
         $y1 = 0;
         $y2 = 0;
@@ -440,21 +447,21 @@ class BCGintelligentmail extends BCGBarcode1D
             $y2 += 2;
         }
 
-        $this->drawFilledRectangle($im, $this->positionX, intval($y1), intval($this->positionX + 0.44), intval($y2), BCGBarcode::COLOR_FG);
+        $this->drawFilledRectangle($image, $this->positionX, intval($y1), intval($this->positionX + 0.44), intval($y2), BCGBarcode::COLOR_FG);
         $this->positionX += 3;
     }
 
     /**
-     * Executes Step 1: Conversion of Data Fields into Binary Data
+     * Executes Step 1: Conversion of Data Fields into Binary Data.
      *
-     * @param string $text
-     * @param string $barcodeIdentifier
-     * @param string $serviceTypeIdentifier
-     * @param string $mailerIdentifier
-     * @param string $serialNumber
-     * @return string BCNumber
+     * @param string $text The text.
+     * @param string $barcodeIdentifier The barcode identifier.
+     * @param string $serviceTypeIdentifier The Service type identifier.
+     * @param string $mailerIdentifier The mailer identifier.
+     * @param string $serialNumber The serial number.
+     * @return string BCNumber.
      */
-    private static function executeStep1($text, $barcodeIdentifier, $serviceTypeIdentifier, $mailerIdentifier, $serialNumber)
+    private static function executeStep1(string $text, string $barcodeIdentifier, string $serviceTypeIdentifier, string $mailerIdentifier, string $serialNumber): string
     {
         $number = self::conversionRoutingCode($text);
         $number = self::conversionTrackingCode($number, $barcodeIdentifier, $serviceTypeIdentifier, $mailerIdentifier, $serialNumber);
@@ -463,12 +470,12 @@ class BCGintelligentmail extends BCGBarcode1D
     }
 
     /**
-     * Executes Step 2: Generation of 11-Bit CRC on Binary Data
+     * Executes Step 2: Generation of 11-Bit CRC on Binary Data.
      *
-     * @param $number BCNumber
-     * @return int
+     * @param string $number BCNumber.
+     * @return int The CRC.
      */
-    private static function executeStep2($number)
+    private static function executeStep2(string $number): int
     {
         $byteArray = str_pad(self::bcdecuc($number), 13, chr(0), STR_PAD_LEFT);
 
@@ -510,12 +517,12 @@ class BCGintelligentmail extends BCGBarcode1D
     }
 
     /**
-     * Executes Step 3: Conversion from Binary Data to Codewords
+     * Executes Step 3: Conversion from Binary Data to Codewords.
      *
-     * @param string $number BCNumber
-     * @return int[]
+     * @param string $number BCNumber.
+     * @return int[] The codeword sequence.
      */
-    private static function executeStep3($number)
+    private static function executeStep3(string $number): array
     {
         $codewords = array();
         $codewords[9] = (int)bcmod($number, '636');
@@ -530,13 +537,13 @@ class BCGintelligentmail extends BCGBarcode1D
     }
 
     /**
-     * Executes Step 4: Inserting Additional Information into Codewords
+     * Executes Step 4: Inserting Additional Information into Codewords.
      *
-     * @param int[] $codewords
-     * @param int $crc
-     * @return int[]
+     * @param int[] $codewords The codewords sequence.
+     * @param int $crc The cRC.
+     * @return int[] The codeword sequence.
      */
-    private static function executeStep4($codewords, $crc)
+    private static function executeStep4(array $codewords, int $crc): array
     {
         $codewords[9] *= 2;
         if ($crc & 0x400) {
@@ -547,13 +554,13 @@ class BCGintelligentmail extends BCGBarcode1D
     }
 
     /**
-     * Executes Step 5: Conversion from Codewords to Characters
+     * Executes Step 5: Conversion from Codewords to Characters.
      *
-     * @param int[] $codewords
-     * @param int $crc
-     * @return int[]
+     * @param int[] $codewords The codewords sequence.
+     * @param int $crc The cRC.
+     * @return int[] The codeword sequence.
      */
-    private static function executeStep5($codewords, $crc)
+    private static function executeStep5(array $codewords, int $crc): array
     {
         $characters = array();
         for ($i = 0; $i < 10; $i++) {
@@ -575,12 +582,12 @@ class BCGintelligentmail extends BCGBarcode1D
     }
 
     /**
-     * Executes Step 6: Conversion from Characters to the Intelligent Mail Barcode
+     * Executes Step 6: Conversion from Characters to the Intelligent Mail Barcode.
      *
-     * @param int[] $characters
-     * @return string
+     * @param int[] $characters The characters.
+     * @return string The sequence for bars.
      */
-    private static function executeStep6($characters)
+    private static function executeStep6(array $characters): string
     {
         $bars = '';
         for ($i = 0; $i < 65; $i++) {
@@ -607,13 +614,13 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Converts the routing code zipcode.
      *
-     * @param string $zipcode
-     * @return string BCNumber
+     * @param string $zipcode The zipcode.
+     * @return string BCNumber.
      */
-    private static function conversionRoutingCode($zipcode)
+    private static function conversionRoutingCode(string $zipcode): string
     {
         $number = $zipcode;
-        switch (strlen($zipcode)) {
+        switch (strlen((string) $zipcode)) {
             case 11:
                 $number = bcadd($number, '1000000000', 0);
                 // no break
@@ -631,14 +638,14 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Converts the tracking code number.
      *
-     * @param string $number BCNumber
-     * @param string $barcodeIdentifier
-     * @param string $serviceTypeIdentifier
-     * @param string $mailerIdentifier
-     * @param string $serialNumber
-     * @return string BCNumber
+     * @param string $number BCNumber.
+     * @param string $barcodeIdentifier The barcode identifier.
+     * @param string $serviceTypeIdentifier The Service type identifier.
+     * @param string $mailerIdentifier The mailer identifier.
+     * @param string $serialNumber The serial number.
+     * @return string BCNumber.
      */
-    private static function conversionTrackingCode($number, $barcodeIdentifier, $serviceTypeIdentifier, $mailerIdentifier, $serialNumber)
+    private static function conversionTrackingCode(string $number, string $barcodeIdentifier, string $serviceTypeIdentifier, string $mailerIdentifier, string $serialNumber): string
     {
         $number = bcmul($number, '10', 0);
         $number = bcadd($number, $barcodeIdentifier[0], 0);
@@ -657,15 +664,15 @@ class BCGintelligentmail extends BCGBarcode1D
     /**
      * Transforms a BCNumber into unsigned char*.
      *
-     * @param string $dec BCNumber
-     * @param string
+     * @param string $dec BCNumber.
+     * @return string The pack data.
      */
-    private static function bcdecuc($dec)
+    private static function bcdecuc(string $dec): string
     {
         $last = bcmod($dec, '256');
         $remain = bcdiv(bcsub($dec, $last), '256', 0);
 
-        if ($remain == 0) {
+        if ($remain == 0) { // Keep weak
             return pack('C', $last);
         } else {
             return self::bcdecuc($remain) . pack('C', $last);

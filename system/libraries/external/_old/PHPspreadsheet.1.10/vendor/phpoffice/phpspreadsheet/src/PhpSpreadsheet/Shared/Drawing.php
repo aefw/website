@@ -165,11 +165,11 @@ class Drawing
 
         $temp = unpack('H*', $read);
         $hex = $temp[1];
-        $header = substr($hex, 0, 108);
+        $header = substr((string) $hex, 0, 108);
 
         //    Process the header
         //    Structure: http://www.fastgraph.com/help/bmp_header_format.html
-        if (substr($header, 0, 4) == '424d') {
+        if (substr((string) $header, 0, 4) == '424d') {
             //    Cut it in parts of 2 bytes
             $header_parts = str_split($header, 2);
 
@@ -191,12 +191,12 @@ class Drawing
         $image = imagecreatetruecolor($width, $height);
 
         //    Grab the body from the image
-        $body = substr($hex, 108);
+        $body = substr((string) $hex, 108);
 
         //    Calculate if padding at the end-line is needed
         //    Divided by two to keep overview.
         //    1 byte = 2 HEX-chars
-        $body_size = (strlen($body) / 2);
+        $body_size = (strlen((string) $body) / 2);
         $header_size = ($width * $height);
 
         //    Use end-line padding? Only when needed

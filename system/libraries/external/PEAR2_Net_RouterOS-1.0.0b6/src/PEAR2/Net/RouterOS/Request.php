@@ -73,8 +73,8 @@ class Request extends Message
                 ' '
             ))
         ) {
-            $this->parseArgumentString(substr($command, $spaceBeforeEquals));
-            $command = rtrim(substr($command, 0, $spaceBeforeEquals));
+            $this->parseArgumentString(substr((string) $command, $spaceBeforeEquals));
+            $command = rtrim(substr((string) $command, 0, $spaceBeforeEquals));
         }
         $this->setCommand($command);
         $this->setQuery($query);
@@ -359,7 +359,7 @@ class Request extends Message
      */
     public function verify(Communicator $com)
     {
-        $com::verifyLengthSupport(strlen($this->getCommand()));
+        $com::verifyLengthSupport(strlen((string) $this->getCommand()));
         $com::verifyLengthSupport(strlen('.tag=' . (string)$this->getTag()));
         foreach ($this->attributes as $name => $value) {
             if (is_string($value)) {
@@ -400,7 +400,7 @@ class Request extends Message
 
         $token = '';
         $name = null;
-        while ($string = substr($string, strlen($token))) {
+        while ($string = substr((string) $string, strlen((string) $token))) {
             if (null === $name) {
                 if (preg_match('/^\s+([^\s=]+)/sS', $string, $matches)) {
                     $token = $matches[0];
@@ -443,7 +443,7 @@ class Request extends Message
             }
         }
 
-        if (null !== $name && ('' !== ($name = trim($name)))) {
+        if (null !== $name && ('' !== ($name = trim((string) $name)))) {
             $this->setArgument($name, '');
         }
 

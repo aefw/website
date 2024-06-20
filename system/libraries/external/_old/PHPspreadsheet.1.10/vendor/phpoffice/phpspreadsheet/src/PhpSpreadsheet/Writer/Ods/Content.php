@@ -347,7 +347,7 @@ class Content extends WriterPart
                     case Fill::FILL_SOLID:
                         $writer->writeAttribute('fo:background-color', sprintf(
                             '#%s',
-                            strtolower($fill->getStartColor()->getRGB())
+                            strtolower((string) $fill->getStartColor()->getRGB())
                         ));
 
                         break;

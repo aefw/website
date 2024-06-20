@@ -81,16 +81,16 @@ class TcpServerConnection extends NetworkStream
             );
             restore_error_handler();
             $portString = strrchr($peerName, ':');
-            $this->peerPort = (int) substr($portString, 1);
+            $this->peerPort = (int) substr((string) $portString, 1);
             $ipString = substr(
                 $peerName,
                 0,
-                strlen($peerName) - strlen($portString)
+                strlen((string) $peerName) - strlen((string) $portString)
             );
             if (strpos($ipString, '[') === 0
                 && strpos(strrev($ipString), ']') === 0
             ) {
-                $ipString = substr($ipString, 1, strlen($ipString) - 2);
+                $ipString = substr((string) $ipString, 1, strlen((string) $ipString) - 2);
             }
             $this->peerIP = $ipString;
         } catch (E $e) {

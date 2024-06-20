@@ -164,7 +164,7 @@ class OLERead
         for ($i = 0; $i < $this->numBigBlockDepotBlocks; ++$i) {
             $pos = ($bigBlockDepotBlocks[$i] + 1) * self::BIG_BLOCK_SIZE;
 
-            $this->bigBlockChain .= substr($this->data, $pos, 4 * $bbs);
+            $this->bigBlockChain .= substr((string) $this->data, $pos, 4 * $bbs);
             $pos += 4 * $bbs;
         }
 
@@ -174,7 +174,7 @@ class OLERead
         while ($sbdBlock != -2) {
             $pos = ($sbdBlock + 1) * self::BIG_BLOCK_SIZE;
 
-            $this->smallBlockChain .= substr($this->data, $pos, 4 * $bbs);
+            $this->smallBlockChain .= substr((string) $this->data, $pos, 4 * $bbs);
             $pos += 4 * $bbs;
 
             $sbdBlock = self::getInt4d($this->bigBlockChain, $sbdBlock * 4);
@@ -209,7 +209,7 @@ class OLERead
 
             while ($block != -2) {
                 $pos = $block * self::SMALL_BLOCK_SIZE;
-                $streamData .= substr($rootdata, $pos, self::SMALL_BLOCK_SIZE);
+                $streamData .= substr((string) $rootdata, $pos, self::SMALL_BLOCK_SIZE);
 
                 $block = self::getInt4d($this->smallBlockChain, $block * 4);
             }
@@ -229,7 +229,7 @@ class OLERead
 
         while ($block != -2) {
             $pos = ($block + 1) * self::BIG_BLOCK_SIZE;
-            $streamData .= substr($this->data, $pos, self::BIG_BLOCK_SIZE);
+            $streamData .= substr((string) $this->data, $pos, self::BIG_BLOCK_SIZE);
             $block = self::getInt4d($this->bigBlockChain, $block * 4);
         }
 
@@ -250,7 +250,7 @@ class OLERead
 
         while ($block != -2) {
             $pos = ($block + 1) * self::BIG_BLOCK_SIZE;
-            $data .= substr($this->data, $pos, self::BIG_BLOCK_SIZE);
+            $data .= substr((string) $this->data, $pos, self::BIG_BLOCK_SIZE);
             $block = self::getInt4d($this->bigBlockChain, $block * 4);
         }
 
@@ -265,10 +265,10 @@ class OLERead
         $offset = 0;
 
         // loop through entires, each entry is 128 bytes
-        $entryLen = strlen($this->entry);
+        $entryLen = strlen((string) $this->entry);
         while ($offset < $entryLen) {
             // entry data (128 bytes)
-            $d = substr($this->entry, $offset, self::PROPERTY_STORAGE_BLOCK_SIZE);
+            $d = substr((string) $this->entry, $offset, self::PROPERTY_STORAGE_BLOCK_SIZE);
 
             // size in bytes of name
             $nameSize = ord($d[self::SIZE_OF_NAME_POS]) | (ord($d[self::SIZE_OF_NAME_POS + 1]) << 8);
@@ -282,7 +282,7 @@ class OLERead
 
             $size = self::getInt4d($d, self::SIZE_POS);
 
-            $name = str_replace("\x00", '', substr($d, 0, $nameSize));
+            $name = str_replace("\x00", '', substr((string) $d, 0, $nameSize));
 
             $this->props[] = [
                 'name' => $name,
@@ -292,7 +292,7 @@ class OLERead
             ];
 
             // tmp helper to simplify checks
-            $upName = strtoupper($name);
+            $upName = strtoupper((string) $name);
 
             // Workbook directory entry (BIFF5 uses Book, BIFF8 uses Workbook)
             if (($upName === 'WORKBOOK') || ($upName === 'BOOK')) {
@@ -331,7 +331,7 @@ class OLERead
             throw new ReaderException('Parameter pos=' . $pos . ' is invalid.');
         }
 
-        $len = strlen($data);
+        $len = strlen((string) $data);
         if ($len < $pos + 4) {
             $data .= str_repeat("\0", $pos + 4 - $len);
         }

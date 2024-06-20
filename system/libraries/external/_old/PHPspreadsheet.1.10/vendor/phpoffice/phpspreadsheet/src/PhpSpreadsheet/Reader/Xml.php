@@ -92,7 +92,7 @@ class Xml extends BaseReader
 
         //    Retrieve charset encoding
         if (preg_match('/<?xml.*encoding=[\'"](.*?)[\'"].*?>/um', $data, $matches)) {
-            $this->charSet = strtoupper($matches[1]);
+            $this->charSet = strtoupper((string) $matches[1]);
         }
 
         return $valid;
@@ -245,9 +245,9 @@ class Xml extends BaseReader
 
     private static function identifyFixedStyleValue($styleList, &$styleAttributeValue)
     {
-        $styleAttributeValue = strtolower($styleAttributeValue);
+        $styleAttributeValue = strtolower((string) $styleAttributeValue);
         foreach ($styleList as $style) {
-            if ($styleAttributeValue == strtolower($style)) {
+            if ($styleAttributeValue == strtolower((string) $style)) {
                 $styleAttributeValue = $style;
 
                 return true;
@@ -376,7 +376,7 @@ class Xml extends BaseReader
                 switch ((string) $propertyAttributes) {
                     case 'string':
                         $propertyType = Properties::PROPERTY_TYPE_STRING;
-                        $propertyValue = trim($propertyValue);
+                        $propertyValue = trim((string) $propertyValue);
 
                         break;
                     case 'boolean':
@@ -396,7 +396,7 @@ class Xml extends BaseReader
                         break;
                     case 'dateTime.tz':
                         $propertyType = Properties::PROPERTY_TYPE_DATE;
-                        $propertyValue = strtotime(trim($propertyValue));
+                        $propertyValue = strtotime(trim((string) $propertyValue));
 
                         break;
                 }
@@ -542,8 +542,8 @@ class Xml extends BaseReader
                             if ($hasCalculatedValue) {
                                 $type = DataType::TYPE_FORMULA;
                                 $columnNumber = Coordinate::columnIndexFromString($columnID);
-                                if (substr($cellDataFormula, 0, 3) == 'of:') {
-                                    $cellDataFormula = substr($cellDataFormula, 3);
+                                if (substr((string) $cellDataFormula, 0, 3) == 'of:') {
+                                    $cellDataFormula = substr((string) $cellDataFormula, 3);
                                     $temp = explode('"', $cellDataFormula);
                                     $key = false;
                                     foreach ($temp as &$value) {
@@ -574,7 +574,7 @@ class Xml extends BaseReader
                                                 }
                                                 //    Bracketed R references are relative to the current row
                                                 if ($rowReference[0] == '[') {
-                                                    $rowReference = $rowID + trim($rowReference, '[]');
+                                                    $rowReference = $rowID + trim((string) $rowReference, '[]');
                                                 }
                                                 $columnReference = $cellReference[4][0];
                                                 //    Empty C reference is the current column
@@ -583,10 +583,10 @@ class Xml extends BaseReader
                                                 }
                                                 //    Bracketed C references are relative to the current column
                                                 if ($columnReference[0] == '[') {
-                                                    $columnReference = $columnNumber + trim($columnReference, '[]');
+                                                    $columnReference = $columnNumber + trim((string) $columnReference, '[]');
                                                 }
                                                 $A1CellReference = Coordinate::stringFromColumnIndex($columnReference) . $rowReference;
-                                                $value = substr_replace($value, $A1CellReference, $cellReference[0][1], strlen($cellReference[0][0]));
+                                                $value = substr_replace($value, $A1CellReference, $cellReference[0][1], strlen((string) $cellReference[0][0]));
                                             }
                                         }
                                     }
@@ -770,11 +770,11 @@ class Xml extends BaseReader
                     case 'Weight':
                         break;
                     case 'Position':
-                        $borderPosition = strtolower($borderStyleValue);
+                        $borderPosition = strtolower((string) $borderStyleValue);
 
                         break;
                     case 'Color':
-                        $borderColour = substr($borderStyleValue, 1);
+                        $borderColour = substr((string) $borderStyleValue, 1);
                         $thisBorder['color']['rgb'] = $borderColour;
 
                         break;
@@ -814,7 +814,7 @@ class Xml extends BaseReader
 
                     break;
                 case 'Color':
-                    $this->styles[$styleID]['font']['color']['rgb'] = substr($styleAttributeValue, 1);
+                    $this->styles[$styleID]['font']['color']['rgb'] = substr((string) $styleAttributeValue, 1);
 
                     break;
                 case 'Bold':
@@ -844,11 +844,11 @@ class Xml extends BaseReader
         foreach ($styleAttributes as $styleAttributeKey => $styleAttributeValue) {
             switch ($styleAttributeKey) {
                 case 'Color':
-                    $this->styles[$styleID]['fill']['color']['rgb'] = substr($styleAttributeValue, 1);
+                    $this->styles[$styleID]['fill']['color']['rgb'] = substr((string) $styleAttributeValue, 1);
 
                     break;
                 case 'Pattern':
-                    $this->styles[$styleID]['fill']['fillType'] = strtolower($styleAttributeValue);
+                    $this->styles[$styleID]['fill']['fillType'] = strtolower((string) $styleAttributeValue);
 
                     break;
             }

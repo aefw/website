@@ -532,12 +532,12 @@ class Matrix
                 for ($j = 0; $j < $this->n; ++$j) {
                     $validValues = true;
                     $value = $M->get($i, $j);
-                    if ((is_string($this->A[$i][$j])) && (strlen($this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
-                        $this->A[$i][$j] = trim($this->A[$i][$j], '"');
+                    if ((is_string($this->A[$i][$j])) && (strlen((string) $this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
+                        $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($this->A[$i][$j]);
                     }
-                    if ((is_string($value)) && (strlen($value) > 0) && (!is_numeric($value))) {
-                        $value = trim($value, '"');
+                    if ((is_string($value)) && (strlen((string) $value) > 0) && (!is_numeric($value))) {
+                        $value = trim((string) $value, '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($value);
                     }
                     if ($validValues) {
@@ -632,12 +632,12 @@ class Matrix
                 for ($j = 0; $j < $this->n; ++$j) {
                     $validValues = true;
                     $value = $M->get($i, $j);
-                    if ((is_string($this->A[$i][$j])) && (strlen($this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
-                        $this->A[$i][$j] = trim($this->A[$i][$j], '"');
+                    if ((is_string($this->A[$i][$j])) && (strlen((string) $this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
+                        $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($this->A[$i][$j]);
                     }
-                    if ((is_string($value)) && (strlen($value) > 0) && (!is_numeric($value))) {
-                        $value = trim($value, '"');
+                    if ((is_string($value)) && (strlen((string) $value) > 0) && (!is_numeric($value))) {
+                        $value = trim((string) $value, '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($value);
                     }
                     if ($validValues) {
@@ -734,12 +734,12 @@ class Matrix
                 for ($j = 0; $j < $this->n; ++$j) {
                     $validValues = true;
                     $value = $M->get($i, $j);
-                    if ((is_string($this->A[$i][$j])) && (strlen($this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
-                        $this->A[$i][$j] = trim($this->A[$i][$j], '"');
+                    if ((is_string($this->A[$i][$j])) && (strlen((string) $this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
+                        $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($this->A[$i][$j]);
                     }
-                    if ((is_string($value)) && (strlen($value) > 0) && (!is_numeric($value))) {
-                        $value = trim($value, '"');
+                    if ((is_string($value)) && (strlen((string) $value) > 0) && (!is_numeric($value))) {
+                        $value = trim((string) $value, '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($value);
                     }
                     if ($validValues) {
@@ -792,12 +792,12 @@ class Matrix
                 for ($j = 0; $j < $this->n; ++$j) {
                     $validValues = true;
                     $value = $M->get($i, $j);
-                    if ((is_string($this->A[$i][$j])) && (strlen($this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
-                        $this->A[$i][$j] = trim($this->A[$i][$j], '"');
+                    if ((is_string($this->A[$i][$j])) && (strlen((string) $this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
+                        $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($this->A[$i][$j]);
                     }
-                    if ((is_string($value)) && (strlen($value) > 0) && (!is_numeric($value))) {
-                        $value = trim($value, '"');
+                    if ((is_string($value)) && (strlen((string) $value) > 0) && (!is_numeric($value))) {
+                        $value = trim((string) $value, '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($value);
                     }
                     if ($validValues) {
@@ -1079,12 +1079,12 @@ class Matrix
                 for ($j = 0; $j < $this->n; ++$j) {
                     $validValues = true;
                     $value = $M->get($i, $j);
-                    if ((is_string($this->A[$i][$j])) && (strlen($this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
-                        $this->A[$i][$j] = trim($this->A[$i][$j], '"');
+                    if ((is_string($this->A[$i][$j])) && (strlen((string) $this->A[$i][$j]) > 0) && (!is_numeric($this->A[$i][$j]))) {
+                        $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($this->A[$i][$j]);
                     }
-                    if ((is_string($value)) && (strlen($value) > 0) && (!is_numeric($value))) {
-                        $value = trim($value, '"');
+                    if ((is_string($value)) && (strlen((string) $value) > 0) && (!is_numeric($value))) {
+                        $value = trim((string) $value, '"');
                         $validValues &= StringHelper::convertToNumberIfFraction($value);
                     }
                     if ($validValues) {
@@ -1135,7 +1135,7 @@ class Matrix
             for ($i = 0; $i < $this->m; ++$i) {
                 for ($j = 0; $j < $this->n; ++$j) {
                     // @phpstan-ignore-next-line
-                    $this->A[$i][$j] = trim($this->A[$i][$j], '"') . trim($M->get($i, $j), '"');
+                    $this->A[$i][$j] = trim((string) $this->A[$i][$j], '"') . trim((string) $M->get($i, $j), '"');
                 }
             }
 

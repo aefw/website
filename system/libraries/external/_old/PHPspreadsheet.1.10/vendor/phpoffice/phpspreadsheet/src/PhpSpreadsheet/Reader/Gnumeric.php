@@ -219,26 +219,26 @@ class Gnumeric extends BaseReader
                     $propertyValue = (string) $propertyValue;
                     switch ($propertyName) {
                         case 'title':
-                            $docProps->setTitle(trim($propertyValue));
+                            $docProps->setTitle(trim((string) $propertyValue));
 
                             break;
                         case 'subject':
-                            $docProps->setSubject(trim($propertyValue));
+                            $docProps->setSubject(trim((string) $propertyValue));
 
                             break;
                         case 'creator':
-                            $docProps->setCreator(trim($propertyValue));
-                            $docProps->setLastModifiedBy(trim($propertyValue));
+                            $docProps->setCreator(trim((string) $propertyValue));
+                            $docProps->setLastModifiedBy(trim((string) $propertyValue));
 
                             break;
                         case 'date':
-                            $creationDate = strtotime(trim($propertyValue));
+                            $creationDate = strtotime(trim((string) $propertyValue));
                             $docProps->setCreated($creationDate);
                             $docProps->setModified($creationDate);
 
                             break;
                         case 'description':
-                            $docProps->setDescription(trim($propertyValue));
+                            $docProps->setDescription(trim((string) $propertyValue));
 
                             break;
                     }
@@ -252,16 +252,16 @@ class Gnumeric extends BaseReader
                     $propertyValue = (string) $propertyValue;
                     switch ($propertyName) {
                         case 'keyword':
-                            $docProps->setKeywords(trim($propertyValue));
+                            $docProps->setKeywords(trim((string) $propertyValue));
 
                             break;
                         case 'initial-creator':
-                            $docProps->setCreator(trim($propertyValue));
-                            $docProps->setLastModifiedBy(trim($propertyValue));
+                            $docProps->setCreator(trim((string) $propertyValue));
+                            $docProps->setLastModifiedBy(trim((string) $propertyValue));
 
                             break;
                         case 'creation-date':
-                            $creationDate = strtotime(trim($propertyValue));
+                            $creationDate = strtotime(trim((string) $propertyValue));
                             $docProps->setCreated($creationDate);
                             $docProps->setModified($creationDate);
 
@@ -270,15 +270,15 @@ class Gnumeric extends BaseReader
                             [, $attrName] = explode(':', $attributes['name']);
                             switch ($attrName) {
                                 case 'publisher':
-                                    $docProps->setCompany(trim($propertyValue));
+                                    $docProps->setCompany(trim((string) $propertyValue));
 
                                     break;
                                 case 'category':
-                                    $docProps->setCategory(trim($propertyValue));
+                                    $docProps->setCategory(trim((string) $propertyValue));
 
                                     break;
                                 case 'manager':
-                                    $docProps->setManager(trim($propertyValue));
+                                    $docProps->setManager(trim((string) $propertyValue));
 
                                     break;
                             }
@@ -293,32 +293,32 @@ class Gnumeric extends BaseReader
                 $propertyValue = $summaryItem->{'val-string'};
                 switch ($propertyName) {
                     case 'title':
-                        $docProps->setTitle(trim($propertyValue));
+                        $docProps->setTitle(trim((string) $propertyValue));
 
                         break;
                     case 'comments':
-                        $docProps->setDescription(trim($propertyValue));
+                        $docProps->setDescription(trim((string) $propertyValue));
 
                         break;
                     case 'keywords':
-                        $docProps->setKeywords(trim($propertyValue));
+                        $docProps->setKeywords(trim((string) $propertyValue));
 
                         break;
                     case 'category':
-                        $docProps->setCategory(trim($propertyValue));
+                        $docProps->setCategory(trim((string) $propertyValue));
 
                         break;
                     case 'manager':
-                        $docProps->setManager(trim($propertyValue));
+                        $docProps->setManager(trim((string) $propertyValue));
 
                         break;
                     case 'author':
-                        $docProps->setCreator(trim($propertyValue));
-                        $docProps->setLastModifiedBy(trim($propertyValue));
+                        $docProps->setCreator(trim((string) $propertyValue));
+                        $docProps->setLastModifiedBy(trim((string) $propertyValue));
 
                         break;
                     case 'company':
-                        $docProps->setCompany(trim($propertyValue));
+                        $docProps->setCompany(trim((string) $propertyValue));
 
                         break;
                 }
@@ -788,7 +788,7 @@ class Gnumeric extends BaseReader
                 }
 
                 $range = Worksheet::extractSheetTitle($range, true);
-                $range[0] = trim($range[0], "'");
+                $range[0] = trim((string) $range[0], "'");
                 if ($worksheet = $spreadsheet->getSheetByName($range[0])) {
                     $extractedRange = str_replace('$', '', $range[1]);
                     $spreadsheet->addNamedRange(new NamedRange($name, $worksheet, $extractedRange));

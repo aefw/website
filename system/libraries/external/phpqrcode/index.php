@@ -53,7 +53,7 @@
     if (isset($_REQUEST['data'])) { 
     
         //it's very important!
-        if (trim($_REQUEST['data']) == '')
+        if (trim((string) $_REQUEST['data']) == '')
             die('data cannot be empty! <a href="?">back</a>');
             
         // user data

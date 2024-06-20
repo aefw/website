@@ -113,7 +113,7 @@ class AmqpHandler extends AbstractProcessingHandler
     {
         $routingKey = sprintf('%s.%s', $record['level_name'], $record['channel']);
 
-        return strtolower($routingKey);
+        return strtolower((string) $routingKey);
     }
 
     private function createAmqpMessage(string $data): AMQPMessage

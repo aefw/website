@@ -71,14 +71,14 @@ function gif_outputAsBmp($gif, $lpszFileName, $bgColor = -1)
 	}
 
 	$fd = $gif->getBmp($bgColor);
-	if (strlen($fd) <= 0) {
+	if (strlen((string) $fd) <= 0) {
 		return false;
 	}
 
 	if (!($fh = @fopen($lpszFileName, 'wb'))) {
 		return false;
 	}
-	@fwrite($fh, $fd, strlen($fd));
+	@fwrite($fh, $fd, strlen((string) $fd));
 	@fflush($fh);
 	@fclose($fh);
 	return true;
@@ -93,14 +93,14 @@ function gif_outputAsPng($gif, $lpszFileName, $bgColor = -1)
 	}
 
 	$fd = $gif->getPng($bgColor);
-	if (strlen($fd) <= 0) {
+	if (strlen((string) $fd) <= 0) {
 		return false;
 	}
 
 	if (!($fh = @fopen($lpszFileName, 'wb'))) {
 		return false;
 	}
-	@fwrite($fh, $fd, strlen($fd));
+	@fwrite($fh, $fd, strlen((string) $fd));
 	@fflush($fh);
 	@fclose($fh);
 	return true;
@@ -188,7 +188,7 @@ class CGIFLZW
 
 	public function deCompress($data, &$datLen)
 	{
-		$stLen  = strlen($data);
+		$stLen  = strlen((string) $data);
 		$datLen = 0;
 		$ret    = '';
 
@@ -199,7 +199,7 @@ class CGIFLZW
 			$ret .= chr($iIndex);
 		}
 
-		$datLen = $stLen - strlen($data);
+		$datLen = $stLen - strlen((string) $data);
 
 		if ($iIndex != -2) {
 			return false;
@@ -214,7 +214,7 @@ class CGIFLZW
 	{
 		if ($bInit) {
 			$this->SetCodeSize = ord($data[0]);
-			$data = substr($data, 1);
+			$data = substr((string) $data, 1);
 
 			$this->CodeSize    = $this->SetCodeSize + 1;
 			$this->ClearCode   = 1 << $this->SetCodeSize;
@@ -348,13 +348,13 @@ class CGIFLZW
 			$this->Buf[1] = $this->Buf[$this->LastByte - 1];
 
 			$Count = ord($data[0]);
-			$data  = substr($data, 1);
+			$data  = substr((string) $data, 1);
 
 			if ($Count) {
 				for ($i = 0; $i < $Count; $i++) {
 					$this->Buf[2 + $i] = ord($data[$i]);
 				}
-				$data = substr($data, $Count);
+				$data = substr((string) $data, $Count);
 			} else {
 				$this->Done = 1;
 			}
@@ -398,8 +398,8 @@ class CGIFCOLORTABLE
 		$this->m_arColors = array();
 
 		for ($i = 0; $i < $num; $i++) {
-			$rgb = substr($lpData, $i * 3, 3);
-			if (strlen($rgb) < 3) {
+			$rgb = substr((string) $lpData, $i * 3, 3);
+			if (strlen((string) $rgb) < 3) {
 				return false;
 			}
 
@@ -508,13 +508,13 @@ class CGIFFILEHEADER
 	{
 		$hdrLen = 0;
 
-		$this->m_lpVer = substr($lpData, 0, 6);
+		$this->m_lpVer = substr((string) $lpData, 0, 6);
 		if (($this->m_lpVer <> 'GIF87a') && ($this->m_lpVer <> 'GIF89a')) {
 			return false;
 		}
 
-		$this->m_nWidth  = $this->w2i(substr($lpData, 6, 2));
-		$this->m_nHeight = $this->w2i(substr($lpData, 8, 2));
+		$this->m_nWidth  = $this->w2i(substr((string) $lpData, 6, 2));
+		$this->m_nHeight = $this->w2i(substr((string) $lpData, 8, 2));
 		if (!$this->m_nWidth || !$this->m_nHeight) {
 			return false;
 		}
@@ -530,7 +530,7 @@ class CGIFFILEHEADER
 
 		if ($this->m_bGlobalClr) {
 			$this->m_colorTable = new CGIFCOLORTABLE();
-			if (!$this->m_colorTable->load(substr($lpData, $hdrLen), $this->m_nTableSize)) {
+			if (!$this->m_colorTable->load(substr((string) $lpData, $hdrLen), $this->m_nTableSize)) {
 				return false;
 			}
 			$hdrLen += 3 * $this->m_nTableSize;
@@ -583,10 +583,10 @@ class CGIFIMAGEHEADER
 	{
 		$hdrLen = 0;
 
-		$this->m_nLeft   = $this->w2i(substr($lpData, 0, 2));
-		$this->m_nTop    = $this->w2i(substr($lpData, 2, 2));
-		$this->m_nWidth  = $this->w2i(substr($lpData, 4, 2));
-		$this->m_nHeight = $this->w2i(substr($lpData, 6, 2));
+		$this->m_nLeft   = $this->w2i(substr((string) $lpData, 0, 2));
+		$this->m_nTop    = $this->w2i(substr((string) $lpData, 2, 2));
+		$this->m_nWidth  = $this->w2i(substr((string) $lpData, 4, 2));
+		$this->m_nHeight = $this->w2i(substr((string) $lpData, 6, 2));
 
 		if (!$this->m_nWidth || !$this->m_nHeight) {
 			return false;
@@ -601,7 +601,7 @@ class CGIFIMAGEHEADER
 
 		if ($this->m_bLocalClr) {
 			$this->m_colorTable = new CGIFCOLORTABLE();
-			if (!$this->m_colorTable->load(substr($lpData, $hdrLen), $this->m_nTableSize)) {
+			if (!$this->m_colorTable->load(substr((string) $lpData, $hdrLen), $this->m_nTableSize)) {
 				return false;
 			}
 			$hdrLen += 3 * $this->m_nTableSize;
@@ -655,7 +655,7 @@ class CGIFIMAGE
 
 		while (true) {
 			$b = ord($data[0]);
-			$data = substr($data, 1);
+			$data = substr((string) $data, 1);
 			$datLen++;
 
 			switch($b) {
@@ -671,14 +671,14 @@ class CGIFIMAGE
 				if (!$this->m_gih->load($data, $len = 0)) {
 					return false;
 				}
-				$data = substr($data, $len);
+				$data = substr((string) $data, $len);
 				$datLen += $len;
 
 				// ALLOC BUFFER
 				if (!($this->m_data = $this->m_lzw->deCompress($data, $len = 0))) {
 					return false;
 				}
-				$data = substr($data, $len);
+				$data = substr((string) $data, $len);
 				$datLen += $len;
 
 				if ($this->m_gih->m_bInterlace) {
@@ -701,7 +701,7 @@ class CGIFIMAGE
 		$extLen = 0;
 
 		$b = ord($data[0]);
-		$data = substr($data, 1);
+		$data = substr((string) $data, 1);
 		$extLen++;
 
 		switch($b) {
@@ -710,12 +710,12 @@ class CGIFIMAGE
 			$this->m_disp   = ($b & 0x1C) >> 2;
 			$this->m_bUser  = ($b & 0x02) ? true : false;
 			$this->m_bTrans = ($b & 0x01) ? true : false;
-			$this->m_nDelay = $this->w2i(substr($data, 2, 2));
+			$this->m_nDelay = $this->w2i(substr((string) $data, 2, 2));
 			$this->m_nTrans = ord($data[4]);
 			break;
 
 		case 0xFE: // Comment
-			$this->m_lpComm = substr($data, 1, ord($data[0]));
+			$this->m_lpComm = substr((string) $data, 1, ord($data[0]));
 			break;
 
 		case 0x01: // Plain text
@@ -727,13 +727,13 @@ class CGIFIMAGE
 
 		// SKIP DEFAULT AS DEFS MAY CHANGE
 		$b = ord($data[0]);
-		$data = substr($data, 1);
+		$data = substr((string) $data, 1);
 		$extLen++;
 		while ($b > 0) {
-			$data = substr($data, $b);
+			$data = substr((string) $data, $b);
 			$extLen += $b;
 			$b    = ord($data[0]);
-			$data = substr($data, 1);
+			$data = substr((string) $data, 1);
 			$extLen++;
 		}
 		return true;
@@ -778,13 +778,13 @@ class CGIFIMAGE
 			}
 
 			for (; $y < $this->m_gih->m_nHeight; $y += $s) {
-				$lne = substr($this->m_data, 0, $this->m_gih->m_nWidth);
-				$this->m_data = substr($this->m_data, $this->m_gih->m_nWidth);
+				$lne = substr((string) $this->m_data, 0, $this->m_gih->m_nWidth);
+				$this->m_data = substr((string) $this->m_data, $this->m_gih->m_nWidth);
 
 				$data =
-					substr($data, 0, $y * $this->m_gih->m_nWidth) .
+					substr((string) $data, 0, $y * $this->m_gih->m_nWidth) .
 					$lne .
-					substr($data, ($y + 1) * $this->m_gih->m_nWidth);
+					substr((string) $data, ($y + 1) * $this->m_gih->m_nWidth);
 			}
 		}
 
@@ -831,13 +831,13 @@ class CGIF
 		if (!$this->m_gfh->load($this->m_lpData, $len = 0)) {
 			return false;
 		}
-		$this->m_lpData = substr($this->m_lpData, $len);
+		$this->m_lpData = substr((string) $this->m_lpData, $len);
 
 		do {
 			if (!$this->m_img->load($this->m_lpData, $imgLen = 0)) {
 				return false;
 			}
-			$this->m_lpData = substr($this->m_lpData, $imgLen);
+			$this->m_lpData = substr((string) $this->m_lpData, $imgLen);
 		}
 		while ($iIndex-- > 0);
 
@@ -936,7 +936,7 @@ class CGIF
 
 		// BITMAPFILEHEADER
 		$out .= 'BM';
-		$out .= $this->dword(14 + 40 + ($nColors << 2) + strlen($bmp));
+		$out .= $this->dword(14 + 40 + ($nColors << 2) + strlen((string) $bmp));
 		$out .= "\x00\x00";
 		$out .= "\x00\x00";
 		$out .= $this->dword(14 + 40 + ($nColors << 2));
@@ -1054,7 +1054,7 @@ class CGIF
 		}
 		///////////////////////////////////////////////////////////////////////
 		// DATA BITS
-		$out .= $this->ndword(strlen($bmp));
+		$out .= $this->ndword(strlen((string) $bmp));
 		$tmp  = 'IDAT';
 		$tmp .= $bmp;
 		$out .= $tmp;
@@ -1088,7 +1088,7 @@ class CGIF
 		}
 
 		$PlottingIMG = imagecreate($this->m_gfh->m_nWidth, $this->m_gfh->m_nHeight);
-		$NumColorsInPal = floor(strlen($pal) / 3);
+		$NumColorsInPal = floor(strlen((string) $pal) / 3);
 		$ThisImageColor = array();
 		for ($i = 0; $i < $NumColorsInPal; $i++) {
 			$ThisImageColor[$i] = imagecolorallocate(

@@ -4,8 +4,8 @@ declare(strict_types=1);
 /**
  *--------------------------------------------------------------------
  *
- * Holds the drawing $im
- * You can use get_im() to add other kind of form not held into these classes.
+ * Holds the drawing $image
+ * You can use getImage() to add other kind of form not held into these classes.
  *
  *--------------------------------------------------------------------
  * Copyright (C) Jean-Sebastien Goupil
@@ -23,30 +23,33 @@ class BCGDrawing
     const IMG_FORMAT_GIF = 3;
     const IMG_FORMAT_WBMP = 4;
 
-    private $w;
-    private $h;         // int
-    private $color;         // BCGColor
-    private $filename;      // char *
-    private $im;            // {object}
-    private $barcode;       // BCGBarcode
-    private $dpi;           // float
-    private $rotateDegree;  // float
+    private int $w;
+    private int $h;
+    private BCGColor $color;
+    private $image;
+    private ?BCGBarcode $barcode = null;
+    private ?int $dpi;
+    private int $rotateDegree;
+
+    private ?\Exception $exceptionToDraw = null;
 
     /**
-     * Constructor.
+     * Creates a drawing surface by indicating its background color.
      *
-     * @param int $w
-     * @param int $h
-     * @param string filename
-     * @param BCGColor $color
+     * @param BCGBarcode|null $barcode The barcode.
+     * @param BCGColor|null $color Background color.
      */
-    public function __construct($filename = null, BCGColor $color)
+    public function __construct(?BCGBarcode $barcode, BCGColor $color = null)
     {
-        $this->im = null;
-        $this->setFilename($filename);
+        $this->image = null;
+        $this->setBarcode($barcode);
         $this->color = $color;
+        if ($this->color === null) {
+            $this->color = new BCGColor('white');
+        }
+
         $this->dpi = null;
-        $this->rotateDegree = 0.0;
+        $this->rotateDegree = 0;
     }
 
     /**
@@ -58,49 +61,32 @@ class BCGDrawing
     }
 
     /**
-     * Gets the filename.
+     * Gets the image resource.
      *
-     * @return string
+     * @return resource The surface.
      */
-    public function getFilename()
+    public function getImage()
     {
-        return $this->filename;
+        return $this->image;
     }
 
     /**
-     * Sets the filename.
+     * Sets the image resource.
      *
-     * @param string $filaneme
+     * @param resource $image The surface.
+     * @return void
      */
-    public function setFilename($filename)
+    public function setImage($image): void
     {
-        $this->filename = $filename;
-    }
-
-    /**
-     * @return resource.
-     */
-    public function get_im()
-    {
-        return $this->im;
-    }
-
-    /**
-     * Sets the image.
-     *
-     * @param resource $im
-     */
-    public function set_im($im)
-    {
-        $this->im = $im;
+        $this->image = $image;
     }
 
     /**
      * Gets barcode for drawing.
      *
-     * @return BCGBarcode
+     * @return BCGBarcode|null The barcode.
      */
-    public function getBarcode()
+    public function getBarcode(): ?BCGBarcode
     {
         return $this->barcode;
     }
@@ -108,12 +94,13 @@ class BCGDrawing
     /**
      * Sets barcode for drawing.
      *
-     * @param BCGBarcode $barcode
+     * @param BCGBarcode|null $barcode The barcode.
+     * @return void
      */
-    public function setBarcode(BCGBarcode $barcode)
+    public function setBarcode(?BCGBarcode $barcode): void
     {
         $r = mt_rand(0, 100);
-        if ($r <= 5) {
+        if ($barcode !== null && $r <= 5) {
             $addOnTop = true;
             // If any label on top, add to the bottom
             foreach ($barcode->getLabels() as $label) {
@@ -127,16 +114,16 @@ class BCGDrawing
             $system = new BCGLabel($l, new BCGFontPhp(1), $addOnTop ? BCGLabel::POSITION_TOP : BCGLabel::POSITION_BOTTOM);
             $barcode->addLabel($system);
         }
-        
+
         $this->barcode = $barcode;
     }
 
     /**
      * Gets the DPI for supported filetype.
      *
-     * @return float
+     * @return int The DPI.
      */
-    public function getDPI()
+    public function getDPI(): int
     {
         return $this->dpi;
     }
@@ -144,82 +131,117 @@ class BCGDrawing
     /**
      * Sets the DPI for supported filetype.
      *
-     * @param float $dpi
+     * @param int $dpi The DPI.
+     * @return void
      */
-    public function setDPI($dpi)
+    public function setDPI(int $dpi): void
     {
         $this->dpi = $dpi;
     }
 
     /**
-     * Gets the rotation angle in degree clockwise.
+     * Gets the rotation angle in degree clockwise. The rotation is clockwise.
      *
-     * @return float
+     * @return int Rotation angle in degree.
      */
-    public function getRotationAngle()
+    public function getRotationAngle(): int
     {
         return $this->rotateDegree;
     }
 
     /**
-     * Sets the rotation angle in degree clockwise.
+     * Sets the rotation angle in degree clockwise. The rotation is clockwise.
      *
-     * @param float $degree
+     * @param int $degree Rotation angle in degree.
+     * @return void
      */
-    public function setRotationAngle($degree)
+    public function setRotationAngle(int $degree): void
     {
-        $this->rotateDegree = (float)$degree;
+        $this->rotateDegree = (int)$degree;
     }
 
     /**
-     * Draws the barcode on the image $im.
+     * Draws the barcode on the surface.
+     *
+     * @return void
      */
-    public function draw()
+    private function draw(): void
     {
-        $size = $this->barcode->getDimension(0, 0);
-        $this->w = max(1, $size[0]);
-        $this->h = max(1, $size[1]);
-        $this->init();
-        $this->barcode->draw($this->im);
+        if ($this->exceptionToDraw !== null || $this->barcode === null) {
+            $this->w = 1;
+            $this->h = 1;
+            $this->init();
+
+            // Is the image big enough?
+            $w = imagesx($this->image);
+            $h = imagesy($this->image);
+
+            $text = $this->exceptionToDraw ? $this->exceptionToDraw->getMessage() : 'No barcode available';
+
+            $width = imagefontwidth(2) * strlen((string) $text);
+            $height = imagefontheight(2);
+            if ($width > $w || $height > $h) {
+                $width = max($w, $width);
+                $height = max($h, $height);
+
+                // We change the size of the image
+                $newimg = imagecreatetruecolor($width, $height);
+                imagefill($newimg, 0, 0, imagecolorat($this->image, 0, 0));
+                imagecopy($newimg, $this->image, 0, 0, 0, 0, $w, $h);
+                $this->image = $newimg;
+            }
+
+            $black = new BCGColor('black');
+            imagestring($this->image, 2, 0, 0, $text, $black->allocate($this->image));
+        } else {
+            $size = $this->barcode->getDimension(0, 0);
+            $this->w = max(1, $size[0]);
+            $this->h = max(1, $size[1]);
+            $this->init();
+            $this->barcode->draw($this->image);
+        }
     }
 
     /**
-     * Saves $im into the file (many format available).
+     * Saves $image into the file (many format available).
      *
-     * @param int $image_style
-     * @param int $quality
+     * @param int $imageStyle The image style.
+     * @param string $fileName The file name.
+     * @param int $quality The quality.
+     * @return void
      */
-    public function finish($image_style = self::IMG_FORMAT_PNG, $quality = 100)
+    public function finish(int $imageStyle = self::IMG_FORMAT_PNG, ?string $fileName = null, int $quality = 100): void
     {
+        $this->draw();
         $drawer = null;
 
-        $im = $this->im;
+        $image = $this->image;
         if ($this->rotateDegree > 0.0) {
             if (function_exists('imagerotate')) {
-                $im = imagerotate($this->im, 360 - $this->rotateDegree, $this->color->allocate($this->im));
+                $image = imagerotate($this->image, 360 - $this->rotateDegree, $this->color->allocate($this->image));
             } else {
                 throw new BCGDrawException('The method imagerotate doesn\'t exist on your server. Do not use any rotation.');
             }
         }
 
-        if ($image_style === self::IMG_FORMAT_PNG) {
-            $drawer = new BCGDrawPNG($im);
-            $drawer->setFilename($this->filename);
+        if ($imageStyle === self::IMG_FORMAT_PNG) {
+            $drawer = new BCGDrawPNG($image);
+            $drawer->setFileName($fileName);
             $drawer->setDPI($this->dpi);
-        } elseif ($image_style === self::IMG_FORMAT_JPEG) {
-            $drawer = new BCGDrawJPG($im);
-            $drawer->setFilename($this->filename);
+        } elseif ($imageStyle === self::IMG_FORMAT_JPEG) {
+            $drawer = new BCGDrawJPG($image);
+            $drawer->setFileName($fileName);
             $drawer->setDPI($this->dpi);
             $drawer->setQuality($quality);
-        } elseif ($image_style === self::IMG_FORMAT_GIF) {
+        } elseif ($imageStyle === self::IMG_FORMAT_GIF) {
             // Some PHP versions have a bug if passing 2nd argument as null.
-            if ($this->filename === null || $this->filename === '') {
-                imagegif($im);
+            if ($this->fileName === null || $fileName === '') {
+                imagegif($image);
             } else {
-                imagegif($im, $this->filename);
+                imagegif($image, $fileName);
             }
-        } elseif ($image_style === self::IMG_FORMAT_WBMP) {
-            imagewbmp($im, $this->filename);
+        } elseif ($imageStyle === self::IMG_FORMAT_WBMP) {
+            imagewbmp($image, $fileName);
         }
 
         if ($drawer !== null) {
@@ -230,54 +252,35 @@ class BCGDrawing
     /**
      * Writes the Error on the picture.
      *
-     * @param Exception $exception
+     * @param \Exception $exception
+     * @return void
      */
-    public function drawException($exception)
+    public function drawException(\Exception $exception): void
     {
-        $this->w = 1;
-        $this->h = 1;
-        $this->init();
-
-        // Is the image big enough?
-        $w = imagesx($this->im);
-        $h = imagesy($this->im);
-
-        $text = 'Error: ' . $exception->getMessage();
-
-        $width = imagefontwidth(2) * strlen($text);
-        $height = imagefontheight(2);
-        if ($width > $w || $height > $h) {
-            $width = max($w, $width);
-            $height = max($h, $height);
-
-            // We change the size of the image
-            $newimg = imagecreatetruecolor($width, $height);
-            imagefill($newimg, 0, 0, imagecolorat($this->im, 0, 0));
-            imagecopy($newimg, $this->im, 0, 0, 0, 0, $w, $h);
-            $this->im = $newimg;
-        }
-
-        $black = new BCGColor('black');
-        imagestring($this->im, 2, 0, 0, $text, $black->allocate($this->im));
+        $this->exceptionToDraw = $exception;
     }
 
     /**
      * Free the memory of PHP (called also by destructor).
+     *
+     * @return void
      */
-    public function destroy()
+    public function destroy(): void
     {
-        @imagedestroy($this->im);
+        @imagedestroy($this->image);
     }
 
     /**
      * Init Image and color background.
+     *
+     * @return void
      */
-    private function init()
+    private function init(): void
     {
-        if ($this->im === null) {
-            $this->im = imagecreatetruecolor($this->w, $this->h)
+        if ($this->image === null) {
+            $this->image = imagecreatetruecolor($this->w, $this->h)
             or die('Can\'t Initialize the GD Libraty');
-            imagefilledrectangle($this->im, 0, 0, $this->w - 1, $this->h - 1, $this->color->allocate($this->im));
+            imagefilledrectangle($this->image, 0, 0, $this->w - 1, $this->h - 1, $this->color->allocate($this->image));
         }
     }
 }

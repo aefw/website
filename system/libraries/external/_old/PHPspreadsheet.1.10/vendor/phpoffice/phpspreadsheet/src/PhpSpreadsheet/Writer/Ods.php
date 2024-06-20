@@ -63,8 +63,8 @@ class Ods extends BaseWriter
      */
     public function getWriterPart($pPartName)
     {
-        if ($pPartName != '' && isset($this->writerParts[strtolower($pPartName)])) {
-            return $this->writerParts[strtolower($pPartName)];
+        if ($pPartName != '' && isset($this->writerParts[strtolower((string) $pPartName)])) {
+            return $this->writerParts[strtolower((string) $pPartName)];
         }
 
         return null;
@@ -88,7 +88,7 @@ class Ods extends BaseWriter
 
         // If $pFilename is php://output or php://stdout, make it a temporary file...
         $originalFilename = $pFilename;
-        if (strtolower($pFilename) == 'php://output' || strtolower($pFilename) == 'php://stdout') {
+        if (strtolower((string) $pFilename) == 'php://output' || strtolower((string) $pFilename) == 'php://stdout') {
             $pFilename = @tempnam(File::sysGetTempDir(), 'phpxltmp');
             if ($pFilename == '') {
                 $pFilename = $originalFilename;

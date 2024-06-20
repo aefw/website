@@ -18,7 +18,7 @@ use BarcodeBakery\Common\BCGParseException;
 
 class BCGmsi extends BCGBarcode1D
 {
-    private $checksum;
+    private int $checksum;
 
     /**
      * Constructor.
@@ -47,9 +47,10 @@ class BCGmsi extends BCGBarcode1D
     /**
      * Sets how many checksums we display. 0 to 2.
      *
-     * @param int $checksum
+     * @param int $checksum The amount of checksums.
+     * @return void
      */
-    public function setChecksum($checksum)
+    public function setChecksum(int $checksum): void
     {
         $checksum = intval($checksum);
         if ($checksum < 0 && $checksum > 2) {
@@ -62,57 +63,60 @@ class BCGmsi extends BCGBarcode1D
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
         // Checksum
         $this->calculateChecksum();
 
         // Starting Code
-        $this->drawChar($im, '10', true);
+        $this->drawChar($image, '10', true);
 
         // Chars
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($this->text[$i]), true);
+            $this->drawChar($image, $this->findCode($this->text[$i]), true);
         }
 
         $c = count($this->checksumValue);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($this->checksumValue[$i]), true);
+            $this->drawChar($image, $this->findCode($this->checksumValue[$i]), true);
         }
 
         // Ending Code
-        $this->drawChar($im, '010', true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawChar($image, '010', true);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
-        $textlength = 12 * strlen($this->text);
+        $textlength = 12 * strlen((string) $this->text);
         $startlength = 3;
         $checksumlength = $this->checksum * 12;
         $endlength = 4;
 
-        $w += $startlength + $textlength + $checksumlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $startlength + $textlength + $checksumlength + $endlength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('msi', 'No data has been entered.');
         }
@@ -127,8 +131,10 @@ class BCGmsi extends BCGBarcode1D
 
     /**
      * Overloaded method to calculate checksum.
+     *
+     * @return void
      */
-    protected function calculateChecksum()
+    protected function calculateChecksum(): void
     {
         // Forming a new number
         // If the original number is even, we take all even position
@@ -139,12 +145,12 @@ class BCGmsi extends BCGBarcode1D
         // Add up all the digit in the result (270 : 2+7+0)
         // Add up other digit not used.
         // 10 - (? Modulo 10). If result = 10, change to 0
-        $last_text = $this->text;
+        $lastText = $this->text;
         $this->checksumValue = array();
         for ($i = 0; $i < $this->checksum; $i++) {
-            $new_text = '';
-            $new_number = 0;
-            $c = strlen($last_text);
+            $newText = '';
+            $newNumber = 0;
+            $c = strlen((string) $lastText);
             if ($c % 2 === 0) { // Even
                 $starting = 1;
             } else {
@@ -152,35 +158,37 @@ class BCGmsi extends BCGBarcode1D
             }
 
             for ($j = $starting; $j < $c; $j += 2) {
-                $new_text .= $last_text[$j];
+                $newText .= $lastText[$j];
             }
 
-            $new_text = strval(intval($new_text) * 2);
-            $c2 = strlen($new_text);
+            $newText = strval(intval($newText) * 2);
+            $c2 = strlen((string) $newText);
             for ($j = 0; $j < $c2; $j++) {
-                $new_number += intval($new_text[$j]);
+                $newNumber += intval($newText[$j]);
             }
 
             for ($j = ($starting === 0) ? 1 : 0; $j < $c; $j += 2) {
-                $new_number += intval($last_text[$j]);
+                $newNumber += intval($lastText[$j]);
             }
 
-            $new_number = (10 - $new_number % 10) % 10;
-            $this->checksumValue[] = $new_number;
-            $last_text .= $new_number;
+            $newNumber = (10 - $newNumber % 10) % 10;
+            $this->checksumValue[] = $newNumber;
+            $lastText .= $newNumber;
         }
     }
 
     /**
      * Overloaded method to display the checksum.
+     *
+     * @return string|null The checksum value.
      */
-    protected function processChecksum()
+    protected function processChecksum(): ?string
     {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
+        if ($this->checksumValue === null) { // Calculate the checksum only once
             $this->calculateChecksum();
         }
 
-        if ($this->checksumValue !== false) {
+        if ($this->checksumValue !== null) {
             $ret = '';
             $c = count($this->checksumValue);
             for ($i = 0; $i < $c; $i++) {
@@ -190,6 +198,6 @@ class BCGmsi extends BCGBarcode1D
             return $ret;
         }
 
-        return false;
+        return null;
     }
 }

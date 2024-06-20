@@ -158,6 +158,6 @@ class FacebookCurlHttpClient implements FacebookHttpClientInterface
         $rawBody = array_pop($parts);
         $rawHeaders = implode("\r\n\r\n", $parts);
 
-        return [trim($rawHeaders), trim($rawBody)];
+        return [trim((string) $rawHeaders), trim((string) $rawBody)];
     }
 }

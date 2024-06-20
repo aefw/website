@@ -113,7 +113,7 @@ abstract class PuTTY extends Progenitor
         // https://github.com/github/putty/blob/a3d14d77f566a41fc61dfdc5c2e0e384c9e6ae8b/sshecc.c#L1926
         if (!$curve instanceof TwistedEdwardsCurve) {
             $private = $privateKey->toBytes();
-            if (!(strlen($privateKey->toBits()) & 7)) {
+            if (!(strlen((string) $privateKey->toBits()) & 7)) {
                 $private ="\0$private";
             }
         }

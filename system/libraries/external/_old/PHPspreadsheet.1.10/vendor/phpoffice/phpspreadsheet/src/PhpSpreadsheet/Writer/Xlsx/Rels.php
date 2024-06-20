@@ -212,7 +212,7 @@ class Rels extends WriterPart
             $rId = ++$d;
 
             if (isset($drawingOriginalIds[$relPath])) {
-                $rId = (int) (substr($drawingOriginalIds[$relPath], 3));
+                $rId = (int) (substr((string) $drawingOriginalIds[$relPath], 3));
             }
 
             $this->writeRelationship(

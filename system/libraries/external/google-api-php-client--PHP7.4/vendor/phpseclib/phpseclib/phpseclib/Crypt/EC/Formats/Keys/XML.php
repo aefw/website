@@ -83,7 +83,7 @@ abstract class XML
         }
 
         $dom = new \DOMDocument();
-        if (substr($key, 0, 5) != '<?xml') {
+        if (substr((string) $key, 0, 5) != '<?xml') {
             $key = '<xml>' . $key . '</xml>';
         }
 

@@ -739,7 +739,7 @@ class CommandLine
      */
     public function findOption($str)
     {
-        $str = trim($str);
+        $str = trim((string) $str);
         if ($str === '') {
             return false;
         }
@@ -752,7 +752,7 @@ class CommandLine
                 // exact match
                 return $opt;
             }
-            if (substr($opt->long_name, 0, strlen($str)) === $str) {
+            if (substr((string) $opt->long_name, 0, strlen((string) $str)) === $str) {
                 // abbreviated long option
                 $matches[] = $opt;
             }
@@ -998,7 +998,7 @@ class CommandLine
     {
         $last  = $argc === 0;
         if (!$this->_stopflag && $this->_lastopt) {
-            if (substr($token, 0, 1) == '-') {
+            if (substr((string) $token, 0, 1) == '-') {
                 if ($this->_lastopt->argument_optional) {
                     $this->_dispatchAction($this->_lastopt, '', $result);
                     if ($this->_lastopt->action != 'StoreArray') {
@@ -1038,10 +1038,10 @@ class CommandLine
                 return;
             }
         }
-        if (!$this->_stopflag && substr($token, 0, 2) == '--') {
+        if (!$this->_stopflag && substr((string) $token, 0, 2) == '--') {
             // a long option
             $optkv = explode('=', $token, 2);
-            if (trim($optkv[0]) == '--') {
+            if (trim((string) $optkv[0]) == '--') {
                 // the special argument "--" forces in all cases the end of
                 // option scanning.
                 $this->_stopflag = true;
@@ -1084,9 +1084,9 @@ class CommandLine
                 $this->_lastopt = $opt;
             }
             $this->_dispatchAction($opt, $value, $result);
-        } else if (!$this->_stopflag && substr($token, 0, 1) == '-') {
+        } else if (!$this->_stopflag && substr((string) $token, 0, 1) == '-') {
             // a short option
-            $optname = substr($token, 0, 2);
+            $optname = substr((string) $token, 0, 2);
             if ($optname == '-') {
                 // special case of "-": try to read stdin
                 $args[] = file_get_contents('php://stdin');
@@ -1103,7 +1103,7 @@ class CommandLine
             }
             // parse other options or set the value
             // in short: handle -f<value> and -f <value>
-            $next = substr($token, 2, 1);
+            $next = substr((string) $token, 2, 1);
             // check if we must wait for a value
             if (!$next) {
                 if ($opt->expectsArgument()) {
@@ -1125,7 +1125,7 @@ class CommandLine
                     if ($nextopt = $this->findOption('-' . $next)) {
                         $this->_dispatchAction($opt, false, $result);
                         $this->parseToken(
-                            '-' . substr($token, 2),
+                            '-' . substr((string) $token, 2),
                             $result,
                             $args,
                             $last
@@ -1143,7 +1143,7 @@ class CommandLine
                 if ($opt->action == 'StoreArray') {
                     $this->_lastopt = $opt;
                 }
-                $value = substr($token, 2);
+                $value = substr((string) $token, 2);
             }
             $this->_dispatchAction($opt, $value, $result);
         } else {

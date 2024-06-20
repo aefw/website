@@ -20,7 +20,7 @@ class Base32Test extends PHPUnit\Framework\TestCase
                     $random,
                     Base32::decode($enc)
                 );
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $unpadded,
                     Base32::encodeUnpadded($random)
@@ -35,7 +35,7 @@ class Base32Test extends PHPUnit\Framework\TestCase
                     $random,
                     Base32::decodeUpper($enc)
                 );
-                $unpadded = \rtrim($enc, '=');
+                $unpadded = \rtrim((string) $enc, '=');
                 $this->assertSame(
                     $unpadded,
                     Base32::encodeUpperUnpadded($random)

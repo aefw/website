@@ -59,7 +59,7 @@ class MultipartStream implements StreamInterface
             $str .= "{$key}: {$value}\r\n";
         }
 
-        return "--{$this->boundary}\r\n" . trim($str) . "\r\n\r\n";
+        return "--{$this->boundary}\r\n" . trim((string) $str) . "\r\n\r\n";
     }
 
     /**
@@ -91,7 +91,7 @@ class MultipartStream implements StreamInterface
 
         if (empty($element['filename'])) {
             $uri = $element['contents']->getMetadata('uri');
-            if (substr($uri, 0, 6) !== 'php://') {
+            if (substr((string) $uri, 0, 6) !== 'php://') {
                 $element['filename'] = $uri;
             }
         }
@@ -146,9 +146,9 @@ class MultipartStream implements StreamInterface
 
     private function getHeader(array $headers, $key)
     {
-        $lowercaseHeader = strtolower($key);
+        $lowercaseHeader = strtolower((string) $key);
         foreach ($headers as $k => $v) {
-            if (strtolower($k) === $lowercaseHeader) {
+            if (strtolower((string) $k) === $lowercaseHeader) {
                 return $v;
             }
         }

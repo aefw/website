@@ -94,13 +94,13 @@ class XmlScanner
     {
         $pattern = '/encoding="(.*?)"/';
         $result = preg_match($pattern, $xml, $matches);
-        $charset = strtoupper($result ? $matches[1] : 'UTF-8');
+        $charset = strtoupper((string) $result ? $matches[1] : 'UTF-8');
 
         if ($charset !== 'UTF-8') {
             $xml = mb_convert_encoding($xml, 'UTF-8', $charset);
 
             $result = preg_match($pattern, $xml, $matches);
-            $charset = strtoupper($result ? $matches[1] : 'UTF-8');
+            $charset = strtoupper((string) $result ? $matches[1] : 'UTF-8');
             if ($charset !== 'UTF-8') {
                 throw new Reader\Exception('Suspicious Double-encoded XML, spreadsheet file load() aborted to prevent XXE/XEE attacks');
             }

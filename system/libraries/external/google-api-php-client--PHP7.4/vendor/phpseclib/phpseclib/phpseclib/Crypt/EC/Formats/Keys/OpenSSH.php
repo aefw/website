@@ -192,7 +192,7 @@ abstract class OpenSSH extends Progenitor
             if (!isset($privateKey->secret)) {
                 throw new \RuntimeException('Private Key does not have a secret set');
             }
-            if (strlen($privateKey->secret) != 32) {
+            if (strlen((string) $privateKey->secret) != 32) {
                 throw new \RuntimeException('Private Key secret is not of the correct length');
             }
 

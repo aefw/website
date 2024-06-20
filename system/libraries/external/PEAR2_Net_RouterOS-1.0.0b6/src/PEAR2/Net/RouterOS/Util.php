@@ -139,7 +139,7 @@ class Util implements Countable
                 $newMenu = (string)substr(
                     $menuRequest->setCommand(
                         '/' .
-                        str_replace('/', ' ', (string)substr($this->menu, 1)) .
+                        str_replace('/', ' ', (string)substr((string) $this->menu, 1)) .
                         ' ' .
                         str_replace('/', ' ', $newMenu)
                         . ' ?'
@@ -275,7 +275,7 @@ class Util implements Countable
         $finalSource = fopen('php://temp', 'r+b');
         fwrite(
             $finalSource,
-            '/' . str_replace('/', ' ', substr($this->menu, 1)). "\n"
+            '/' . str_replace('/', ' ', substr((string) $this->menu, 1)). "\n"
         );
         Script::append($finalSource, $source, $params);
         fwrite($finalSource, "\n");
@@ -386,7 +386,7 @@ class Util implements Countable
                 );
             }
         }
-        $datetime = ucfirst(strtolower($clockParts['date'])) . ' ' .
+        $datetime = ucfirst(strtolower((string) $clockParts['date'])) . ' ' .
             $clockParts['time'];
         try {
             $result = DateTime::createFromFormat(
@@ -441,7 +441,7 @@ class Util implements Countable
                 $idCache = str_replace(
                     ';',
                     ',',
-                    strtolower($ret)
+                    strtolower((string) $ret)
                 );
                 $this->idCache = explode(',', $idCache);
                 return $idCache;
@@ -512,7 +512,7 @@ class Util implements Countable
                 }
             }
         }
-        return rtrim($idList, ',');
+        return rtrim((string) $idList, ',');
     }
 
     /**
@@ -874,9 +874,9 @@ class Util implements Countable
         $results = new ResponseCollection($results);
         $idList = '';
         foreach ($results->getAllOfType(Response::TYPE_FINAL) as $final) {
-            $idList .= ',' . strtolower($final->getProperty('ret'));
+            $idList .= ',' . strtolower((string) $final->getProperty('ret'));
         }
-        return substr($idList, 1);
+        return substr((string) $idList, 1);
     }
 
     /**
@@ -1171,7 +1171,7 @@ class Util implements Countable
                 }
                 rewind($message);
             } elseif (strpos($message, '&') === 0) {
-                return substr($message, 1/*strlen('&')*/);
+                return substr((string) $message, 1/*strlen('&')*/);
             }
             throw $e;
         }

@@ -539,7 +539,7 @@ abstract class RSA extends AsymmetricKey
             return false;
         }
         $x = $x->toBytes();
-        if (strlen($x) > $xLen) {
+        if (strlen((string) $x) > $xLen) {
             throw new \OutOfRangeException('Resultant string length out of range');
         }
         return str_pad($x, $xLen, chr(0), STR_PAD_LEFT);
@@ -605,7 +605,7 @@ abstract class RSA extends AsymmetricKey
                 $t = "\x30\x31\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x06\x05\x00\x04\x20";
         }
         $t.= $h;
-        $tLen = strlen($t);
+        $tLen = strlen((string) $t);
 
         if ($emLen < $tLen + 11) {
             throw new \LengthException('Intended encoded message length too short');
@@ -665,7 +665,7 @@ abstract class RSA extends AsymmetricKey
                 throw new UnsupportedAlgorithmException('md2 and md5 require NULLs');
         }
         $t.= $h;
-        $tLen = strlen($t);
+        $tLen = strlen((string) $t);
 
         if ($emLen < $tLen + 11) {
             throw new \LengthException('Intended encoded message length too short');
@@ -699,7 +699,7 @@ abstract class RSA extends AsymmetricKey
             $t.= $this->mgfHash->hash($mgfSeed . $c);
         }
 
-        return substr($t, 0, $maskLen);
+        return substr((string) $t, 0, $maskLen);
     }
 
     /**
@@ -729,7 +729,7 @@ abstract class RSA extends AsymmetricKey
         $new = clone $this;
 
         // \phpseclib3\Crypt\Hash supports algorithms that PKCS#1 doesn't support.  md5-96 and sha1-96, for example.
-        switch (strtolower($hash)) {
+        switch (strtolower((string) $hash)) {
             case 'md2':
             case 'md5':
             case 'sha1':
@@ -765,7 +765,7 @@ abstract class RSA extends AsymmetricKey
         $new = clone $this;
 
         // \phpseclib3\Crypt\Hash supports algorithms that PKCS#1 doesn't support.  md5-96 and sha1-96, for example.
-        switch (strtolower($hash)) {
+        switch (strtolower((string) $hash)) {
             case 'md2':
             case 'md5':
             case 'sha1':

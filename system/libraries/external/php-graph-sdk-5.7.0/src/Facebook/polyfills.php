@@ -29,11 +29,11 @@ if (!function_exists('hash_equals')) {
     function hash_equals($knownString, $userString)
     {
         if (function_exists('mb_strlen')) {
-            $kLen = mb_strlen($knownString, '8bit');
-            $uLen = mb_strlen($userString, '8bit');
+            $kLen = mb_strlen((string) $knownString, '8bit');
+            $uLen = mb_strlen((string) $userString, '8bit');
         } else {
-            $kLen = strlen($knownString);
-            $uLen = strlen($userString);
+            $kLen = strlen((string) $knownString);
+            $uLen = strlen((string) $userString);
         }
         if ($kLen !== $uLen) {
             return false;

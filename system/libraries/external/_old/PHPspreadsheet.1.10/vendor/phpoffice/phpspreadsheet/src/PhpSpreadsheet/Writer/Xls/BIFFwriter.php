@@ -54,7 +54,7 @@ class BIFFwriter
     public $_data;
 
     /**
-     * The size of the data in bytes. Should be the same as strlen($this->_data).
+     * The size of the data in bytes. Should be the same as strlen((string) $this->_data).
      *
      * @var int
      */
@@ -111,11 +111,11 @@ class BIFFwriter
      */
     protected function append($data)
     {
-        if (strlen($data) - 4 > $this->limit) {
+        if (strlen((string) $data) - 4 > $this->limit) {
             $data = $this->addContinue($data);
         }
         $this->_data .= $data;
-        $this->_datasize += strlen($data);
+        $this->_datasize += strlen((string) $data);
     }
 
     /**
@@ -127,10 +127,10 @@ class BIFFwriter
      */
     public function writeData($data)
     {
-        if (strlen($data) - 4 > $this->limit) {
+        if (strlen((string) $data) - 4 > $this->limit) {
             $data = $this->addContinue($data);
         }
-        $this->_datasize += strlen($data);
+        $this->_datasize += strlen((string) $data);
 
         return $data;
     }
@@ -203,21 +203,21 @@ class BIFFwriter
 
         // The first 2080/8224 bytes remain intact. However, we have to change
         // the length field of the record.
-        $tmp = substr($data, 0, 2) . pack('v', $limit) . substr($data, 4, $limit);
+        $tmp = substr((string) $data, 0, 2) . pack('v', $limit) . substr((string) $data, 4, $limit);
 
         $header = pack('vv', $record, $limit); // Headers for continue records
 
         // Retrieve chunks of 2080/8224 bytes +4 for the header.
-        $data_length = strlen($data);
+        $data_length = strlen((string) $data);
         for ($i = $limit + 4; $i < ($data_length - $limit); $i += $limit) {
             $tmp .= $header;
-            $tmp .= substr($data, $i, $limit);
+            $tmp .= substr((string) $data, $i, $limit);
         }
 
         // Retrieve the last chunk of data
-        $header = pack('vv', $record, strlen($data) - $i);
+        $header = pack('vv', $record, strlen((string) $data) - $i);
         $tmp .= $header;
-        $tmp .= substr($data, $i);
+        $tmp .= substr((string) $data, $i);
 
         return $tmp;
     }

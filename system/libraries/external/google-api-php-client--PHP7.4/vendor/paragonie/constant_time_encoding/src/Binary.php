@@ -46,9 +46,9 @@ abstract class Binary
     public static function safeStrlen(string $str): int
     {
         if (\function_exists('mb_strlen')) {
-            return (int) \mb_strlen($str, '8bit');
+            return (int) \mb_strlen((string) $str, '8bit');
         } else {
-            return \strlen($str);
+            return \strlen((string) $str);
         }
     }
 
@@ -73,13 +73,13 @@ abstract class Binary
             return '';
         }
         if (\function_exists('mb_substr')) {
-            return \mb_substr($str, $start, $length, '8bit');
+            return \mb_substr((string) $str, $start, $length, '8bit');
         }
         // Unlike mb_substr(), substr() doesn't accept NULL for length
         if ($length !== null) {
-            return \substr($str, $start, $length);
+            return \substr((string) $str, $start, $length);
         } else {
-            return \substr($str, $start);
+            return \substr((string) $str, $start);
         }
     }
 }

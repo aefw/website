@@ -46,9 +46,9 @@ class SetCookie
         // Add the cookie pieces into the parsed data array
         foreach ($pieces as $part) {
             $cookieParts = \explode('=', $part, 2);
-            $key = \trim($cookieParts[0]);
+            $key = \trim((string) $cookieParts[0]);
             $value = isset($cookieParts[1])
-                ? \trim($cookieParts[1], " \n\r\t\0\x0B")
+                ? \trim((string) $cookieParts[1], " \n\r\t\0\x0B")
                 : true;
 
             // Only check for non-cookies when cookies have been found
@@ -103,7 +103,7 @@ class SetCookie
             }
         }
 
-        return \rtrim($str, '; ');
+        return \rtrim((string) $str, '; ');
     }
 
     public function toArray(): array
@@ -323,12 +323,12 @@ class SetCookie
         }
 
         // Match if the last character of the cookie-path is "/"
-        if (\substr($cookiePath, -1, 1) === '/') {
+        if (\substr((string) $cookiePath, -1, 1) === '/') {
             return true;
         }
 
         // Match if the first character not included in cookie path is "/"
-        return \substr($requestPath, \strlen($cookiePath), 1) === '/';
+        return \substr((string) $requestPath, \strlen((string) $cookiePath), 1) === '/';
     }
 
     /**
@@ -345,7 +345,7 @@ class SetCookie
 
         // Remove the leading '.' as per spec in RFC 6265.
         // https://tools.ietf.org/html/rfc6265#section-5.2.3
-        $cookieDomain = \ltrim($cookieDomain, '.');
+        $cookieDomain = \ltrim((string) $cookieDomain, '.');
 
         // Domain not set or exact match.
         if (!$cookieDomain || !\strcasecmp($domain, $cookieDomain)) {

@@ -96,7 +96,7 @@ class Font
         );
         $data .= StringHelper::UTF8toBIFF8UnicodeShort($this->font->getName());
 
-        $length = strlen($data);
+        $length = strlen((string) $data);
         $header = pack('vv', $record, $length);
 
         return $header . $data;

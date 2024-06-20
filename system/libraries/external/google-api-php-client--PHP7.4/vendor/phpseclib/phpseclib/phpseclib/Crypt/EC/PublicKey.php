@@ -69,12 +69,12 @@ class PublicKey extends EC implements Common\PublicKey
             }
 
             $curve = $this->curve;
-            if (strlen($signature) != 2 * $curve::SIZE) {
+            if (strlen((string) $signature) != 2 * $curve::SIZE) {
                 return false;
             }
 
-            $R = substr($signature, 0, $curve::SIZE);
-            $S = substr($signature, $curve::SIZE);
+            $R = substr((string) $signature, 0, $curve::SIZE);
+            $S = substr((string) $signature, $curve::SIZE);
 
             try {
                 $R = PKCS1::extractPoint($R, $curve);
@@ -94,14 +94,14 @@ class PublicKey extends EC implements Common\PublicKey
 
             if ($curve instanceof Ed25519) {
                 $dom2 = !isset($this->context) ? '' :
-                    'SigEd25519 no Ed25519 collisions' . "\0" . chr(strlen($this->context)) . $this->context;
+                    'SigEd25519 no Ed25519 collisions' . "\0" . chr(strlen((string) $this->context)) . $this->context;
             } else {
                 $context = isset($this->context) ? $this->context : '';
-                $dom2 = 'SigEd448' . "\0" . chr(strlen($context)) . $context;
+                $dom2 = 'SigEd448' . "\0" . chr(strlen((string) $context)) . $context;
             }
 
             $hash = new Hash($curve::HASH);
-            $k = $hash->hash($dom2 . substr($signature, 0, $curve::SIZE) . $A . $message);
+            $k = $hash->hash($dom2 . substr((string) $signature, 0, $curve::SIZE) . $A . $message);
             $k = strrev($k);
             $k = new BigInteger($k, 256);
             list(, $k) = $k->divide($order);

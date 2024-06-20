@@ -101,7 +101,7 @@ class Escher
                     $dggData .= pack('VV', $dgId, $maxReducedSpId + 1);
                 }
 
-                $header = pack('vvV', $recVerInstance, $recType, strlen($dggData));
+                $header = pack('vvV', $recVerInstance, $recType, strlen((string) $dggData));
                 $innerData .= $header . $dggData;
 
                 // write the bstoreContainer
@@ -114,7 +114,7 @@ class Escher
                 $recVer = 0xF;
                 $recInstance = 0x0000;
                 $recType = 0xF000;
-                $length = strlen($innerData);
+                $length = strlen((string) $innerData);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;
@@ -142,7 +142,7 @@ class Escher
                 $recVer = 0xF;
                 $recInstance = count($this->object->getBSECollection());
                 $recType = 0xF001;
-                $length = strlen($innerData);
+                $length = strlen((string) $innerData);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;
@@ -175,7 +175,7 @@ class Escher
                 $data .= $rgbUid;
 
                 $tag = 0;
-                $size = strlen($innerData);
+                $size = strlen((string) $innerData);
                 $cRef = 1;
                 $foDelay = 0; //todo
                 $unused1 = 0x0;
@@ -190,7 +190,7 @@ class Escher
                 $recVer = 0x2;
                 $recInstance = $this->object->getBlipType();
                 $recType = 0xF007;
-                $length = strlen($data);
+                $length = strlen((string) $data);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;
@@ -222,7 +222,7 @@ class Escher
                         $recVer = 0x0;
                         $recInstance = 0x46A;
                         $recType = 0xF01D;
-                        $length = strlen($innerData);
+                        $length = strlen((string) $innerData);
 
                         $recVerInstance = $recVer;
                         $recVerInstance |= $recInstance << 4;
@@ -249,7 +249,7 @@ class Escher
                         $recVer = 0x0;
                         $recInstance = 0x6E0;
                         $recType = 0xF01E;
-                        $length = strlen($innerData);
+                        $length = strlen((string) $innerData);
 
                         $recVerInstance = $recVer;
                         $recVerInstance |= $recInstance << 4;
@@ -307,7 +307,7 @@ class Escher
                 $recVer = 0xF;
                 $recInstance = 0x0000;
                 $recType = 0xF002;
-                $length = strlen($innerData);
+                $length = strlen((string) $innerData);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;
@@ -335,7 +335,7 @@ class Escher
                     $innerData .= $spData;
 
                     // save the shape offsets (where new shape records begin)
-                    $totalSize += strlen($spData);
+                    $totalSize += strlen((string) $spData);
                     $spOffsets[] = $totalSize;
 
                     $spTypes = array_merge($spTypes, $writer->getSpTypes());
@@ -345,7 +345,7 @@ class Escher
                 $recVer = 0xF;
                 $recInstance = 0x0000;
                 $recType = 0xF003;
-                $length = strlen($innerData);
+                $length = strlen((string) $innerData);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;
@@ -402,7 +402,7 @@ class Escher
                     foreach ($this->object->getOPTCollection() as $property => $value) {
                         $optData .= pack('vV', $property, $value);
                     }
-                    $length = strlen($optData);
+                    $length = strlen((string) $optData);
 
                     $recVerInstance = $recVer;
                     $recVerInstance |= $recInstance << 4;
@@ -443,7 +443,7 @@ class Escher
 
                     $clientAnchorData = pack('vvvvvvvvv', $this->object->getSpFlag(), $c1, $startOffsetX, $r1, $startOffsetY, $c2, $endOffsetX, $r2, $endOffsetY);
 
-                    $length = strlen($clientAnchorData);
+                    $length = strlen((string) $clientAnchorData);
 
                     $recVerInstance = $recVer;
                     $recVerInstance |= $recInstance << 4;
@@ -460,7 +460,7 @@ class Escher
                     $recInstance = 0x0;
                     $recType = 0xF011;
 
-                    $length = strlen($clientDataData);
+                    $length = strlen((string) $clientDataData);
 
                     $recVerInstance = $recVer;
                     $recVerInstance |= $recInstance << 4;
@@ -473,7 +473,7 @@ class Escher
                 $recVer = 0xF;
                 $recInstance = 0x0000;
                 $recType = 0xF004;
-                $length = strlen($data);
+                $length = strlen((string) $data);
 
                 $recVerInstance = $recVer;
                 $recVerInstance |= $recInstance << 4;

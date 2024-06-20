@@ -170,7 +170,7 @@ class Identity implements PrivateKey
     {
         $new = clone $this;
 
-        $hash = strtolower($hash);
+        $hash = strtolower((string) $hash);
 
         if ($this->key instanceof RSA) {
             $new->flags = 0;
@@ -290,7 +290,7 @@ class Identity implements PrivateKey
             $this->flags
         );
         $packet = Strings::packSSH2('s', $packet);
-        if (strlen($packet) != fputs($this->fsock, $packet)) {
+        if (strlen((string) $packet) != fputs($this->fsock, $packet)) {
             throw new \RuntimeException('Connection closed during signing');
         }
 

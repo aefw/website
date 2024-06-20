@@ -326,14 +326,14 @@ class SocketHandler extends AbstractProcessingHandler
 
     private function writeToSocket(string $data): void
     {
-        $length = strlen($data);
+        $length = strlen((string) $data);
         $sent = 0;
         $this->lastSentBytes = $sent;
         while ($this->isConnected() && $sent < $length) {
             if (0 == $sent) {
                 $chunk = $this->fwrite($data);
             } else {
-                $chunk = $this->fwrite(substr($data, $sent));
+                $chunk = $this->fwrite(substr((string) $data, $sent));
             }
             if ($chunk === false) {
                 throw new \RuntimeException("Could not write to socket");

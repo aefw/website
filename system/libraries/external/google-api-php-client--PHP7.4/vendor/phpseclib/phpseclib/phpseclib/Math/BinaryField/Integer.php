@@ -70,7 +70,7 @@ class Integer extends Base
     public function __construct($instanceID, $num = '')
     {
         $this->instanceID = $instanceID;
-        if (!strlen($num)) {
+        if (!strlen((string) $num)) {
             $this->value = '';
         } else {
             $reduce = static::$reduce[$instanceID];
@@ -130,7 +130,7 @@ class Integer extends Base
         $a = $this->value;
         $b = $x->value;
 
-        $length = max(strlen($a), strlen($b));
+        $length = max(strlen((string) $a), strlen((string) $b));
 
         $a = str_pad($a, $length, "\0", STR_PAD_LEFT);
         $b = str_pad($b, $length, "\0", STR_PAD_LEFT);
@@ -146,14 +146,14 @@ class Integer extends Base
      */
     private static function deg($x)
     {
-        $x = ltrim($x, "\0");
+        $x = ltrim((string) $x, "\0");
         $xbit = decbin(ord($x[0]));
-        $xlen = $xbit == '0' ? 0 : strlen($xbit);
-        $len = strlen($x);
+        $xlen = $xbit == '0' ? 0 : strlen((string) $xbit);
+        $len = strlen((string) $x);
         if (!$len) {
             return -1;
         }
-        return 8 * strlen($x) - 9 + $xlen;
+        return 8 * strlen((string) $x) - 9 + $xlen;
     }
 
     /**
@@ -173,17 +173,17 @@ class Integer extends Base
         while (($degr = static::deg($r)) >= $d) {
             $s = '1' . str_repeat('0', $degr - $d);
             $s = BinaryField::base2ToBase256($s);
-            $length = max(strlen($s), strlen($q));
+            $length = max(strlen((string) $s), strlen((string) $q));
             $q = !isset($q) ? $s :
                 str_pad($q, $length, "\0", STR_PAD_LEFT) ^
                 str_pad($s, $length, "\0", STR_PAD_LEFT);
             $s = static::polynomialMultiply($s, $y);
-            $length = max(strlen($r), strlen($s));
+            $length = max(strlen((string) $r), strlen((string) $s));
             $r = str_pad($r, $length, "\0", STR_PAD_LEFT) ^
                  str_pad($s, $length, "\0", STR_PAD_LEFT);
         }
 
-        return [ltrim($q, "\0"), ltrim($r, "\0")];
+        return [ltrim((string) $q, "\0"), ltrim((string) $r, "\0")];
     }
 
     /**
@@ -194,26 +194,26 @@ class Integer extends Base
      */
     private static function regularPolynomialMultiply($x, $y)
     {
-        $precomputed = [ltrim($x, "\0")];
+        $precomputed = [ltrim((string) $x, "\0")];
         $x = strrev(BinaryField::base256ToBase2($x));
         $y = strrev(BinaryField::base256ToBase2($y));
-        if (strlen($x) == strlen($y)) {
-            $length = strlen($x);
+        if (strlen((string) $x) == strlen((string) $y)) {
+            $length = strlen((string) $x);
         } else {
-            $length = max(strlen($x), strlen($y));
+            $length = max(strlen((string) $x), strlen((string) $y));
             $x = str_pad($x, $length, '0');
             $y = str_pad($y, $length, '0');
         }
         $result = str_repeat('0', 2 * $length - 1);
         $result = BinaryField::base2ToBase256($result);
-        $size = strlen($result);
+        $size = strlen((string) $result);
         $x = strrev($x);
 
         // precompute left shift 1 through 7
         for ($i = 1; $i < 8; $i++) {
             $precomputed[$i] = BinaryField::base2ToBase256($x . str_repeat('0', $i));
         }
-        for ($i = 0; $i < strlen($y); $i++) {
+        for ($i = 0; $i < strlen((string) $y); $i++) {
             if ($y[$i] == '1') {
                 $temp = $precomputed[$i & 7] . str_repeat("\0", $i >> 3);
                 $result^= str_pad($temp, $size, "\0", STR_PAD_LEFT);
@@ -233,10 +233,10 @@ class Integer extends Base
      */
     private static function polynomialMultiply($x, $y)
     {
-        if (strlen($x) == strlen($y)) {
-            $length = strlen($x);
+        if (strlen((string) $x) == strlen((string) $y)) {
+            $length = strlen((string) $x);
         } else {
-            $length = max(strlen($x), strlen($y));
+            $length = max(strlen((string) $x), strlen((string) $y));
             $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
             $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
         }
@@ -252,10 +252,10 @@ class Integer extends Base
 
         $m = $length >> 1;
 
-        $x1 = substr($x, 0, -$m);
-        $x0 = substr($x, -$m);
-        $y1 = substr($y, 0, -$m);
-        $y0 = substr($y, -$m);
+        $x1 = substr((string) $x, 0, -$m);
+        $x0 = substr((string) $x, -$m);
+        $y1 = substr((string) $y, 0, -$m);
+        $y0 = substr((string) $y, -$m);
 
         $z2 = self::polynomialMultiply($x1, $y1);
         $z0 = self::polynomialMultiply($x0, $y0);
@@ -272,7 +272,7 @@ class Integer extends Base
             $z0
         );
 
-        return ltrim($xy, "\0");
+        return ltrim((string) $xy, "\0");
     }
 
     /**
@@ -323,7 +323,7 @@ class Integer extends Base
      */
     private static function subAdd2($x, $y)
     {
-        $length = max(strlen($x), strlen($y));
+        $length = max(strlen((string) $x), strlen((string) $y));
         $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
         $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
         return $x ^ $y;
@@ -338,7 +338,7 @@ class Integer extends Base
      */
     private static function subAdd3($x, $y, $z)
     {
-        $length = max(strlen($x), strlen($y), strlen($z));
+        $length = max(strlen((string) $x), strlen((string) $y), strlen((string) $z));
         $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
         $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
         $z = str_pad($z, $length, "\0", STR_PAD_LEFT);
@@ -408,14 +408,14 @@ class Integer extends Base
             // row n-2 and the product of the quotient and the auxiliary in row
             // n-1
             $temp = static::polynomialMultiply($aux1, $q);
-            $aux = str_pad($aux0, strlen($temp), "\0", STR_PAD_LEFT) ^
-                   str_pad($temp, strlen($aux0), "\0", STR_PAD_LEFT);
+            $aux = str_pad($aux0, strlen((string) $temp), "\0", STR_PAD_LEFT) ^
+                   str_pad($temp, strlen((string) $aux0), "\0", STR_PAD_LEFT);
             $aux0 = $aux1;
             $aux1 = $aux;
         }
 
         $temp = new static($this->instanceID);
-        $temp->value = ltrim($aux1, "\0");
+        $temp->value = ltrim((string) $aux1, "\0");
         return $temp;
     }
 

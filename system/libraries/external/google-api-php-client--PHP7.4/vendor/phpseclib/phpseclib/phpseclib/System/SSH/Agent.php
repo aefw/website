@@ -168,7 +168,7 @@ class Agent
         }
 
         $packet = pack('NC', 1, self::SSH_AGENTC_REQUEST_IDENTITIES);
-        if (strlen($packet) != fputs($this->fsock, $packet)) {
+        if (strlen((string) $packet) != fputs($this->fsock, $packet)) {
             throw new \RuntimeException('Connection closed while requesting identities');
         }
 
@@ -269,10 +269,10 @@ class Agent
     {
         if ($this->expected_bytes > 0) {
             $this->socket_buffer.= $data;
-            $this->expected_bytes -= strlen($data);
+            $this->expected_bytes -= strlen((string) $data);
         } else {
             $agent_data_bytes = current(unpack('N', $data));
-            $current_data_bytes = strlen($data);
+            $current_data_bytes = strlen((string) $data);
             $this->socket_buffer = $data;
             if ($current_data_bytes != $agent_data_bytes + 4) {
                 $this->expected_bytes = ($agent_data_bytes + 4) - $current_data_bytes;
@@ -280,7 +280,7 @@ class Agent
             }
         }
 
-        if (strlen($this->socket_buffer) != fwrite($this->fsock, $this->socket_buffer)) {
+        if (strlen((string) $this->socket_buffer) != fwrite($this->fsock, $this->socket_buffer)) {
             throw new \RuntimeException('Connection closed attempting to forward data to SSH agent');
         }
 

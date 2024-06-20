@@ -169,7 +169,7 @@ abstract class EvalBarrett extends Base
      * @param string $name
      * @return string
      */
-    private static function generateInlineTrim($name)
+    private static function generateInlinetrim((string) $name)
     {
         return '
             for ($i = count($' . $name . ') - 1; $i >= 0; --$i) {
@@ -295,7 +295,7 @@ abstract class EvalBarrett extends Base
                 }
                 ++$' . $result . '[$i];
             }';
-            $code.= self::generateInlineTrim($result);
+            $code.= self::generateInlinetrim((string) $result);
 
             return $code;
     }
@@ -354,7 +354,7 @@ abstract class EvalBarrett extends Base
                 --$' . $result . '[$i];
             }';
 
-        $code.= self::generateInlineTrim($result);
+        $code.= self::generateInlinetrim((string) $result);
 
         return $code;
     }
@@ -418,7 +418,7 @@ abstract class EvalBarrett extends Base
                 }
                 --$' . $result . '[$i];
             }';
-        $code.= self::generateInlineTrim($result);
+        $code.= self::generateInlinetrim((string) $result);
 
         return $code;
     }

@@ -13,9 +13,9 @@ declare(strict_types=1);
 namespace BarcodeBakery\Common\Drawer;
 
 if (!function_exists('file_put_contents')) {
-    function file_put_contents($filename, $data)
+    function file_put_contents($fileName, $data)
     {
-        $f = @fopen($filename, 'w');
+        $f = @fopen($fileName, 'w');
         if (!$f) {
             return false;
         } else {
@@ -28,24 +28,25 @@ if (!function_exists('file_put_contents')) {
 
 class BCGDrawPNG extends BCGDraw
 {
-    private $dpi;
+    private ?int $dpi;
 
     /**
      * Constructor.
      *
-     * @param resource $im
+     * @param resource $image The surface.
      */
-    public function __construct($im)
+    public function __construct($image)
     {
-        parent::__construct($im);
+        parent::__construct($image);
     }
 
     /**
      * Sets the DPI.
      *
-     * @param int $dpi
+     * @param int|null $dpi The dpi.
+     * @return void
      */
-    public function setDPI($dpi)
+    public function setDPI(?int $dpi): void
     {
         if (is_numeric($dpi)) {
             $this->dpi = max(1, $dpi);
@@ -56,27 +57,29 @@ class BCGDrawPNG extends BCGDraw
 
     /**
      * Draws the PNG on the screen or in a file.
+     *
+     * @return void
      */
-    public function draw()
+    public function draw(): void
     {
         ob_start();
-        imagepng($this->im);
+        imagepng($this->image);
         $bin = ob_get_contents();
         ob_end_clean();
 
         $this->setInternalProperties($bin);
 
-        if (empty($this->filename)) {
+        if (empty($this->fileName)) {
             echo $bin;
         } else {
-            file_put_contents($this->filename, $bin);
+            file_put_contents($this->fileName, $bin);
         }
     }
 
-    private function setInternalProperties(&$bin)
+    private function setInternalProperties(&$bin): void
     {
         // Scan all the ChunkType
-        if (strcmp(substr($bin, 0, 8), pack('H*', '89504E470D0A1A0A')) === 0) {
+        if (strcmp(substr((string) $bin, 0, 8), pack('H*', '89504E470D0A1A0A')) === 0) {
             $chunks = $this->detectChunks($bin);
 
             $this->internalSetDPI($bin, $chunks);
@@ -86,9 +89,9 @@ class BCGDrawPNG extends BCGDraw
 
     private function detectChunks($bin)
     {
-        $data = substr($bin, 8);
+        $data = substr((string) $bin, 8);
         $chunks = array();
-        $c = strlen($data);
+        $c = strlen((string) $data);
 
         $offset = 0;
         while ($offset < $c) {
@@ -99,13 +102,13 @@ class BCGDrawPNG extends BCGDraw
             $chunks[] = array('offset' => $offset + 8, 'size' => $size, 'chunk' => $chunk);
             $jump = $size + 12;
             $offset += $jump;
-            $data = substr($data, $jump);
+            $data = substr((string) $data, $jump);
         }
 
         return $chunks;
     }
 
-    private function internalSetDPI(&$bin, &$chunks)
+    private function internalSetDPI(&$bin, &$chunks): void
     {
         if ($this->dpi !== null) {
             $meters = (int)($this->dpi * 39.37007874);
@@ -125,7 +128,7 @@ class BCGDrawPNG extends BCGDraw
             $cr = pack('Na13N', 9, $data, $crc);
 
             // We didn't have a pHYs
-            if ($found == -1) {
+            if ($found === -1) {
                 // Don't do anything if we have a bad PNG
                 if ($c >= 2 && $chunks[0]['chunk'] === 'IHDR') {
                     array_splice($chunks, 1, 0, array(array('offset' => 33, 'size' => 9, 'chunk' => 'pHYs')));
@@ -135,8 +138,8 @@ class BCGDrawPNG extends BCGDraw
                         $chunks[$i]['offset'] += 21;
                     }
 
-                    $firstPart = substr($bin, 0, 33);
-                    $secondPart = substr($bin, 33);
+                    $firstPart = substr((string) $bin, 0, 33);
+                    $secondPart = substr((string) $bin, 33);
                     $bin = $firstPart;
                     $bin .= $cr;
                     $bin .= $secondPart;
@@ -147,11 +150,11 @@ class BCGDrawPNG extends BCGDraw
         }
     }
 
-    private function internalSetC(&$bin, &$chunks)
+    private function internalSetC(&$bin, &$chunks): void
     {
         if (count($chunks) >= 2 && $chunks[0]['chunk'] === 'IHDR') {
-            $firstPart = substr($bin, 0, 33);
-            $secondPart = substr($bin, 33);
+            $firstPart = substr((string) $bin, 0, 33);
+            $secondPart = substr((string) $bin, 33);
             $cr = pack('H*', '0000004C74455874436F707972696768740047656E657261746564207769746820426172636F64652042616B65727920666F722050485020687474703A2F2F7777772E626172636F646562616B6572792E636F6DC57F50A1');
             $bin = $firstPart;
             $bin .= $cr;
@@ -161,27 +164,28 @@ class BCGDrawPNG extends BCGDraw
         // Chunks is dirty!! But we are done.
     }
 
-    private static $crc_table = array();
-    private static $crc_table_computed = false;
+    private static array $crcTable = array();
+    private static bool $crcTableComputed = false;
 
-    private static function make_crc_table()
+    private static function make_crcTable(): void
     {
         for ($n = 0; $n < 256; $n++) {
             $c = $n;
             for ($k = 0; $k < 8; $k++) {
-                if (($c & 1) == 1) {
+                if (($c & 1) === 1) {
                     $c = 0xedb88320 ^ (self::SHR($c, 1));
                 } else {
                     $c = self::SHR($c, 1);
                 }
             }
-            self::$crc_table[$n] = $c;
+
+            self::$crcTable[$n] = $c;
         }
 
-        self::$crc_table_computed = true;
+        self::$crcTableComputed = true;
     }
 
-    private static function SHR($x, $n)
+    private static function SHR($x, $n): int
     {
         $mask = 0x40000000;
 
@@ -194,22 +198,22 @@ class BCGDrawPNG extends BCGDraw
         return (int)$x >> (int)$n;
     }
 
-    private static function update_crc($crc, $buf, $len)
+    private static function update_crc($crc, $buf, $len): int
     {
         $c = $crc;
 
-        if (!self::$crc_table_computed) {
-            self::make_crc_table();
+        if (!self::$crcTableComputed) {
+            self::make_crcTable();
         }
 
         for ($n = 0; $n < $len; $n++) {
-            $c = self::$crc_table[($c ^ ord($buf[$n])) & 0xff] ^ (self::SHR($c, 8));
+            $c = self::$crcTable[($c ^ ord($buf[$n])) & 0xff] ^ (self::SHR($c, 8));
         }
 
         return $c;
     }
 
-    private static function crc($data, $len)
+    private static function crc($data, $len): int
     {
         return self::update_crc(-1, $data, $len) ^ -1;
     }

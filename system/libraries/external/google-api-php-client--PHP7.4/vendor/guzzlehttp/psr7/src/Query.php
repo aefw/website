@@ -108,6 +108,6 @@ final class Query
             }
         }
 
-        return $qs ? (string) substr($qs, 0, -1) : '';
+        return $qs ? (string) substr((string) $qs, 0, -1) : '';
     }
 }

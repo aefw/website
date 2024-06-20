@@ -824,7 +824,7 @@ class Worksheet extends BIFFwriter
 
         // Strip the '=' or '@' sign at the beginning of the formula string
         if ($formula[0] == '=') {
-            $formula = substr($formula, 1);
+            $formula = substr((string) $formula, 1);
         } else {
             // Error handling
             $this->writeString($row, $col, 'Unrecognised character for formula', 0);
@@ -837,7 +837,7 @@ class Worksheet extends BIFFwriter
             $error = $this->parser->parse($formula);
             $formula = $this->parser->toReversePolish();
 
-            $formlen = strlen($formula); // Length of the binary string
+            $formlen = strlen((string) $formula); // Length of the binary string
             $length = 0x16 + $formlen; // Length of the record data
 
             $header = pack('vv', $record, $length);
@@ -868,7 +868,7 @@ class Worksheet extends BIFFwriter
         $record = 0x0207; // Record identifier
         $data = StringHelper::UTF8toBIFF8UnicodeLong($stringValue);
 
-        $length = strlen($data);
+        $length = strlen((string) $data);
         $header = pack('vv', $record, $length);
 
         $this->append($header . $data);
@@ -962,10 +962,10 @@ class Worksheet extends BIFFwriter
         $url = $url . "\0\0\0";
 
         // Pack the length of the URL
-        $url_len = pack('V', strlen($url));
+        $url_len = pack('V', strlen((string) $url));
 
         // Calculate the data length
-        $length = 0x34 + strlen($url);
+        $length = 0x34 + strlen((string) $url);
 
         // Pack the header data
         $header = pack('vv', $record, $length);
@@ -1014,7 +1014,7 @@ class Worksheet extends BIFFwriter
         $url = StringHelper::convertEncoding($url, 'UTF-16LE', 'UTF-8');
 
         // Calculate the data length
-        $length = 0x24 + strlen($url);
+        $length = 0x24 + strlen((string) $url);
 
         // Pack the header data
         $header = pack('vv', $record, $length);
@@ -1092,9 +1092,9 @@ class Worksheet extends BIFFwriter
         $dir_long = $dir_long . "\0";
 
         // Pack the lengths of the dir strings
-        $dir_short_len = pack('V', strlen($dir_short));
-        $dir_long_len = pack('V', strlen($dir_long));
-        $stream_len = pack('V', 0); //strlen($dir_long) + 0x06);
+        $dir_short_len = pack('V', strlen((string) $dir_short));
+        $dir_long_len = pack('V', strlen((string) $dir_long));
+        $stream_len = pack('V', 0); //strlen((string) $dir_long) + 0x06);
 
         // Pack the undocumented parts of the hyperlink stream
         $unknown1 = pack('H*', 'D0C9EA79F9BACE118C8200AA004BA90B02000000');
@@ -1119,7 +1119,7 @@ class Worksheet extends BIFFwriter
                           $sheet        ;*/
 
         // Pack the header data
-        $length = strlen($data);
+        $length = strlen((string) $data);
         $header = pack('vv', $record, $length);
 
         // Write the packed data
@@ -1449,7 +1449,7 @@ class Worksheet extends BIFFwriter
             // flush record if we have reached limit for number of merged cells, or reached final merged cell
             if ($j == $maxCountMergeCellsPerRecord or $i == $countMergeCells) {
                 $recordData = pack('v', $j) . $recordData;
-                $length = strlen($recordData);
+                $length = strlen((string) $recordData);
                 $header = pack('vv', $record, $length);
                 $this->append($header . $recordData);
 
@@ -1480,7 +1480,7 @@ class Worksheet extends BIFFwriter
             0x0000        // unused
         );
 
-        $length = strlen($recordData);
+        $length = strlen((string) $recordData);
 
         $record = 0x0862; // Record identifier
         $header = pack('vv', $record, $length);
@@ -1525,7 +1525,7 @@ class Worksheet extends BIFFwriter
             0x0000 // not used
         );
 
-        $length = strlen($recordData);
+        $length = strlen((string) $recordData);
         $header = pack('vv', $record, $length);
 
         $this->append($header . $recordData);
@@ -1571,7 +1571,7 @@ class Worksheet extends BIFFwriter
 
             $recordData .= StringHelper::UTF8toBIFF8UnicodeLong('p' . md5($recordData));
 
-            $length = strlen($recordData);
+            $length = strlen((string) $recordData);
 
             $record = 0x0868; // Record identifier
             $header = pack('vv', $record, $length);
@@ -1736,7 +1736,7 @@ class Worksheet extends BIFFwriter
 
         /* removing for now
         // need to fix character count (multibyte!)
-        if (strlen($this->phpSheet->getHeaderFooter()->getOddHeader()) <= 255) {
+        if (strlen((string) $this->phpSheet->getHeaderFooter()->getOddHeader()) <= 255) {
             $str      = $this->phpSheet->getHeaderFooter()->getOddHeader();       // header string
         } else {
             $str = '';
@@ -1744,7 +1744,7 @@ class Worksheet extends BIFFwriter
         */
 
         $recordData = StringHelper::UTF8toBIFF8UnicodeLong($this->phpSheet->getHeaderFooter()->getOddHeader());
-        $length = strlen($recordData);
+        $length = strlen((string) $recordData);
 
         $header = pack('vv', $record, $length);
 
@@ -1760,7 +1760,7 @@ class Worksheet extends BIFFwriter
 
         /* removing for now
         // need to fix character count (multibyte!)
-        if (strlen($this->phpSheet->getHeaderFooter()->getOddFooter()) <= 255) {
+        if (strlen((string) $this->phpSheet->getHeaderFooter()->getOddFooter()) <= 255) {
             $str = $this->phpSheet->getHeaderFooter()->getOddFooter();
         } else {
             $str = '';
@@ -1768,7 +1768,7 @@ class Worksheet extends BIFFwriter
         */
 
         $recordData = StringHelper::UTF8toBIFF8UnicodeLong($this->phpSheet->getHeaderFooter()->getOddFooter());
-        $length = strlen($recordData);
+        $length = strlen((string) $recordData);
 
         $header = pack('vv', $record, $length);
 
@@ -2443,7 +2443,7 @@ class Worksheet extends BIFFwriter
             }
         }
 
-        return [$width, $height, strlen($data), $data];
+        return [$width, $height, strlen((string) $data), $data];
     }
 
     /**
@@ -2467,7 +2467,7 @@ class Worksheet extends BIFFwriter
         $data = fread($bmp_fd, filesize($bitmap));
 
         // Check that the file is big enough to be a bitmap.
-        if (strlen($data) <= 0x36) {
+        if (strlen((string) $data) <= 0x36) {
             throw new WriterException("$bitmap doesn't contain enough data.\n");
         }
 
@@ -2478,25 +2478,25 @@ class Worksheet extends BIFFwriter
         }
 
         // Remove bitmap data: ID.
-        $data = substr($data, 2);
+        $data = substr((string) $data, 2);
 
         // Read and remove the bitmap size. This is more reliable than reading
         // the data size at offset 0x22.
         //
-        $size_array = unpack('Vsa', substr($data, 0, 4));
+        $size_array = unpack('Vsa', substr((string) $data, 0, 4));
         $size = $size_array['sa'];
-        $data = substr($data, 4);
+        $data = substr((string) $data, 4);
         $size -= 0x36; // Subtract size of bitmap header.
         $size += 0x0C; // Add size of BIFF header.
 
         // Remove bitmap data: reserved, offset, header length.
-        $data = substr($data, 12);
+        $data = substr((string) $data, 12);
 
         // Read and remove the bitmap width and height. Verify the sizes.
-        $width_and_height = unpack('V2', substr($data, 0, 8));
+        $width_and_height = unpack('V2', substr((string) $data, 0, 8));
         $width = $width_and_height[1];
         $height = $width_and_height[2];
-        $data = substr($data, 8);
+        $data = substr((string) $data, 8);
         if ($width > 0xFFFF) {
             throw new WriterException("$bitmap: largest image width supported is 65k.\n");
         }
@@ -2505,8 +2505,8 @@ class Worksheet extends BIFFwriter
         }
 
         // Read and remove the bitmap planes and bpp data. Verify them.
-        $planes_and_bitcount = unpack('v2', substr($data, 0, 4));
-        $data = substr($data, 4);
+        $planes_and_bitcount = unpack('v2', substr((string) $data, 0, 4));
+        $data = substr((string) $data, 4);
         if ($planes_and_bitcount[2] != 24) { // Bitcount
             throw new WriterException("$bitmap isn't a 24bit true color bitmap.\n");
         }
@@ -2515,15 +2515,15 @@ class Worksheet extends BIFFwriter
         }
 
         // Read and remove the bitmap compression. Verify compression.
-        $compression = unpack('Vcomp', substr($data, 0, 4));
-        $data = substr($data, 4);
+        $compression = unpack('Vcomp', substr((string) $data, 0, 4));
+        $data = substr((string) $data, 4);
 
         if ($compression['comp'] != 0) {
             throw new WriterException("$bitmap: compression not supported in bitmap image.\n");
         }
 
         // Remove bitmap data: data size, hres, vres, colours, imp. colours.
-        $data = substr($data, 20);
+        $data = substr((string) $data, 20);
 
         // Add the BITMAPCOREHEADER data
         $header = pack('Vvvvv', 0x000c, $width, $height, 0x01, 0x18);
@@ -2592,9 +2592,9 @@ class Worksheet extends BIFFwriter
                 $record = 0x00EC; // Record identifier
 
                 // chunk of Escher stream for one shape
-                $dataChunk = substr($data, $spOffsets[$i - 1], $spOffsets[$i] - $spOffsets[$i - 1]);
+                $dataChunk = substr((string) $data, $spOffsets[$i - 1], $spOffsets[$i] - $spOffsets[$i - 1]);
 
-                $length = strlen($dataChunk);
+                $length = strlen((string) $dataChunk);
                 $header = pack('vv', $record, $length);
 
                 $this->append($header . $dataChunk);
@@ -2649,7 +2649,7 @@ class Worksheet extends BIFFwriter
                         0x0000  // length of ftEnd data
                     );
 
-                $length = strlen($objData);
+                $length = strlen((string) $objData);
                 $header = pack('vv', $record, $length);
                 $this->append($header . $objData);
             }
@@ -2833,7 +2833,7 @@ class Worksheet extends BIFFwriter
                     }
                     $this->parser->parse($formula1);
                     $formula1 = $this->parser->toReversePolish();
-                    $sz1 = strlen($formula1);
+                    $sz1 = strlen((string) $formula1);
                 } catch (PhpSpreadsheetException $e) {
                     $sz1 = 0;
                     $formula1 = '';
@@ -2849,7 +2849,7 @@ class Worksheet extends BIFFwriter
                     }
                     $this->parser->parse($formula2);
                     $formula2 = $this->parser->toReversePolish();
-                    $sz2 = strlen($formula2);
+                    $sz2 = strlen((string) $formula2);
                 } catch (PhpSpreadsheetException $e) {
                     $sz2 = 0;
                     $formula2 = '';
@@ -2861,7 +2861,7 @@ class Worksheet extends BIFFwriter
                 $data .= pack('v', 0x0001);
                 $data .= $this->writeBIFF8CellRangeAddressFixed($cellCoordinate);
 
-                $length = strlen($data);
+                $length = strlen((string) $data);
                 $header = pack('vv', $record, $length);
 
                 $this->append($header . $data);
@@ -4390,7 +4390,7 @@ class Worksheet extends BIFFwriter
         if ($operand2 !== null) {
             $data .= $operand2;
         }
-        $header = pack('vv', $record, strlen($data));
+        $header = pack('vv', $record, strlen((string) $data));
         $this->append($header . $data);
     }
 

@@ -262,15 +262,15 @@ class Resource
   public function createRequestUri($restPath, $params)
   {
     // Override the default servicePath address if the $restPath use a /
-    if ('/' == substr($restPath, 0, 1)) {
-      $requestUrl = substr($restPath, 1);
+    if ('/' == substr((string) $restPath, 0, 1)) {
+      $requestUrl = substr((string) $restPath, 1);
     } else {
       $requestUrl = $this->servicePath . $restPath;
     }
 
     // code for leading slash
     if ($this->rootUrl) {
-      if ('/' !== substr($this->rootUrl, -1) && '/' !== substr($requestUrl, 0, 1)) {
+      if ('/' !== substr((string) $this->rootUrl, -1) && '/' !== substr((string) $requestUrl, 0, 1)) {
         $requestUrl = '/' . $requestUrl;
       }
       $requestUrl = $this->rootUrl . $requestUrl;

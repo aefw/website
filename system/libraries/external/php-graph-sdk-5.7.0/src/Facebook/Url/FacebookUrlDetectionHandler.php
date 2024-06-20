@@ -107,7 +107,7 @@ class FacebookUrlDetectionHandler implements UrlDetectionInterface
 
         // trim and remove port number from host
         // host is lowercase as per RFC 952/2181
-        $host = strtolower(preg_replace('/:\d+$/', '', trim($host)));
+        $host = strtolower(preg_replace('/:\d+$/', '', trim((string) $host)));
 
         // Port number
         $scheme = $this->getHttpScheme();
@@ -176,7 +176,7 @@ class FacebookUrlDetectionHandler implements UrlDetectionInterface
         $host = $elements[count($elements) - 1];
         
         return preg_match("/^([a-z\d](-*[a-z\d])*)(\.([a-z\d](-*[a-z\d])*))*$/i", $host) //valid chars check
-            && 0 < strlen($host) && strlen($host) < 254 //overall length check
+            && 0 < strlen((string) $host) && strlen((string) $host) < 254 //overall length check
             && preg_match("/^[^\.]{1,63}(\.[^\.]{1,63})*$/", $host); //length of each label
     }
 }

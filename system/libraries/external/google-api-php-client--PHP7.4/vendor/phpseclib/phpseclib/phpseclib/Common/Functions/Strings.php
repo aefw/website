@@ -38,8 +38,8 @@ abstract class Strings
      */
     public static function shift(&$string, $index = 1)
     {
-        $substr = substr($string, 0, $index);
-        $string = substr($string, $index);
+        $substr = substr((string) $string, 0, $index);
+        $string = substr((string) $string, $index);
         return $substr;
     }
 
@@ -55,8 +55,8 @@ abstract class Strings
      */
     public static function pop(&$string, $index = 1)
     {
-        $substr = substr($string, -$index);
-        $string = substr($string, 0, -$index);
+        $substr = substr((string) $string, -$index);
+        $string = substr((string) $string, 0, -$index);
         return $substr;
     }
 
@@ -84,11 +84,11 @@ abstract class Strings
     {
         $format = self::formatPack($format);
         $result = [];
-        for ($i = 0; $i < strlen($format); $i++) {
+        for ($i = 0; $i < strlen((string) $format); $i++) {
             switch ($format[$i]) {
                 case 'C':
                 case 'b':
-                    if (!strlen($data)) {
+                    if (!strlen((string) $data)) {
                         throw new \LengthException('At least one byte needs to be present for successful C / b decodes');
                     }
                     break;
@@ -96,7 +96,7 @@ abstract class Strings
                 case 'i':
                 case 's':
                 case 'L':
-                    if (strlen($data) < 4) {
+                    if (strlen((string) $data) < 4) {
                         throw new \LengthException('At least four byte needs to be present for successful N / i / s / L decodes');
                     }
                     break;
@@ -116,8 +116,8 @@ abstract class Strings
                     continue 2;
             }
             list(, $length) = unpack('N', self::shift($data, 4));
-            if (strlen($data) < $length) {
-                throw new \LengthException("$length bytes needed; " . strlen($data) . ' bytes available');
+            if (strlen((string) $data) < $length) {
+                throw new \LengthException("$length bytes needed; " . strlen((string) $data) . ' bytes available');
             }
             $temp = self::shift($data, $length);
             switch ($format[$i]) {
@@ -146,11 +146,11 @@ abstract class Strings
     {
         $format = self::formatPack($elements[0]);
         array_shift($elements);
-        if (strlen($format) != count($elements)) {
+        if (strlen((string) $format) != count($elements)) {
             throw new \InvalidArgumentException('There must be as many arguments as there are characters in the $format string');
         }
         $result = '';
-        for ($i = 0; $i < strlen($format); $i++) {
+        for ($i = 0; $i < strlen((string) $format); $i++) {
             $element = $elements[$i];
             switch ($format[$i]) {
                 case 'C':
@@ -178,21 +178,21 @@ abstract class Strings
                     if (!self::is_stringable($element)) {
                         throw new \InvalidArgumentException('A string was expected.');
                     }
-                    $result.= pack('Na*', strlen($element), $element);
+                    $result.= pack('Na*', strlen((string) $element), $element);
                     break;
                 case 'i':
                     if (!$element instanceof BigInteger && !$element instanceof FiniteField\Integer) {
                         throw new \InvalidArgumentException('A phpseclib3\Math\BigInteger or phpseclib3\Math\Common\FiniteField\Integer object was expected.');
                     }
                     $element = $element->toBytes(true);
-                    $result.= pack('Na*', strlen($element), $element);
+                    $result.= pack('Na*', strlen((string) $element), $element);
                     break;
                 case 'L':
                     if (!is_array($element)) {
                         throw new \InvalidArgumentException('An array was expected.');
                     }
                     $element = implode(',', $element);
-                    $result.= pack('Na*', strlen($element), $element);
+                    $result.= pack('Na*', strlen((string) $element), $element);
                     break;
                 default:
                     throw new \InvalidArgumentException('$format contains an invalid character');
@@ -215,7 +215,7 @@ abstract class Strings
         $parts = preg_split('#(\d+)#', $format, -1, PREG_SPLIT_DELIM_CAPTURE);
         $format = '';
         for ($i = 1; $i < count($parts); $i+=2) {
-            $format.= substr($parts[$i - 1], 0, -1) . str_repeat(substr($parts[$i - 1], -1), $parts[$i]);
+            $format.= substr((string) $parts[$i - 1], 0, -1) . str_repeat(substr((string) $parts[$i - 1], -1), $parts[$i]);
         }
         $format.= $parts[$i - 1];
 
@@ -239,7 +239,7 @@ abstract class Strings
         /*
         // the pure-PHP approach is faster than the GMP approach
         if (function_exists('gmp_export')) {
-             return strlen($x) ? gmp_export(gmp_init($x, 2)) : gmp_init(0);
+             return strlen((string) $x) ? gmp_export(gmp_init($x, 2)) : gmp_init(0);
         }
         */
 
@@ -251,7 +251,7 @@ abstract class Strings
             define('PHP_INT_MIN', ~PHP_INT_MAX);
         }
 
-        $length = strlen($x);
+        $length = strlen((string) $x);
         if (!$length) {
             return '';
         }
@@ -271,7 +271,7 @@ abstract class Strings
                 $xor ^ eval('return 0b' . $part . ';')
             );
         }
-        return ltrim($str, "\0");
+        return ltrim((string) $str, "\0");
     }
 
     /**
@@ -291,7 +291,7 @@ abstract class Strings
         }
         */
 
-        $len = strlen($x);
+        $len = strlen((string) $x);
         $mod = $len % PHP_INT_SIZE;
         if ($mod) {
             $x = str_pad($x, $len + PHP_INT_SIZE - $mod, "\0", STR_PAD_LEFT);
@@ -310,7 +310,7 @@ abstract class Strings
             }
         }
 
-        return ltrim($bits, '0');
+        return ltrim((string) $bits, '0');
     }
 
     /**
@@ -324,7 +324,7 @@ abstract class Strings
     {
         $r = '';
         // from http://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith32Bits
-        for ($i = strlen($x) - 1; $i >= 0; $i--) {
+        for ($i = strlen((string) $x) - 1; $i >= 0; $i--) {
             $b = ord($x[$i]);
             $p1 = ($b * 0x0802) & 0x22110;
             $p2 = ($b * 0x8020) & 0x88440;
@@ -344,8 +344,8 @@ abstract class Strings
      */
     public static function increment_str(&$var)
     {
-        for ($i = 4; $i <= strlen($var); $i+= 4) {
-            $temp = substr($var, -$i, 4);
+        for ($i = 4; $i <= strlen((string) $var); $i+= 4) {
+            $temp = substr((string) $var, -$i, 4);
             switch ($temp) {
                 case "\xFF\xFF\xFF\xFF":
                     $var = substr_replace($var, "\x00\x00\x00\x00", -$i, 4);
@@ -360,13 +360,13 @@ abstract class Strings
             }
         }
 
-        $remainder = strlen($var) % 4;
+        $remainder = strlen((string) $var) % 4;
 
         if ($remainder == 0) {
             return $var;
         }
 
-        $temp = unpack('Nnum', str_pad(substr($var, 0, $remainder), 4, "\0", STR_PAD_LEFT));
+        $temp = unpack('Nnum', str_pad(substr((string) $var, 0, $remainder), 4, "\0", STR_PAD_LEFT));
         $temp = substr(pack('N', $temp['num'] + 1), -$remainder);
         $var = substr_replace($var, $temp, 0, $remainder);
 

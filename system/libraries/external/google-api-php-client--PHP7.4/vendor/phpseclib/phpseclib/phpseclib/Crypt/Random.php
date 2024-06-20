@@ -164,8 +164,8 @@ abstract class Random
                     throw new \RuntimeException(__CLASS__ . ' requires at least one symmetric cipher be loaded');
             }
 
-            $crypto->setKey(substr($key, 0, $crypto->getKeyLength() >> 3));
-            $crypto->setIV(substr($iv, 0, $crypto->getBlockLength() >> 3));
+            $crypto->setKey(substr((string) $key, 0, $crypto->getKeyLength() >> 3));
+            $crypto->setIV(substr((string) $iv, 0, $crypto->getBlockLength() >> 3));
             $crypto->enableContinuousBuffer();
         }
 
@@ -180,14 +180,14 @@ abstract class Random
         // http://www.opensource.apple.com/source/OpenSSL/OpenSSL-38/openssl/fips-1.0/rand/fips_rand.c
         // (do a search for "ANS X9.31 A.2.4")
         $result = '';
-        while (strlen($result) < $length) {
+        while (strlen((string) $result) < $length) {
             $i = $crypto->encrypt(microtime()); // strlen(microtime()) == 21
-            $r = $crypto->encrypt($i ^ $v); // strlen($v) == 20
-            $v = $crypto->encrypt($r ^ $i); // strlen($r) == 20
+            $r = $crypto->encrypt($i ^ $v); // strlen((string) $v) == 20
+            $v = $crypto->encrypt($r ^ $i); // strlen((string) $r) == 20
             $result.= $r;
         }
 
-        return substr($result, 0, $length);
+        return substr((string) $result, 0, $length);
     }
 
     /**

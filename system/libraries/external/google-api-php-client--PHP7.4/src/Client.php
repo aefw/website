@@ -235,7 +235,7 @@ class Client
    */
   public function fetchAccessTokenWithAuthCode($code)
   {
-    if (strlen($code) == 0) {
+    if (strlen((string) $code) == 0) {
       throw new InvalidArgumentException("Invalid code");
     }
 
@@ -387,7 +387,7 @@ class Client
     // If the list of scopes contains plus.login, add request_visible_actions
     // to auth URL.
     $rva = $this->config['request_visible_actions'];
-    if (strlen($rva) > 0 && false !== strpos($scope, 'plus.login')) {
+    if (strlen((string) $rva) > 0 && false !== strpos($scope, 'plus.login')) {
         $params['request_visible_actions'] = $rva;
     }
 

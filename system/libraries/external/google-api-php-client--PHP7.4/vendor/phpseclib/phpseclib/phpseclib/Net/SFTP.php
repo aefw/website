@@ -714,14 +714,14 @@ class SFTP extends SSH2
             }
         }
 
-        if (!strlen($path) || $path[0] != '/') {
+        if (!strlen((string) $path) || $path[0] != '/') {
             $path = $this->pwd . '/' . $path;
         }
 
         $path = explode('/', $path);
         $new = [];
         foreach ($path as $dir) {
-            if (!strlen($dir)) {
+            if (!strlen((string) $dir)) {
                 continue;
             }
             switch ($dir) {
@@ -755,7 +755,7 @@ class SFTP extends SSH2
         if ($dir === '') {
             $dir = './';
         // suffix a slash if needed
-        } elseif ($dir[strlen($dir) - 1] != '/') {
+        } elseif ($dir[strlen((string) $dir) - 1] != '/') {
             $dir.= '/';
         }
 
@@ -778,7 +778,7 @@ class SFTP extends SSH2
         $response = $this->get_sftp_packet();
         switch ($this->packet_type) {
             case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
+                $handle = substr((string) $response, 4);
                 break;
             case NET_SFTP_STATUS:
                 $this->logError($response);
@@ -919,7 +919,7 @@ class SFTP extends SSH2
                 // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-9.2
                 // since 'handle' is the last field in the SSH_FXP_HANDLE packet, we'll just remove the first four bytes that
                 // represent the length of the string and leave it at that
-                $handle = substr($response, 4);
+                $handle = substr((string) $response, 4);
                 break;
             case NET_SFTP_STATUS:
                 // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
@@ -1104,7 +1104,7 @@ class SFTP extends SSH2
             return;
         }
 
-        // preg_replace('#^/|/(?=/)|/$#', '', $dir) == str_replace('//', '/', trim($path, '/'))
+        // preg_replace('#^/|/(?=/)|/$#', '', $dir) == str_replace('//', '/', trim((string) $path, '/'))
         $dirs = explode('/', preg_replace('#^/|/(?=/)|/$#', '', $path));
 
         $temp = &$this->stat_cache;
@@ -1395,7 +1395,7 @@ class SFTP extends SSH2
         $response = $this->get_sftp_packet();
         switch ($this->packet_type) {
             case NET_SFTP_HANDLE:
-                return $this->close_handle(substr($response, 4));
+                return $this->close_handle(substr((string) $response, 4));
             case NET_SFTP_STATUS:
                 $this->logError($response);
                 break;
@@ -1478,7 +1478,7 @@ class SFTP extends SSH2
         // rather than return what the permissions *should* be, we'll return what they actually are.  this will also
         // tell us if the file actually exists.
         // incidentally, SFTPv4+ adds an additional 32-bit integer field - flags - to the following:
-        $packet = pack('Na*', strlen($filename), $filename);
+        $packet = pack('Na*', strlen((string) $filename), $filename);
         $this->send_sftp_packet(NET_SFTP_STAT, $packet);
 
         $response = $this->get_sftp_packet();
@@ -1891,7 +1891,7 @@ class SFTP extends SSH2
         $response = $this->get_sftp_packet();
         switch ($this->packet_type) {
             case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
+                $handle = substr((string) $response, 4);
                 break;
             case NET_SFTP_STATUS:
                 $this->logError($response);
@@ -1943,7 +1943,7 @@ class SFTP extends SSH2
         } elseif ($dataCallback) {
             $size = 0;
         } else {
-            $size = strlen($data);
+            $size = strlen((string) $data);
         }
 
         $sent = 0;
@@ -1951,7 +1951,7 @@ class SFTP extends SSH2
 
         $sftp_packet_size = $this->max_sftp_packet;
         // make the SFTP packet be exactly the SFTP packet size by including the bytes in the NET_SFTP_WRITE packets "header"
-        $sftp_packet_size-= strlen($handle) + 25;
+        $sftp_packet_size-= strlen((string) $handle) + 25;
         $i = $j = 0;
         while ($dataCallback || ($size === 0 || $sent < $size)) {
             if ($dataCallback) {
@@ -1960,14 +1960,14 @@ class SFTP extends SSH2
                     break;
                 }
             } else {
-                $temp = isset($fp) ? fread($fp, $sftp_packet_size) : substr($data, $sent, $sftp_packet_size);
+                $temp = isset($fp) ? fread($fp, $sftp_packet_size) : substr((string) $data, $sent, $sftp_packet_size);
                 if ($temp === false || $temp === '') {
                     break;
                 }
             }
 
             $subtemp = $offset + $sent;
-            $packet = pack('Na*N3a*', strlen($handle), $handle, $subtemp / 4294967296, $subtemp, strlen($temp), $temp);
+            $packet = pack('Na*N3a*', strlen((string) $handle), $handle, $subtemp / 4294967296, $subtemp, strlen((string) $temp), $temp);
             try {
                 $this->send_sftp_packet(NET_SFTP_WRITE, $packet, $j);
             } catch (\Exception $e) {
@@ -1976,7 +1976,7 @@ class SFTP extends SSH2
                 }
                 throw $e;
             }
-            $sent+= strlen($temp);
+            $sent+= strlen((string) $temp);
             if (is_callable($progressCallback)) {
                 $progressCallback($sent);
             }
@@ -2054,7 +2054,7 @@ class SFTP extends SSH2
      */
     private function close_handle($handle)
     {
-        $this->send_sftp_packet(NET_SFTP_CLOSE, pack('Na*', strlen($handle), $handle));
+        $this->send_sftp_packet(NET_SFTP_CLOSE, pack('Na*', strlen((string) $handle), $handle));
 
         // "The client MUST release all resources associated with the handle regardless of the status."
         //  -- http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.1.3
@@ -2102,13 +2102,13 @@ class SFTP extends SSH2
             return false;
         }
 
-        $packet = pack('Na*N2', strlen($remote_file), $remote_file, NET_SFTP_OPEN_READ, 0);
+        $packet = pack('Na*N2', strlen((string) $remote_file), $remote_file, NET_SFTP_OPEN_READ, 0);
         $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
 
         $response = $this->get_sftp_packet();
         switch ($this->packet_type) {
             case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
+                $handle = substr((string) $response, 4);
                 break;
             case NET_SFTP_STATUS: // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
                 $this->logError($response);
@@ -2179,8 +2179,8 @@ class SFTP extends SSH2
 
                 switch ($this->packet_type) {
                     case NET_SFTP_DATA:
-                        $temp = substr($response, 4);
-                        $offset+= strlen($temp);
+                        $temp = substr((string) $response, 4);
+                        $offset+= strlen((string) $temp);
                         if ($local_file === false) {
                             $content.= $temp;
                         } elseif (is_callable($local_file)) {
@@ -2194,7 +2194,7 @@ class SFTP extends SSH2
                         $temp = null;
                         break;
                     case NET_SFTP_STATUS:
-                        // could, in theory, return false if !strlen($content) but we'll hold off for the time being
+                        // could, in theory, return false if !strlen((string) $content) but we'll hold off for the time being
                         $this->logError($response);
                         $clear_responses = true; // don't break out of the loop yet, so we can read the remaining responses
                         break;
@@ -2220,7 +2220,7 @@ class SFTP extends SSH2
 
         if ($length > 0 && $length <= $offset - $start) {
             if ($local_file === false) {
-                $content = substr($content, 0, $length);
+                $content = substr((string) $content, 0, $length);
             } else {
                 ftruncate($fp, $length + $res_offset);
             }
@@ -2273,7 +2273,7 @@ class SFTP extends SSH2
         }
 
         // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.3
-        $this->send_sftp_packet(NET_SFTP_REMOVE, pack('Na*', strlen($path), $path));
+        $this->send_sftp_packet(NET_SFTP_REMOVE, pack('Na*', strlen((string) $path), $path));
 
         $response = $this->get_sftp_packet();
         if ($this->packet_type != NET_SFTP_STATUS) {
@@ -2859,8 +2859,8 @@ class SFTP extends SSH2
         $this->curTimeout = $this->timeout;
 
         $packet = $this->use_request_id ?
-            pack('NCNa*', strlen($data) + 5, $type, $request_id, $data) :
-            pack('NCa*',  strlen($data) + 1, $type, $data);
+            pack('NCNa*', strlen((string) $data) + 5, $type, $request_id, $data) :
+            pack('NCa*',  strlen((string) $data) + 1, $type, $data);
 
         $start = microtime(true);
         $result = $this->send_channel_packet(self::CHANNEL, $packet);
@@ -2937,7 +2937,7 @@ class SFTP extends SSH2
         $start = microtime(true);
 
         // SFTP packet length
-        while (strlen($this->packet_buffer) < 4) {
+        while (strlen((string) $this->packet_buffer) < 4) {
             $temp = $this->get_channel_packet(self::CHANNEL, true);
             if ($temp === true) {
                 if ($this->channel_status[NET_SFTP_CHANNEL] === NET_SSH2_MSG_CHANNEL_CLOSE) {
@@ -2949,14 +2949,14 @@ class SFTP extends SSH2
             }
             $this->packet_buffer.= $temp;
         }
-        if (strlen($this->packet_buffer) < 4) {
+        if (strlen((string) $this->packet_buffer) < 4) {
             throw new \RuntimeException('Packet is too small');
         }
         extract(unpack('Nlength', Strings::shift($this->packet_buffer, 4)));
         /** @var integer $length */
 
         $tempLength = $length;
-        $tempLength-= strlen($this->packet_buffer);
+        $tempLength-= strlen((string) $this->packet_buffer);
 
         // 256 * 1024 is what SFTP_MAX_MSG_LENGTH is set to in OpenSSH's sftp-common.h
         if ($tempLength > 256 * 1024) {
@@ -2972,7 +2972,7 @@ class SFTP extends SSH2
                 return false;
             }
             $this->packet_buffer.= $temp;
-            $tempLength-= strlen($temp);
+            $tempLength-= strlen((string) $temp);
         }
 
         $stop = microtime(true);

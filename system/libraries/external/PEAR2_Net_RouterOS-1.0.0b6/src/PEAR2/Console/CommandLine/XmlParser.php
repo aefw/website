@@ -168,12 +168,12 @@ class XmlParser
             case 'name':
             case 'description':
             case 'version':
-                $obj->$cNodeName = trim($cNode->nodeValue);
+                $obj->$cNodeName = trim((string) $cNode->nodeValue);
                 break;
             case 'add_help_option':
             case 'add_version_option':
             case 'force_posix':
-                $obj->$cNodeName = self::_bool(trim($cNode->nodeValue));
+                $obj->$cNodeName = self::_bool(trim((string) $cNode->nodeValue));
                 break;
             case 'option':
                 $obj->addOption(self::_parseOptionNode($cNode));
@@ -188,7 +188,7 @@ class XmlParser
                 if (!$isRootNode) {
                     foreach ($cNode->childNodes as $subChildNode) {
                         if ($subChildNode->nodeName == 'alias') {
-                            $obj->aliases[] = trim($subChildNode->nodeValue);
+                            $obj->aliases[] = trim((string) $subChildNode->nodeValue);
                         }
                     }
                 }
@@ -223,7 +223,7 @@ class XmlParser
             case 'choices':
                 foreach ($cNode->childNodes as $subChildNode) {
                     if ($subChildNode->nodeName == 'choice') {
-                        $obj->choices[] = trim($subChildNode->nodeValue);
+                        $obj->choices[] = trim((string) $subChildNode->nodeValue);
                     }
                 }
                 break;
@@ -232,7 +232,7 @@ class XmlParser
                 break;
             default:
                 if (property_exists($obj, $cNodeName)) {
-                    $obj->$cNodeName = trim($cNode->nodeValue);
+                    $obj->$cNodeName = trim((string) $cNode->nodeValue);
                 }
                 break;
             }
@@ -263,13 +263,13 @@ class XmlParser
             case 'description':
             case 'help_name':
             case 'default':
-                $obj->$cNodeName = trim($cNode->nodeValue);
+                $obj->$cNodeName = trim((string) $cNode->nodeValue);
                 break;
             case 'multiple':
-                $obj->multiple = self::_bool(trim($cNode->nodeValue));
+                $obj->multiple = self::_bool(trim((string) $cNode->nodeValue));
                 break;
             case 'optional':
-                $obj->optional = self::_bool(trim($cNode->nodeValue));
+                $obj->optional = self::_bool(trim((string) $cNode->nodeValue));
                 break;
             case 'messages':
                 $obj->messages = self::_messages($cNode);
@@ -316,7 +316,7 @@ class XmlParser
         foreach ($node->childNodes as $cNode) {
             if ($cNode->nodeType == XML_ELEMENT_NODE) {
                 $name  = $cNode->getAttribute('name');
-                $value = trim($cNode->nodeValue);
+                $value = trim((string) $cNode->nodeValue);
 
                 $messages[$name] = $value;
             }

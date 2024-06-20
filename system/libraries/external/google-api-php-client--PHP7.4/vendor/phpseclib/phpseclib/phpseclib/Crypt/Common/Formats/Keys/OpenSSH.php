@@ -91,7 +91,7 @@ abstract class OpenSSH
                 // that to the appropriate key loading parser $numKey times or something
                 throw new \RuntimeException('Although the OpenSSH private key format supports multiple keys phpseclib does not');
             }
-            if (strlen($kdfoptions) || $kdfname != 'none' || $ciphername != 'none') {
+            if (strlen((string) $kdfoptions) || $kdfname != 'none' || $ciphername != 'none') {
                 /*
                   OpenSSH private keys use a customized version of bcrypt. specifically, instead of encrypting
                   OrpheanBeholderScryDoubt 64 times OpenSSH's bcrypt variant encrypts
@@ -154,7 +154,7 @@ abstract class OpenSSH
         if (isset($asciiType) && $asciiType != $type) {
             throw new \RuntimeException('Two different types of keys are claimed: ' . $asciiType . ' and ' . $type);
         }
-        if (strlen($key) <= 4) {
+        if (strlen((string) $key) <= 4) {
             throw new \UnexpectedValueException('Key appears to be malformed');
         }
 
@@ -220,7 +220,7 @@ abstract class OpenSSH
            'padding_length', 'payload', and 'random padding' MUST be a multiple
            of the cipher block size or 8, whichever is larger.
          */
-        $paddingLength = (7 * strlen($paddedKey)) % 8;
+        $paddingLength = (7 * strlen((string) $paddedKey)) % 8;
         for ($i = 1; $i <= $paddingLength; $i++) {
             $paddedKey.= chr($i);
         }

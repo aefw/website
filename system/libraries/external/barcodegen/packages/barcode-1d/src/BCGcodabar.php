@@ -18,7 +18,7 @@ use BarcodeBakery\Common\BCGParseException;
 class BCGcodabar extends BCGBarcode1D
 {
     /**
-     * Constructor.
+     * Creates a Codabar barcode.
      */
     public function __construct()
     {
@@ -52,39 +52,41 @@ class BCGcodabar extends BCGBarcode1D
     /**
      * Parses the text before displaying it.
      *
-     * @param mixed $text
+     * @param mixed $text The text.
+     * @return void
      */
-    public function parse($text)
+    public function parse($text): void
     {
-        parent::parse(strtoupper($text));    // Only Capital Letters are Allowed
+        parent::parse(strtoupper((string) $text));    // Only Capital Letters are Allowed
     }
 
     /**
      * Draws the barcode.
      *
-     * @param resource $im
+     * @param resource $image The surface.
+     * @return void
      */
-    public function draw($im)
+    public function draw($image): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->findCode($this->text[$i]), true);
+            $this->drawChar($image, $this->findCode($this->text[$i]), true);
         }
 
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+        $this->drawText($image, 0, 0, $this->positionX, $this->thickness);
     }
 
     /**
      * Returns the maximal size of a barcode.
      *
-     * @param int $w
-     * @param int $h
-     * @return int[]
+     * @param int $width The width.
+     * @param int $height The height.
+     * @return int[] An array, [0] being the width, [1] being the height.
      */
-    public function getDimension($w, $h)
+    public function getDimension(int $width, int $height): array
     {
         $textLength = 0;
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         for ($i = 0; $i < $c; $i++) {
             $index = $this->findIndex($this->text[$i]);
             if ($index !== false) {
@@ -93,17 +95,19 @@ class BCGcodabar extends BCGBarcode1D
             }
         }
 
-        $w += $textLength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
+        $width += $textLength;
+        $height += $this->thickness;
+        return parent::getDimension($width, $height);
     }
 
     /**
      * Validates the input.
+     *
+     * @return void
      */
-    protected function validate()
+    protected function validate(): void
     {
-        $c = strlen($this->text);
+        $c = strlen((string) $this->text);
         if ($c === 0) {
             throw new BCGParseException('codabar', 'No data has been entered.');
         }
@@ -116,7 +120,7 @@ class BCGcodabar extends BCGBarcode1D
         }
 
         // Must start by A, B, C or D
-        if ($c == 0 || ($this->text[0] !== 'A' && $this->text[0] !== 'B' && $this->text[0] !== 'C' && $this->text[0] !== 'D')) {
+        if ($c === 0 || ($this->text[0] !== 'A' && $this->text[0] !== 'B' && $this->text[0] !== 'C' && $this->text[0] !== 'D')) {
             throw new BCGParseException('codabar', 'The text must start by the character A, B, C, or D.');
         }
 

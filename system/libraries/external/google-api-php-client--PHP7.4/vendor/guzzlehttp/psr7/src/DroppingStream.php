@@ -36,10 +36,10 @@ class DroppingStream implements StreamInterface
         }
 
         // Write the stream or a subset of the stream if needed.
-        if (strlen($string) < $diff) {
+        if (strlen((string) $string) < $diff) {
             return $this->stream->write($string);
         }
 
-        return $this->stream->write(substr($string, 0, $diff));
+        return $this->stream->write(substr((string) $string, 0, $diff));
     }
 }

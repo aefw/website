@@ -458,7 +458,7 @@ class NumberFormat extends Supervisor
 
     private static function setLowercaseCallback($matches)
     {
-        return mb_strtolower($matches[0]);
+        return mb_strtolower((string) $matches[0]);
     }
 
     private static function escapeQuotesCallback($matches)
@@ -514,11 +514,11 @@ class NumberFormat extends Supervisor
             $value = round((100 * $value), 0) . '%';
         } else {
             if (preg_match('/\.[#0]+/', $format, $m)) {
-                $s = substr($m[0], 0, 1) . (strlen($m[0]) - 1);
+                $s = substr((string) $m[0], 0, 1) . (strlen((string) $m[0]) - 1);
                 $format = str_replace($m[0], $s, $format);
             }
             if (preg_match('/^[#0]+/', $format, $m)) {
-                $format = str_replace($m[0], strlen($m[0]), $format);
+                $format = str_replace($m[0], strlen((string) $m[0]), $format);
             }
             $format = '%' . str_replace('%', 'f%%', $format);
 
@@ -532,7 +532,7 @@ class NumberFormat extends Supervisor
 
         $integerPart = floor(abs($value));
         $decimalPart = trim(fmod(abs($value), 1), '0.');
-        $decimalLength = strlen($decimalPart);
+        $decimalLength = strlen((string) $decimalPart);
         $decimalDivisor = pow(10, $decimalLength);
 
         $GCD = MathTrig::GCD($decimalPart, $decimalDivisor);
@@ -540,7 +540,7 @@ class NumberFormat extends Supervisor
         $adjustedDecimalPart = $decimalPart / $GCD;
         $adjustedDecimalDivisor = $decimalDivisor / $GCD;
 
-        if ((strpos($format, '0') !== false) || (strpos($format, '#') !== false) || (substr($format, 0, 3) == '? ?')) {
+        if ((strpos($format, '0') !== false) || (strpos($format, '#') !== false) || (substr((string) $format, 0, 3) == '? ?')) {
             if ($integerPart == 0) {
                 $integerPart = '';
             }
@@ -553,13 +553,13 @@ class NumberFormat extends Supervisor
 
     private static function mergeComplexNumberFormatMasks($numbers, $masks)
     {
-        $decimalCount = strlen($numbers[1]);
+        $decimalCount = strlen((string) $numbers[1]);
         $postDecimalMasks = [];
 
         do {
             $tempMask = array_pop($masks);
             $postDecimalMasks[] = $tempMask;
-            $decimalCount -= strlen($tempMask);
+            $decimalCount -= strlen((string) $tempMask);
         } while ($decimalCount > 0);
 
         return [
@@ -578,7 +578,7 @@ class NumberFormat extends Supervisor
 
             foreach ($maskingBlocks as $block) {
                 $divisor = 1 . $block[0];
-                $size = strlen($block[0]);
+                $size = strlen((string) $block[0]);
                 $offset = $block[1];
 
                 $blockValue = sprintf(
@@ -626,11 +626,11 @@ class NumberFormat extends Supervisor
         $right = $matches[3];
 
         // minimun width of formatted number (including dot)
-        $minWidth = strlen($left) + strlen($dec) + strlen($right);
+        $minWidth = strlen((string) $left) + strlen((string) $dec) + strlen((string) $right);
         if ($useThousands) {
             $value = number_format(
                 $value,
-                strlen($right),
+                strlen((string) $right),
                 StringHelper::getDecimalSeparator(),
                 StringHelper::getThousandsSeparator()
             );
@@ -645,7 +645,7 @@ class NumberFormat extends Supervisor
                 }
                 $value = self::complexNumberFormatMask($value, $format);
             } else {
-                $sprintf_pattern = "%0$minWidth." . strlen($right) . 'f';
+                $sprintf_pattern = "%0$minWidth." . strlen((string) $right) . 'f';
                 $value = sprintf($sprintf_pattern, $value);
                 $value = preg_replace($number_regex, $value, $format);
             }
@@ -678,7 +678,7 @@ class NumberFormat extends Supervisor
         $scale = 1; // same as no scale
         $matches = [];
         if (preg_match('/(#|0)(,+)/', $format, $matches)) {
-            $scale = pow(1000, strlen($matches[2]));
+            $scale = pow(1000, strlen((string) $matches[2]));
 
             // strip the commas
             $format = preg_replace('/0,+/', '0', $format);
@@ -799,8 +799,8 @@ class NumberFormat extends Supervisor
             // datetime format
             self::formatAsDate($value, $format);
         } else {
-            if (substr($format, 0, 1) === '"' && substr($format, -1, 1) === '"') {
-                $value = substr($format, 1, -1);
+            if (substr((string) $format, 0, 1) === '"' && substr((string) $format, -1, 1) === '"') {
+                $value = substr((string) $format, 1, -1);
             } elseif (preg_match('/%$/', $format)) {
                 // % number format
                 self::formatAsPercentage($value, $format);

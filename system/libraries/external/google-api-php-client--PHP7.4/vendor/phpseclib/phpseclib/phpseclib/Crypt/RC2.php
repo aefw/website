@@ -295,7 +295,7 @@ class RC2 extends BlockCipher
     {
         switch ($engine) {
             case self::ENGINE_OPENSSL:
-                if ($this->current_key_length != 128 || strlen($this->orig_key) < 16) {
+                if ($this->current_key_length != 128 || strlen((string) $this->orig_key) < 16) {
                     return false;
                 }
                 $this->cipher_name_openssl_ecb = 'rc2-ecb';
@@ -341,7 +341,7 @@ class RC2 extends BlockCipher
      * Sets the key.
      *
      * Keys can be of any length. RC2, itself, uses 8 to 1024 bit keys (eg.
-     * strlen($key) <= 128), however, we only use the first 128 bytes if $key
+     * strlen((string) $key) <= 128), however, we only use the first 128 bytes if $key
      * has more then 128 bytes in it, and set $key to a single null byte if
      * it is empty.
      *
@@ -364,11 +364,11 @@ class RC2 extends BlockCipher
         }
 
         $this->current_key_length = $t1;
-        if (strlen($key) < 1 || strlen($key) > 128) {
-            throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes between 8 and 1024 bits, inclusive, are supported');
+        if (strlen((string) $key) < 1 || strlen((string) $key) > 128) {
+            throw new \LengthException('Key of size ' . strlen((string) $key) . ' not supported by this algorithm. Only keys of sizes between 8 and 1024 bits, inclusive, are supported');
         }
 
-        $t = strlen($key);
+        $t = strlen((string) $key);
 
         // The mcrypt RC2 implementation only supports effective key length
         // of 1024 bits. It is however possible to handle effective key
@@ -397,7 +397,7 @@ class RC2 extends BlockCipher
         array_unshift($l, 'C*');
 
         $this->key = pack(...$l);
-        $this->key_length = strlen($this->key);
+        $this->key_length = strlen((string) $this->key);
         $this->changed = $this->nonIVChanged = true;
         $this->setEngine();
     }

@@ -252,7 +252,7 @@ abstract class AsymmetricKey
         self::initialize_static_variables();
 
         $components = false;
-        $format = strtolower($type);
+        $format = strtolower((string) $type);
         if (isset(self::$plugins[static::ALGORITHM]['Keys'][$format])) {
             $format = self::$plugins[static::ALGORITHM]['Keys'][$format];
             $components = $format::load($key, $password);
@@ -334,7 +334,7 @@ abstract class AsymmetricKey
      */
     protected static function validatePlugin($format, $type, $method = NULL)
     {
-        $type = strtolower($type);
+        $type = strtolower((string) $type);
         if (!isset(self::$plugins[static::ALGORITHM][$format][$type])) {
             throw new UnsupportedFormatException("$type is not a supported format");
         }
@@ -369,7 +369,7 @@ abstract class AsymmetricKey
                 if ($reflect->isTrait()) {
                     continue;
                 }
-                self::$plugins[static::ALGORITHM][$format][strtolower($name)] = $type;
+                self::$plugins[static::ALGORITHM][$format][strtolower((string) $name)] = $type;
                 if ($reflect->hasConstant('IS_INVISIBLE')) {
                     self::$invisiblePlugins[static::ALGORITHM][] = $type;
                 }
@@ -408,9 +408,9 @@ abstract class AsymmetricKey
         if (class_exists($fullname)) {
             $meta = new \ReflectionClass($fullname);
             $shortname = $meta->getShortName();
-            self::$plugins[static::ALGORITHM]['Keys'][strtolower($shortname)] = $fullname;
+            self::$plugins[static::ALGORITHM]['Keys'][strtolower((string) $shortname)] = $fullname;
             if ($meta->hasConstant('IS_INVISIBLE')) {
-                self::$invisiblePlugins[static::ALGORITHM] = strtolower($name);
+                self::$invisiblePlugins[static::ALGORITHM] = strtolower((string) $name);
             }
         }
     }
@@ -527,9 +527,9 @@ abstract class AsymmetricKey
      */
     protected function computek($h1)
     {
-        $v = str_repeat("\1", strlen($h1));
+        $v = str_repeat("\1", strlen((string) $h1));
 
-        $k = str_repeat("\0", strlen($h1));
+        $k = str_repeat("\0", strlen((string) $h1));
 
         $x = $this->int2octets($this->x);
         $h1 = $this->bits2octets($h1);
@@ -546,7 +546,7 @@ abstract class AsymmetricKey
 
         while (true) {
             $t = '';
-            while (strlen($t) < $qlen) {
+            while (strlen((string) $t) < $qlen) {
                 $v = $this->hmac->hash($v);
                 $t = $t . $v;
             }
@@ -574,10 +574,10 @@ abstract class AsymmetricKey
     {
         $out = $v->toBytes();
         $rolen = $this->q->getLengthInBytes();
-        if (strlen($out) < $rolen) {
+        if (strlen((string) $out) < $rolen) {
             return str_pad($out, $rolen, "\0", STR_PAD_LEFT);
-        } else if (strlen($out) > $rolen) {
-            return substr($out, -$rolen);
+        } else if (strlen((string) $out) > $rolen) {
+            return substr((string) $out, -$rolen);
         } else {
             return $out;
         }
@@ -593,7 +593,7 @@ abstract class AsymmetricKey
     protected function bits2int($in)
     {
         $v = new BigInteger($in, 256);
-        $vlen = strlen($in) << 3;
+        $vlen = strlen((string) $in) << 3;
         $qlen = $this->q->getLength();
         if ($vlen > $qlen) {
             return $v->bitwise_rightShift($vlen - $qlen);

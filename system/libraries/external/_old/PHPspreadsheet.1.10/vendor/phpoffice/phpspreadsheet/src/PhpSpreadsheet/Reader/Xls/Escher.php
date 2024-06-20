@@ -83,7 +83,7 @@ class Escher
         $this->data = $data;
 
         // total byte size of Excel data (workbook global substream + sheet substreams)
-        $this->dataSize = strlen($this->data);
+        $this->dataSize = strlen((string) $this->data);
 
         $this->pos = 0;
 
@@ -190,7 +190,7 @@ class Escher
         $recVer = (0x000F & $verInstance) >> 0;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -202,7 +202,7 @@ class Escher
     private function readDggContainer()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -220,7 +220,7 @@ class Escher
     private function readDgg()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -232,7 +232,7 @@ class Escher
     private function readBstoreContainer()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -255,7 +255,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -273,7 +273,7 @@ class Escher
         $btMacOS = ord($recordData[1]);
 
         // offset: 2; size: 16; MD4 digest
-        $rgbUid = substr($recordData, 2, 16);
+        $rgbUid = substr((string) $recordData, 2, 16);
 
         // offset: 18; size: 2; tag
         $tag = Xls::getUInt2d($recordData, 18);
@@ -300,10 +300,10 @@ class Escher
         $unused3 = ord($recordData[35]);
 
         // offset: 36; size: $cbName; nameData
-        $nameData = substr($recordData, 36, $cbName);
+        $nameData = substr((string) $recordData, 36, $cbName);
 
         // offset: 36 + $cbName, size: var; the BLIP data
-        $blipData = substr($recordData, 36 + $cbName);
+        $blipData = substr((string) $recordData, 36 + $cbName);
 
         // record is a container, read contents
         $reader = new self($BSE);
@@ -321,7 +321,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -329,12 +329,12 @@ class Escher
         $pos = 0;
 
         // offset: 0; size: 16; rgbUid1 (MD4 digest of)
-        $rgbUid1 = substr($recordData, 0, 16);
+        $rgbUid1 = substr((string) $recordData, 0, 16);
         $pos += 16;
 
         // offset: 16; size: 16; rgbUid2 (MD4 digest), only if $recInstance = 0x46B or 0x6E3
         if (in_array($recInstance, [0x046B, 0x06E3])) {
-            $rgbUid2 = substr($recordData, 16, 16);
+            $rgbUid2 = substr((string) $recordData, 16, 16);
             $pos += 16;
         }
 
@@ -343,7 +343,7 @@ class Escher
         $pos += 1;
 
         // offset: var; size: var; the raw image data
-        $data = substr($recordData, $pos);
+        $data = substr((string) $recordData, $pos);
 
         $blip = new Blip();
         $blip->setData($data);
@@ -362,7 +362,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -370,12 +370,12 @@ class Escher
         $pos = 0;
 
         // offset: 0; size: 16; rgbUid1 (MD4 digest of)
-        $rgbUid1 = substr($recordData, 0, 16);
+        $rgbUid1 = substr((string) $recordData, 0, 16);
         $pos += 16;
 
         // offset: 16; size: 16; rgbUid2 (MD4 digest), only if $recInstance = 0x46B or 0x6E3
         if ($recInstance == 0x06E1) {
-            $rgbUid2 = substr($recordData, 16, 16);
+            $rgbUid2 = substr((string) $recordData, 16, 16);
             $pos += 16;
         }
 
@@ -384,7 +384,7 @@ class Escher
         $pos += 1;
 
         // offset: var; size: var; the raw image data
-        $data = substr($recordData, $pos);
+        $data = substr((string) $recordData, $pos);
 
         $blip = new Blip();
         $blip->setData($data);
@@ -403,7 +403,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -422,7 +422,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -434,7 +434,7 @@ class Escher
     private function readSplitMenuColors()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -446,7 +446,7 @@ class Escher
     private function readDgContainer()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -464,7 +464,7 @@ class Escher
     private function readDg()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -478,7 +478,7 @@ class Escher
         // context is either context DgContainer or SpgrContainer
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -504,7 +504,7 @@ class Escher
     private function readSpContainer()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // add spContainer to spgrContainer
         $spContainer = new SpContainer();
@@ -524,7 +524,7 @@ class Escher
     private function readSpgr()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -541,7 +541,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -558,7 +558,7 @@ class Escher
         $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
 
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -570,7 +570,7 @@ class Escher
     private function readClientAnchor()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -624,7 +624,7 @@ class Escher
     private function readClientData()
     {
         $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
+        $recordData = substr((string) $this->data, $this->pos + 8, $length);
 
         // move stream pointer to next record
         $this->pos += 8 + $length;
@@ -638,12 +638,12 @@ class Escher
      */
     private function readOfficeArtRGFOPTE($data, $n)
     {
-        $splicedComplexData = substr($data, 6 * $n);
+        $splicedComplexData = substr((string) $data, 6 * $n);
 
         // loop through property-value pairs
         for ($i = 0; $i < $n; ++$i) {
             // read 6 bytes at a time
-            $fopte = substr($data, 6 * $i, 6);
+            $fopte = substr((string) $data, 6 * $i, 6);
 
             // offset: 0; size: 2; opid
             $opid = Xls::getUInt2d($fopte, 0);
@@ -661,8 +661,8 @@ class Escher
             $op = Xls::getInt4d($fopte, 2);
 
             if ($opidFComplex) {
-                $complexData = substr($splicedComplexData, 0, $op);
-                $splicedComplexData = substr($splicedComplexData, $op);
+                $complexData = substr((string) $splicedComplexData, 0, $op);
+                $splicedComplexData = substr((string) $splicedComplexData, $op);
 
                 // we store string value with complex data
                 $value = $complexData;

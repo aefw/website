@@ -161,6 +161,6 @@ class Xlfn
      */
     public static function addXlfnStripEquals(string $funcstring): string
     {
-        return self::addXlfn(substr($funcstring, 1));
+        return self::addXlfn(substr((string) $funcstring, 1));
     }
 }

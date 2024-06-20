@@ -135,7 +135,7 @@ class CubeHandler extends AbstractProcessingHandler
             $this->connectUdp();
         }
 
-        socket_send($this->udpConnection, $data, strlen($data), 0);
+        socket_send($this->udpConnection, $data, strlen((string) $data), 0);
     }
 
     private function writeHttp(string $data): void

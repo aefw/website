@@ -288,13 +288,13 @@ class JWT
                 if (\function_exists('hash_equals')) {
                     return \hash_equals($signature, $hash);
                 }
-                $len = \min(static::safeStrlen($signature), static::safeStrlen($hash));
+                $len = \min(static::safestrlen((string) $signature), static::safestrlen((string) $hash));
 
                 $status = 0;
                 for ($i = 0; $i < $len; $i++) {
                     $status |= (\ord($signature[$i]) ^ \ord($hash[$i]));
                 }
-                $status |= (static::safeStrlen($signature) ^ static::safeStrlen($hash));
+                $status |= (static::safestrlen((string) $signature) ^ static::safestrlen((string) $hash));
 
                 return ($status === 0);
         }
@@ -364,7 +364,7 @@ class JWT
      */
     public static function urlsafeB64Decode($input)
     {
-        $remainder = \strlen($input) % 4;
+        $remainder = \strlen((string) $input) % 4;
         if ($remainder) {
             $padlen = 4 - $remainder;
             $input .= \str_repeat('=', $padlen);
@@ -414,12 +414,12 @@ class JWT
      *
      * @return int
      */
-    private static function safeStrlen($str)
+    private static function safestrlen((string) $str)
     {
         if (\function_exists('mb_strlen')) {
-            return \mb_strlen($str, '8bit');
+            return \mb_strlen((string) $str, '8bit');
         }
-        return \strlen($str);
+        return \strlen((string) $str);
     }
 
     /**
@@ -431,11 +431,11 @@ class JWT
     private static function signatureToDER($sig)
     {
         // Separate the signature into r-value and s-value
-        list($r, $s) = \str_split($sig, (int) (\strlen($sig) / 2));
+        list($r, $s) = \str_split($sig, (int) (\strlen((string) $sig) / 2));
 
         // Trim leading zeros
-        $r = \ltrim($r, "\x00");
-        $s = \ltrim($s, "\x00");
+        $r = \ltrim((string) $r, "\x00");
+        $s = \ltrim((string) $s, "\x00");
 
         // Convert r-value and s-value from unsigned big-endian integers to
         // signed two's complement
@@ -471,7 +471,7 @@ class JWT
         $der = \chr($tag_header | $type);
 
         // Length
-        $der .= \chr(\strlen($value));
+        $der .= \chr(\strlen((string) $value));
 
         return $der . $value;
     }
@@ -492,8 +492,8 @@ class JWT
 
         // Convert r-value and s-value from signed two's compliment to unsigned
         // big-endian integers
-        $r = \ltrim($r, "\x00");
-        $s = \ltrim($s, "\x00");
+        $r = \ltrim((string) $r, "\x00");
+        $s = \ltrim((string) $s, "\x00");
 
         // Pad out r and s so that they are $keySize bits long
         $r = \str_pad($r, $keySize / 8, "\x00", STR_PAD_LEFT);
@@ -513,7 +513,7 @@ class JWT
     private static function readDER($der, $offset = 0)
     {
         $pos = $offset;
-        $size = \strlen($der);
+        $size = \strlen((string) $der);
         $constructed = (\ord($der[$pos]) >> 5) & 0x01;
         $type = \ord($der[$pos++]) & 0x1f;
 
@@ -530,10 +530,10 @@ class JWT
         // Value
         if ($type == self::ASN1_BIT_STRING) {
             $pos++; // Skip the first contents octet (padding indicator)
-            $data = \substr($der, $pos, $len - 1);
+            $data = \substr((string) $der, $pos, $len - 1);
             $pos += $len - 1;
         } elseif (!$constructed) {
-            $data = \substr($der, $pos, $len);
+            $data = \substr((string) $der, $pos, $len);
             $pos += $len;
         } else {
             $data = null;
