@@ -58,6 +58,23 @@ table.dataTable thead th div.DataTables_sort_wrapper span.uk-icon { position: un
 .uk-navbar .uk-button:hover .tm-user-picture {
 	background: rgba(255,255,255,1);
 }
+
+.tm-navbar-container .uk-navbar-nav > li .uk-nav > li > a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 15px;
+    right: calc(102% - 15px);
+    bottom: 20px;
+    height: 1px;
+    background-color: currentColor;
+    transition: .3s ease-in-out;
+    transition-property: right;
+}
+.tm-navbar-container .uk-navbar-nav > li .uk-nav > li > a:hover::before {
+    right: 15px;
+}
+
 .tm-sidebar-left { padding: 20px 20px 30px 20px; }
 .tm-sidebar-left .uk-accordion-title { font-size: 16px; }
 .tm-sidebar-left .uk-accordion-content { margin-top: 0px;}
