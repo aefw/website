@@ -55,5 +55,4 @@ AddEncoding gzip .svgz
 	<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js|gif|png|jpe?g|svg|svgz|ico|webp)$">
 		Header set Access-Control-Allow-Origin "*"
 	</FilesMatch>
-	Header set Access-Control-Allow-Origin "*"
 </IfModule>
