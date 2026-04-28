@@ -1,19 +1,33 @@
 RewriteEngine On
 RewriteBase /
 
-# BEGIN Security files
-RewriteRule (^|/)\.(env|git|htaccess|svn|ini|log) - [F,L]
-RewriteRule (license\.sn|environment|\.conf|composer\.(json|lock))$ - [F,L]
-# END Security files
+# BEGIN Security
+
+# Block direct access to sensitive folders other than static
+RewriteCond %{REQUEST_URI} \.(ico|gif|jpe?g|png|webp|avif|bmp|tiff?|jfif|svgz?|eot|ttf|ttc|otf|woff2?|css|js|xml|json|mp4|webm|ogg|mp3|wav|zip|gz)$ [NC]
+RewriteCond %{REQUEST_URI} ^/(system|app|root|vendor|storage)/ [NC]
+RewriteRule .* - [L]
+
+RewriteRule (^|/)\.(env|git|svn|htaccess|ini|log|sh|bak|sql)$ - [F,L]
+RewriteRule (composer\.(json|lock)|package\.json|yarn\.lock|Dockerfile|docker-compose\.yml)$ - [F,L]
+RewriteRule (license\.sn|environment|\.conf)$ - [F,L]
+
+# END Security
+
+# Block WordPress probing
+RewriteRule ^(wp-admin|wp-login|xmlrpc\.php|wp-content|wp-includes) - [F,L]
 
 # Set ENV untuk static files
-RewriteRule \.(ico|gif|jpe?g|png|webp|avif|bmp|tiff?|jfif|svgz?|eot|ttf|ttc|otf|woff2?|css|js|xml|json)$ - [E=IS_STATIC:1]
+RewriteRule \.(ico|gif|jpe?g|png|webp|avif|bmp|tiff?|jfif|svgz?|eot|ttf|ttc|otf|woff2?|css|js|xml|json|mp4|webm|ogg|mp3|wav|zip|gz)$ - [E=IS_STATIC:1]
+
+# BLOCK COMMON ATTACK PATTERNS
+RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|<|>|%3C|%3E|union|select|insert|drop|sleep|benchmark) [NC]
+RewriteRule .* - [F,L]
 
 #.rewrite.htaccess
 #.own.rewrite.htaccess
 
-RewriteCond %{QUERY_STRING} ^(([/]+)?login/?)$
-RewriteRule ^(login/?)$ index.php?/users/user/login [L,QSA]
+RewriteRule ^login/?$ index.php?/users/user/login [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
