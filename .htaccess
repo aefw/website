@@ -21,7 +21,7 @@ RewriteRule ^(wp-admin|wp-login|xmlrpc\.php|wp-content|wp-includes) - [F,L]
 RewriteRule \.(ico|gif|jpe?g|png|webp|avif|bmp|tiff?|jfif|svgz?|eot|ttf|ttc|otf|woff2?|css|js|xml|json|mp4|webm|ogg|mp3|wav|zip|gz)$ - [E=IS_STATIC:1]
 
 # BLOCK COMMON ATTACK PATTERNS
-RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|<|>|%3C|%3E|union|select|insert|drop|sleep|benchmark) [NC]
+RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|%3C|%3E|<script|</script>|javascript:|\bunion\b|\bselect\b|\binsert\b|\bdrop\b|\bsleep\b|\bbenchmark\b) [NC]
 RewriteRule .* - [F,L]
 
 #.rewrite.htaccess
